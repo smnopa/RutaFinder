@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Búsqueda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 120vh;
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+                url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #384a57; /* Azul claro */
+            color: #fff; /* Color del texto */
+            padding: 10px; /* Reducido el padding */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #search-container {
+            display: flex;
+            align-items: center;
+            margin-right: 10px; /* Reducido el margen derecho */
+        }
+
+        #search-box {
+            width: 250px; /* Aumentado el ancho del campo de búsqueda */
+            padding: 8px;
+            border: none;
+            border-radius: 25px;
+            margin-right: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            outline: none;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        #search-box input {
+            flex: 1;
+            border: none;
+            outline: none;
+            margin-right: 5px; /* Espacio entre el texto de búsqueda y el icono de búsqueda */
+        }
+
+        .fa-search, .fa-user {
+            color: #fff;
+            cursor: pointer;
+            font-size: 2rem; /* Aumentado el tamaño del icono de usuario */
+        }
+
+        #logo {
+            height: 60px; /* Aumentado el tamaño del logo */
+            width: 60px;
+            object-fit: contain;
+            margin: auto; /* Centrado el logo */
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden; /* Evitar que los elementos se salgan del contenedor principal */
+        }
+
+        #side-menu {
+            display: none;
+            width: 250px;
+            background-color: #333;
+            padding-top: 20px;
+            color: #fff;
+            z-index: 1;
+        }
+
+        #side-menu a {
+            padding: 15px;
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        #side-menu a:hover {
+            background-color: #555;
+        }
+
+        #content-container {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            overflow: hidden;
+            width: 100%; /* Ajustado al 100% del contenedor */
+        }
+
+        #search-results {
+            display: flex;
+            gap: 20px;
+            padding: 0px;
+            overflow-y: auto;
+        }
+
+        .result-card {
+            flex: 1; /* Ocupa el 50% del contenedor */
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .result-card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Alinea el contenido al centro horizontalmente */
+        }
+
+        .card-content img {
+            width: 100%;
+            height: 120px; /* Puedes ajustar esta altura según tus preferencias */
+            object-fit: cover; /* Ajusta el comportamiento de cómo la imagen se ajusta al contenedor */
+            border-radius: 12px;
+            margin-bottom: 1px;
+        }
+
+        .card-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1px;
+            color: #333;
+        }
+
+        .card-content p {
+            color: #777;
+            line-height: 1.4;
+            text-align: center; /* Alinea el texto al centro */
+            margin-bottom: 7px; /* Añadido espacio entre la descripción y el botón */
+        }
+
+        .card-content .additional-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .card-content .additional-info span {
+            color: #333;
+            font-weight: bold;
+        }
+
+        .card-content a {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #3498db; /* Color del botón ajustado */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .card-content a:hover {
+            background-color: #2575b3;
+        }
+
+        #map-and-facts-container {
+            display: flex;
+            flex: 1;
+            margin: 10px;
+        }
+
+        #map-container {
+            flex: 1; /* Ocupa todo el espacio disponible */
+            height: 30vh; /* Reducida la altura del mapa */
+            overflow: hidden;
+            border-radius: 10px;
+            margin-right: 10px; /* Espacio a la derecha del mapa */
+        }
+
+        #interesting-facts {
+            flex: 1; /* Ocupa todo el espacio disponible */
+            height: 30vh; /* Reducida la altura de la sección de datos curiosos */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="search-container">
+            <input type="text" id="search-box" placeholder="Buscar...">
+            <span class="fa fa-search"></span>
+        </div>
+        <img id="logo" src="logo.png" alt="Logo" style="margin-right: 620px;"> 
+        <span class="fa fa-user"></span>
+    </header>
+    <main>
+        <div id="side-menu">
+            <a href="#">Opción 1</a>
+            <a href="#">Opción 2</a>
+            <a href="#">Opción 3</a>
+        </div>
+        <div id="content-container">
+            <div id="search-results">
+                <div class="result-card">
+                    <div class="card-content">
+                        <img src="descarga.jpg" alt="Lugar 1">
+                        <h3>Nombre del Lugar 1</h3>
+                        <p>Descripción corta del lugar. Información relevante para el usuario.</p>
+                        <div class="additional-info">
+                            <span>Precio: $50</span>
+                            <span>Calificación: 4.5</span>
+                            <span>Comentarios: 120</span>
+                        </div>
+                        <a href="#">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="card-content">
+                        <img src="lugares-turisticos-de-colombia.png" alt="Lugar 2">
+                        <h3>Nombre del Lugar 2</h3>
+                        <p>Descripción corta del lugar. Información relevante para el usuario.</p>
+                        <div class="additional-info">
+                            <span>Precio: $80</span>
+                            <span>Calificación: 4.8</span>
+                            <span>Comentarios: 98</span>
+                        </div>
+                        <a href="#">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="card-content">
+                        <img src="descarga.jpg" alt="Lugar 1">
+                        <h3>Nombre del Lugar 3</h3>
+                        <p>Descripción corta del lugar. Información relevante para el usuario.</p>
+                        <div class="additional-info">
+                            <span>Precio: $50</span>
+                            <span>Calificación: 4.5</span>
+                            <span>Comentarios: 120</span>
+                        </div>
+                        <a href="#">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="card-content">
+                        <img src="lugares-turisticos-de-colombia.png" alt="Lugar 2">
+                        <h3>Nombre del Lugar 4</h3>
+                        <p>Descripción corta del lugar. Información relevante para el usuario.</p>
+                        <div class="additional-info">
+                            <span>Precio: $80</span>
+                            <span>Calificación: 4.8</span>
+                            <span>Comentarios: 98</span>
+                        </div>
+                        <a href="#">Ver Detalles</a>
+                    </div>
+                </div>
+                <!-- Agrega más tarjetas de resultados según sea necesario -->
+            </div>
+            <div id="map-and-facts-container">
+                <div id="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224412.9387321958!2d-74.2581932483666!3d40.70582563125161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1646330764399!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div id="interesting-facts">
+                    <h2>Datos Curiosos</h2>
+                    <p>Aquí puedes incluir información interesante sobre la zona.</p>
+                    <p>Por ejemplo, datos históricos, curiosidades culturales o cualquier otro detalle que pueda ser
+                        relevante y atractivo para los visitantes.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        document.getElementById("menu-icon").addEventListener("click", function () {
+            var sideMenu = document.getElementById("side-menu");
+            if (sideMenu.style.display === "none") {
+                sideMenu.style.display = "block";
+            } else {
+                sideMenu.style.display = "none";
+            }
+        });
+    </script>
+</body>
+
+</html>
