@@ -26,3 +26,12 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
     },
 });
+
+document.getElementById("menu-icon").addEventListener("click", function () {
+    var sideMenu = document.getElementById("side-menu");
+    if (sideMenu.style.display === "none") {
+        sideMenu.style.display = "block";
+    } else {
+        sideMenu.style.display = "none";
+    }
+});
