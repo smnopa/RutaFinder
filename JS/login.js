@@ -1,37 +1,37 @@
-'use strict'
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    allowTouchMove: false,
+    effect: "fade",
+    autoplay: true,
+    pauseOnMouseEnter: true,
+    disableOnInteraction: true,
+    
 
-const grande    = document.querySelector('.grande')
-const punto     = document.querySelectorAll('.punto')
+    // If we need pagination
+    pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    },
 
-// Cuando CLICK en punto
-    // Saber la posición de ese punto
-    // Aplicar un transform translateX al grande
-    // QUITAR la clase activo de TODOS puntos
-    // AÑADIR la clase activo al punto que hemos hecho CLICK
+    // Navigation arrows
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
 
-// Recorrer TODOS los punto
-punto.forEach( ( cadaPunto , i )=> {
-    // Asignamos un CLICK a cadaPunto
-    punto[i].addEventListener('click',()=>{
+    // And if we need scrollbar
+    scrollbar: {
+    el: '.swiper-scrollbar',
+    },
+});
 
-        // Guardar la posición de ese PUNTO
-        let posicion  = i
-        // Calculando el espacio que debe DESPLAZARSE el GRANDE
-        let operacion = posicion * -25
-
-        // MOVEMOS el grand
-        grande.style.transform = `translateX(${ operacion }%)`
-
-        // Recorremos TODOS los punto
-        punto.forEach( ( cadaPunto , i )=>{
-            // Quitamos la clase ACTIVO a TODOS los punto
-            punto[i].classList.remove('activo')
-        })
-        // Añadir la clase activo en el punto que hemos hecho CLICK
-        punto[i].classList.add('activo')
-
-    })
-})
-
-
-( condicion ) ? 'hola' : 'adiós'
+document.getElementById("menu-icon").addEventListener("click", function () {
+    var sideMenu = document.getElementById("side-menu");
+    if (sideMenu.style.display === "none") {
+        sideMenu.style.display = "block";
+    } else {
+        sideMenu.style.display = "none";
+    }
+});
