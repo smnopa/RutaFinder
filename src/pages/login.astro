@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+<main class="flex justify-center h-screen">
+    <div class="col1 w-1/2 h-full flex items-center justify-center overflow-hidden">
+        <div class="swiper w-full h-full">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../img/Cartagena.jpg" alt="Imagen 1" class="w-full h-full object-cover">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/cocora.jpg" alt="Imagen 2" class="w-full h-full object-cover">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/rio.jpg" alt="Imagen 3" class="w-full h-full object-cover">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/playa.jpg" alt="Imagen 4" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col2 w-1/2 h-full flex flex-col justify-center items-center">
+        <h1 class="text-3xl font-bold mb-5">Registrate o inicia sesion</h1>
+        <div class="button bg-blue-600 text-white rounded py-3 px-6 mb-4 flex items-center cursor-pointer transition duration-300 ease-in-out hover:bg-blue-700" id="google">
+            <img src="../img/google.png" alt="Google Logo" class="w-6 h-6 mr-2">
+            Continuar con Google
+        </div>
+        <div class="button bg-blue-800 text-white rounded py-3 px-6 mb-4 flex items-center cursor-pointer transition duration-300 ease-in-out hover:bg-blue-700" id="facebook">
+            <img src="../img/facebook.png" alt="Facebook Logo" class="w-6 h-6 mr-2">
+            Continuar con Facebook
+        </div>
+        <div class="button bg-green-500 text-white rounded py-3 px-6 mb-4 flex items-center cursor-pointer transition duration-300 ease-in-out hover:bg-green-600" id="celular">
+            <img src="../img/celu.png" alt="Celular Logo" class="w-6 h-6 mr-2">
+            Continuar con tu celular
+        </div>
+    </div>
+</main>
+</Layout>
+
