@@ -1,42 +1,57 @@
 ---
 ---
-<footer class="bg-gradient-to-r from-blue-500 to-blue-300 text-white py-10 mt-auto">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Imagen de los viajeros -->
-                <div class="flex justify-center md:justify-start">
-                    <img src="../img/Imagen-footer.png" alt="Viajeros saltando en la carretera" class="w-full md:w-3/4 rounded-lg shadow-lg">
-                </div>
-
-                <!-- Sección de enlaces -->
-                <div class="flex flex-col space-y-4">
-                    <h2 class="text-xl font-bold">Conoce más</h2>
-                    <a href="#" class="hover:underline">Excursiones</a>
-                    <a href="#" class="hover:underline">Pasadías</a>
-                    <a href="#" class="hover:underline">Viajes</a>
-                    <a href="#" class="hover:underline">Redes sociales</a>
-                </div>
-
-                <!-- Sección de contacto -->
-                <div class="flex flex-col space-y-4">
-                    <h2 class="text-xl font-bold">Llama ahora</h2>
-                    <a href="#" class="hover:underline">Nuestros asesores</a>
-                    <a href="#" class="hover:underline">Preguntas comunes</a>
-                    <a href="#" class="hover:underline">Más...</a>
-                </div>
-
-                <!-- Sección de contacto -->
-                <div class="flex flex-col space-y-4">
-                    <h2 class="text-xl font-bold">Contacto</h2>
-                    <a href="#" class="hover:underline">Reserva</a>
-                    <a href="#" class="hover:underline">Pide tu viaje ya!</a>
-                    <a href="#" class="hover:underline">Itinerarios</a>
-                </div>
+    <!-- Primera sección del footer -->
+    <footer>
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Columna izquierda con la imagen ocupando todo el espacio -->
+            <div class="flex">
+                <img src="../img/imagen-footer.png" alt="Viajeros saltando en la carretera" class="w-full h-full object-cover rounded-lg shadow-lg">
             </div>
 
-            <!-- Derechos reservados -->
-            <div class="text-center mt-10">
-                <p class="text-sm">&copy; RutaFinder 2024, todos los derechos reservados</p>
+            <!-- Columna derecha con 3 columnas centradas vertical y horizontalmente para enlaces -->
+            <div class="flex flex-col justify-center">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                    <!-- Columna "Conoce más" centrada -->
+                    <div class="flex flex-col items-center text-center">
+                        <img src="../img/conoce-mas-logo.png" alt="Viajeros saltando en la carretera">
+                        <h2 class="text-xl font-bold text-gray-800">Conoce más</h2>
+                        <ul class="mt-2 space-y-1 text-gray-600">
+                            <li><a href="#" class="hover:text-blue-500">Excursiones</a></li>
+                            <li><a href="#" class="hover:text-blue-500">Pasadías</a></li>
+                            <li><a href="#" class="hover:text-blue-500">Viajes</a></li>
+                            <li><a href="#" class="hover:text-blue-500">Redes sociales</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Columna "Llama ahora" centrada -->
+                    <div class="flex flex-col items-center text-center">
+                        <img src="../img/llama-ahora-logo.png" alt="Viajeros saltando en la carretera">
+                        <h2 class="text-xl font-bold text-gray-800">Llama ahora</h2>
+                        <ul class="mt-2 space-y-1 text-gray-600">
+                            <li><a href="#" class="hover:text-blue-500">Nuestros asesores</a></li>
+                            <li><a href="#" class="hover:text-blue-500">Preguntas comunes</a></li>
+                            <li><a href="#" class="hover:text-blue-500">Más...</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Columna "Contacto" centrada -->
+                    <div class="flex flex-col items-center text-center">
+                        <img src="../img/contacto-logo.png" alt="Viajeros saltando en la carretera">
+                        <h2 class="text-xl font-bold text-gray-800">Contacto</h2>
+                        <ul class="mt-2 space-y-1 text-gray-600">
+                            <li><a href="#" class="hover:text-blue-500">Reserva</a></li>
+                            <li><a href="#" class="hover:text-blue-500">Pide tu viaje ya!</a></li>
+                            <li><a href="#" class="hover:text-blue-500">Itinerarios</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+
+    <!-- Segunda sección del footer -->
+    <div class="bg-gradient-to-r from-blue-500 to-blue-300 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p class="text-sm">&copy; RutaFinder 2024, todos los derechos reservados</p>
+        </div>
+    </div>
