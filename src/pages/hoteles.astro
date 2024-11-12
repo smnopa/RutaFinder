@@ -3,5 +3,30 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-    <h1>hoteles</h1>
+    <article class="flex bg-white rounded-2xl shadow-lg overflow-hidden max-w-md m-4">
+
+        <header class="flex">
+    
+            <img src="../img/hotel enterprice.png" alt="Hotel Enterprice" class="w-48 object-cover rounded-2xl">
+    
+            <div class="p-4 flex flex-col justify-between">
+                <strong class="text-lg font-semibold text-center">Hotel Enterprice</strong>
+                <span class="text-sm text-gray-600 mt-2">
+                    Uno de los hoteles más lujosos de Cartagena ubicado al este, ofrece gran accesibilidad y vistas hermosas.
+                </span>
+                <div class="flex items-center mt-4">
+                    <span class="text-sm font-semibold mr-2">Ranking:</span>
+                    <img src="../img/Star.png" alt="estrellas" class="w-5">
+                    <img src="../img/Star.png" alt="estrellas" class="w-5">
+                    <img src="../img/Star.png" alt="estrellas" class="w-5">
+                    <img src="../img/Star.png" alt="estrellas" class="w-5">
+                    <img src="../img/Star.png" alt="estrellas" class="w-5">
+                </div>
+    
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600 ">
+                    Más detalles
+                </button>
+            </div>
+        </header>
+    </article>
 </Layout>
