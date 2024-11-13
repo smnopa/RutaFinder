@@ -1,13 +1,12 @@
 ---
-
+import Footer from '../components/Footer.astro';
 import Carts from '../components/Carts.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
+<Layout isHomePage={false} title="RutaFinder-Hoteles">
+   <Carts/>
+  
+   <Footer/>
 
-<Layout title="Welcome to Astro.">
-<Carts/>
-<Carts/>
-
-   
 </Layout>
