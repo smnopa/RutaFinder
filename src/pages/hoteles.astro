@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout isHomePage={false} title="RutaFinder-Hoteles">
-   <Nav />
+   <Nav/>
 
    <div class="text-center">
       <h1 class="text-3xl font-bold mb-4">Nuestras ciudades y hoteles</h1>
@@ -18,10 +18,11 @@ import Layout from '../layouts/Layout.astro';
    </div>
 
    <br />
-
+<div class="mx-48 flex flex-wrap justify-start">
    <h1 class="text-3xl font-bold mb-4 mt-8">Cartagena de Indias</h1>
    
-   <div class="flex flex-wrap space-x-4">
+   <div class="flex flex-wrap">
+      <Carts />
       <Carts />
       <Carts />
       <Carts />
@@ -36,7 +37,8 @@ import Layout from '../layouts/Layout.astro';
 
    <h1 class="text-3xl font-bold mb-4 mt-8">Cartagena de Indias</h1>
 
-   <div class="flex flex-wrap space-x-4">
+   <div class="flex flex-wrap">
+      <Carts />
       <Carts />
       <Carts />
       <Carts />
@@ -46,6 +48,7 @@ import Layout from '../layouts/Layout.astro';
       <Carts />
       <Carts />
    </div>
+</div>
 
    <Footer />
 </Layout>
