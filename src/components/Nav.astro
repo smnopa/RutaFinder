@@ -4,7 +4,7 @@
     </div>
     <div class="flex justify-center space-x-4 mb-6">
         <button class={`border border-blue-500 rounded-lg p-4 transition-all ${Astro.url.pathname === '/hoteles' ? 'bg-blue-500' : 'bg-white'}`}>
-            <a href="/hoteles">
+            <a href={`${Astro.url.origin}/hoteles`}>
                 <span class="flex flex-col items-center">
                     <img src="../img/hotel.png" alt="hoteles" class="w-12 h-12 mb-2">
                     Hoteles
@@ -12,7 +12,7 @@
             </a>
         </button>
         <button class={`border border-blue-500 rounded-lg p-4 transition-all ${Astro.url.pathname === '/actividades' ? 'bg-blue-500' : 'bg-white'}`}>
-            <a href="/actividades">
+            <a href={`${Astro.url.origin}/actividades`}>
                 <span class="flex flex-col items-center">
                     <img src="../img/actividades.png" alt="actividades" class="w-12 h-12 mb-2">
                     Actividades
@@ -20,7 +20,7 @@
             </a>
         </button>
         <button class={`border border-blue-500 rounded-lg p-4 transition-all ${Astro.url.pathname === '/restaurantes' ? 'bg-blue-500' : 'bg-white'}`}>
-            <a href="/restaurantes">
+            <a href={`${Astro.url.origin}/restaurantes`}>
                 <span class="flex flex-col items-center">
                     <img src="../img/restaurante.png" alt="restaurantes" class="w-12 h-12 mb-2">
                     Restaurantes
@@ -28,7 +28,7 @@
             </a>
         </button>
         <button class={`border border-blue-500 rounded-lg p-4 transition-all ${Astro.url.pathname === '/paquetes' ? 'bg-blue-500' : 'bg-white'}`}>
-            <a href="/paquetes">
+            <a href={`${Astro.url.origin}/paquetes`}>
                 <span class="flex flex-col items-center">
                     <img src="../img/paquetes.png" alt="paquetes" class="w-12 h-12 mb-2">
                     Paquetes todo en uno!!
