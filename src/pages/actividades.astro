@@ -2,11 +2,56 @@
 import Nav from '../components/Nav.astro';
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/Footer.astro';
+import CartActividades from '../components/CartActividades.astro';
 ---
 
 <Layout isHomePage={false} title="RutaFinder-Actividades">
     <Nav/>
-    <h1>actividades</h1>
+    
+   <div class="text-center">
+    <h1 class="text-3xl font-bold mb-7">Nuestras fiestas y actividades</h1>
+    <span class="text-base text-gray-600">
+       La agencia selecciona cuidadosamente los hoteles para asegurar que los huéspedes 
+       experimenten lo mejor de la cultura, la comodidad y el servicio local, 
+       adaptado a diferentes gustos y presupuestos.
+    </span>
+ </div>
+
+ <br />
+<div class="flex flex-wrap justify-start align-center">
+ <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Cartagena de Indias</h1>
+ 
+ <div class="flex flex-wrap justify-center">
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    
+    
+ </div>
+
+ <br />
+
+ <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Cartagena de Indias</h1>
+ 
+ <div class="flex flex-wrap justify-center">
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    <CartActividades />
+    
+ </div>
+
     
 
     <Footer/>

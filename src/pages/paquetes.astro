@@ -2,9 +2,54 @@
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import Layout from '../layouts/Layout.astro';
+import CartPaquetes from '../components/CartPaquetes.astro';
 ---
 <Layout isHomePage={false} title="RutaFinder-Paquetes">
     <Nav/>
-    <h1>paquetes</h1>
+    
+   <div class="text-center mx-4">
+    <h1 class="text-3xl font-bold mb-7">Paquetes y Tours por Colombia</h1>
+    <span class="text-base text-gray-600">
+        Los paquetes y tours de RutaFinder están diseñados para brindar a los viajeros una experiencia completa y 
+        personalizada en los destinos más atractivos de Colombia. Ya sea que busques 
+        aventura, cultura, naturaleza o descanso, RutaFinder ofrece una amplia variedad de opciones para todo tipo de viajeros.
+    </span>
+ </div>
+
+ <br />
+<div class="flex flex-wrap justify-start align-center">
+ <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Cartagena de Indias</h1>
+ 
+ <div class="flex flex-wrap justify-center">
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    
+    
+ </div>
+
+ <br />
+
+ <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Cartagena de Indias</h1>
+ 
+ <div class="flex flex-wrap justify-center">
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    <CartPaquetes />
+    
+    
+ </div>
     <Footer/>
 </Layout>
