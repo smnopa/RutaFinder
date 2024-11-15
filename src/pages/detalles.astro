@@ -18,7 +18,7 @@ import SliderDetalles from '../components/SliderDetalles.astro';
     </div>
  
     <SliderDetalles/>
-        
+        <!-- Section itinerarios -->
         <div class="flex flex-wrap space-x-36 justify-center mt-8">
            
             <article class="flex flex-col ml-4">
@@ -53,9 +53,9 @@ import SliderDetalles from '../components/SliderDetalles.astro';
                 </header>
             </article>
         </div>
-       
-        <article class="flex flex-col px-4 md:px-3 lg:px-64 mx-auto">
-            <h1 class="text-3xl font-bold mb-4 text-center">Historia y cultura</h1>
+       <!-- historia y cultura -->
+        <article class="flex flex-col px-4 md:px-3 lg:px-32 2xl:px-64 mx-auto">
+            <h1 class="text-3xl font-bold mb-4 text-center mt-4">Historia y cultura</h1>
             <p class="text-sm text-gray-600">
               La Piedra del Peñol, también conocida como El Peñón de Guatapé, es uno de los sitios turísticos más emblemáticos de 
               Colombia. Esta inmensa roca monolítica, ubicada en el municipio de Guatapé, departamento de Antioquia, tiene una altura 
@@ -72,11 +72,41 @@ import SliderDetalles from '../components/SliderDetalles.astro';
               un grupo de personas del municipio de Guatapé comenzó a subir la roca para marcarla como símbolo del pueblo, iniciando 
               a pintar las letras "G" y "U" en una de sus caras. Sin embargo, el trabajo no fue completado debido a la oposición de los habitantes de El Peñol.
               En 1954, la Piedra fue oficialmente escalada por primera vez. Los habitantes locales, especialmente la familia Villegas...
+
+              <!-- Boton historia y cultura -->
+              <div class="flex justify-center">               
+                    <button class="mt-4 bg-blue-500 text-white w-36 rounded-xl hover:bg-blue-600">
+                        Más detalles
+                    </button> 
+            </div>
             </p>
           </article>
-          
-       
-    
- 
-    <Footer/>
+           <!-- Explora el lugar con Google Maps -->
+
+                    <!--Explicación de los parámetros en la URL del iframe de Google Maps:
+
+            !1m18: Controla el tipo de mapa y el modo de visualización.
+            !1m12: Define el número de capas y elementos superpuestos en el mapa.
+            !1m3: Establece la cantidad de datos que se muestran en el mapa.
+
+            1d3976.774438095018: Establece el nivel de zoom y el área general mostrada.
+            2d-75.1750: Define la longitud (en grados) de la ubicación (aquí, Piedra del Peñol).
+            3d6.2225: Define la latitud (en grados) de la ubicación.
+
+            4f13.1: Define el nivel de inclinación del mapa (0 = plano; 13.1 = inclinación media).
+
+            1sLa%20Piedra%20del%20Pe%C3%B1ol: Muestra el nombre del lugar en formato URL (La Piedra del Peñol).
+            5e0: Define el tipo de visualización, en este caso, un mapa estándar (0).
+            3m2!1sen!2sco: Configura el idioma del mapa (en inglés: `en`) y la región del mapa (Colombia: `co`).-->
+            <div class="flex flex-col justify-center items-center px-4 md:px-3 lg:px-32 2xl:px-64 mx-auto">
+                <h1 class="text-3xl font-bold mb-4 text-center mt-4">Explora el lugar y sus puntos fuertes</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3976.774438095018!2d-75.1750!3d6.2225
+                    !2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f77db70d318f1%3A0xd758e0f59f1ae42b!2sLa%20
+                    Piedra%20del%20Pe%C3%B1ol!5e0!3m2!1sen!2sco!4v1646330764399!5m2!1sen!2sco"
+                    class="w-96 h-96 border-0" allowfullscreen loading="lazy">
+                </iframe>
+            </div>
+            <Footer/>
+            
  </Layout>
