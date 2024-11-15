@@ -49,31 +49,40 @@
 }
 </style>
 
-
 <script>
   // Seleccionar elementos
-const slider = document.getElementById('slider');
-const slides = slider.children;
-const prevBtn = document.getElementById('prev');
-const nextBtn = document.getElementById('next');
+  const slider = document.getElementById('slider');
+  const slides = slider ? slider.children : null;
+  const prevBtn = document.getElementById('prev');
+  const nextBtn = document.getElementById('next');
 
-let currentIndex = 0;
+  let currentIndex = 0;
 
   // Función para actualizar la posición del slider
-function updateSlider() {
-    const offset = -currentIndex * 100;
-    slider.style.transform = `translateX(${offset}%)`;
-}
+  function updateSlider() {
+    if (slider) {
+      const offset = -currentIndex * 100;
+      slider.style.transform = `translateX(${offset}%)`;
+    }
+  }
 
   // Evento para botón "Siguiente"
-nextBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    updateSlider();
-});
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      if (slides) {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateSlider();
+      }
+    });
+  }
 
   // Evento para botón "Anterior"
-prevBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    updateSlider();
-});
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      if (slides) {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        updateSlider();
+      }
+    });
+  }
 </script>
