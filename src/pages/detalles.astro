@@ -1,0 +1,82 @@
+---
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Layout from '../layouts/Layout.astro';
+import SliderDetalles from '../components/SliderDetalles.astro';
+---
+
+
+<Layout isHomePage={false} title="RutaFinder-Hoteles-Detalles">
+    <Nav/>
+ 
+    <div class="text-center">
+       <h1 class="text-3xl font-bold mb-7">Desde Medellín: Guatape El Peñol con Barco, Desayuno y Almuerzo</h1>
+       <span class="text-base text-gray-600">
+        Visita la ciudad de Guatapé, situada a hora y media de Medellín, y contempla un mundo de color entre sus calles 
+        adornadas con fachadas de azulejos. Da un relajante paseo en barco y disfruta de un almuerzo tradicional colombiano
+       </span>
+    </div>
+ 
+    <SliderDetalles/>
+        
+        <div class="flex flex-wrap space-x-36 justify-center mt-8">
+           
+            <article class="flex flex-col ml-4">
+                <h1 class="text-3xl font-bold mb-4">Información general</h1>
+                <strong class="text-lg font-semibold">Cancelación gratuita</strong>
+                    <span class="text-sm text-gray-600 mb-3">
+                        Cancela con hasta 24 horas de antelación y recibe un reembolso completo
+                    </span>
+                    <strong class="text-lg font-semibold">Reservar ahora y pagar después</strong>
+                    <span class="text-sm text-gray-600 mb-3">
+                        Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo
+                    </span>
+                    <strong class="text-lg font-semibold">Duración 10.5 horas</strong>
+                    <span class="text-sm text-gray-600 mb-3">
+                        Comprueba la disponibilidad para ver los horarios de inicio.
+                    </span>
+                    <strong class="text-lg font-semibold">Guía</strong>
+                    <span class="text-sm text-gray-600 mb-3">
+                        Español, Inglés
+                    </span>
+                    <strong class="text-lg font-semibold">Servicio de recogida opcional</strong>
+                    <span class="text-sm text-gray-600 mb-3">
+                        Incluye el servicio de recogida en tu hotel en la zona de El Poblado. 
+                        El tiempo máximo de espera en el hotel es de 5 minutos.
+                    </span>
+                    
+            </article>
+            <article class="flex bg-white rounded-2xl shadow-lg overflow-hidden max-w-md m-4">
+                <header class="flex w-full flex-col text-center py-2">
+                    <strong class="text-lg font-semibold">Flyer</strong>
+                    <img src="../img/Flyer.png" alt="Name Hotel" class="object-cover rounded-2xl mt-2">
+                </header>
+            </article>
+        </div>
+       
+        <article class="flex flex-col px-4 md:px-3 lg:px-64 mx-auto">
+            <h1 class="text-3xl font-bold mb-4 text-center">Historia y cultura</h1>
+            <p class="text-sm text-gray-600">
+              La Piedra del Peñol, también conocida como El Peñón de Guatapé, es uno de los sitios turísticos más emblemáticos de 
+              Colombia. Esta inmensa roca monolítica, ubicada en el municipio de Guatapé, departamento de Antioquia, tiene una altura 
+              de aproximadamente 220 metros y se ha convertido en un destino muy popular por su imponente presencia y las 
+              increíbles vistas que ofrece de la región.
+            </p>
+            <strong class="text-lg font-semibold">Historia</strong>
+            <p class="text-sm text-gray-600">
+              La Piedra del Peñol tiene una historia que se entrelaza con las comunidades indígenas y la población 
+              local. Antes de la llegada de los colonizadores españoles, la piedra era un sitio sagrado para las tribus 
+              tahamíes que habitaban la región, quienes la consideraban un objeto de adoración.
+              El nombre "Piedra del Peñol" proviene del municipio vecino El Peñol, aunque la piedra se 
+              encuentra en el municipio de Guatapé, lo que ha generado algunas disputas sobre su pertenencia. En 1940, 
+              un grupo de personas del municipio de Guatapé comenzó a subir la roca para marcarla como símbolo del pueblo, iniciando 
+              a pintar las letras "G" y "U" en una de sus caras. Sin embargo, el trabajo no fue completado debido a la oposición de los habitantes de El Peñol.
+              En 1954, la Piedra fue oficialmente escalada por primera vez. Los habitantes locales, especialmente la familia Villegas...
+            </p>
+          </article>
+          
+       
+    
+ 
+    <Footer/>
+ </Layout>
