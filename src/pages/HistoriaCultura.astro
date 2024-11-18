@@ -1,0 +1,92 @@
+---
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout isHomePage={false} title="RutaFinder-Hoteles-Detalles-HistoriaCultura">
+   <Nav/>
+
+   
+<article class="flex flex-col px-4 md:px-3 lg:px-32 2xl:px-64"> 
+    <h1 class="text-3xl font-bold mb-4 text-center mt-4">La Piedra del Peñol Antioquia Colombia</h1>
+    
+    <!-- Contenedor-->
+    <div class="flex flex-col md:flex-row justify-between items-stretch">
+        <!-- Párrafo 1-->
+        <div class="md:w-2/3">
+            <p class="text-sm text-gray-600 mb-2">
+            La Piedra del Peñol, también conocida como El Peñón de Guatapé, es uno de los sitios turísticos más emblemáticos de 
+            Colombia. Esta inmensa roca monolítica, ubicada en el municipio de Guatapé, departamento de Antioquia, tiene una altura 
+            de aproximadamente 220 metros y se ha convertido en un destino muy popular por su imponente presencia y las 
+            increíbles vistas que ofrece de la región.
+            </p>
+            <strong class="text-lg font-semibold">Historia</strong>
+            <p class="text-sm text-gray-600 mt-2">
+                La Piedra del Peñol tiene una historia que se entrelaza con las comunidades indígenas y la población local. Antes de la llegada de los 
+                colonizadores españoles, la piedra era un sitio sagrado para las tribus tahamíes que habitaban la región, quienes la consideraban un objeto de adoración.
+                <br><br>
+                El nombre "Piedra del Peñol" proviene del municipio vecino El Peñol, aunque la piedra se encuentra en el municipio de Guatapé, lo que ha generado 
+                algunas disputas sobre su pertenencia. En 1940, un grupo de personas del municipio de Guatapé comenzó a subir la roca para marcarla como símbolo del pueblo, iniciando a pintar las letras 
+                "G" y "U" en una de sus caras. Sin embargo, el trabajo no fue completado debido a la oposición de los habitantes de El Peñol.
+                <br><br>
+            </p>
+        </div>
+        <!-- Imagen -->
+        <div class="md:w-1/3 mt-4 md:mt-0 md:ml-4">
+            <img src="../img/grupoPiedra1.png" alt="Piedra del Peñol" class="w-full h-auto max-h-64 object-cover rounded-lg">
+        </div>
+    </div>
+    <!-- Contenedor-->
+    <div class="flex flex-col md:flex-row justify-between items-stretch">
+        <!-- Párrafo 2-->
+        <div class="md:w-2/3">
+            <p class="text-sm text-gray-600 mb-2">
+                En 1954, la Piedra fue oficialmente escalada por primera vez. Los habitantes locales, especialmente la familia Villegas, tardaron cinco días 
+                en llegar a la cima utilizando rudimentarios sistemas de cuerdas. Desde entonces, el Peñón se ha convertido en un atractivo turístico que ofrece la 
+                posibilidad de escalarla a través de una escalera de más de 700 escalones, construida sobre una grieta natural en la roca.
+            </p>
+            <strong class="text-lg font-semibold">Cultura</strong>
+            <p class="text-sm text-gray-600 mt-2">
+                La Piedra del Peñol también es parte importante de la cultura antioqueña. Su cercanía con el embalse de Guatapé ha fomentado el desarrollo 
+                de actividades acuáticas y el turismo ecológico, donde los visitantes pueden disfrutar 
+                no solo de la subida a la roca, sino también de deportes como paseos en lancha, kayak 
+                y otras actividades recreativas alrededor del embalse.
+                <br><br>
+                Además, el mirador en la cima de la piedra ofrece una vista panorámica de las islas y penínsulas formadas por el embalse, 
+                lo que convierte el lugar en una 
+                experiencia única. Alrededor de la piedra, se encuentran mercados de artesanías locales, con productos típicos de la región, y 
+                restaurantes que ofrecen platos tradicionales de la gastronomía antioqueña, como la famosa bandeja paisa.
+                <br><br>
+            </p>
+        </div>
+        <!-- Imagen -->
+        <div class="md:w-1/3 mt-4 md:mt-0 md:ml-4">
+            <img src="../img/grupoPiedra2.png" alt="Piedra del Peñol" class="w-full h-auto max-h-64 object-cover rounded-lg">
+        </div>
+    </div>
+     <!-- Contenedor-->
+     <div class="flex flex-col md:flex-row justify-between items-stretch">
+        <!-- Párrafo 3-->
+        <div class="md:w-2/3">
+            <strong class="text-lg font-semibold">Mitos y leyendas</strong>
+            <p class="text-sm text-gray-600 mb-2">
+                La Piedra del Peñol también ha generado varias leyendas. Una de las más populares es la creencia de que dentro de la roca hay un 
+                tesoro oculto dejado por los indígenas, aunque no se han encontrado pruebas. Otra leyenda cuenta que la piedra fue 
+                arrojada desde el cielo por un dios enojado o un volcán, lo que explicaría su presencia imponente en medio de un terreno plano.            
+            <br><br>
+                En la actualidad, la Piedra del Peñol es un símbolo de orgullo regional, atrayendo a miles de visitantes nacionales e 
+                internacionales que buscan conectar con la historia y la naturaleza de este impresionante lugar.
+                <br><br>
+            </p>
+        </div>
+        <!-- Imagen -->
+        <div class="md:w-1/3 mt-4 md:mt-0 md:ml-4">
+            <img src="../img/gurpoPiedra3.png" alt="Piedra del Peñol" class="w-full h-auto max-h-64 object-cover rounded-lg">
+        </div>
+    </div>
+
+</article>
+
+   <Footer/>
+</Layout>
