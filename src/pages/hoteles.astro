@@ -2,12 +2,12 @@
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import Layout from '../layouts/Layout.astro';
-import CartHoteles from '../components/CartHoteles.astro';
+import ItemCard from "../components/ItemCard.astro";
+import { ciudades } from "../data/data";
 ---
 
 <Layout isHomePage={false} title="RutaFinder-Hoteles">
    <Nav/>
-
    <div class="text-center">
       <h1 class="text-3xl font-bold mb-7">Nuestras ciudades y hoteles</h1>
       <span class="text-base text-gray-600">
@@ -17,37 +17,17 @@ import CartHoteles from '../components/CartHoteles.astro';
       </span>
    </div>
 
-   <br />
-
-   
-   <div class="container mx-auto">
-      <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Cartagena de Indias</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        <CartHoteles />
-        <CartHoteles />
-        <CartHoteles />
-        <CartHoteles />
-        <CartHoteles />
-        <CartHoteles />
+<section class="p-4 space-y-8">
+   {ciudades.map(({ ciudad, hoteles }) => (
+      <div class="space-y-4">
+         <h2 class="text-2xl font-semibold text-gray-700">{ciudad}</h2>
+         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {hoteles.map(({ id, nombre, img, descripcion }) => (
+               <ItemCard id={id} nombre={nombre} img={img} descripcion={descripcion} linkBase="hoteles" />
+            ))}
+         </div>
       </div>
-    </div>
-    
-    
-
-   <br />
-
-   <div class="container mx-auto">
-      <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Cartagena de Indias</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        <CartHoteles />
-        <CartHoteles />
-        <CartHoteles />
-        <CartHoteles />
-        <CartHoteles />
-        <CartHoteles />
-      </div>
-    </div>
-    
-
-   <Footer/>
+   ))}
+</section>
+<Footer/>
 </Layout>

@@ -1,0 +1,27 @@
+---
+export interface Props {
+  items: Array<{
+    id: string;
+    img: string;
+    nombre: string;
+    descripcion?: string;
+    ubicacion?: string;
+    año?: number;
+  }>;
+}
+
+const { items } = Astro.props;
+---
+
+<ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4">
+  {items.map(({ id, img, nombre, descripcion, ubicacion }) => (
+    <li>
+      <a href={`/${id}`} class="block hover:scale-105 transition-transform">
+        <img src={img} alt={nombre} class="rounded-lg w-full h-48 object-cover" />
+        <h3 class="mt-2 font-bold">{nombre}</h3>
+        {descripcion && <p class="text-sm text-gray-600">{descripcion}</p>}
+        {ubicacion && <p class="text-sm text-gray-500">{ubicacion}</p>}
+      </a>
+    </li>
+  ))}
+</ul>
