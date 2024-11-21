@@ -2,53 +2,37 @@
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import Layout from '../layouts/Layout.astro';
-import CartPaquetes from '../components/CartPaquetes.astro';
+import { paquetes } from '../data/paquetes';  // Asegúrate de tener el archivo de paquetes
+import ItemCard from '../components/ItemCard.astro';  // Asegúrate de que ItemCard sea el componente correcto
 ---
+
 <Layout isHomePage={false} title="RutaFinder-Paquetes">
-    <Nav/>
-    
-   <div class="text-center mx-4">
-    <h1 class="text-3xl font-bold mb-7">Paquetes y Tours por Colombia</h1>
-    <span class="text-base text-gray-600">
-        Los paquetes y tours de RutaFinder están diseñados para brindar a los viajeros una experiencia completa y 
-        personalizada en los destinos más atractivos de Colombia. Ya sea que busques 
-        aventura, cultura, naturaleza o descanso, RutaFinder ofrece una amplia variedad de opciones para todo tipo de viajeros.
-    </span>
- </div>
+  <Nav/> 
+    <div class="text-center">
+      <h1 class="text-3xl font-bold mb-7">Paquetes y Tours por Colombia</h1>
+      <span class="text-base text-gray-600">
+      Los paquetes y tours de RutaFinder están diseñados para brindar a los viajeros una experiencia completa y 
+      personalizada en los destinos más atractivos de Colombia. Ya sea que busques 
+      aventura, cultura, naturaleza o descanso, RutaFinder ofrece una amplia variedad de opciones para todo tipo de viajeros.
+      </span>
+    </div>
 
- <br />
- <div class="container mx-auto">
-   <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Paquete Lo mejor de Colombia</h1>
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     
-   </div>
- </div>
- 
- <br />
-
- <div class="container mx-auto">
-   <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Cartagena de Indias</h1>
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     <CartPaquetes />
-     
-   </div>
- </div>
+    <section class="p-4 space-y-8">
+      {paquetes.map((ciudad) => (
+        <div class="container mx-auto">
+          <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">{ciudad.nombre}</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {ciudad.paquetes.map((paquete) => (
+              <ItemCard 
+                id={paquete.id} 
+                nombre={paquete.nombre} 
+                img={paquete.img} 
+                descripcion={paquete.descripcion}
+                linkBase="paquetes" />
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>  
     <Footer/>
 </Layout>

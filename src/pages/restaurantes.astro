@@ -2,59 +2,37 @@
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import Layout from '../layouts/Layout.astro';
-import CartRestaurantes from '../components/CartRestaurantes.astro';
+import { restaurantes } from '../data/restaurantes'; // Asegúrate de tener este archivo con la información de los restaurantes.
+import ItemCard from '../components/ItemCard.astro'; // Componente para la tarjeta de restaurantes
 ---
 
 <Layout isHomePage={false} title="RutaFinder-Restaurantes">
-    <Nav/>
-    
-   <div class="text-center">
-    <h1 class="text-3xl font-bold mb-7">Nuestros restaurantes y comidas típicas</h1>
-    <span class="text-base text-gray-600">
-       La agencia selecciona cuidadosamente los hoteles para asegurar que los huéspedes 
-       experimenten lo mejor de la cultura, la comodidad y el servicio local, 
-       adaptado a diferentes gustos y presupuestos.
-    </span>
- </div>
+  <Nav/>
+    <div class="text-center">
+      <h1 class="text-3xl font-bold mb-7">Nuestros restaurantes y comidas típicas</h1>
+      <span class="text-base text-gray-600">
+      La agencia selecciona cuidadosamente los hoteles para asegurar que los huéspedes 
+      experimenten lo mejor de la cultura, la comodidad y el servicio local, 
+      adaptado a diferentes gustos y presupuestos.
+      </span>
+    </div>
 
- <br />
- <div class="container mx-auto">
-   <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Restaurante Los Olivos</h1>
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     
-     
-   </div>
- </div>
- 
- <br />
-
- <div class="container mx-auto">
-   <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Restaurante Los Olivos</h1>
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     <CartRestaurantes />
-     
-     
-   </div>
- </div>
- 
- 
+    <section class="p-4 space-y-8">
+      {restaurantes.map((ciudad) => (
+        <div class="container mx-auto">
+          <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">{ciudad.nombre}</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {ciudad.restaurantes.map((restaurante) => (
+                <ItemCard
+                id={restaurante.id} 
+                nombre={restaurante.nombre} 
+                img={restaurante.img} 
+                descripcion={restaurante.descripcion}
+                linkBase="restaurantes" />
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
     <Footer/>
-
 </Layout>

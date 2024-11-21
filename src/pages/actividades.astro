@@ -2,58 +2,37 @@
 import Nav from '../components/Nav.astro';
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/Footer.astro';
-import CartActividades from '../components/CartActividades.astro';
+import { actividades } from '../data/actividades';
+import ItemCard from '../components/ItemCard.astro';
 ---
 
 <Layout isHomePage={false} title="RutaFinder-Actividades">
     <Nav/>
-    
-   <div class="text-center">
-    <h1 class="text-3xl font-bold mb-7">Nuestras fiestas y actividades</h1>
-    <span class="text-base text-gray-600">
-       La agencia selecciona cuidadosamente los hoteles para asegurar que los huéspedes 
-       experimenten lo mejor de la cultura, la comodidad y el servicio local, 
-       adaptado a diferentes gustos y presupuestos.
-    </span>
- </div>
+      <div class="text-center">
+        <h1 class="text-3xl font-bold mb-7">Nuestras fiestas y actividades</h1>
+        <span class="text-base text-gray-600">
+        La agencia selecciona cuidadosamente los hoteles para asegurar que los huéspedes 
+        experimenten lo mejor de la cultura, la comodidad y el servicio local, 
+        adaptado a diferentes gustos y presupuestos.
+        </span>
+      </div>
 
- <br />
- <div class="container mx-auto">
-   <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Alcalá bello y divertido</h1>
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     
-     
-   </div>
- </div>
- 
- <br />
-
- <div class="container mx-auto">
-   <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">Alcalá bello y divertido</h1>
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     <CartActividades />
-     
-     
-   </div>
- </div>
- 
-
+      <section class="p-4 space-y-8">
+        {actividades.map((ciudad) => (
+          <div class="container mx-auto">
+            <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">{ciudad.nombre}</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {ciudad.actividades.map((actividad) => (
+                <ItemCard
+                  id={actividad.id} 
+                  nombre={actividad.nombre} 
+                  img={actividad.img} 
+                  descripcion={actividad.descripcion}
+                  linkBase="actividades" />
+              ))}
+            </div>
+          </div>
+        ))}
+      </section>
     <Footer/>
 </Layout>
