@@ -1,0 +1,36 @@
+---
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Layout from '../layouts/Layout.astro';
+import { ciudades } from '../data/hoteles';
+
+// Obtener el parámetro dinámico `hotel` de la URL
+const { hotel } = Astro.params;
+
+// Buscar el hotel en los datos
+let hotelInfo = null;
+
+for (const ciudad of ciudades) {
+  hotelInfo = ciudad.hoteles.find((h) => h.id === hotel);
+  if (hotelInfo) break;
+}
+
+// Mostrar error si no se encuentra el hotel
+if (!hotelInfo) {
+  throw new Error(`Hotel con id '${hotel}' no encontrado.`);
+}
+---
+
+<Layout title={`Hotel ${hotelInfo.nombre}`}>
+  <Nav />
+  <div class="container mx-auto p-8">
+    <h1 class="text-4xl font-bold text-center mb-6">{hotelInfo.nombre}</h1>
+    <img
+      src={hotelInfo.img}
+      alt={hotelInfo.nombre}
+      class="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
+    />
+    <p class="text-lg text-gray-600 mt-4 text-center">{hotelInfo.descripcion}</p>
+  </div>
+  <Footer />
+</Layout>
