@@ -8,6 +8,7 @@ export const actividades = [
         img: "/img/Actividades.jpg",
         descripcion:
           "Un recorrido histórico por el famoso castillo de Cartagena.",
+        imgslider1: "dsdasdasdasd",
       },
       {
         id: "actividad2",
