@@ -23,14 +23,20 @@ if (!hotelInfo) {
 
 <Layout title={`Hotel ${hotelInfo.nombre}`} isHomePage={false}>
   <Nav />
-  <div class="container mx-auto p-8">
-    <h1 class="text-4xl font-bold text-center mb-6">{hotelInfo.nombre}</h1>
-    <img
+  
+    <div class="text-center">
+      <h1 class="text-3xl font-bold mb-7">{hotelInfo.nombre}</h1>
+      <span class="text-base text-gray-600">
+        {hotelInfo.descripcion}
+      </span>
+      <img
       src={hotelInfo.img}
       alt={hotelInfo.nombre}
-      class="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
+      class="w-full max-w-4xl mx-auto rounded-lg shadow-lg mt-8"
     />
-    <p class="text-lg text-gray-600 mt-4 text-center">{hotelInfo.descripcion}</p>
-  </div>
+   </div>
+    
+    
+  
   <Footer />
 </Layout>

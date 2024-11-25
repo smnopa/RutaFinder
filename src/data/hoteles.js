@@ -10,9 +10,9 @@ export const ciudades = [
       },
       {
         id: "hotel-las-americas",
-        nombre: "Hotel Las Americas",
-        img: "/img/cartagena.png",
-        descripcion: "Resort con acceso directo a la playa.",
+        nombre: "Hotel las Americas Torre de Mar Cartagena",
+        img: "/img/hotelAmericas.png",
+        descripcion: "El Hostal Casa de las Américas ofrece habitaciones con aire acondicionado en el distrito Getsemaní de Cartagena de Indias.",
       },
     ],
   },
