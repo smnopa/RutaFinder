@@ -22,18 +22,37 @@ if (!hotelInfo) {
 
 <Layout title={`Hotel ${hotelInfo.nombre}`} isHomePage={false}>
   <Nav />
-  
+    <!--Title and description-->
     <div class="text-center">
       <h1 class="text-3xl font-bold mb-7">{hotelInfo.nombre}</h1>
       <span class="text-base text-gray-600">
         {hotelInfo.descripcion}
       </span>
-      <img
-      src={hotelInfo.img}
-      alt={hotelInfo.nombre}
-      class="w-full max-w-4xl mx-auto rounded-lg shadow-lg mt-8"
-      <p>{hotelInfo.descripciongenral}</p>
-    />
+      <!--Bento Grid-->
+      <article class="mt-8 grid grid-cols-4 gap-4 auto-rows-[100px] sm:auto-rows-[150px] md:auto-rows-[200px] px-4 lg:px-32 mx-auto xl:px-60">
+        {hotelInfo.bento?.map((image, index) => (
+          <div 
+            class={`grid-item relative rounded overflow-hidden shadow-lg ${index % 5 === 0 ? 'col-span-2 row-span-2' : ''}`}
+          >
+            <img src={image} class="object-cover w-full h-full" alt={`Imagen ${index + 1}`} />
+          </div>
+        )) ?? []}
+      </article>
+    
+      <!--Informacion general-->
+      <div class="flex flex-col justify-center mt-8">
+        <article class="flex flex-col ml-4">
+          <h1 class="text-3xl font-bold mb-4">Información general</h1>
+          {hotelInfo.descripciongeneral?.map((item, index) => (
+            <div class="mb-3">
+              <strong class="text-lg font-semibold">{item}</strong>
+              <span class="text-sm text-gray-600">
+                {hotelInfo.descripciondetalles[index]}
+              </span>
+            </div>
+          )) ?? []}
+        </article>
+      </div>   
   </div>
 
   <div class="mb-5 flex flex-col justify-center items-center px-4 md:px-3 lg:px-32 2xl:px-64 mx-auto">
