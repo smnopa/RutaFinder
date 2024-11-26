@@ -1,6 +1,6 @@
 # Página Web de RutaFinder
 
-<img src="./public/preview.png" alt="RutaFinder" width="100%" height="100%" style="border-radius: 1.6rem;" />
+<img src="./public/img/preview.png" alt="RutaFinder" width="100%" height="100%" style="border-radius: 1.6rem;" />
 
 Bienvenido al sitio web oficial de **RutaFinder**, una plataforma de viajes que ofrece una amplia variedad de destinos, actividades, hoteles, restaurantes y paquetes turísticos. Este repositorio contiene el código fuente y los archivos necesarios para desplegar la página web.
 
@@ -45,7 +45,7 @@ Puedes desplegar esta página web en tu propio servidor o utilizar servicios de 
 
 ## Autor
 
-Este proyecto fue desarrollado por **[Tu Nombre]**.
+Este proyecto fue desarrollado por **[Samuel Bautista alvarado, Sebastian Sanchez Serna y Jeison Javier Ramirez]**.
 
 ---
 
