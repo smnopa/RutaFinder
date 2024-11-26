@@ -4,14 +4,15 @@ export interface Props {
   nombre: string;
   img: string;
   descripcion: string;
+  tipo: 'hoteles' | 'actividades' | 'restaurantes' | 'paquetes';
 }
 
-const { id, nombre, img, descripcion } = Astro.props;
+const { id, nombre, img, descripcion, tipo } = Astro.props;
 ---
 
 <article class="flex bg-white rounded-2xl shadow-lg overflow-hidden max-w-md m-4">
   <header class="flex w-full">
-    <!-- Imagen del hotel -->
+    <!-- Imagen del hotel, actividad, restaurante o paquete -->
     <img
       src={img}
       alt={nombre}
@@ -20,17 +21,18 @@ const { id, nombre, img, descripcion } = Astro.props;
 
     <!-- Contenido de la tarjeta -->
     <div class="p-4 flex flex-col justify-between w-1/2">
-      <!-- Nombre del hotel -->
+      <!-- Nombre del elemento -->
       <strong class="text-lg font-semibold text-center">{nombre}</strong>
 
       <!-- Descripción -->
-      <span class="text-sm text-gray-600 mt-2">
+      <span class="text-sm text-gray-600 mt-2 line-clamp-2"> <!--line-clamp-2: Esta clase es la clave para limitar el número de líneas del texto. En este caso, line-clamp-2 limitará la descripción a dos líneas. Si el texto es más largo, aparecerán los puntos suspensivos (...).Si deseas más o menos líneas, simplemente cambia el número 2 por el número que desees (por ejemplo, line-clamp-3 para tres líneas, etc.). -->
         {descripcion}
       </span>
 
       <!-- Botón de detalles -->
       <div class="flex justify-center">
-        <a href={`/${id}`}>
+        <!-- Generar enlace dinámico según el tipo -->
+        <a href={`/${tipo}/${id}`}>
           <button class="mt-4 bg-blue-500 text-white w-36 rounded-xl hover:bg-blue-600">
             Más detalles
           </button>

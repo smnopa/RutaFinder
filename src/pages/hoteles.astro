@@ -6,33 +6,33 @@ import ItemCard from "../components/ItemCard.astro";
 import { ciudades } from "../data/hoteles";
 ---
 
-<Layout isHomePage={false} title="RutaFinder-Hoteles">
-   <Nav/>
-      <div class="text-center">
-         <h1 class="text-3xl font-bold mb-7">Nuestras ciudades y hoteles</h1>
-         <span class="text-base text-gray-600">
-            La agencia selecciona cuidadosamente los hoteles para asegurar que los huéspedes 
-            experimenten lo mejor de la cultura, la comodidad y el servicio local, 
-            adaptado a diferentes gustos y presupuestos.
-         </span>
-      </div>
+<Layout isHomePage={false} title="RutaFinder - Hoteles">
+  <Nav />
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-7">Nuestras ciudades y hoteles</h1>
+    <span class="text-base text-gray-600">
+      La agencia selecciona cuidadosamente los hoteles para asegurar que los huéspedes
+      experimenten lo mejor de la cultura, la comodidad y el servicio local, adaptado a diferentes gustos y presupuestos.
+    </span>
+  </div>
 
-      <section class="p-4 space-y-8">
-         {ciudades.map((ciudad) => (
-            <div class="container mx-auto">
-               <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">{ciudad.nombre}</h1>
-               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {ciudad.hoteles.map((hotel) => (
-                     <ItemCard 
-                     id={hotel.id} 
-                     nombre={hotel.nombre} 
-                     img={hotel.img} 
-                     descripcion={hotel.descripcion}
-                     />
-                  ))}
-               </div>
-            </div>
-         ))}
-      </section>
-<Footer/>
+  <section class="p-4 space-y-8">
+    {ciudades.map((ciudad) => (
+      <div class="container mx-auto">
+        <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">{ciudad.nombre}</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {ciudad.hoteles.map((hotel) => (
+            <ItemCard 
+              id={hotel.id} 
+              nombre={hotel.nombre} 
+              img={hotel.img} 
+              descripcion={hotel.descripcion}
+              tipo="hoteles"/>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+  
+  <Footer />
 </Layout>

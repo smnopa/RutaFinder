@@ -1,0 +1,36 @@
+---
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Layout from '../../layouts/Layout.astro';
+import { actividades } from '../../data/actividades';
+
+// Obtener el parámetro dinámico `actividad` desde la URL
+const { actividad } = Astro.params;
+
+let actividadInfo = null;
+
+// Buscar la actividad correspondiente
+for (const ciudad of actividades) {
+  actividadInfo = ciudad.actividades.find((a) => a.id === actividad);
+  if (actividadInfo) break;
+}
+
+// Mostrar error si no se encuentra la actividad
+if (!actividadInfo) {
+  throw new Error(`Actividad con id '${actividad}' no encontrada.`);
+}
+---
+
+<Layout title={`Actividad ${actividadInfo.nombre}`} isHomePage={false}>
+  <Nav />
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-7">{actividadInfo.nombre}</h1>
+    <span class="text-base text-gray-600">{actividadInfo.descripcion}</span>
+    <img
+      src={actividadInfo.img}
+      alt={actividadInfo.nombre}
+      class="w-full max-w-4xl mx-auto rounded-lg shadow-lg mt-8"
+    />
+  </div>
+  <Footer />
+</Layout>

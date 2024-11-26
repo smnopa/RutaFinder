@@ -1,13 +1,12 @@
 ---
-import Nav from '../components/Nav.astro';
-import Footer from '../components/Footer.astro';
-import Layout from '../layouts/Layout.astro';
-import { ciudades } from '../data/hoteles';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Layout from '../../layouts/Layout.astro';
+import { ciudades } from '../../data/hoteles';
 
 // Obtener el parámetro dinámico `hotel` de la URL
 const { hotel } = Astro.params;
 
-// Buscar el hotel en los datos
 let hotelInfo = null;
 
 for (const ciudad of ciudades) {

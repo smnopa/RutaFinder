@@ -49,5 +49,4 @@ export const restaurantes = [
       },
     ],
   },
-  // Puedes agregar más ciudades y restaurantes aquí.
 ];

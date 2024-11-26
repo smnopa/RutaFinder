@@ -1,0 +1,36 @@
+---
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Layout from '../../layouts/Layout.astro';
+import { paquetes } from '../../data/paquetes';
+
+// Obtener el parámetro dinámico `paquete` desde la URL
+const { paquete } = Astro.params;
+
+let paqueteInfo = null;
+
+// Buscar el paquete correspondiente
+for (const ciudad of paquetes) {
+  paqueteInfo = ciudad.paquetes.find((a) => a.id === paquete);
+  if (paqueteInfo) break;
+}
+
+// Mostrar error si no se encuentra el paquete
+if (!paqueteInfo) {
+  throw new Error(`Paquete con id '${paquete}' no encontrado.`);
+}
+---
+
+<Layout title={`Paquete ${paqueteInfo.nombre}`} isHomePage={false}>
+  <Nav />
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-7">{paqueteInfo.nombre}</h1>
+    <span class="text-base text-gray-600">{paqueteInfo.descripcion}</span>
+    <img
+      src={paqueteInfo.img}
+      alt={paqueteInfo.nombre}
+      class="w-full max-w-4xl mx-auto rounded-lg shadow-lg mt-8"
+    />
+  </div>
+  <Footer />
+</Layout>
