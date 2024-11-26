@@ -25,7 +25,7 @@ export const ciudades = [
         contentData: [
                       {
                         titulo: "Historia y Cultura del Hotel Caribe en Cartagena Colombia",
-                        description: "El Hotel Caribe en Cartagena es un hito histórico y cultural que refleja la esencia de la ciudad. Aquí tienes un resumen de su historia, cultura y algunos datos curiosos:",
+                        description: "El Hotel Caribe en Cartagena es un hito histórico y cultural que refleja la esencia de la ciudad. A continuacion te presentamos una breve descripción de su historia, cultura y algunos datos curiosos:",
                         historia: {
                           title: "Historia",
                           content: "Inaugurado en 1945, el Hotel Caribe fue uno de los primeros hoteles de lujo en Cartagena, diseñado para atraer tanto a turistas nacionales como internacionales. A lo largo de los años, el hotel ha sido testigo de la evolución de la ciudad y ha hospedado a importantes personalidades de la política, el entretenimiento y los negocios. Su arquitectura, que mezcla el estilo colonial con elementos modernos, ha sido restaurada y mantenida para preservar su encanto histórico. Durante más de 70 años, el Hotel Caribe ha sido un símbolo de hospitalidad y lujo en la costa caribeña colombiana."
@@ -36,14 +36,15 @@ export const ciudades = [
                         },
                         mitos: {
                           title: "Datos Curiosos",
-                          content: "Está ubicado en el barrio de Bocagrande, una de las zonas más exclusivas y turísticas de Cartagena, conocida por sus hermosas playas y su ambiente moderno. El hotel mezcla el estilo arquitectónico colonial con detalles modernos, lo que lo convierte en un lugar lleno de historia y belleza además su oferta gastronómica ha sido siempre de alto nivel, con varios restaurantes que ofrecen platos típicos del Caribe colombiano",
+                          content: "El Hotel Caribe se distingue por su ubicación privilegiada en el barrio de Bocagrande, una de las zonas más exclusivas y turísticas de Cartagena, conocida por sus playas y ambiente moderno. Su arquitectura histórica, que combina elementos coloniales con detalles contemporáneos, ha sido cuidadosamente preservada. Además, ofrece acceso directo a la playa, permitiendo a los huéspedes disfrutar del mar Caribe sin salir del hotel. A lo largo de los años, el hotel ha acogido a celebridades, políticos y artistas internacionales, convirtiéndose en un referente de lujo y hospitalidad en la ciudad. Su oferta gastronómica también es de renombre, con restaurantes que destacan los sabores del Caribe colombiano.",
                                     
                           
                         },
                         images: [
-                          "../img/grupoPiedra1.png",
-                          "../img/grupoPiedra2.png",
-                          "../img/gurpoPiedra3.png"
+                          "/img/hotelCaribeH1.webp",
+                          "/img/hotelCaribeH2.webp",
+                          "/img/hotelCaribeH3.webp",
+                          
                         ]
                       }
                   ],
