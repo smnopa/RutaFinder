@@ -1,5 +1,3 @@
-import HistoriaCultura from "../pages/HistoriaCultura.astro";
-
 export const ciudades = [
   {
     nombre: "Cartagena",
