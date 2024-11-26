@@ -5,7 +5,7 @@
     <div class="flex justify-center space-x-4 mb-6 sm:gap-16 md:gap-8 lg:gap-16">
         <!-- Hoteles Button -->
         <a href="/hoteles" class="w-32 h-32">
-            <button class="border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center hover:bg-blue-500 transition-all bg-white">
+            <button id="hotelesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
                 <img src="../img/hotel.png" alt="hoteles" class="w-12 h-12 mb-2">
                 <span class="text-sm text-center">Hoteles</span>
             </button>
@@ -13,7 +13,7 @@
 
         <!-- Actividades Button -->
         <a href="/actividades" class="w-32 h-32">
-            <button class="border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center hover:bg-blue-500 transition-all bg-white">
+            <button id="actividadesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
                 <img src="../img/logo-actividades.png" alt="actividades" class="w-12 h-12 mb-2">
                 <span class="text-sm text-center">Actividades</span>
             </button>
@@ -21,7 +21,7 @@
 
         <!-- Restaurantes Button -->
         <a href="/restaurantes" class="w-32 h-32">
-            <button class="border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center hover:bg-blue-500 transition-all bg-white">
+            <button id="restaurantesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
                 <img src="../img/restaurante.png" alt="restaurantes" class="w-12 h-12 mb-2">
                 <span class="text-sm text-center">Restaurantes</span>
             </button>
@@ -29,7 +29,7 @@
 
         <!-- Paquetes Button -->
         <a href="/paquetes" class="w-32 h-32">
-            <button class="border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center hover:bg-blue-500 transition-all bg-white">
+            <button id="paquetesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
                 <img src="../img/paquetes.png" alt="paquetes" class="w-12 h-12 mb-2">
                 <span class="text-sm text-center">Paquetes todo en uno!!</span>
             </button>
@@ -37,33 +37,31 @@
     </div>
 </main>
 
-
 <script>
-    const currentPath = window.location.pathname;
+    // Obtener la ruta actual
+    const currentPath: string = window.location.pathname;
 
-    const buttonMap = {
+    // Mapa de botones
+    const buttonMap: { [key: string]: HTMLElement | null } = {
         '/hoteles': document.getElementById('hotelesBtn'),
         '/actividades': document.getElementById('actividadesBtn'),
         '/restaurantes': document.getElementById('restaurantesBtn'),
         '/paquetes': document.getElementById('paquetesBtn'),
-    } as const;
+    };
 
-    const currentPathKey = currentPath as keyof typeof buttonMap;
-
-    if (currentPathKey in buttonMap && buttonMap[currentPathKey]) {
-        buttonMap[currentPathKey]?.classList.add('bg-blue-500');
+    // Añadir la clase de selección al botón actual basado en la ruta
+    if (buttonMap[currentPath]) {
+        buttonMap[currentPath]?.classList.add('bg-blue-500'); // Añade la clase para el botón activo
     }
 
-    // Añadir hover usando solo clases de Tailwind a los botones no seleccionados
+    // Aplicar hover a los botones no seleccionados
     Object.keys(buttonMap).forEach(path => {
-        const button = buttonMap[path as keyof typeof buttonMap];
+        const button = buttonMap[path];
         if (path !== currentPath && button) {
-            button.classList.add('hover:bg-blue-500');
+            button.classList.add('hover:bg-blue-500'); // Mantener el efecto hover en los no activos
         }
     });
 </script>
-
-
 
     <!-- Barra de búsqueda -->
     <div class="group relative w-full sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto mb-6">
