@@ -1,54 +1,52 @@
-# Astro Starter Kit: Basics
+# Página Web de RutaFinder
 
-```sh
-npm create astro@latest -- --template basics
-```
+<img src="./public/preview.png" alt="RutaFinder" width="100%" height="100%" style="border-radius: 1.6rem;" />
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Bienvenido al sitio web oficial de **RutaFinder**, una plataforma de viajes que ofrece una amplia variedad de destinos, actividades, hoteles, restaurantes y paquetes turísticos. Este repositorio contiene el código fuente y los archivos necesarios para desplegar la página web.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Características de la Página Web
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Destinos**: Explora los destinos más populares tanto nacionales como internacionales, con información detallada sobre cada ciudad y sus principales atracciones turísticas.
+- **Hoteles**: Accede a una selección de los mejores hoteles en cada destino, con detalles sobre ubicación, servicios y precios.
+- **Actividades**: Descubre actividades emocionantes y exclusivas para hacer en cada ciudad, desde excursiones hasta experiencias locales.
+- **Restaurantes**: Encuentra los restaurantes más recomendados en cada destino, con descripciones y opiniones de los visitantes.
+- **Paquetes**: Elige entre una variedad de paquetes turísticos diseñados para ofrecerte experiencias completas y cómodas en cada destino.
+- **Contacto**: Si deseas más información, tienes preguntas o estás listo para reservar tu próximo viaje, ¡contáctanos fácilmente desde cualquier página del sitio!
 
-## 🚀 Project Structure
+## Tecnologías Utilizadas
 
-Inside of your Astro project, you'll see the following folders and files:
+La página web de **RutaFinder** está construida utilizando las siguientes tecnologías:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- [Astro](https://astro.build/): Un framework moderno para la creación de sitios web estáticos y dinámicos, ideal para generar páginas rápidas y optimizadas.
+- [Tailwind CSS](https://tailwindcss.com/): Un framework de CSS utilitario para diseñar rápidamente interfaces de usuario con un enfoque en la personalización y la eficiencia.
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript): Se utilizó JavaScript para agregar interactividad y funcionalidades dinámicas en la plataforma.
+- [Vite](https://vitejs.dev/): Herramienta de construcción rápida y optimizada para el desarrollo de sitios web modernos.
+- [Markdown](https://www.markdownguide.org/): Usado para la documentación y las descripciones dinámicas en el sitio.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Cómo Contribuir
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+¡Nos encantaría recibir contribuciones para mejorar el sitio web de **RutaFinder**! Si tienes alguna sugerencia para nuevas características, mejoras en el diseño, correcciones de errores, o cualquier otra idea, no dudes en enviar una solicitud de extracción (pull request).
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Pasos para contribuir:
 
-## 🧞 Commands
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tu funcionalidad (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza tus cambios y haz commit de ellos (`git commit -m 'Añadir nueva funcionalidad'`).
+4. Envía un pull request.
 
-All commands are run from the root of the project, from a terminal:
+## Despliegue
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Puedes desplegar esta página web en tu propio servidor o utilizar servicios de hosting como **GitHub Pages**, **Netlify**, o **Vercel**. Sigue las instrucciones a continuación para hacer el despliegue en tu entorno de preferencia:
 
-## 👀 Want to learn more?
+1. Clona este repositorio: `git clone https://github.com/tu-usuario/rutafinder.git`
+2. Instala las dependencias: `npm install`
+3. Construye el proyecto: `npm run build`
+4. Despliega los archivos generados en la carpeta `dist/` a tu servidor o servicio de hosting preferido.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Autor
+
+Este proyecto fue desarrollado por **[Tu Nombre]**.
+
+---
+
+¡Gracias por visitar el sitio web de **RutaFinder**! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros a través de las opciones de contacto disponibles en el sitio web.
