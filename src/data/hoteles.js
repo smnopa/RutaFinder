@@ -48,6 +48,7 @@ export const ciudades = [
                         ]
                       }
                   ],
+        flyer: "/img/FlyerHotelCaribe.jpg",
       
       
             },

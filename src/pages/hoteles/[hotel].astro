@@ -29,7 +29,7 @@ if (!hotelInfo) {
         {hotelInfo.descripcion}
       </span>
       <!--Bento Grid-->
-      <article class="mt-8 grid grid-cols-4 gap-4 auto-rows-[100px] sm:auto-rows-[150px] md:auto-rows-[200px] px-4 lg:px-32 mx-auto xl:px-60">
+      <article class="mt-8 grid grid-cols-4 gap-4 auto-rows-[100px] sm:auto-rows-[150px] md:auto-rows-[200px] px-4 lg:px-32 mx-auto 2xl:px-64">
         {hotelInfo.bento?.map((image, index) => (
           <div 
             class={`grid-item relative rounded overflow-hidden shadow-lg ${index % 5 === 0 ? 'col-span-2 row-span-2' : ''}`}
@@ -40,7 +40,7 @@ if (!hotelInfo) {
       </article>        
   </div>
   <!--Informacion general-->
-  <div class="flex flex-wrap justify-center mt-8">
+  <div class="flex flex-wrap space-x-0 justify-center mt-8 xl:-space-x-0 2xl:space-x-72">
     <article class="flex flex-col ml-4">
       <h1 class="text-3xl font-bold mb-4">Información general</h1>
       {hotelInfo.descripciongeneral?.map((item, index) => (
@@ -52,6 +52,12 @@ if (!hotelInfo) {
         </div>
       )) ?? []}
     </article>
+    <article class="flex flex-col bg-white rounded-2xl shadow-lg overflow-hidden max-w-md sm:w-full lg::w-full px-4 sm:max-w-xs">
+      <header class="flex w-full flex-col text-center">
+          <strong class="text-lg font-semibold">Flyer</strong>
+          <img src={hotelInfo.flyer} alt="Name Hotel" class="object-cover rounded-2xl mt-2">
+      </header>
+  </article>
   </div>
   <!--API DE GOOGLE-->
   <div class="mb-5 flex flex-col justify-center items-center px-4 md:px-3 lg:px-32 2xl:px-64 mx-auto">
