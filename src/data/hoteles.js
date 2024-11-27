@@ -80,8 +80,8 @@ export const ciudades = [
           "Servicio de recogida opcional",
         ],
         descripciondetalles: [
-          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
-          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Puedes cancelar tu reserva hasta 24 horas antes de la llegada y recibir un reembolso completo.",
+          "Disfruta de planes flexibles, reserva tu habitación de inmediato y realiza el pago al momento de hacer el check-in.",
           "Comprueba la disponibilidad para ver los horarios de inicio.",
           "Español, Inglés.",
           "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
@@ -89,28 +89,29 @@ export const ciudades = [
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.9214773357286!2d-75.5062049!3d10.4600699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625936b260037%3A0x936b7beac322f9bb!2sHotel%20Las%20Am%C3%A9ricas%20Cartagena!5e0!3m2!1ses-419!2sco!4v1701186214920!5m2!1ses-419!2sco",
         contentData: [
           {
-            titulo: "Historia y Cultura del Hotel Caribe en Cartagena Colombia",
+            titulo:
+              "Historia y Cultura del Hotel las Americas Torre de Mar Cartagena",
             description:
-              "El Hotel Caribe en Cartagena es un hito histórico y cultural que refleja la esencia de la ciudad. A continuacion te presentamos una breve descripción de su historia, cultura y algunos datos curiosos:",
+              "El Hotel Las Américas Torre de Mar Cartagena es un emblemático complejo hotelero que captura la esencia del Caribe colombiano. A continuación, te presentamos una breve descripción de su historia, cultura y algunos datos curiosos:",
             historia: {
               title: "Historia",
               content:
-                "Inaugurado en 1945, el Hotel Caribe fue uno de los primeros hoteles de lujo en Cartagena, diseñado para atraer tanto a turistas nacionales como internacionales. A lo largo de los años, el hotel ha sido testigo de la evolución de la ciudad y ha hospedado a importantes personalidades de la política, el entretenimiento y los negocios. Su arquitectura, que mezcla el estilo colonial con elementos modernos, ha sido restaurada y mantenida para preservar su encanto histórico. Durante más de 70 años, el Hotel Caribe ha sido un símbolo de hospitalidad y lujo en la costa caribeña colombiana.",
+                "El Hotel Las Américas Torre de Mar es un icónico resort ubicado en la costa caribeña de Cartagena, Colombia. Inaugurado en el año 2004, este hotel se ha consolidado como uno de los destinos más importantes para turistas nacionales e internacionales. Con su arquitectura moderna y vistas impresionantes del mar Caribe, ha sido un lugar elegido por familias, parejas y viajeros de negocios que buscan confort y exclusividad. A lo largo de los años, el hotel ha evolucionado y ampliado sus instalaciones para ofrecer una experiencia de lujo, manteniéndose a la vanguardia en servicios turísticos.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "El Hotel Caribe es parte integral de la cultura cartagenera, no solo por su historia como uno de los primeros grandes hoteles de la ciudad, sino también por su vinculación con eventos importantes. A lo largo de los años, ha sido escenario de encuentros sociales, empresariales y culturales, promoviendo la difusión del arte, la música y la gastronomía de la región. Además, su cercanía al centro histórico de Cartagena permite a los huéspedes sumergirse en la vibrante cultura local, que abarca desde su arquitectura colonial hasta sus tradiciones gastronómicas.",
+                "El Hotel Las Américas Torre de Mar es un referente de hospitalidad en Cartagena, y su ubicación estratégica en el sector de La Boquilla lo convierte en un punto clave para explorar la ciudad y sus alrededores. La cercanía al centro histórico de Cartagena, así como a importantes zonas de recreación como las playas de Bocagrande, ha hecho que el hotel se convierta en un lugar privilegiado para disfrutar de la cultura local. Además, el hotel promueve el turismo sostenible y la cultura caribeña, organizando eventos que resaltan la gastronomía, el arte y las tradiciones de la región. El diseño del hotel, que refleja el estilo tropical y moderno, armoniza con el entorno natural, ofreciendo a los huéspedes un espacio de relajación y conexión con el mar.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "El Hotel Caribe se distingue por su ubicación privilegiada en el barrio de Bocagrande, una de las zonas más exclusivas y turísticas de Cartagena, conocida por sus playas y ambiente moderno. Su arquitectura histórica, que combina elementos coloniales con detalles contemporáneos, ha sido cuidadosamente preservada. Además, ofrece acceso directo a la playa, permitiendo a los huéspedes disfrutar del mar Caribe sin salir del hotel. A lo largo de los años, el hotel ha acogido a celebridades, políticos y artistas internacionales, convirtiéndose en un referente de lujo y hospitalidad en la ciudad. Su oferta gastronómica también es de renombre, con restaurantes que destacan los sabores del Caribe colombiano.",
+                "El Hotel Las Américas Torre de Mar destaca por su espectacular ubicación frente al mar, ofreciendo vistas panorámicas que abarcan tanto la costa caribeña como el horizonte de Cartagena. Su oferta incluye amplias piscinas, un completo spa, y varias opciones gastronómicas que resaltan lo mejor de la comida caribeña y colombiana. Además, el hotel es conocido por su centro de convenciones y servicios de lujo, que lo hacen ideal tanto para turistas de ocio como para viajeros de negocios. Con su impresionante infraestructura y su enfoque en la sostenibilidad, ha sido sede de eventos internacionales, congresos y celebraciones de alto nivel.",
             },
             images: [
-              "/img/hotelCaribeH1.webp",
-              "/img/hotelCaribeH2.webp",
-              "/img/hotelCaribeH3.webp",
+              "/img/hotelAmericasH1.jpg",
+              "/img/hotelAmericasH2.jpg",
+              "/img/hotelAmericasH3.jpg",
             ],
           },
         ],
@@ -152,12 +153,12 @@ export const ciudades = [
             historia: {
               title: "Historia",
               content:
-                "Inaugurado en 2014, el hotel ha sido una opción popular por su ubicación estratégica cerca del aeropuerto y sus instalaciones modernas.",
+                "Inaugurado en 2014, el GHL Relax Hotel Corales de Indias ha sido una opción popular por su ubicación estratégica cerca del aeropuerto y sus modernas instalaciones. El hotel se ha convertido rápidamente en un lugar de referencia para quienes buscan lujo y comodidad en Cartagena, ofreciendo tanto a turistas como a viajeros de negocios un espacio de relajación y excelencia. Su proximidad a las playas y al Centro Histórico de Cartagena hace que sea el punto ideal para disfrutar de la ciudad mientras te alojas en un entorno moderno y acogedor.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "Este hotel fomenta la cultura local ofreciendo eventos temáticos y colaboraciones con artistas de Cartagena.",
+                "El GHL Relax Hotel Corales de Indias se involucra activamente con la cultura local al ofrecer eventos temáticos que incluyen música tradicional cartagenera, así como colaboraciones con artistas de la ciudad. El hotel también apoya el arte y la gastronomía local, brindando a sus huéspedes una experiencia completa que refleja la vibrante vida cultural de Cartagena. Además, el diseño del hotel incorpora elementos arquitectónicos que honran la tradición cartagenera, creando un espacio donde la modernidad y la cultura local se encuentran de manera armoniosa.",
             },
             mitos: {
               title: "Datos Curiosos",
@@ -165,9 +166,9 @@ export const ciudades = [
                 "El nombre 'Corales de Indias' se debe a los antiguos arrecifes que alguna vez protegieron la costa de Cartagena, visible desde las habitaciones.",
             },
             images: [
-              "/img/ghlCoralesH1.webp",
-              "/img/ghlCoralesH2.webp",
-              "/img/ghlCoralesH3.webp",
+              "/img/ghlCoralesH1.jpg",
+              "/img/ghlCoralesH2.jpg",
+              "/img/ghlCoralesH3.jpg",
             ],
           },
         ],
@@ -228,7 +229,7 @@ export const ciudades = [
             ],
           },
         ],
-        flyer: "/img/FlyerHiltonCartagena.jpg",
+        flyer: "/img/FlyerHiltonCartagena.png",
       },
       {
         id: "hotel-sofitel-legend-santa-clara",
@@ -279,13 +280,70 @@ export const ciudades = [
                 "Algunas habitaciones tienen paredes originales del convento, y el hotel es conocido por sus leyendas sobre monjas y túneles secretos.",
             },
             images: [
-              "/img/sofitelSantaClaraH1.webp",
-              "/img/sofitelSantaClaraH2.webp",
-              "/img/sofitelSantaClaraH3.webp",
+              "/img/sofitelSantaClaraH1.jpg",
+              "/img/sofitelSantaClaraH2.jpg",
+              "/img/sofitelSantaClaraH3.jpg",
             ],
           },
         ],
-        flyer: "/img/FlyerSofitelSantaClara.jpg",
+        flyer: "/img/FlyerSofitelSantaClara.png",
+      },
+      {
+        id: "hotel-intercontinental-cartagena",
+        nombre: "Hotel InterContinental Cartagena de Indias",
+        img: "/img/hotelIntercontinental.jpg",
+        descripcion:
+          "Ubicado en el exclusivo sector de Bocagrande, el Hotel InterContinental Cartagena ofrece una experiencia de lujo con impresionantes vistas al mar Caribe y a la vibrante ciudad amurallada de Cartagena.",
+        bento: [
+          "/img/hotelIntercontinental.jpg",
+          "/img/hotelIntercontinental1.jpg",
+          "/img/hotelIntercontinental2.jpg",
+          "/img/hotelIntercontinental3.jpg",
+          "/img/hotelIntercontinental4.jpg",
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Piscina infinita con vista al mar",
+          "Spa y gimnasio",
+          "Wi-Fi gratuito",
+        ],
+        descripciondetalles: [
+          "Cancela con hasta 48 horas de antelación para un reembolso completo.",
+          "Desayuno buffet con opciones internacionales y locales.",
+          "Piscina infinita con vistas panorámicas al Caribe.",
+          "Spa con masajes, tratamientos faciales y sauna.",
+          "Centro de convenciones equipado con tecnología de última generación.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.889774580605!2d-75.5616358!3d10.4002531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f3d8289fcf5%3A0xa7cb871b8f75e639!2sInterContinental%20Cartagena%20de%20Indias%2C%20an%20IHG%20Hotel!5e0!3m2!1ses-419!2sco!4v1701189234567!5m2!1ses-419!2sco",
+        contentData: [
+          {
+            titulo: "Vive el lujo en el Hotel InterContinental Cartagena",
+            description:
+              "El Hotel InterContinental Cartagena es el lugar perfecto para disfrutar de una estancia elegante y cómoda, con una ubicación privilegiada y servicios de primer nivel.",
+            historia: {
+              title: "Historia",
+              content:
+                "Inaugurado en 2015, el Hotel InterContinental se ha consolidado como uno de los destinos preferidos por viajeros de negocios y placer. Su diseño contemporáneo y su compromiso con la hospitalidad lo han convertido en un ícono moderno en Cartagena.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El hotel participa activamente en eventos culturales y sociales, colaborando con artistas locales y promoviendo la riqueza cultural de Cartagena. Sus restaurantes ofrecen una mezcla de sabores internacionales y tradicionales de la región.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El Hotel InterContinental Cartagena es conocido por su espectacular piscina infinita, que parece fundirse con el mar Caribe. Además, algunas suites cuentan con terrazas privadas que ofrecen vistas inigualables de la ciudad y el mar.",
+            },
+            images: [
+              "/img/intercontinentalH1.jpg",
+              "/img/intercontinentalH2.jpg",
+              "/img/intercontinentalH3.jpg",
+            ],
+          },
+        ],
+        flyer: "/img/FlyerIntercontinental.png",
       },
     ],
   },
