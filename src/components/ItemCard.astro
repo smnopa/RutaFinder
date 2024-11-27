@@ -10,30 +10,29 @@ export interface Props {
 const { id, nombre, img, descripcion, tipo } = Astro.props;
 ---
 
-<article class="flex bg-white rounded-2xl shadow-lg overflow-hidden max-w-md m-4">
+<article class="flex flex-wrap bg-white rounded-2xl shadow-lg overflow-hidden max-w-md m-4 h-52 sm:justify-center">
   <header class="flex w-full">
-    <!-- Imagen del hotel, actividad, restaurante o paquete -->
+    <!-- Imagen del hotel, actividad, restaurante o paquete a la izquierda -->
     <img
       src={img}
       alt={nombre}
-      class="w-1/2 max-h-40 object-cover rounded-2xl"
+      class="w-1/2 object-cover rounded-2xl"
     />
 
-    <!-- Contenido de la tarjeta -->
-    <div class="p-4 flex flex-col justify-between w-1/2">
+    <!-- Contenido de la tarjeta al lado derecho, centrado -->
+    <div class="p-4 flex flex-col justify-center items-center text-center w-1/2">
       <!-- Nombre del elemento -->
-      <strong class="text-lg font-semibold text-center">{nombre}</strong>
+      <strong class="text-lg font-semibold mb-1">{nombre}</strong>
 
       <!-- Descripción -->
-      <span class="text-sm text-gray-600 mt-2 line-clamp-2"> <!--line-clamp-2: Esta clase es la clave para limitar el número de líneas del texto. En este caso, line-clamp-2 limitará la descripción a dos líneas. Si el texto es más largo, aparecerán los puntos suspensivos (...).Si deseas más o menos líneas, simplemente cambia el número 2 por el número que desees (por ejemplo, line-clamp-3 para tres líneas, etc.). -->
+      <span class="text-sm text-gray-600 mt-3 line-clamp-2">
         {descripcion}
       </span>
 
-      <!-- Botón de detalles -->
-      <div class="flex justify-center">
-        <!-- Generar enlace dinámico según el tipo -->
+      <!-- Botón de detalles más pequeño -->
+      <div class="flex justify-center mt-auto">
         <a href={`/${tipo}/${id}`}>
-          <button class="mt-4 bg-blue-500 text-white w-36 rounded-xl hover:bg-blue-600">
+          <button class="bg-blue-500 text-white px-2 py-1 text-sm rounded-full w-32 hover:bg-blue-600">
             Más detalles
           </button>
         </a>
@@ -41,3 +40,4 @@ const { id, nombre, img, descripcion, tipo } = Astro.props;
     </div>
   </header>
 </article>
+
