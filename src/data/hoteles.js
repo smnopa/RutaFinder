@@ -66,11 +66,11 @@ export const ciudades = [
         descripcion:
           "El Hostal Casa de las Américas ofrece habitaciones con aire acondicionado en el distrito Getsemaní de Cartagena de Indias.",
         bento: [
-          "/img/hotelCaribe.jpg",
-          "/img/hotelCaribe2.jpg",
-          "/img/hotelCaribe3.jpg",
-          "/img/hotelCaribe4.jpg",
-          "/img/hotelCaribe5.jpg",
+          "/img/hotelAmericas.png",
+          "/img/hotelAmericas2.jpg",
+          "/img/hotelAmericas3.jpg",
+          "/img/hotelAmericas4.jpg",
+          "/img/hotelAmericas5.jpg",
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -114,7 +114,7 @@ export const ciudades = [
             ],
           },
         ],
-        flyer: "/img/FlyerHotelCaribe.jpg",
+        flyer: "/img/FlyerhotelAmericas.png",
       },
       {
         id: "hotel-GHL-Corales-de-Indias",
