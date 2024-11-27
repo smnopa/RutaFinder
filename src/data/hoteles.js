@@ -223,9 +223,9 @@ export const ciudades = [
                 "El hotel cuenta con una de las piscinas más grandes de Cartagena, y su playa privada es un punto destacado para los huéspedes.",
             },
             images: [
-              "/img/hiltonCartagenaH1.webp",
-              "/img/hiltonCartagenaH2.webp",
-              "/img/hiltonCartagenaH3.webp",
+              "/img/hiltonCartagenaH1.jpg",
+              "/img/hiltonCartagenaH2.jpg",
+              "/img/hiltonCartagenaH3.jpeg",
             ],
           },
         ],
