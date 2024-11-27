@@ -29,7 +29,7 @@ export const ciudades = [
           "Español, Inglés.",
           "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4834565845715!2d-75.55579808471768!3d10.398763292568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e5cbec569b7%3A0x104f74f7c27e5db0!2sHotel%20Caribe%20By%20Faranda%20Grand!5e0!3m2!1sen!2sco!4v1701183437394!5m2!1sen!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4834565845715!2d-75.55579808471768!3d10.398763292568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e5cbec569b7%3A0x104f74f7c27e5db0!2sHotel%20Caribe%20By%20Faranda%20Grand!5e0!3m2!1sen!2sco!4v1701183437394!5m2!1sen!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.726057678473!2d-75.531659!3d10.403060!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e4e2a1a61f3%3A0x5d08edb25c0bc177!2sCra.%201%20%232–87%2C%20Cartagena%20de%20Indias%2C%20Provincia%20de%20Cartagena%2C%20Bol%C3%ADvar!5e0!3m2!1sen!2sco!4v1701184871450!5m2!1sen!2sco",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.487262859151!2d-75.5636547!3d10.3983125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f3d23c37441%3A0x472a86c71152e6fe!2sHotel%20Caribe%20By%20Faranda%20Grand%2C%20a%20member%20of%20Radisson%20Individuals!5e0!3m2!1ses-419!2sco!4v1701187004305!5m2!1ses-419!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura del Hotel Caribe en Cartagena Colombia",
@@ -86,7 +86,7 @@ export const ciudades = [
           "Español, Inglés.",
           "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4834565845715!2d-75.55579808471768!3d10.398763292568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e5cbec569b7%3A0x104f74f7c27e5db0!2sHotel%20Caribe%20By%20Faranda%20Grand!5e0!3m2!1sen!2sco!4v1701183437394!5m2!1sen!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4834565845715!2d-75.55579808471768!3d10.398763292568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e5cbec569b7%3A0x104f74f7c27e5db0!2sHotel%20Caribe%20By%20Faranda%20Grand!5e0!3m2!1sen!2sco!4v1701183437394!5m2!1sen!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.726057678473!2d-75.531659!3d10.403060!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e4e2a1a61f3%3A0x5d08edb25c0bc177!2sCra.%201%20%232–87%2C%20Cartagena%20de%20Indias%2C%20Provincia%20de%20Cartagena%2C%20Bol%C3%ADvar!5e0!3m2!1sen!2sco!4v1701184871450!5m2!1sen!2sco",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.9214773357286!2d-75.5062049!3d10.4600699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625936b260037%3A0x936b7beac322f9bb!2sHotel%20Las%20Am%C3%A9ricas%20Cartagena!5e0!3m2!1ses-419!2sco!4v1701186214920!5m2!1ses-419!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura del Hotel Caribe en Cartagena Colombia",
@@ -143,7 +143,7 @@ export const ciudades = [
           "Servicio de traslado al aeropuerto bajo solicitud.",
           "Salones para eventos y convenciones con tecnología avanzada.",
         ],
-        mapa: "https://www.google.com/maps/embed?...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9752116470045!2d-75.5278244!3d10.4430594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6255fd6fd4067%3A0x72ca6dc9becdaa04!2sGHL%20Relax%20Hotel%20Corales%20de%20Indias!5e0!3m2!1ses-419!2sco!4v1701187450340!5m2!1ses-419!2sco",
         contentData: [
           {
             titulo: "Relájate en el GHL Corales de Indias",
@@ -200,7 +200,7 @@ export const ciudades = [
           "Acceso exclusivo a playa privada y múltiples piscinas.",
           "Servicio de traslado al aeropuerto disponible por un costo adicional.",
         ],
-        mapa: "https://www.google.com/maps/embed?...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4860201288877!2d-75.5623603!3d10.3938211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625936b260037%3A0x971b1d96fafed9d!2sHilton%20Cartagena!5e0!3m2!1ses-419!2sco!4v1701187898901!5m2!1ses-419!2sco",
         contentData: [
           {
             titulo: "Descubre el lujo en el Hilton Cartagena",
@@ -257,7 +257,7 @@ export const ciudades = [
           "Acceso a spa con tratamientos exclusivos.",
           "Ofrecen tours privados por el centro histórico.",
         ],
-        mapa: "https://www.google.com/maps/embed?...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1991931267536!2d-75.5482831!3d10.4290011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f99208a15a3%3A0x3187872c9d2602d2!2sSofitel%20Legend%20Santa%20Clara%20Cartagena!5e0!3m2!1ses-419!2sco!4v1701187548340!5m2!1ses-419!2sco",
         contentData: [
           {
             titulo: "Explora la historia y el lujo en el Sofitel Santa Clara",
