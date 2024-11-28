@@ -353,7 +353,7 @@ export const ciudades = [
       {
         id: "hotel-bogota-plaza",
         nombre: "Hotel Bogotá Plaza",
-        img: "/img/cartagena.png",
+        img: "/img/hotePlaza.png",
         descripcion: "Hotel de lujo con spa y restaurante.",
         bento: [
           "/img/hotelCaribe.jpg",
@@ -409,7 +409,7 @@ export const ciudades = [
       {
         id: "hotel-estelar",
         nombre: "Hotel Estelar",
-        img: "/img/cartagena.png",
+        img: "/img/hotelEstelar.jpg",
         descripcion: "Hotel moderno cerca del aeropuerto.",
         bento: [
           "/img/hotelCaribe.jpg",
