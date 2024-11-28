@@ -10,7 +10,7 @@ export interface Props {
 const { id, nombre, img, descripcion, tipo } = Astro.props;
 ---
 
-<article class="flex flex-wrap bg-white rounded-2xl shadow-lg overflow-hidden max-w-md m-4 h-52 sm:justify-center">
+<article class="tarjeta flex flex-wrap bg-white rounded-2xl shadow-lg overflow-hidden max-w-md m-4 h-52 sm:justify-center" data-nombre={nombre.toLowerCase()}>
   <header class="flex w-full">
     <!-- Imagen del hotel, actividad, restaurante o paquete a la izquierda -->
     <img
@@ -40,4 +40,3 @@ const { id, nombre, img, descripcion, tipo } = Astro.props;
     </div>
   </header>
 </article>
-

@@ -19,8 +19,8 @@ import ItemCard from '../components/ItemCard.astro';  // Asegúrate de que ItemC
 
     <section class="p-4 space-y-8">
       {paquetes.map((ciudad) => (
-        <div class="container mx-auto">
-          <h1 class="text-3xl font-bold mb-4 mt-8 ml-4">{ciudad.nombre}</h2>
+       <div class="seccion-ciudad container mx-auto">
+      <h1 class="ciudad-nombre text-3xl font-bold mb-4 mt-8 ml-4">{ciudad.nombre}</h1>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {ciudad.paquetes.map((paquete) => (
               <ItemCard 
