@@ -87,4 +87,73 @@ export const paquetes = [
       },
     ],
   },
+  {
+    nombre: "Armenia y salento",
+    paquetes: [
+      {
+        id: "Vuelo-parapente-Quindío",
+        nombre: "Vuelo y vista de los campos de café",
+        img: "/img/paqueteVuelo.jpg",
+        descripcion:
+          "¿Te apetece vivir una experiencia de lo más emocionante? Dispara tu adrenalina y sobrevuela en parapente los campos de café del departamento colombiano del Quindío. ¡Disfrutarás de unas vistas únicas desde el cielo!",
+          bento: [
+            "/img/paqueteVuelo4.jpg",
+            "/img/paqueteVuelo1.webp",
+            "/img/paqueteVuelo2.jpg",
+            "/img/paqueteVuelo3.jpg",
+            "/img/paqueteVuelo5.jpg",
+          ],
+          descripciongeneral: [
+            "Cancelación gratuita",
+            "Reservar tu piloto",
+            "tiempo de vuelo 30 minutos(con capacidad de extención)",
+            "Fotos en el aire",
+            "Servicio de recogida opcional",
+          ],
+          descripciondetalles: [
+            "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+            "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+            "Vuela en parapente y disfruta de la belleza del Quindío, Colombia.",
+            "Camara profesional para capturar momentos inolvidables.",
+            "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
+          ],
+          mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.1066079264926!2d-75.8399997!3d4.20639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39ac6a84b580b7%3A0xd06ff49c8cce68c6!2sBuenavista%2C%20Sevilla%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1701262815135!5m2!1ses!2sco",
+          contentData: [
+            {
+              titulo: "Historia y Cultura, Vuelo en parapente visionando los campos de cafe del Quindío",
+              description:
+                "El Tour por las plantaciones de café del Quindío, particularmente en Buenavista, ofrece una inmersión profunda en la cultura cafetera de Colombia. Este recorrido no solo permite explorar plantaciones donde se cultiva uno de los mejores cafés del mundo, sino que también destaca la importancia del proceso artesanal detrás de la producción de café de alta calidad.",
+              historia: {
+                title: "Historia",
+                content:
+                  "El tour tiene un enfoque educativo y cultural. Los visitantes pueden aprender sobre la historia del café en Colombia, una tradición que ha definido a la región del Quindío y que ha sido fundamental para su desarrollo económico y social. El proceso de cultivo y producción en esta zona, reconocida como Patrimonio de la Humanidad por la UNESCO, refleja una dedicación profunda a mantener métodos tradicionales, como la recolección manual de granos, así como el uso de técnicas sostenibles en la agricultura.",
+              },
+              cultura: {
+                title: "Cultura",
+                content:
+                  "Durante el recorrido, se hace énfasis en la herencia cultural del café, que no solo se centra en su producción, sino en su papel dentro de la vida cotidiana de los habitantes del Quindío. La región también alberga muchas fincas cafeteras familiares que han sido pasadas de generación en generación, preservando la tradición cafetera colombiana.",
+              },
+              mitos: {
+                title: "Datos Curiosos",
+                content:
+                  "El Quindío produce uno de los cafés más suaves del mundo, debido a su ubicación geográfica, clima y altura, además En algunos tours, se ofrece la oportunidad de preparar tu propio café, lo que te permite experimentar todo el proceso, desde la recolección hasta la degustación final y En la mayoría de las fincas, el café crece junto a otros cultivos como plátanos y frutas tropicales, lo que enriquece tanto el sabor como el ecosistema agrícola.",
+              },
+              images: [
+                "/img/hycVuelo3.webp",
+                "/img/hycVuelo2.webp",
+                "/img/hycVuelo1.webp",
+              ],
+            },
+          ],
+          flyer: "/img/flyerVuelo.jpg",
+        },
+      {
+        id: "paquete4",
+        nombre: "Aventura en la Sabana",
+        img: "/img/paquetestodoenuno.png",
+        descripcion:
+          "Tour por los paisajes y actividades al aire libre en la Sabana de Bogotá.",
+      },
+    ],
+  },
 ];
