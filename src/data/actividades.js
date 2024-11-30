@@ -356,7 +356,7 @@ export const actividades = [
               cultura: {
                 title: "Cultura",
                 content:
-                  "ste espacio no solo destaca por su enfoque en la conservación, sino también por su profunda conexión con la cultura local. El museo etnobotánico presenta una colección de productos hechos de palmas nativas, como utensilios de cocina, muebles, y alimentos, que muestran cómo las comunidades han usado estas plantas durante siglos. Además, sus talleres ecológicos están orientados a jóvenes y niños para enseñar la importancia de la biodiversidad y la sostenibilidad",
+                  "Este espacio no solo destaca por su enfoque en la conservación, sino también por su profunda conexión con la cultura local. El museo etnobotánico presenta una colección de productos hechos de palmas nativas, como utensilios de cocina, muebles, y alimentos, que muestran cómo las comunidades han usado estas plantas durante siglos. Además, sus talleres ecológicos están orientados a jóvenes y niños para enseñar la importancia de la biodiversidad y la sostenibilidad",
               },
               mitos: {
                 title: "Datos Curiosos",
@@ -373,61 +373,62 @@ export const actividades = [
           flyer: "/img/flyerJardin.png",
       },
       {
-        id: "Jardín-Botánico-Quindío",
-        nombre: "Jardín Botánico del Quindío",
-        img: "/img/actiJardin.jpg",
+        id: "Vida-Park-Quindío",
+        nombre: "Vida Park Armenia Quindío",
+        img: "/img/actiVidaPark.jpg",
         descripcion:
-          "Si quieres visitar físicamente nuestra sede principal en Calarcá vivirás una experiencia inolvidable. El Jardín te espera.",
+          "Un páramo en el medio de la ciudad que resulta un paso obligado para los amantes de la naturaleza en Armenia.",
           bento: [
-            "/img/actiJardin4.jpg",
-            "/img/actiJardin1.jpg",
-            "/img/actiJardin2.jpg",
-            "/img/actiJardin3.jpg",
-            "/img/actiJardin5.jpg",
+            "/img/actiVidaPark1.jpg",
+            "/img/actiVidaPark2.jpg",
+            "/img/actiVidaPark3.webp",
+            "/img/actiVidaPark4.jpg",
+            "/img/actiVidaPark5.jpg",
           ],
           descripciongeneral: [
             "Cancelación gratuita",
             "Reservar ahora y pagar después",
             "Estadía 10.5 horas (con capacidad de extención)",
-            "Mariposario",
+            "Tour por el parque",
             "Avistamiento de aves",
           ],
           descripciondetalles: [
             "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
             "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
             "Comprueba la disponibilidad para ver los horarios de inicio.",
-            "Descubre nuestro mariposario y disfruta de la experiencia de la naturaleza.",
-            "El avistamiento de aves es una experiencia inolvidable en el Jardín Botánico del Quindío.",
+            "Camina y disfruta de un espacio tranquilo y natural, en medio de la ciudad",
+            "El avistamiento de aves es una experiencia inolvidable.",
           ],
-          mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318.09499354124655!2d-75.6535521!3d4.5116806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f43b10d6dddd%3A0xf97d58b928ca87fe!2sJard%C3%ADn%20Bot%C3%A1nico%20Del%20Quind%C3%ADo!5e0!3m2!1ses!2sco!4v1701184871450!5m2!1ses!2sco",
+          mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318.09469667956496!2d-75.6629152!3d4.5479794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f4fb8f430bbd%3A0x159c0ed6d96d65f!2sParque%20De%20La%20Vida!5e0!3m2!1ses!2sco!4v1701184871450!5m2!1ses!2sco",
           contentData: [
             {
-              titulo: "Historia y Cultura del Jardín Botánico del Quindío en Colombia",
+              titulo: "Historia y Cultura de Vida Park Armenia Colombia",
               description:
-                "El Jardín Botánico del Quindío, ubicado en Calarcá, es un referente en biodiversidad y conservación ecológica en Colombia. Su historia comienza en 1978, cuando Alberto Gómez Mejía fundó este espacio con el objetivo de preservar las especies nativas del Quindío, incluyendo plantas endémicas, aves, e insectos. Desde entonces, ha crecido hasta convertirse en un importante centro de investigación y educación ambiental.",
+                "Vida Park es un importante espacio recreativo y natural ubicado en Armenia, Quindío, Colombia, en el corazón del Eje Cafetero",
               historia: {
                 title: "Historia",
                 content:
-                  "El Jardín fue diseñado en terrenos que fueron devastados por un terremoto en 1999, y parte de su infraestructura, como la pérgola de hierro retorcido, simboliza la reconstrucción tras esa tragedia. También alberga varios museos que narran la evolución de la flora, fauna y geología de la región. Uno de los más interesantes es el Museo del Túnel, que explora la historia de los túneles viales construidos en los Andes del Quindío",
+                  "Aunque no tiene una historia tan extensa como algunos monumentos históricos, su importancia radica en su papel como un punto de encuentro moderno para la recreación y el turismo, siendo un pulmón verde en medio de la ciudad. Es parte de los esfuerzos de urbanización sostenible en Armenia, con el objetivo de brindar a los residentes y turistas un lugar para disfrutar de la naturaleza y realizar actividades al aire libre.",
               },
               cultura: {
                 title: "Cultura",
                 content:
-                  "ste espacio no solo destaca por su enfoque en la conservación, sino también por su profunda conexión con la cultura local. El museo etnobotánico presenta una colección de productos hechos de palmas nativas, como utensilios de cocina, muebles, y alimentos, que muestran cómo las comunidades han usado estas plantas durante siglos. Además, sus talleres ecológicos están orientados a jóvenes y niños para enseñar la importancia de la biodiversidad y la sostenibilidad",
+                  "El parque refleja la identidad cultural del Quindío, al estar rodeado de la tradición cafetera que define a la región. Armenia, como parte del Paisaje Cultural Cafetero, resalta su herencia a través de espacios como Vida Park, donde se realizan eventos culturales que celebran la biodiversidad, la ecología y el turismo sostenible. El parque también forma parte de los destinos frecuentados durante festividades locales, como el Festival de la Cosecha que celebra la cultura cafetera del Quindío​",
               },
               mitos: {
                 title: "Datos Curiosos",
                 content:
-                  "Uno de los aspectos más fascinantes del Jardín es su mariposario en forma de mariposa, una estructura icónica que permite a los visitantes observar de cerca estas coloridas especies. También cuenta con una colección de raíces de bambú que algunos visitantes encuentran similares a figuras alienígenasOtro dato interesante es el Insectario, donde se exponen especies endémicas y se promueve el estudio de los insectos como parte vital de los ecosistemas.​",
+                  "Vida Park no solo es un espacio para la recreación, sino también para la educación ambiental. Ofrece actividades que buscan concientizar a los visitantes sobre la importancia de preservar el medio ambiente y la biodiversidad local, además El parque alberga una variedad de especies de flora y fauna, convirtiéndolo en un lugar de interés tanto para los amantes de la naturaleza como para quienes buscan un espacio tranquilo en medio de la ciudad, y tambien s un punto importante para actividades físicas como el ciclismo y el senderismo, lo que lo hace muy popular entre los deportistas locales y turistas.​",
               },
               images: [
-                "/img/hycjardin1.webp",
-                "/img/hycjardin2.webp",
-                "/img/hycjardin3.webp",              
+                "/img/hycVidaPark1.jpg",
+                "/img/hycVidaPark2.jpg",
+                "/img/hycVidaPark3.jpg",
+                              
               ],
             },
           ],
-          flyer: "/img/flyerJardin.png",
+          flyer: "/img/flyerVida.jpg",
       },
     ],
   },
