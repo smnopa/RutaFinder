@@ -3,27 +3,11 @@
         <h1 class="text-3xl font-bold mt-4">Explora la Magia de Nuestro Paraíso Colombiano</h1>
     </div>
     <div class="flex justify-center space-x-4 mb-6 sm:gap-16 md:gap-8 lg:gap-16">
-        <!-- Hoteles Button -->
-        <a href="/hoteles" class="w-32 h-32">
-            <button id="hotelesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
-                <img src="../img/hotel.png" alt="hoteles" class="w-12 h-12 mb-2">
-                <span class="text-sm text-center">Hoteles</span>
-            </button>
-        </a>
-
         <!-- Actividades Button -->
         <a href="/actividades" class="w-32 h-32">
             <button id="actividadesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
                 <img src="../img/logo-actividades.png" alt="actividades" class="w-12 h-12 mb-2">
                 <span class="text-sm text-center">Actividades</span>
-            </button>
-        </a>
-
-        <!-- Restaurantes Button -->
-        <a href="/restaurantes" class="w-32 h-32">
-            <button id="restaurantesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
-                <img src="../img/restaurante.png" alt="restaurantes" class="w-12 h-12 mb-2">
-                <span class="text-sm text-center">Restaurantes</span>
             </button>
         </a>
 
@@ -34,35 +18,75 @@
                 <span class="text-sm text-center">Paquetes todo en uno!!</span>
             </button>
         </a>
+
+        <!-- Hoteles Button -->
+        <a href="/hoteles" class="w-32 h-32">
+          <button id="hotelesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
+              <img src="../img/hotel.png" alt="hoteles" class="w-12 h-12 mb-2">
+              <span class="text-sm text-center">Hoteles</span>
+          </button>
+      </a>  
+             
+       <!-- Restaurantes Button -->
+        <a href="/restaurantes" class="w-32 h-32">
+          <button id="restaurantesBtn" class="category-button border border-blue-500 rounded-lg w-full h-full p-4 flex flex-col items-center justify-center transition-all">
+              <img src="../img/restaurante.png" alt="restaurantes" class="w-12 h-12 mb-2">
+              <span class="text-sm text-center">Restaurantes</span>
+          </button>
+      </a>
+
+      
     </div>
 </main>
 
 <script>
-    // Obtener la ruta actual
-    const currentPath: string = window.location.pathname;
+  // Obtener la ruta actual
+  const currentPath: string = window.location.pathname;
 
-    // Mapa de botones
-    const buttonMap: { [key: string]: HTMLElement | null } = {
-        '/hoteles': document.getElementById('hotelesBtn'),
-        '/actividades': document.getElementById('actividadesBtn'),
-        '/restaurantes': document.getElementById('restaurantesBtn'),
-        '/paquetes': document.getElementById('paquetesBtn'),
-    };
+  // Mapa de botones
+  const buttonMap: { [key: string]: HTMLElement | null } = {
+    '/hoteles': document.getElementById('hotelesBtn'),
+    '/actividades': document.getElementById('actividadesBtn'),
+    '/restaurantes': document.getElementById('restaurantesBtn'),
+    '/paquetes': document.getElementById('paquetesBtn'),
+  };
 
-    // Añadir la clase de selección al botón actual basado en la ruta
-    if (buttonMap[currentPath]) {
-        buttonMap[currentPath]?.classList.add('bg-blue-500'); // Añade la clase para el botón activo
+  // Añadir la clase de selección al botón actual basado en la ruta
+  if (buttonMap[currentPath]) {
+    buttonMap[currentPath]?.classList.add('bg-blue-500'); // Añade la clase para el botón activo
+  }
+
+  // Aplicar hover a los botones no seleccionados
+  Object.keys(buttonMap).forEach(path => {
+    const button = buttonMap[path];
+    if (path !== currentPath && button) {
+      button.classList.add('hover:bg-blue-500'); // Mantener el efecto hover en los no activos
     }
+  });
 
-    // Aplicar hover a los botones no seleccionados
-    Object.keys(buttonMap).forEach(path => {
-        const button = buttonMap[path];
-        if (path !== currentPath && button) {
-            button.classList.add('hover:bg-blue-500'); // Mantener el efecto hover en los no activos
+  // Asegurarnos de que la barra de búsqueda exista antes de agregar el evento
+  const searchBar = document.querySelector('.input') as HTMLInputElement | null;
+  const seccionesCiudades = document.querySelectorAll('.seccion-ciudad');
+
+  if (searchBar) { // Solo añadimos el evento si searchBar no es null
+    searchBar.addEventListener('input', (e) => {
+      const searchText = (e.target as HTMLInputElement).value.toLowerCase(); // Aseguramos que e.target sea un HTMLInputElement
+
+      seccionesCiudades.forEach((seccion) => {
+        // Hacemos casting de 'seccion' a HTMLElement
+        const ciudadNombre = (seccion.querySelector('.ciudad-nombre') as HTMLElement).textContent?.toLowerCase() || '';
+
+        // Mostrar u ocultar secciones según el filtro
+        const ciudadElement = seccion as HTMLElement; // Casting a HTMLElement para poder acceder a 'style'
+        if (ciudadNombre.startsWith(searchText)) {
+          ciudadElement.style.display = ''; // Mostrar ciudad y sus hoteles
+        } else {
+          ciudadElement.style.display = 'none'; // Ocultar la ciudad y sus hoteles
         }
+      });
     });
+  }
 </script>
-
     <!-- Barra de búsqueda -->
     <div class="group relative w-full sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto mb-6">
         <a href="resultados.html" class="absolute top-3 left-3">
@@ -72,5 +96,10 @@
                 </g>
             </svg>
         </a>
-        <input placeholder="Dónde ir, qué hacer, hoteles" type="search" class="input pl-10 w-full py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <input 
+        id="search-bar" 
+        placeholder="Escribe la ciudad de tu interés" 
+        type="search" 
+        class="input pl-10 w-full py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
     </div>
