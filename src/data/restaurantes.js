@@ -4,9 +4,10 @@ export const restaurantes = [
     restaurantes: [
       {
         id: "restaurante-cartagena-1",
-        nombre: "Restaurante El Caribeño",
+        nombre: "7 Cielos Rooftop",
         img: "/img/elCaribeno.jpg",
-        descripcion: "Especializado en mariscos frescos y cocina tradicional caribeña.",
+        descripcion:
+          "Especializado en mariscos frescos y cocina tradicional caribeña.",
         bento: ["/img/elCaribeno1.jpg", "/img/elCaribeno2.jpg"],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -23,9 +24,10 @@ export const restaurantes = [
       },
       {
         id: "restaurante-cartagena-2",
-        nombre: "Café del Mar",
+        nombre: "Restaurante Candé",
         img: "/img/cafeDelMar.jpg",
-        descripcion: "Famoso por sus cócteles al atardecer sobre las murallas de Cartagena.",
+        descripcion:
+          "Famoso por sus cócteles al atardecer sobre las murallas de Cartagena.",
         bento: ["/img/cafeDelMar1.jpg", "/img/cafeDelMar2.jpg"],
         descripciongeneral: [
           "Vista panorámica",
@@ -40,10 +42,11 @@ export const restaurantes = [
         flyer: "/img/flyerCafeDelMar.jpg",
       },
       {
-        id: "restaurante-cartagena-3",
+        id: "Buena Vida Marisqueria y Rooftop",
         nombre: "La Vitrola",
         img: "/img/laVitrola.jpg",
-        descripcion: "Restaurante icónico con música en vivo y platos cubanos y caribeños.",
+        descripcion:
+          "Restaurante icónico con música en vivo y platos cubanos y caribeños.",
         bento: ["/img/laVitrola1.jpg", "/img/laVitrola2.jpg"],
         descripciongeneral: [
           "Decoración colonial",
@@ -59,7 +62,7 @@ export const restaurantes = [
       },
       {
         id: "restaurante-cartagena-4",
-        nombre: "Cuzco Cocina Peruana",
+        nombre: "Restaurante Marea",
         img: "/img/cuzco.jpg",
         descripcion: "Cocina peruana de autor en el corazón de Cartagena.",
         bento: ["/img/cuzco1.jpg", "/img/cuzco2.jpg"],
@@ -77,7 +80,7 @@ export const restaurantes = [
       },
       {
         id: "restaurante-cartagena-5",
-        nombre: "El Santísimo",
+        nombre: "Época Café Bar",
         img: "/img/elSantismo.jpg",
         descripcion: "Cocina creativa en un ambiente sofisticado y acogedor.",
         bento: ["/img/elSantismo1.jpg", "/img/elSantismo2.jpg"],
@@ -95,7 +98,7 @@ export const restaurantes = [
       },
       {
         id: "restaurante-cartagena-6",
-        nombre: "Restaurante Candé",
+        nombre: "El Arsenal The Rum Box",
         img: "/img/cande.jpg",
         descripcion: "Sabores cartageneros auténticos en un entorno cultural.",
         bento: ["/img/cande1.jpg", "/img/cande2.jpg"],

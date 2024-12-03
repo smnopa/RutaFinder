@@ -35,17 +35,17 @@ export const actividades = [
             historia: {
               title: "Historia",
               content:
-                "Construido en el siglo XVII, el castillo sirvió para defender Cartagena de los piratas, siendo considerado una de las mejores obras militares de la época.",
+                'El Castillo de San Felipe de Barajas, ubicado en Cartagena de Indias, es una de las fortificaciones militares más imponentes construidas por los españoles en América. Su construcción comenzó en 1536 y se extendió hasta 1657, bajo la supervisión de ingenieros militares como Antonio de Arévalo. Originalmente llamado "Castillo de San Lázaro", fue renombrado en honor al rey Felipe IV de España. Este bastión fue crucial para proteger la ciudad de ataques de piratas y potencias extranjeras, como el famoso intento fallido de asedio liderado por el almirante inglés Edward Vernon en 1741. La solidez de su diseño, con laberínticos túneles y cañones estratégicamente posicionados, lo convirtió en una obra maestra de la ingeniería militar colonial.',
             },
             cultura: {
               title: "Cultura",
               content:
-                "Hoy en día, el castillo es un sitio histórico clave que muestra la arquitectura militar colonial y la historia de Cartagena.",
+                "Hoy en día, el Castillo de San Felipe de Barajas es un símbolo de la resistencia y la historia de Cartagena, declarado Patrimonio de la Humanidad por la UNESCO en 1984. Sirve como escenario de eventos culturales, exposiciones y festivales que celebran la rica historia de la ciudad. Los visitantes pueden recorrer sus túneles subterráneos, explorar las murallas y disfrutar de una vista panorámica de Cartagena. Es un lugar donde convergen la historia colonial y la cultura contemporánea, con espectáculos de danza, teatro y música que honran las tradiciones afrocolombianas e indígenas locales. Además, el castillo alberga una exposición permanente sobre las técnicas de defensa militar empleadas durante la colonia.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "Se cree que el castillo fue construido por esclavos africanos, quienes dejaron su huella en su arquitectura.",
+                "El Castillo de San Felipe de Barajas fue construido principalmente por esclavos africanos, quienes tallaron la roca coralina que forma sus resistentes muros, dejando una huella invaluable en la estructura. Sus túneles subterráneos destacan por una acústica diseñada para detectar movimientos enemigos, lo que lo convertía en una fortaleza prácticamente impenetrable. Durante el asedio más famoso, en 1741, un pequeño ejército liderado por Blas de Lezo resistió con éxito a una flota británica mucho mayor, en una de las victorias más emblemáticas de la historia militar española. Además, una leyenda popular asegura que en sus inmediaciones se encuentra un tesoro pirata oculto, lo que ha alimentado la curiosidad de exploradores durante siglos.",
             },
             images: [
               "/img/castilloH1.jpg",
@@ -63,10 +63,10 @@ export const actividades = [
         descripcion:
           "Un símbolo de Cartagena, esta torre es la entrada a la ciudad amurallada y se construyó en el siglo XIX como parte de las murallas de la ciudad.",
         bento: [
-          "/img/torre1.jpg",
+          "/img/torreReloj.jpg",
           "/img/torre2.jpg",
-          "/img/torre3.jpg",
-          "/img/torre4.jpg",
+          "/img/torre3.jpeg",
+          "/img/torre4.webp",
           "/img/torre5.jpg",
         ],
         descripciongeneral: [
@@ -89,22 +89,22 @@ export const actividades = [
             historia: {
               title: "Historia",
               content:
-                "La torre originalmente sirvió como la puerta principal de entrada a la ciudad amurallada, y más tarde se le añadió el reloj.",
+                "La Torre del Reloj, construida a inicios del siglo XIX, es una de las estructuras más icónicas de Cartagena de Indias. Su construcción finalizó en 1888 y originalmente funcionaba como la puerta principal de entrada a la ciudad amurallada. Inicialmente, la torre contaba con tres arcos, que daban acceso a la Plaza de los Coches, un importante centro comercial en la época colonial. Posteriormente, en 1874, se le añadió el reloj que la ha convertido en un símbolo del paso del tiempo en la ciudad. La torre es un claro ejemplo de la mezcla de influencias arquitectónicas coloniales y neoclásicas que caracterizan a Cartagena.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "La Torre del Reloj es un símbolo de Cartagena, con su reloj histórico que marca el tiempo y la vida de la ciudad.",
+                "La Torre del Reloj es más que una estructura histórica; es el corazón simbólico de Cartagena. Su reloj marca el ritmo de la vida cotidiana, y la plaza que la rodea es un espacio vibrante donde se celebran eventos culturales, ferias y actividades sociales. La torre es también el punto de partida de recorridos turísticos por la ciudad amurallada y un lugar de encuentro para locales y visitantes. Además, su entorno está lleno de vida, con artistas callejeros, músicos y vendedores que ofrecen dulces típicos y artesanías.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "Al principio, la torre fue conocida como el 'Portal de los Dulces', debido a la cercanía de un mercado de golosinas.",
+                "Originalmente conocida como el \"Portal de los Dulces\", la Torre del Reloj debe su nombre a la cercanía de un mercado donde se vendían golosinas tradicionales, una tradición que continúa hasta el día de hoy. La estructura fue diseñada para tener cuatro caras, pero el reloj fue importado de Suiza y en sus primeros años tuvo problemas de funcionamiento, lo que generó historias curiosas sobre su mantenimiento. Además, se dice que la torre fue testigo de varios eventos históricos clave, como la entrada triunfal de personajes importantes en la historia de Colombia, consolidándose como un ícono que conecta el pasado y el presente de Cartagena.",
             },
             images: [
-              "/img/torreH1.jpg",
-              "/img/torreH2.jpg",
-              "/img/torreH3.jpg",
+              "/img/torreH1.png",
+              "/img/torreH2.png",
+              "/img/torreH3.png",
             ],
           },
         ],
