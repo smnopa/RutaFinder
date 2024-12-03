@@ -353,117 +353,305 @@ export const ciudades = [
       {
         id: "hotel-bogota-plaza",
         nombre: "Hotel Bogotá Plaza",
-        img: "/img/hotePlaza.png",
-        descripcion: "Hotel de lujo con spa y restaurante.",
+        img: "/img/hotelBogotaPlaza.jpg",
+        descripcion: "Hotel de lujo ubicado en el exclusivo sector de la Zona Norte en Bogotá, ideal para viajeros de negocios y placer.",
         bento: [
-          "/img/hotelCaribe.jpg",
-          "/img/hotelCaribe2.jpg",
-          "/img/hotelCaribe3.jpg",
-          "/img/hotelCaribe4.jpg",
-          "/img/hotelCaribe5.jpg",
+          "/img/hotelBogotaPlaza1.jpg",
+          "/img/hotelBogotaPlaza2.jpg",
+          "/img/hotelBogotaPlaza3.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
-          "Reservar ahora y pagar después",
-          "Estadía 10.5 horas (con capacidad de extención)",
-          "Botones y servivio al cuarto",
-          "Servicio de recogida opcional",
+          "Desayuno incluido",
+          "Centro de negocios",
+          "Gimnasio y spa",
+          "Wi-Fi gratuito"
         ],
         descripciondetalles: [
-          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
-          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
-          "Comprueba la disponibilidad para ver los horarios de inicio.",
-          "Español, Inglés.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
+          "Habitaciones amplias y modernas con vistas a la ciudad.",
+          "Restaurante gourmet con opciones internacionales.",
+          "Spa con tratamientos especializados y gimnasio totalmente equipado.",
+          "Wi-Fi de alta velocidad en todo el hotel.",
+          "Salones para reuniones y eventos corporativos."
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4834565845715!2d-75.55579808471768!3d10.398763292568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e5cbec569b7%3A0x104f74f7c27e5db0!2sHotel%20Caribe%20By%20Faranda%20Grand!5e0!3m2!1sen!2sco!4v1701183437394!5m2!1sen!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4834565845715!2d-75.55579808471768!3d10.398763292568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e5cbec569b7%3A0x104f74f7c27e5db0!2sHotel%20Caribe%20By%20Faranda%20Grand!5e0!3m2!1sen!2sco!4v1701183437394!5m2!1sen!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.726057678473!2d-75.531659!3d10.403060!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e4e2a1a61f3%3A0x5d08edb25c0bc177!2sCra.%201%20%232–87%2C%20Cartagena%20de%20Indias%2C%20Provincia%20de%20Cartagena%2C%20Bol%C3%ADvar!5e0!3m2!1sen!2sco!4v1701184871450!5m2!1sen!2sco",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.480447005351!2d-74.05355932502073!3d4.686249695288719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a99efea2a47%3A0x1af7949be5e8bb99!2sBogot%C3%A1%20Plaza%20Hotel!5e0!3m2!1ses!2sco!4v1733237053139!5m2!1ses!2sco",
         contentData: [
           {
-            titulo: "Historia y Cultura del Hotel Caribe en Cartagena Colombia",
-            description:
-              "El Hotel Caribe en Cartagena es un hito histórico y cultural que refleja la esencia de la ciudad. A continuacion te presentamos una breve descripción de su historia, cultura y algunos datos curiosos:",
+            titulo: "Historia y Cultura del Hotel Bogotá Plaza",
+            description: "El Hotel Bogotá Plaza ofrece una experiencia de lujo, destacándose por su diseño moderno y su excelente servicio.",
             historia: {
               title: "Historia",
-              content:
-                "Inaugurado en 1945, el Hotel Caribe fue uno de los primeros hoteles de lujo en Cartagena, diseñado para atraer tanto a turistas nacionales como internacionales. A lo largo de los años, el hotel ha sido testigo de la evolución de la ciudad y ha hospedado a importantes personalidades de la política, el entretenimiento y los negocios. Su arquitectura, que mezcla el estilo colonial con elementos modernos, ha sido restaurada y mantenida para preservar su encanto histórico. Durante más de 70 años, el Hotel Caribe ha sido un símbolo de hospitalidad y lujo en la costa caribeña colombiana.",
+              content: "Inaugurado en 1985, este hotel ha evolucionado para convertirse en uno de los referentes de la hospitalidad en Bogotá. Su ubicación estratégica lo hace ideal para explorar tanto la vida urbana como los atractivos culturales de la ciudad."
             },
             cultura: {
               title: "Cultura",
-              content:
-                "El Hotel Caribe es parte integral de la cultura cartagenera, no solo por su historia como uno de los primeros grandes hoteles de la ciudad, sino también por su vinculación con eventos importantes. A lo largo de los años, ha sido escenario de encuentros sociales, empresariales y culturales, promoviendo la difusión del arte, la música y la gastronomía de la región. Además, su cercanía al centro histórico de Cartagena permite a los huéspedes sumergirse en la vibrante cultura local, que abarca desde su arquitectura colonial hasta sus tradiciones gastronómicas.",
+              content: "El hotel celebra la cultura bogotana al colaborar con artistas locales para decorar sus espacios. Su restaurante principal ofrece una combinación de platos locales e internacionales, permitiendo a los huéspedes disfrutar de la rica gastronomía colombiana."
             },
             mitos: {
               title: "Datos Curiosos",
-              content:
-                "El Hotel Caribe se distingue por su ubicación privilegiada en el barrio de Bocagrande, una de las zonas más exclusivas y turísticas de Cartagena, conocida por sus playas y ambiente moderno. Su arquitectura histórica, que combina elementos coloniales con detalles contemporáneos, ha sido cuidadosamente preservada. Además, ofrece acceso directo a la playa, permitiendo a los huéspedes disfrutar del mar Caribe sin salir del hotel. A lo largo de los años, el hotel ha acogido a celebridades, políticos y artistas internacionales, convirtiéndose en un referente de lujo y hospitalidad en la ciudad. Su oferta gastronómica también es de renombre, con restaurantes que destacan los sabores del Caribe colombiano.",
+              content: "El hotel es conocido por su compromiso con la sostenibilidad, incorporando prácticas ecológicas en sus operaciones. Su spa ha sido reconocido como uno de los mejores de la ciudad."
             },
             images: [
-              "/img/hotelCaribeH1.webp",
-              "/img/hotelCaribeH2.webp",
-              "/img/hotelCaribeH3.webp",
-            ],
-          },
+              "/img/hBogotaPlaza1.jpg",
+              "/img/hBogotaPlaza2.jpg",
+              "/img/hBogotaPlaza3.jpg"
+            ]
+          }
         ],
-        flyer: "/img/FlyerHotelCaribe.jpg",
+        flyer: "/img/FlyerBogotaPlaza.jpg"
       },
       {
-        id: "hotel-estelar",
-        nombre: "Hotel Estelar",
-        img: "/img/hotelEstelar.jpg",
-        descripcion: "Hotel moderno cerca del aeropuerto.",
+        id: "hotel-estelar-bogota",
+        nombre: "Hotel Estelar Bogotá",
+        img: "/img/hotelEstelarBogota.jpg",
+        descripcion: "Un hotel moderno y elegante ubicado en el centro financiero de Bogotá.",
         bento: [
-          "/img/hotelCaribe.jpg",
-          "/img/hotelCaribe2.jpg",
-          "/img/hotelCaribe3.jpg",
-          "/img/hotelCaribe4.jpg",
-          "/img/hotelCaribe5.jpg",
+          "/img/hotelEstelarBogota1.jpg",
+          "/img/hotelEstelarBogota2.jpg",
+          "/img/hotelEstelarBogota3.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
-          "Reservar ahora y pagar después",
-          "Estadía 10.5 horas (con capacidad de extención)",
-          "Botones y servivio al cuarto",
-          "Servicio de recogida opcional",
+          "Desayuno buffet",
+          "Piscina al aire libre",
+          "Wi-Fi gratuito",
+          "Gimnasio y spa"
         ],
         descripciondetalles: [
-          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
-          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
-          "Comprueba la disponibilidad para ver los horarios de inicio.",
-          "Español, Inglés.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
+          "Piscina al aire libre con vista panorámica de la ciudad.",
+          "Salones para eventos y reuniones corporativas.",
+          "Gimnasio y spa con servicios de relajación.",
+          "Wi-Fi gratuito de alta velocidad en todo el hotel.",
+          "Restaurante con cocina internacional y local."
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4834565845715!2d-75.55579808471768!3d10.398763292568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e5cbec569b7%3A0x104f74f7c27e5db0!2sHotel%20Caribe%20By%20Faranda%20Grand!5e0!3m2!1sen!2sco!4v1701183437394!5m2!1sen!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4834565845715!2d-75.55579808471768!3d10.398763292568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e5cbec569b7%3A0x104f74f7c27e5db0!2sHotel%20Caribe%20By%20Faranda%20Grand!5e0!3m2!1sen!2sco!4v1701183437394!5m2!1sen!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.726057678473!2d-75.531659!3d10.403060!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62e4e2a1a61f3%3A0x5d08edb25c0bc177!2sCra.%201%20%232–87%2C%20Cartagena%20de%20Indias%2C%20Provincia%20de%20Cartagena%2C%20Bol%C3%ADvar!5e0!3m2!1sen!2sco!4v1701184871450!5m2!1sen!2sco",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50052.714021449225!2d-74.09245553470282!3d4.67988021058432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab2e9565caf%3A0x10d0ddf59c02d2e1!2sESTELAR%20La%20Fontana%20Hotel!5e0!3m2!1ses!2sco!4v1733237551525!5m2!1ses!2sco",
         contentData: [
           {
-            titulo: "Historia y Cultura del Hotel Caribe en Cartagena Colombia",
-            description:
-              "El Hotel Caribe en Cartagena es un hito histórico y cultural que refleja la esencia de la ciudad. A continuacion te presentamos una breve descripción de su historia, cultura y algunos datos curiosos:",
+            titulo: "Historia y Cultura del Hotel Estelar Bogotá",
+            description: "Hotel Estelar Bogotá combina elegancia, comodidad y un excelente servicio para todos sus huéspedes.",
             historia: {
               title: "Historia",
-              content:
-                "Inaugurado en 1945, el Hotel Caribe fue uno de los primeros hoteles de lujo en Cartagena, diseñado para atraer tanto a turistas nacionales como internacionales. A lo largo de los años, el hotel ha sido testigo de la evolución de la ciudad y ha hospedado a importantes personalidades de la política, el entretenimiento y los negocios. Su arquitectura, que mezcla el estilo colonial con elementos modernos, ha sido restaurada y mantenida para preservar su encanto histórico. Durante más de 70 años, el Hotel Caribe ha sido un símbolo de hospitalidad y lujo en la costa caribeña colombiana.",
+              content: "Desde su inauguración en 1990, el Hotel Estelar Bogotá ha sido un referente de lujo y comodidad en el sector financiero de la ciudad. Su diseño moderno lo posiciona como una excelente opción para los viajeros de negocios."
             },
             cultura: {
               title: "Cultura",
-              content:
-                "El Hotel Caribe es parte integral de la cultura cartagenera, no solo por su historia como uno de los primeros grandes hoteles de la ciudad, sino también por su vinculación con eventos importantes. A lo largo de los años, ha sido escenario de encuentros sociales, empresariales y culturales, promoviendo la difusión del arte, la música y la gastronomía de la región. Además, su cercanía al centro histórico de Cartagena permite a los huéspedes sumergirse en la vibrante cultura local, que abarca desde su arquitectura colonial hasta sus tradiciones gastronómicas.",
+              content: "El hotel apoya a la comunidad artística local exhibiendo obras en sus instalaciones y ofreciendo experiencias gastronómicas que resaltan los sabores típicos de la región."
             },
             mitos: {
               title: "Datos Curiosos",
-              content:
-                "El Hotel Caribe se distingue por su ubicación privilegiada en el barrio de Bocagrande, una de las zonas más exclusivas y turísticas de Cartagena, conocida por sus playas y ambiente moderno. Su arquitectura histórica, que combina elementos coloniales con detalles contemporáneos, ha sido cuidadosamente preservada. Además, ofrece acceso directo a la playa, permitiendo a los huéspedes disfrutar del mar Caribe sin salir del hotel. A lo largo de los años, el hotel ha acogido a celebridades, políticos y artistas internacionales, convirtiéndose en un referente de lujo y hospitalidad en la ciudad. Su oferta gastronómica también es de renombre, con restaurantes que destacan los sabores del Caribe colombiano.",
+              content: "El hotel se destaca por sus amplias habitaciones y su spa, que ha sido galardonado como uno de los mejores de Bogotá."
             },
             images: [
-              "/img/hotelCaribeH1.webp",
-              "/img/hotelCaribeH2.webp",
-              "/img/hotelCaribeH3.webp",
-            ],
-          },
+              "/img/hEstelarBogota1.jpg",
+              "/img/hEstelarBogota2.jpg",
+              "/img/hEstelarBogota3.jpg"
+            ]
+          }
         ],
-        flyer: "/img/FlyerHotelCaribe.jpg",
+        flyer: "/img/FlyerEstelarBogota.jpg"
       },
-    ],
-  },
+      {
+        id: "hotel-hilton-bogota",
+        nombre: "Hilton Bogotá",
+        img: "/img/hotelHiltonBogota.jpg",
+        descripcion: "Un lujoso hotel ubicado en el corazón de la Zona Rosa de Bogotá, ideal para explorar la vida nocturna y comercial de la ciudad.",
+        bento: [
+          "/img/hotelHiltonBogota1.jpg",
+          "/img/hotelHiltonBogota2.jpg",
+          "/img/hotelHiltonBogota3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Piscina climatizada",
+          "Gimnasio",
+          "Wi-Fi gratuito",
+          "Restaurante gourmet"
+        ],
+        descripciondetalles: [
+          "Habitaciones espaciosas con decoración contemporánea.",
+          "Piscina climatizada y gimnasio de última generación.",
+          "Restaurante que ofrece cocina internacional y local.",
+          "Salones para eventos y reuniones con capacidad para 500 personas.",
+          "Wi-Fi de alta velocidad disponible en todas las áreas."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d82071.93130417561!2d-74.16302209960087!3d4.681784876704485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shotel%20Hilton%20Bogot%C3%A1%20piscinas!5e0!3m2!1ses!2sco!4v1733238070791!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hilton Bogotá",
+            description: "El Hilton Bogotá destaca por su excelente ubicación y su servicio cinco estrellas.",
+            historia: {
+              title: "Historia",
+              content: "Abierto en 2012, el Hilton Bogotá es un hotel moderno diseñado para viajeros exigentes, ofreciendo comodidad y lujo en el corazón de la ciudad."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel organiza eventos culturales y exhibiciones de arte en sus instalaciones, permitiendo a los huéspedes conectarse con la cultura local mientras disfrutan de un ambiente de lujo."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Hilton Bogotá es famoso por su piscina climatizada y su restaurante de autor, que ha ganado múltiples premios gastronómicos."
+            },
+            images: [
+              "/img/hHiltonBogota1.jpg",
+              "/img/hHiltonBogota2.jpg",
+              "/img/hHiltonBogota3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerHiltonBogota.jpg"
+      },
+      {
+        id: "hotel-w-bogota",
+        nombre: "W Bogotá Hotel",
+        img: "/img/hotelWBogota.jpg",
+        descripcion: "Ubicado en el exclusivo barrio de Usaquén, este hotel ofrece un diseño vanguardista y experiencias únicas para sus huéspedes.",
+        bento: [
+          "/img/hotelWBogota1.jpg",
+          "/img/hotelWBogota2.jpg",
+          "/img/hotelWBogota3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Piscina climatizada",
+          "Spa de lujo",
+          "Wi-Fi gratuito",
+          "Bar y restaurante gourmet"
+        ],
+        descripciondetalles: [
+          "Diseño moderno inspirado en la leyenda de El Dorado.",
+          "Piscina climatizada con servicio de bar.",
+          "Habitaciones con vistas espectaculares y tecnología avanzada.",
+          "Spa de lujo con tratamientos personalizados.",
+          "Restaurante con cocina de autor que fusiona sabores colombianos e internacionales."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4404603787443!2d-74.03721592502073!3d4.693272995281713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa6620c146f%3A0xa2922291a3de6e4d!2sW%20Bogota!5e0!3m2!1ses!2sco!4v1733238279224!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del W Bogotá Hotel",
+            description: "El W Bogotá Hotel es conocido por su diseño inspirado en la leyenda de El Dorado y su enfoque en ofrecer experiencias únicas.",
+            historia: {
+              title: "Historia",
+              content: "Inaugurado en 2014, este hotel combina diseño contemporáneo con la rica historia de Colombia, creando un ambiente único para sus huéspedes."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel es un punto de encuentro para eventos culturales y sociales, destacando la música y el arte locales en sus instalaciones."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El diseño interior del hotel está inspirado en el mito de El Dorado, con elementos dorados y detalles que reflejan la riqueza cultural de Colombia."
+            },
+            images: [
+              "/img/hWBogota1.jpg",
+              "/img/hWBogota2.jpg",
+              "/img/hWBogota3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerWBogota.jpg"
+      },
+      {
+        id: "hotel-grand-hyatt-bogota",
+        nombre: "Grand Hyatt Bogotá",
+        img: "/img/hotelGrandHyattBogota.jpg",
+        descripcion: "Un hotel de lujo con instalaciones modernas, perfecto para viajeros de negocios y placer.",
+        bento: [
+          "/img/hotelGrandHyattBogota1.jpg",
+          "/img/hotelGrandHyattBogota2.jpg",
+          "/img/hotelGrandHyattBogota3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Piscina cubierta",
+          "Centro de negocios",
+          "Spa y gimnasio",
+          "Restaurantes de alta cocina"
+        ],
+        descripciondetalles: [
+          "Habitaciones amplias con decoración sofisticada.",
+          "Piscina cubierta y gimnasio con equipos de última generación.",
+          "Spa con tratamientos exclusivos de relajación.",
+          "Restaurantes con especialidades locales e internacionales.",
+          "Salones para eventos con capacidad para más de 1,000 personas."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7193290663827!2d-74.10263132502111!3d4.644071395330723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bc1be4e2a53%3A0x1d610fc552832a6d!2sHotel%20Grand%20Hyatt%20%7C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733240165607!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Grand Hyatt Bogotá",
+            description: "El Grand Hyatt Bogotá combina lujo y sofisticación con un toque colombiano, ofreciendo una experiencia inigualable.",
+            historia: {
+              title: "Historia",
+              content: "Desde su apertura en 2018, el Grand Hyatt Bogotá se ha destacado como uno de los hoteles más modernos y lujosos de la ciudad."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel celebra la diversidad cultural de Colombia a través de su oferta gastronómica y sus eventos temáticos."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El spa del hotel es considerado uno de los mejores de Bogotá, y su arquitectura ha sido premiada por su diseño innovador."
+            },
+            images: [
+              "/img/hGrandHyattBogota1.jpg",
+              "/img/hGrandHyattBogota2.jpg",
+              "/img/hGrandHyattBogota3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerGrandHyattBogota.jpg"
+      },
+      {
+        id: "hotel-marriott-bogota",
+        nombre: "Bogotá Marriott Hotel",
+        img: "/img/hotelMarriottBogota.jpg",
+        descripcion: "Hotel cinco estrellas ubicado cerca del aeropuerto El Dorado, ideal para viajes de negocios y placer.",
+        bento: [
+          "/img/hotelMarriottBogota1.jpg",
+          "/img/hotelMarriottBogota2.jpg",
+          "/img/hotelMarriottBogota3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Centro de negocios",
+          "Piscina cubierta",
+          "Gimnasio y spa"
+        ],
+        descripciondetalles: [
+          "Servicio de transporte al aeropuerto las 24 horas.",
+          "Restaurante con una amplia oferta culinaria internacional.",
+          "Piscina cubierta y gimnasio completamente equipado.",
+          "Salones para eventos empresariales y sociales.",
+          "Wi-Fi gratuito de alta velocidad en todas las instalaciones."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.633573489694!2d-74.11117852502099!3d4.65925669531558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b9a4f5b2981%3A0x3789ecc0545d000f!2sBogota%20Marriott%20Hotel!5e0!3m2!1ses!2sco!4v1733240446749!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Bogotá Marriott Hotel",
+            description: "El Bogotá Marriott Hotel se destaca por su cercanía al aeropuerto y su servicio excepcional.",
+            historia: {
+              title: "Historia",
+              content: "Desde su inauguración en 2009, este hotel ha sido una referencia para viajeros de negocios que buscan comodidad y eficiencia."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel organiza actividades que destacan la cultura local y ofrece una experiencia gastronómica que resalta los sabores colombianos."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Bogotá Marriott Hotel es conocido por su compromiso con la sostenibilidad, incorporando prácticas ecológicas en sus operaciones."
+            },
+            images: [
+              "/img/hMarriottBogota1.jpg",
+              "/img/hMarriottBogota2.jpg",
+              "/img/hMarriottBogota3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerMarriottBogota.jpg"
+      }
+    ]
+  },  
   {
     nombre: "Armenia y Salento",
     hoteles: [
@@ -1365,175 +1553,5 @@ export const ciudades = [
       }
       
     ]
-  },
-  
-  {
-    "nombre": "Santa Marta",
-    "hoteles": [
-      {
-        "id": "hotel-zuana-beach-resort",
-        "nombre": "Zuana Beach Resort",
-        "img": "/img/zuanaBeachResort.jpg",
-        "descripcion": "Un resort de lujo frente al mar Caribe, ideal para disfrutar de vacaciones familiares y experiencias inolvidables en Santa Marta.",
-        "bento": [
-          "/img/zuanaBeachResort1.jpg",
-          "/img/zuanaBeachResort2.jpg",
-          "/img/zuanaBeachResort3.jpg"
-        ],
-        "descripciongeneral": [
-          "Piscinas al aire libre",
-          "Acceso directo a la playa",
-          "Desayuno incluido",
-          "Spa y gimnasio",
-          "Restaurante gourmet"
-        ],
-        "descripciondetalles": [
-          "Habitaciones con vista al mar y balcones privados.",
-          "Piscinas infinitas con áreas recreativas.",
-          "Spa con masajes y tratamientos de relajación.",
-          "Wi-Fi gratuito en todo el resort.",
-          "Restaurantes que destacan la gastronomía caribeña."
-        ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d434400.4227532998!2d-74.35166863039179!3d11.234386217053776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sZuana%20Beach%20Resort!5e0!3m2!1ses!2sco!4v1733154894975!5m2!1ses!2sco",
-        "flyer": "/img/FlyerZuanaBeachResort.jpg"
-      },
-      {
-        "id": "hotel-irotama-resort",
-        "nombre": "Irotama Resort",
-        "img": "/img/irotamaResort.jpg",
-        "descripcion": "Con una ubicación privilegiada en Pozos Colorados, este resort combina naturaleza y lujo para una experiencia única.",
-        "bento": [
-          "/img/irotamaResort1.jpg",
-          "/img/irotamaResort2.jpg",
-          "/img/irotamaResort3.jpg"
-        ],
-        "descripciongeneral": [
-          "Cancelación gratuita",
-          "Desayuno incluido",
-          "Villas y suites con vista al mar",
-          "Piscinas y acceso a la playa",
-          "Gimnasio y spa"
-        ],
-        "descripciondetalles": [
-          "Piscinas rodeadas de jardines tropicales.",
-          "Acceso directo a una playa privada.",
-          "Spa con servicios personalizados.",
-          "Restaurantes con especialidades locales e internacionales.",
-          "Áreas recreativas para niños y adultos."
-        ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2515954.9032993177!2d-75.79349361553622!3d11.747066621345729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sIrotama%20Resort!5e0!3m2!1ses!2sco!4v1733155096081!5m2!1ses!2sco",
-        "flyer": "/img/FlyerIrotamaResort.jpg"
-      },
-      {
-        "id": "hotel-casa-de-lada",
-        "nombre": "Hotel Casa de Leda",
-        "img": "/img/casaDeLeda.jpg",
-        "descripcion": "Este hotel boutique, ubicado en el centro histórico de Santa Marta, ofrece un ambiente íntimo y acogedor con un diseño único.",
-        "bento": [
-          "/img/casaDeLeda1.jpg",
-          "/img/casaDeLeda2.jpg",
-          "/img/casaDeLeda3.jpg"
-        ],
-        "descripciongeneral": [
-          "Cancelación gratuita",
-          "Desayuno incluido",
-          "Spa con jacuzzi",
-          "Wi-Fi gratuito",
-          "Terraza con vista panorámica"
-        ],
-        "descripciondetalles": [
-          "Habitaciones decoradas con estilo colonial moderno.",
-          "Terraza con jacuzzi y vista a la catedral de Santa Marta.",
-          "Wi-Fi de alta velocidad en todas las áreas.",
-          "Spa con masajes y tratamientos personalizados.",
-          "Ubicación privilegiada cerca de atracciones históricas."
-        ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.255124657299!2d-74.21386932495123!3d11.242633388935902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f516616c32d%3A0x2596c7c10255d0ba!2sHotel%20Boutique%20%26%20Spa%20Casa%20de%20Leda%2C%20by%20Kali%20Hotels!5e0!3m2!1ses!2sco!4v1733156263333!5m2!1ses!2sco",
-        "flyer": "/img/FlyerCasaDeLeda.jpg"
-      },
-      {
-        "id": "hotel-santa-marta-marriott-resort",
-        "nombre": "Santa Marta Marriott Resort Playa Dormida",
-        "img": "/img/santaMartaMarriott.jpg",
-        "descripcion": "Un hotel de lujo frente al mar con diseño contemporáneo, ideal para quienes buscan relajación y comodidad.",
-        "bento": [
-          "/img/santaMartaMarriott1.jpg",
-          "/img/santaMartaMarriott2.jpg",
-          "/img/santaMartaMarriott3.jpg"
-        ],
-        "descripciongeneral": [
-          "Cancelación gratuita",
-          "Piscina infinita",
-          "Restaurante gourmet",
-          "Acceso directo a la playa",
-          "Wi-Fi gratuito"
-        ],
-        "descripciondetalles": [
-          "Habitaciones con balcones privados y vista al mar.",
-          "Piscina infinita con áreas de descanso.",
-          "Restaurante con especialidades caribeñas.",
-          "Wi-Fi gratuito de alta velocidad.",
-          "Salones para eventos y reuniones."
-        ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7234191325597!2d-74.23043692495294!3d11.1339645890374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4591e80c0ce69%3A0xac41dcadd7325b79!2sSanta%20Marta%20Marriott%20Resort%20Playa%20Dormida!5e0!3m2!1ses!2sco!4v1733156844521!5m2!1ses!2sco",
-        "flyer": "/img/FlyerSantaMartaMarriott.jpg"
-      },
-      {
-        "id": "hotel-mercure-santa-marta",
-        "nombre": "Mercure Santa Marta Emile",
-        "img": "/img/mercureSantaMarta.jpg",
-        "descripcion": "Ubicado en el sector de Bello Horizonte, este hotel ofrece comodidad y modernidad cerca del mar.",
-        "bento": [
-          "/img/mercureSantaMarta1.jpg",
-          "/img/mercureSantaMarta2.jpg",
-          "/img/mercureSantaMarta3.jpg"
-        ],
-        "descripciongeneral": [
-          "Cancelación gratuita",
-          "Piscina al aire libre",
-          "Desayuno incluido",
-          "Restaurante y bar",
-          "Gimnasio"
-        ],
-        "descripciondetalles": [
-          "Piscina rodeada de áreas verdes.",
-          "Wi-Fi gratuito en todas las instalaciones.",
-          "Restaurante con platos locales e internacionales.",
-          "Salones para reuniones y eventos corporativos.",
-          "Habitaciones modernas y funcionales."
-        ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.509090292172!2d-74.22741122495268!3d11.149892289022473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45886be770989%3A0xd497b678310d1667!2sMercure%20Santa%20Marta%20Emile!5e0!3m2!1ses!2sco!4v1733157034434!5m2!1ses!2sco",
-        "flyer": "/img/FlyerMercureSantaMarta.jpg"
-      },
-      {
-        "id": "hotel-best-western-plus-santa-marta",
-        "nombre": "Best Western Plus Santa Marta",
-        "img": "/img/bestWesternSantaMarta.jpg",
-        "descripcion": "Con una ubicación estratégica en el centro de Santa Marta, este hotel combina confort y conveniencia.",
-        "bento": [
-          "/img/bestWesternSantaMarta1.jpg",
-          "/img/bestWesternSantaMarta2.jpg",
-          "/img/bestWesternSantaMarta3.jpg"
-        ],
-        "descripciongeneral": [
-          "Cancelación gratuita",
-          "Desayuno incluido",
-          "Piscina en la azotea",
-          "Wi-Fi gratuito",
-          "Centro de negocios"
-        ],
-        "descripciondetalles": [
-          "Piscina en la azotea con vistas panorámicas de la ciudad.",
-          "Desayuno buffet con opciones variadas.",
-          "Wi-Fi de alta velocidad.",
-          "Centro de negocios con servicios personalizados.",
-          "Habitaciones modernas y cómodas."
-        ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.306459454341!2d-74.21584012495138!3d11.238851588939385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57c1ba015c5%3A0x60b0682b8a1a5543!2sBest%20Western%20Plus%20Santa%20Marta%20Hotel!5e0!3m2!1ses!2sco!4v1733157207403!5m2!1ses!2sco",
-        "flyer": "/img/FlyerBestWesternSantaMarta.jpg"
-      }
-    ]
   }
-    
-
 ];
