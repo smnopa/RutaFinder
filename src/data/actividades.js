@@ -3,125 +3,324 @@ export const actividades = [
     nombre: "Cartagena",
     actividades: [
       {
-        id: "actividad1",
-        nombre: "Tour en Chiva Rumbera",
-        img: "/img/chivaRumbera.jpg",
+        id: "San-Felipe-Barajas",
+        nombre: "Castillo de San Felipe de Barajas",
+        img: "/img/sanFelipe.jpg",
         descripcion:
-          "Disfruta de un recorrido nocturno por la ciudad en la icónica Chiva Rumbera con música en vivo y mucha diversión.",
-        bento: ["/img/chiva1.jpg", "/img/chiva2.jpg", "/img/chiva3.jpg"],
+          "Una de las fortalezas más grandes y mejor conservadas de América Latina, construida en el siglo XVII para defender Cartagena de los ataques piratas.",
+        bento: [
+          "/img/sanFelipe.jpg",
+          "/img/sanFelipe2.jpg",
+          "/img/sanFelipe3.jpg",
+          "/img/sanFelipe4.jpg",
+          "/img/sanFelipe5.jpg",
+        ],
         descripciongeneral: [
-          "Duración: 3 horas",
-          "Bebidas y snacks incluidos",
-          "Guía turístico local",
-          "Recogida en hoteles principales",
+          "Fortaleza histórica",
+          "Vistas panorámicas",
+          "Guía local disponible",
+          "Recorrido por túneles",
         ],
         descripciondetalles: [
-          "Cancelación gratuita hasta 24 horas antes.",
-          "Ambiente festivo con música en vivo y DJ.",
-          "Visita a los principales monumentos iluminados.",
+          "Incluye visitas a las murallas y túneles subterráneos.",
+          "Vistas impresionantes de la ciudad amurallada y el mar Caribe.",
+          "Se recomienda llevar protector solar y agua.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3...",
-        flyer: "/img/chivaFlyer.jpg",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.256467239467!2d-75.5418459!3d10.4225113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f82af0c292b%3A0x56335e1e7a81b1c1!2sFuerte%20San%20Felipe%20de%20Barajas!5e0!3m2!1ses!2sco!4v1701463658547!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia del Castillo de San Felipe de Barajas",
+            description:
+              "El castillo fue una de las principales fortificaciones militares construidas por los españoles en América.",
+            historia: {
+              title: "Historia",
+              content:
+                "Construido en el siglo XVII, el castillo sirvió para defender Cartagena de los piratas, siendo considerado una de las mejores obras militares de la época.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Hoy en día, el castillo es un sitio histórico clave que muestra la arquitectura militar colonial y la historia de Cartagena.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Se cree que el castillo fue construido por esclavos africanos, quienes dejaron su huella en su arquitectura.",
+            },
+            images: [
+              "/img/castilloH1.jpg",
+              "/img/castilloH2.jpg",
+              "/img/castilloH3.jpg",
+            ],
+          },
+        ],
+        flyer: "/img/flyerSanFelipe.jpg",
       },
       {
-        id: "actividad2",
-        nombre: "Excursión a las Islas del Rosario",
-        img: "/img/islasRosario.jpg",
+        id: "Torre-Reloj",
+        nombre: "La Torre del Reloj",
+        img: "/img/torreReloj.jpg",
         descripcion:
-          "Un día inolvidable de sol, playa y snorkel en las paradisíacas Islas del Rosario.",
-        bento: ["/img/isla1.jpg", "/img/isla2.jpg"],
+          "Un símbolo de Cartagena, esta torre es la entrada a la ciudad amurallada y se construyó en el siglo XIX como parte de las murallas de la ciudad.",
+        bento: [
+          "/img/torre1.jpg",
+          "/img/torre2.jpg",
+          "/img/torre3.jpg",
+          "/img/torre4.jpg",
+          "/img/torre5.jpg",
+        ],
         descripciongeneral: [
-          "Duración: 8 horas",
-          "Transporte en lancha rápida",
-          "Almuerzo típico caribeño",
+          "Ubicación central",
+          "Arquitectura colonial",
+          "Entrada histórica",
+          "Fotografía recomendada",
         ],
         descripciondetalles: [
-          "Incluye equipo de snorkel.",
-          "Tiempo libre para explorar la isla.",
-          "Salida desde el muelle de la Bodeguita.",
+          "La torre fue diseñada en 1800 y es parte del acceso principal a la ciudad amurallada.",
+          "Es un lugar ideal para tomar fotos y apreciar la arquitectura colonial de Cartagena.",
+          "Está cerca de otros puntos turísticos importantes, como la Plaza de los Coches.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3...",
-        flyer: "/img/islasRosarioFlyer.jpg",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.256467239467!2d-75.5517932!3d10.422984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625fa6fffffff%3A0xc5e9aefe72bf812e!2sMonumento%20Torre%20del%20Reloj!5e0!3m2!1ses!2sco!4v1701463594104!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia de la Torre del Reloj",
+            description:
+              "La Torre del Reloj fue construida en 1800 y es una de las estructuras más reconocibles de Cartagena.",
+            historia: {
+              title: "Historia",
+              content:
+                "La torre originalmente sirvió como la puerta principal de entrada a la ciudad amurallada, y más tarde se le añadió el reloj.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Torre del Reloj es un símbolo de Cartagena, con su reloj histórico que marca el tiempo y la vida de la ciudad.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Al principio, la torre fue conocida como el 'Portal de los Dulces', debido a la cercanía de un mercado de golosinas.",
+            },
+            images: [
+              "/img/torreH1.jpg",
+              "/img/torreH2.jpg",
+              "/img/torreH3.jpg",
+            ],
+          },
+        ],
+        flyer: "/img/flyerTorre.jpg",
       },
       {
-        id: "actividad3",
-        nombre: "Tour por el Centro Histórico y la Ciudad Amurallada",
-        img: "/img/centroHistorico.jpg",
+        id: "Plaza-Coches",
+        nombre: "Plaza de los Coches",
+        img: "/img/plazaCoches.jpg",
         descripcion:
-          "Camina por las calles empedradas de Cartagena y descubre su historia colonial.",
-        bento: ["/img/historia1.jpg", "/img/historia2.jpg"],
+          "Una de las plazas más emblemáticas de Cartagena, ubicada justo frente a la Torre del Reloj, rodeada de edificios históricos y restaurantes.",
+        bento: [
+          "/img/plaza1.jpg",
+          "/img/plaza2.jpg",
+          "/img/plaza3.jpg",
+          "/img/plaza4.jpg",
+          "/img/plaza5.jpg",
+        ],
         descripciongeneral: [
-          "Duración: 2 horas",
-          "Guía especializado en historia",
-          "Visita a monumentos y plazas emblemáticas",
+          "Ambiente turístico",
+          "Cultura local",
+          "Eventos y festivales",
+          "Accesibilidad desde la Torre del Reloj",
         ],
         descripciondetalles: [
-          "Recorrido a pie por la ciudad amurallada.",
-          "Visita al Parque Bolívar y la Torre del Reloj.",
+          "Es un excelente lugar para relajarse y disfrutar del ambiente cartagenero.",
+          "Los restaurantes y tiendas locales son perfectos para disfrutar de la comida típica.",
+          "La plaza se utiliza para eventos culturales y festivales durante todo el año.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3...",
-        flyer: "/img/centroFlyer.jpg",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.256467239467!2d-75.5518855!3d10.4231992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9fe78a8e89%3A0x91591d3fbb485bd3!2sPlaza%20de%20los%20Coches!5e0!3m2!1ses!2sco!4v1701463909284!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia de la Plaza de los Coches",
+            description:
+              "Plaza de los Coches es una de las plazas más visitadas de Cartagena, siendo un punto de encuentro para turistas y locales.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fue el lugar de mercado de esclavos durante la época colonial y actualmente es un punto de encuentro en el centro histórico.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Es un lugar lleno de vida, con música, arte y cultura que reflejan la esencia de Cartagena.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La plaza está rodeada por una arquitectura colonial, y en sus alrededores se encuentran algunas de las mejores tiendas de recuerdos.",
+            },
+            images: [
+              "/img/plazaH1.jpg",
+              "/img/plazaH2.jpg",
+              "/img/plazaH3.jpg",
+            ],
+          },
+        ],
+        flyer: "/img/flyerPlaza.jpg",
       },
       {
-        id: "actividad4",
-        nombre: "Clase de Cocina Caribeña",
-        img: "/img/cocinaCaribe.jpg",
+        id: "Isla-Baru",
+        nombre: "Isla de Barú",
+        img: "/img/islaBaru.jpg",
         descripcion:
-          "Aprende a preparar platos tradicionales como arroz con coco y ceviche con chefs locales.",
-        bento: ["/img/cocina1.jpg", "/img/cocina2.jpg"],
+          "Isla paradisíaca ubicada a pocos kilómetros de Cartagena, conocida por sus playas de aguas cristalinas y su ambiente tranquilo.",
+        bento: [
+          "/img/isla1.jpg",
+          "/img/isla2.jpg",
+          "/img/isla3.jpg",
+          "/img/isla4.jpg",
+          "/img/isla5.jpg",
+        ],
         descripciongeneral: [
-          "Duración: 3 horas",
-          "Ingredientes frescos incluidos",
-          "Clase práctica con degustación",
+          "Playas de arena blanca",
+          "Actividades acuáticas",
+          "Ideal para relajarse",
+          "Accesibilidad desde Cartagena",
         ],
         descripciondetalles: [
-          "Preparación de platos típicos.",
-          "Incluye recetas para llevar a casa.",
-          "Certificado de participación.",
+          "La isla es famosa por sus playas de arena blanca y agua turquesa.",
+          "Ideal para actividades como el buceo, snorkeling y paseos en bote.",
+          "Puedes llegar a la isla en transporte público o por barco desde Cartagena.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3...",
-        flyer: "/img/cocinaFlyer.jpg",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.256467239467!2d-75.5860282!3d10.3498228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef628e5b32be1a3%3A0xe0be65bff4d9d206!2sIsla%20de%20Tierra%20Bomba!5e0!3m2!1ses!2sco!4v1701464086812!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Isla Barú y sus Playas",
+            description:
+              "Conocida por sus playas de ensueño, Isla Barú es un destino ideal para desconectar y disfrutar de la naturaleza.",
+            historia: {
+              title: "Historia",
+              content:
+                "Antiguamente conocida como la 'Isla de las Palmas', es un lugar perfecto para disfrutar de actividades acuáticas y su fauna.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El entorno natural y las actividades de la isla brindan una experiencia única de relajación y contacto con la naturaleza.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "En la isla se encuentran algunas de las playas más vírgenes de la región y es famosa por su ambiente relajado.",
+            },
+            images: ["/img/islaH1.jpg", "/img/islaH2.jpg", "/img/islaH3.jpg"],
+          },
+        ],
+        flyer: "/img/flyerIsla.jpg",
       },
       {
-        id: "actividad5",
-        nombre: "Paseo en Catamarán al Atardecer",
-        img: "/img/catamaran.jpg",
+        id: "Murallas-Cartagena",
+        nombre: "Las Murallas de Cartagena",
+        img: "/img/murallas.jpg",
         descripcion:
-          "Relájate con una copa de vino mientras navegas por la bahía de Cartagena durante el atardecer.",
-        bento: ["/img/catamaran1.jpg", "/img/catamaran2.jpg"],
+          "Una de las maravillas de Cartagena, las murallas fueron construidas para proteger la ciudad de los ataques piratas y hoy son un importante símbolo histórico.",
+        bento: [
+          "/img/murallas1.jpg",
+          "/img/murallas2.jpg",
+          "/img/murallas3.jpg",
+          "/img/murallas4.jpg",
+          "/img/murallas5.jpg",
+        ],
         descripciongeneral: [
-          "Duración: 2 horas",
-          "Bebida de cortesía incluida",
-          "Música relajante a bordo",
+          "Historia colonial",
+          "Recorrido panorámico",
+          "Vistas al mar",
+          "Accesibilidad desde el centro histórico",
         ],
         descripciondetalles: [
-          "Navegación por la bahía de Cartagena.",
-          "Salida desde el muelle turístico.",
-          "Opción de bebidas adicionales a bordo.",
+          "Las murallas ofrecen una caminata tranquila con vistas impresionantes del mar Caribe.",
+          "Se puede realizar un recorrido a pie y disfrutar de las históricas estructuras.",
+          "El lugar es ideal para fotos y explorar la historia de Cartagena.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3...",
-        flyer: "/img/catamaranFlyer.jpg",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.256467239467!2d-75.5474399!3d10.4296151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9f3fb420c7%3A0x2553d110a2ea22e0!2sMurallas%20de%20Cartagena!5e0!3m2!1ses!2sco!4v1701464262552!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia de las Murallas de Cartagena",
+            description:
+              "Las murallas fueron construidas por los españoles para proteger Cartagena de los ataques de piratas y enemigos.",
+            historia: {
+              title: "Historia",
+              content:
+                "Las murallas se construyeron durante los siglos XVI y XVII, uniendo diferentes fortificaciones que rodeaban la ciudad.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Las murallas forman parte del patrimonio histórico de Cartagena y son un recordatorio del pasado colonial de la ciudad.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Las murallas tienen varios puntos estratégicos, ideales para disfrutar de una vista panorámica de la ciudad y el mar.",
+            },
+            images: [
+              "/img/murallasH1.jpg",
+              "/img/murallasH2.jpg",
+              "/img/murallasH3.jpg",
+            ],
+          },
+        ],
+        flyer: "/img/flyerMurallas.jpg",
       },
       {
-        id: "actividad6",
-        nombre: "Baño de Lodo en el Volcán del Totumo",
-        img: "/img/volcanTotumo.jpg",
+        id: "Playa-Blanca",
+        nombre: "Playa Blanca",
+        img: "/img/playaBlanca.jpg",
         descripcion:
-          "Disfruta de una experiencia única sumergiéndote en un baño de lodo volcánico con propiedades rejuvenecedoras.",
-        bento: ["/img/volcan1.jpg", "/img/volcan2.jpg", "/img/volcan3.jpg"],
+          "Una de las playas más famosas cerca de Cartagena, conocida por su arena blanca y aguas cristalinas. Ideal para relajarse y disfrutar del sol.",
+        bento: [
+          "/img/playa1.jpg",
+          "/img/playa2.jpg",
+          "/img/playa3.jpg",
+          "/img/playa4.jpg",
+          "/img/playa5.jpg",
+        ],
         descripciongeneral: [
-          "Duración: 4 horas",
-          "Transporte ida y vuelta incluido",
-          "Guía local experto",
-          "Baño en aguas termales y ducha opcional",
+          "Arena blanca",
+          "Aguas turquesas",
+          "Ideal para deportes acuáticos",
+          "Ambiente relajado",
         ],
         descripciondetalles: [
-          "Baño relajante en lodo volcánico con propiedades terapéuticas.",
-          "Incluye servicio de masajes en el lodo por lugareños.",
-          "Ducha en un río cercano para limpieza posterior.",
+          "Playa Blanca es famosa por su arena blanca y agua transparente, perfecta para nadar y relajarse.",
+          "Es un excelente lugar para realizar actividades acuáticas como el kayak, snorkel y paseos en bote.",
+          "A unos 45 minutos de Cartagena, es un destino ideal para un día de playa en un entorno natural.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3...",
-        flyer: "/img/volcanTotumoFlyer.jpg",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.256467239467!2d-75.6083729!3d10.2952982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef629d8ff6d4d8f%3A0x5f699e2aa7e17a79!2sPlaya%20Blanca!5e0!3m2!1ses!2sco!4v1701464409608!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Disfruta de Playa Blanca",
+            description:
+              "La playa es conocida por su belleza natural y es un excelente lugar para desconectar de la ciudad.",
+            historia: {
+              title: "Historia",
+              content:
+                "Playa Blanca ha sido uno de los destinos más buscados por los turistas, tanto locales como internacionales, debido a su belleza natural.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La zona alrededor de Playa Blanca es conocida por su cultura local, especialmente los pescadores que ofrecen frescos mariscos.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Playa Blanca es famosa no solo por sus aguas cristalinas, sino también por ser un lugar donde se pueden ver delfines y otras especies marinas.",
+            },
+            images: [
+              "/img/playaH1.jpg",
+              "/img/playaH2.jpg",
+              "/img/playaH3.jpg",
+            ],
+          },
+        ],
+        flyer: "/img/flyerPlayaBlanca.jpg",
       },
     ],
   },
