@@ -202,12 +202,120 @@ export const paquetes = [
           flyer: "/img/flyerVuelo.jpg",
         },
       {
-        id: "paquete4",
-        nombre: "Aventura en la Sabana",
-        img: "/img/paquetestodoenuno.png",
+        id: "Plan-Quindio-super-económico",
+        nombre: "Plan Quindio super económico",
+        img: "/img/paqueteEjeCafetero.jpg",
         descripcion:
-          "Tour por los paisajes y actividades al aire libre en la Sabana de Bogotá.",
+          "El Plan Quindio Super económico 4 dias 3 noches con PARQUE DEL CAFE , SALENTO, VALLE DE COCORA Y TERMALES, ha sido diseñado para aquellas personas que quieren disfrutar el Eje Cafetero al mejor precio posible, alojándose en una tradicional finca cafetera, de muy fácil acceso en vehículo privado o público.",
+          bento: [
+            "/img/paqueteEjeCafetero1.jpg",
+            "/img/paqueteEjeCafetero2.jpg",
+            "/img/paqueteEjeCafetero3.jpg",
+            "/img/paqueteEjeCafetero4.jpeg",
+            "/img/paqueteEjeCafetero5.jpg",
+          ],
+          descripciongeneral: [
+            "Cancelación gratuita",
+            "Reservar tu transporte privado",
+            "Pasaporte múltiple al parque del café",
+            "Ingreso al Valle de Cocora",
+            "Ingreso a Termales Santa Rosa",
+          ],
+          descripciondetalles: [
+            "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+            "Planes flexibles: reserva transporte privado de inmediato, sin que se te haga el cargo.",
+            "Traslado al Parque del Café y tiquetes para todas las atracciones",
+            "Traslado al Valle de Cocora y caminata",
+            "Traslado a Termales Santa Rosa y ingreso a sus termales y piscinas",
+          ],
+          mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.1066079264926!2d-75.7738652!3d4.5409094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e385f3a3bc3c35d%3A0xa91b90ca5f875e4d!2sParque%20del%20caf%C3%A9!5e0!3m2!1ses!2sco!4v1701263871655!5m2!1ses!2sco",
+          contentData: [
+            {
+              titulo: "Historia y Cultura, Plan Quindio super económico del Quindío",
+              description:
+                "El tour que combina el Parque del Café, los Termales de Santa Rosa y el Valle del Cocora te brinda una experiencia única en el corazón del Eje Cafetero de Colombia, rica en historia y cultura.",
+              historia: {
+                title: "Historia",
+                content:
+                  "Este tour refleja la historia rica y diversa del Eje Cafetero, una región que se desarrolló a partir del cultivo del café a fines del siglo XIX. El Parque del Café fue creado en 1995 como una forma de preservar y promocionar esta herencia, además de educar a las generaciones futuras sobre la importancia económica y cultural del café para Colombia.Por su parte, el Valle del Cocora ha sido un área protegida desde 1985 debido a la necesidad de conservar la palma de cera, que ha sido parte integral de la historia natural de la región y un emblema nacional, además Los Termales de Santa Rosa también tienen una historia profunda, ya que las aguas termales han sido utilizadas desde tiempos precolombinos por sus propiedades curativas. Hoy, combinan esa tradición con instalaciones modernas para que los visitantes disfruten de una experiencia de bienestar en un entorno natural impresionante.",
+              },
+              cultura: {
+                title: "Cultura",
+                content:
+                  "Este tour es un reflejo de la cultura cafetera, que ha dado forma a la identidad del Eje Cafetero. En el Parque del Café, la cultura se vive a través de su arquitectura, música, danza y las representaciones teatrales de la vida rural, que muestran la importancia del café en la vida cotidiana. Además, el parque promueve el respeto por la tierra y las técnicas agrícolas sostenibles.En el Valle del Cocora, la cultura se entrelaza con la naturaleza. Los locales tienen un respeto profundo por la palma de cera y por todo el ecosistema que rodea al valle. Esta conexión entre la naturaleza y la cultura se refleja en las tradiciones de la región, donde la conservación de los recursos naturales es clave para el bienestar de la comunidad.Los Termales de Santa Rosa son una parte esencial de la cultura de bienestar que existe en el Eje Cafetero. Desde tiempos ancestrales, las aguas termales han sido veneradas por sus propiedades curativas, y hoy en día son un lugar donde locales y turistas se reúnen para relajarse y conectarse con la naturaleza.",
+              },
+              mitos: {
+                title: "Datos Curiosos",
+                content:
+                  "El Quindío produce uno de los cafés más suaves del mundo, debido a su ubicación geográfica, clima y altura, y En algunos tours, se ofrece la oportunidad de preparar tu propio café, lo que te permite experimentar todo el proceso, desde la recolección hasta la degustación final, además En la mayoría de las fincas, el café crece junto a otros cultivos como plátanos y frutas tropicales, lo que enriquece tanto el sabor como el ecosistema agrícola.",
+              },
+              images: [
+                "/img/hycEje1.jpg",
+                "/img/hycEje2.jpg",
+                "/img/hycEje3.jpg",
+
+              ],
+            },
+          ],
+          flyer: "/img/flyerEjeCafetero.png",
       },
+      {
+        id: "Paquete-uno-hotel-Panaca",
+        nombre: "Paquete todo en uno hotel + Panaca",
+        img: "/img/paquetePanaca.jpg",
+        descripcion:
+          "Este paquete ha sido diseñado para personas que amén el campo y sus animales con el Parque Temático Agropecuario. 5 estaciones y shows: Ganadería, avicultura, porcicultura, mundo del perro, shows El Espectacular mundo del caballo y especies menores. No opera los lunes.",
+          bento: [
+            "/img/paquetePanaca1.jpg",
+            "/img/paquetePanaca2.jpg",
+            "/img/paquetePanaca3.jpg",
+            "/img/paquetePanaca4.jpg",
+            "/img/paquetePanaca5.jpg",
+          ],
+          descripciongeneral: [
+            "Cancelación gratuita",
+            "Reservar tu transporte privado",
+            "Pasaporte múltiple al parque Panaca",
+            "Ingreso al Parque Panaca",
+            "Ingreso privado y acercamiento a los animales(opcional)",
+          ],
+          descripciondetalles: [
+            "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+            "Planes flexibles: reserva transporte privado de inmediato, sin que se te haga el cargo.",
+            "Traslado al Parque Panaca y tiquetes para todas las atracciones",
+            "Tiqute para ingresas + almuerzo en el Parque Panaca",
+            "Tienes la opción de ingresar privado y conocer a los animales",
+          ],
+          mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.1066079264926!2d-75.8237113!3d4.6074785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38677971507c4d%3A0xad8d1f986e4d2c6f!2sPanaca%20Quindio!5e0!3m2!1ses!2sco!4v1701264871450!5m2!1ses!2sco",
+          contentData: [
+            {
+              titulo: "Historia y Cultura, Paquete todo en uno hotel + Panaca",
+              description:
+                "El Parque Panaca, inaugurado en 1999, es el primer parque agropecuario de Colombia y uno de los más grandes del mundo. Su nombre completo es Parque Nacional de la Cultura Agropecuaria.",
+              historia: {
+                title: "Historia",
+                content:
+                  "Fue creado con la misión de educar a las personas sobre la importancia del campo, la producción agrícola y la vida rural, buscando reconectar a la gente, especialmente a las generaciones más jóvenes, con las raíces agropecuarias del país. El parque está ubicado en el municipio de Quimbaya, en el departamento del Quindío, una región conocida por su exuberante naturaleza y su papel en la producción de café.Panaca fue concebido como una respuesta a la urbanización creciente, con el fin de sensibilizar a los visitantes sobre la vital importancia de las actividades agrícolas y ganaderas. Además, el parque es pionero en el agroturismo en Colombia, lo que ha permitido su consolidación como un lugar emblemático para el turismo familiar y educativo en el Eje Cafetero.",
+              },
+              cultura: {
+                title: "Cultura",
+                content:
+                  "La cultura de Panaca está profundamente ligada a la vida rural y la tradición campesina de Colombia. El parque es un homenaje a los campesinos, quienes desempeñan un papel fundamental en la economía y cultura del país, pero cuya labor muchas veces es poco reconocida. A través de sus exposiciones interactivas, espectáculos y actividades prácticas, los visitantes pueden experimentar de primera mano la vida en el campo, incluyendo la crianza de animales, la siembra de cultivos y el proceso de producción agrícola.Uno de los aspectos culturales más destacados de Panaca es su esfuerzo por rescatar y preservar el saber campesino. El parque promueve valores como el respeto por los animales, el trabajo duro en el campo y la importancia de la sostenibilidad. Los visitantes no solo aprenden sobre la vida rural, sino que también son testigos de la belleza y diversidad de la flora y fauna que sustentan la cultura agropecuaria del país.",
+              },
+              mitos: {
+                title: "Datos Curiosos",
+                content:
+                  "Panaca ofrece la oportunidad de interactuar con más de 4,500 animales domésticos, como vacas, caballos, cabras, cerdos, aves de corral y más. Es una experiencia única en la que los visitantes pueden ordeñar vacas, alimentar cabras y aprender sobre la importancia de los animales en la vida campesina, además el parque presenta varios espectáculos diarios en los que se muestran las habilidades y destrezas de los animales. Uno de los más populares es el espectáculo de caballos y perros, que exhibe su entrenamiento y la relación con los seres humanos en un entorno rural.Panaca fue uno de los primeros parques en Colombia en enfocarse en el turismo educativo relacionado con la agropecuaria. A través de este concepto, el parque ha logrado combinar entretenimiento y educación, ayudando a los visitantes a comprender la importancia de la agricultura y la ganadería en la vida diaria.",
+              },
+              images: [
+                "/img/hycVuelo3.webp",
+                "/img/hycVuelo2.webp",
+                "/img/hycVuelo1.webp",
+              ],
+            },
+          ],
+          flyer: "/img/flyerPanaca.jpg",
+        },
     ],
   },
 ];

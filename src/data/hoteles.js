@@ -805,4 +805,735 @@ export const ciudades = [
       },
     ],
   },
+  {
+    nombre: "Medellín",
+    hoteles: [
+      {
+        id: "hotel-san-fernando-plaza",
+        nombre: "Hotel San Fernando Plaza",
+        img: "/img/hotelSanFernandoPlaza.jpg",
+        descripcion: "El Hotel San Fernando Plaza, ubicado en El Poblado, Medellín, combina lujo y comodidad con una ubicación estratégica. Ofrece servicios exclusivos, una piscina con vista panorámica y restaurantes que destacan lo mejor de la gastronomía paisa.",
+        bento: [
+          "/img/hotelSanFernandoPlaza1.jpg",
+          "/img/hotelSanFernandoPlaza2.jpg",
+          "/img/hotelSanFernandoPlaza3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Piscina al aire libre",
+          "Centro de negocios",
+          "Spa y gimnasio"
+        ],
+        descripciondetalles: [
+          "Cancela con hasta 48 horas de antelación.",
+          "Desayuno tipo buffet con platos locales e internacionales.",
+          "Piscina con vistas espectaculares de Medellín.",
+          "Wi-Fi gratuito en todas las áreas del hotel.",
+          "Gimnasio y spa con tratamientos especializados."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3966.4528723150506!2d-75.57336207602714!3d6.203835876797651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSanFernandoPlaza!5e0!3m2!1ses-419!2sco!4v1732920897742!5m2!1ses-419!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel San Fernando Plaza",
+            description: "El Hotel San Fernando Plaza es un referente de lujo y elegancia en Medellín, destacado por su ubicación estratégica y su enfoque en la excelencia en el servicio.",
+            historia: {
+              title: "Historia",
+              content: "Inaugurado en 2006, el Hotel San Fernando Plaza fue concebido como un espacio exclusivo para viajeros de negocios y turistas en Medellín. Desde su apertura, ha sido reconocido como uno de los hoteles más prestigiosos de la ciudad, ofreciendo una experiencia de lujo en el corazón de El Poblado. Diseñado con un enfoque moderno, el hotel refleja la evolución de Medellín hacia una ciudad innovadora y cosmopolita."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel es un punto de encuentro para eventos culturales, corporativos y sociales. Su restaurante principal ofrece una selección de platos que fusionan sabores internacionales con ingredientes locales, destacando lo mejor de la gastronomía paisa. Además, su ubicación en El Poblado lo convierte en un lugar ideal para explorar la vibrante vida nocturna y los atractivos culturales de Medellín."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Hotel San Fernando Plaza es conocido por su amplia terraza que ofrece vistas panorámicas del Valle de Aburrá. Su piscina climatizada y su spa han sido destacados como los mejores de la ciudad. Además, ha sido el lugar de hospedaje de personalidades destacadas del entretenimiento y la política durante sus visitas a Medellín."
+            },
+            images: [
+              "/img/hSanFernandoPlaza1.jpg",
+              "/img/hSanFernandoPlaza2.jpg",
+              "/img/hSanFernandoPlaza3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerSanFernandoPlaza.jpg"
+      },            
+      {
+        id: "hotel-dann-carlton",
+        nombre: "Hotel Dann Carlton Medellín",
+        img: "/img/hotelDannCarlton.jpg",
+        descripcion: "Con una ubicación privilegiada en el corazón de Medellín, el Hotel Dann Carlton combina elegancia y modernidad, ofreciendo servicios de lujo y un ambiente exclusivo.",
+        bento: [
+          "/img/hotelDannCarlton1.jpg",
+          "/img/hotelDannCarlton2.jpg",
+          "/img/hotelDannCarlton3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Piscina al aire libre",
+          "Desayuno incluido",
+          "Centro de convenciones",
+          "Wi-Fi gratuito"
+        ],
+        descripciondetalles: [
+          "Cancelación gratuita hasta 24 horas antes de la llegada.",
+          "Desayuno tipo buffet con opciones saludables.",
+          "Piscina con diseño tropical.",
+          "Salones para eventos con tecnología avanzada.",
+          "Servicio de transporte al aeropuerto (opcional)."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4266429739455!2d-75.57326072602717!3d6.20732042675891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282a784ae603%3A0x3fbde8512ade3fb1!2sHotel%20Dann%20Carlton%20Medell%C3%ADn!5e0!3m2!1ses-419!2sco!4v1732920846479!5m2!1ses-419!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Dann Carlton Medellín",
+            description: "El Hotel Dann Carlton Medellín es un referente de elegancia y tradición en la ciudad, ofreciendo un servicio excepcional y una ubicación privilegiada.",
+            historia: {
+              title: "Historia",
+              content: "Fundado en 1995, el Hotel Dann Carlton Medellín se ha consolidado como uno de los hoteles más prestigiosos de la ciudad. Diseñado para atraer tanto a viajeros de negocios como a turistas, el hotel combina un diseño clásico con instalaciones modernas. A lo largo de los años, ha sido escenario de importantes eventos sociales, corporativos y culturales, posicionándose como un ícono en la hospitalidad de Medellín."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El Hotel Dann Carlton Medellín refleja la vibrante cultura de la ciudad al incorporar elementos locales en su gastronomía y diseño. Su restaurante principal, El Tony Roma's, ofrece una fusión de sabores internacionales y locales, mientras que su ubicación permite a los huéspedes explorar fácilmente la vida cultural y artística de Medellín, incluyendo eventos como la Feria de las Flores."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Dann Carlton Medellín es conocido por su espectacular piscina al aire libre rodeada de jardines tropicales, considerada una de las más exclusivas de la ciudad. Además, el hotel ha hospedado a diversas personalidades internacionales, convirtiéndolo en un lugar de referencia para los visitantes de alto perfil."
+            },
+            images: [
+              "/img/hDannCarlton1.jpg",
+              "/img/hDannCarlton2.jpg",
+              "/img/hDannCarlton3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerDannCarlton.jpg"
+      },            
+      {
+        id: "hotel-nh-collection-medellin",
+        nombre: "Hotel NH Collection Medellín Royal",
+        img: "/img/hotelNHCollection.jpg",
+        descripcion: "Ubicado cerca de la Milla de Oro, este hotel es ideal para viajes de negocios y placer, combinando lujo moderno con un excelente servicio.",
+        bento: [
+          "/img/hotelNHCollection1.jpg",
+          "/img/hotelNHCollection2.jpg",
+          "/img/hotelNHCollection3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Piscina al aire libre",
+          "Wi-Fi gratuito",
+          "Centro de bienestar"
+        ],
+        descripciondetalles: [
+          "Ubicado cerca de los principales centros comerciales.",
+          "Desayuno tipo buffet con opciones internacionales.",
+          "Piscina con vista panorámica.",
+          "Salones para eventos corporativos.",
+          "Servicio de transporte al aeropuerto (previa solicitud)."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5025376348194!2d-75.57517422602723!3d6.197232526870951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468287a8fd1741%3A0xc884096a4ae6804d!2sHotel%20NH%20Collection%20Medellin%20Royal!5e0!3m2!1ses-419!2sco!4v1732920800894!5m2!1ses-419!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel NH Collection Medellín Royal",
+            description: "El Hotel NH Collection Medellín Royal ofrece una experiencia única de lujo moderno en el corazón de la ciudad, destacándose por su diseño elegante y su enfoque en la sostenibilidad.",
+            historia: {
+              title: "Historia",
+              content: "Inaugurado en 2009, el Hotel NH Collection Medellín Royal fue diseñado para satisfacer las demandas de viajeros ejecutivos y turistas que buscan confort y estilo. Su ubicación estratégica en la Milla de Oro lo ha posicionado como una de las principales opciones de alojamiento en la ciudad. Desde su apertura, ha sido reconocido por su enfoque en la hospitalidad moderna y el cuidado del medio ambiente."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel refleja la vibrante cultura de Medellín al colaborar con artistas locales para exhibir obras en sus instalaciones. Además, su oferta gastronómica incluye una selección de platos que destacan los sabores paisas, fusionados con tendencias internacionales. Su cercanía a centros comerciales y lugares de entretenimiento permite a los huéspedes explorar la dinámica vida cultural de la ciudad."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El hotel cuenta con una piscina al aire libre que ofrece vistas espectaculares de la Milla de Oro, y su diseño arquitectónico utiliza materiales sostenibles que reflejan su compromiso con el medio ambiente. Además, ha sido sede de importantes eventos empresariales y culturales, consolidándose como un centro de referencia en Medellín."
+            },
+            images: [
+              "/img/hNHCollection1.jpg",
+              "/img/hNHCollection2.jpg",
+              "/img/hNHCollection3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerNHCollection.jpg"
+      },      
+      {
+        id: "hotel-intercontinental-medellin",
+        nombre: "Hotel InterContinental Medellín",
+        img: "/img/hotelIntercontinentalMedellin.jpg",
+        descripcion: "Rodeado de naturaleza y con vistas impresionantes, este hotel ofrece una experiencia de lujo y tranquilidad en pleno Medellín.",
+        bento: [
+          "/img/hotelIntercontinental1.jpg",
+          "/img/hotelIntercontinental2.jpg",
+          "/img/hotelIntercontinental3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Piscina olímpica",
+          "Spa y gimnasio",
+          "Restaurante gourmet"
+        ],
+        descripciondetalles: [
+          "Desayuno buffet con platos locales e internacionales.",
+          "Piscina olímpica rodeada de áreas verdes.",
+          "Spa con tratamientos de relajación y terapias.",
+          "Wi-Fi de alta velocidad en todo el hotel.",
+          "Centro de negocios y salones para eventos."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.378946168031!2d-75.56077842602714!3d6.21365192668856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282de694aed9%3A0xda6805382ff55a3d!2sInterContinental%20Medellin%20-%20Movich%2C%20an%20IHG%20Hotel!5e0!3m2!1ses-419!2sco!4v1732920749924!5m2!1ses-419!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel InterContinental Medellín",
+            description: "El Hotel InterContinental Medellín es un ícono de lujo en la ciudad, rodeado de naturaleza y diseñado para ofrecer tranquilidad y sofisticación.",
+            historia: {
+              title: "Historia",
+              content: "El Hotel InterContinental Medellín abrió sus puertas en 1973, convirtiéndose rápidamente en un referente de lujo en la ciudad. Su ubicación privilegiada, rodeada de naturaleza, lo ha posicionado como un oasis dentro del bullicio urbano. A lo largo de los años, el hotel ha sido renovado constantemente para mantener su estatus como una de las opciones más exclusivas de Medellín."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel celebra la cultura paisa mediante la promoción de eventos culturales, exposiciones de arte y la inclusión de elementos locales en su oferta gastronómica. Su restaurante principal, 'La Cava', combina ingredientes tradicionales con técnicas internacionales, destacando la rica herencia culinaria de Antioquia."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Hotel InterContinental Medellín cuenta con una piscina olímpica, una rareza entre los hoteles de la ciudad, y su spa ofrece tratamientos basados en técnicas ancestrales colombianas. Además, su jardín alberga una variedad de especies nativas, convirtiéndolo en un pequeño santuario natural dentro de la ciudad."
+            },
+            images: [
+              "/img/hIntercontinental1.jpg",
+              "/img/hIntercontinental2.jpg",
+              "/img/hIntercontinental3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerIntercontinentalMedellin.jpg"
+      },
+      {
+        id: "hotel-novotel-medellin",
+        nombre: "Hotel Novotel Medellín El Tesoro",
+        img: "/img/hotelNovotel.jpg",
+        descripcion: "Integrado al Centro Comercial El Tesoro, este hotel combina conveniencia y lujo en uno de los sectores más exclusivos de Medellín.",
+        bento: [
+          "/img/hotelNovotel1.jpg",
+          "/img/hotelNovotel2.jpg",
+          "/img/hotelNovotel3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Acceso directo al centro comercial",
+          "Centro de negocios",
+          "Piscina y gimnasio"
+        ],
+        descripciondetalles: [
+          "Ubicación privilegiada dentro de un centro comercial.",
+          "Desayuno buffet con opciones internacionales.",
+          "Salones para reuniones corporativas.",
+          "Piscina con vista panorámica.",
+          "Wi-Fi gratuito en todas las áreas."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4970665150468!2d-75.56082872500988!3d6.1979602937897385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46829a17204023%3A0x974145087099a188!2sNovotel%20Medellin%20El%20Tesoro!5e0!3m2!1ses-419!2sco!4v1732920314337!5m2!1ses-419!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Novotel Medellín El Tesoro",
+            description: "El Hotel Novotel Medellín El Tesoro ofrece una combinación única de lujo y conveniencia en el corazón de uno de los barrios más exclusivos de Medellín.",
+            historia: {
+              title: "Historia",
+              content: "El Hotel Novotel Medellín El Tesoro fue inaugurado para satisfacer las necesidades de los viajeros modernos. Su ubicación dentro del Centro Comercial El Tesoro lo convierte en una opción única para quienes buscan un hotel que ofrezca tanto descanso como acceso directo a tiendas, restaurantes y entretenimiento. Desde su apertura, ha sido una opción preferida para turistas y viajeros de negocios por su cercanía a importantes zonas de la ciudad."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel se ha integrado perfectamente con la vida urbana y cultural de Medellín. Su restaurante ofrece una fusión de platos internacionales y locales, destacando la gastronomía paisa. Además, la cercanía a los principales puntos de interés de Medellín permite a los huéspedes sumergirse en la vibrante cultura de la ciudad, como la Feria de las Flores y el famoso barrio de El Poblado."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Hotel Novotel Medellín El Tesoro es conocido por su acceso directo al Centro Comercial El Tesoro, lo que le otorga una ubicación privilegiada en la ciudad. Su piscina con vista panorámica es uno de los principales atractivos, permitiendo a los huéspedes disfrutar de vistas espectaculares de la ciudad mientras se relajan. También ha sido sede de numerosos eventos corporativos y sociales, consolidándose como un referente en la ciudad."
+            },
+            images: [
+              "/img/hNovotel1.jpg",
+              "/img/hNovotel2.jpg",
+              "/img/hNovotel3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerNovotelMedellin.jpg"
+      },      
+      {
+        id: "hotel-ac-marriott-medellin",
+        nombre: "Hotel AC Marriott Medellín",
+        img: "/img/hotelACMarriott.jpg",
+        descripcion: "Ubicado en el distrito de negocios de Medellín, este hotel moderno es ideal para ejecutivos y viajeros que buscan comodidad y diseño contemporáneo.",
+        bento: [
+          "/img/hotelACMarriott1.jpg",
+          "/img/hotelACMarriott2.jpg",
+          "/img/hotelACMarriott3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Centro de negocios",
+          "Wi-Fi gratuito",
+          "Gimnasio"
+        ],
+        descripciondetalles: [
+          "Desayuno buffet con opciones saludables.",
+          "Wi-Fi gratuito de alta velocidad.",
+          "Centro de negocios totalmente equipado.",
+          "Salones para reuniones y eventos.",
+          "Gimnasio con equipos modernos."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3966.4686220834874!2d-75.5756025750098!3d6.201742593786022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sHotel%20AC%20Marriott%20Medell%C3%ADn!5e0!3m2!1ses-419!2sco!4v1732920693587!5m2!1ses-419!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel AC Marriott Medellín",
+            description: "El Hotel AC Marriott Medellín es un hotel moderno y elegante, ideal para quienes buscan una experiencia de negocios o una escapada confortable.",
+            historia: {
+              title: "Historia",
+              content: "El Hotel AC Marriott Medellín abrió sus puertas como parte de la reconocida cadena hotelera AC Marriott, enfocándose en ofrecer servicios de alta calidad para ejecutivos y turistas. Su ubicación en el distrito de negocios de Medellín lo hace ideal para aquellos que visitan la ciudad por trabajo, mientras que su diseño contemporáneo y servicios exclusivos lo convierten en una opción de lujo para todos los viajeros."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel se ha integrado a la vida cultural de Medellín, ofreciendo eventos especiales y servicios adaptados a las necesidades de los viajeros modernos. Además, su proximidad a las zonas de interés cultural y de negocios en Medellín hace que los huéspedes puedan disfrutar de la ciudad sin problemas. El restaurante del hotel ofrece platos que fusionan lo mejor de la gastronomía internacional con ingredientes locales."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Hotel AC Marriott Medellín se destaca por su arquitectura moderna y su gimnasio completamente equipado. Además, su centro de negocios y los salones para eventos lo convierten en un lugar ideal para seminarios y reuniones. La ubicación en el centro de la ciudad permite fácil acceso a importantes zonas de Medellín, como El Poblado y la Milla de Oro."
+            },
+            images: [
+              "/img/hACMarriott1.jpg",
+              "/img/hACMarriott2.jpg",
+              "/img/hACMarriott3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerACMarriott.jpg"
+      }      
+    ]
+  },
+  {
+    nombre: "Cali",
+    hoteles: [
+      {
+        id: "hotel-dann-carlton-cali",
+        nombre: "Hotel Dann Carlton Cali",
+        img: "/img/hotelDannCarltonCali.jpg",
+        descripcion: "Ubicado en el corazón de Cali, el Hotel Dann Carlton Cali ofrece una combinación de lujo, comodidad y servicios de primer nivel.",
+        bento: [
+          "/img/hotelDannCarltonCali1.jpg",
+          "/img/hotelDannCarltonCali2.jpg",
+          "/img/hotelDannCarltonCali3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Piscina al aire libre",
+          "Centro de negocios",
+          "Spa y gimnasio"
+        ],
+        descripciondetalles: [
+          "Habitaciones amplias con vistas a la ciudad.",
+          "Desayuno buffet con opciones locales e internacionales.",
+          "Piscina con área de solarium.",
+          "Wi-Fi gratuito en todas las áreas.",
+          "Salones para eventos y convenciones."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.587382691546!2d-76.54310272502752!3d3.450038896524423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a7cfb944c50b%3A0x25f19beaf4cd3742!2sHoteles%20Dann%20Carlton%20Cali!5e0!3m2!1ses!2sco!4v1733174895839!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Dann Carlton Cali",
+            description: "El Hotel Dann Carlton Cali ha sido un referente de elegancia y comodidad en la ciudad durante más de 20 años.",
+            historia: {
+              title: "Historia",
+              content: "Inaugurado en 1999, el Hotel Dann Carlton Cali se ha consolidado como uno de los hoteles más prestigiosos de la ciudad. Su ubicación estratégica en el norte de Cali lo hace ideal para los viajeros de negocios y para quienes desean explorar la vida cultural de la ciudad."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel refleja la rica cultura caleña a través de su gastronomía, que fusiona los sabores tradicionales con opciones internacionales. Además, su cercanía al centro de la ciudad lo convierte en un excelente punto de partida para explorar los atractivos turísticos y culturales de Cali."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Hotel Dann Carlton Cali es famoso por su restaurante gourmet, considerado uno de los mejores de la ciudad. También es conocido por su elegante arquitectura, que combina elementos modernos con influencias tradicionales colombianas."
+            },
+            images: [
+              "/img/hDannCarltonCali1.jpg",
+              "/img/hDannCarltonCali2.jpg",
+              "/img/hDannCarltonCali3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerDannCarltonCali.jpg"
+      },
+      {
+        id: "hotel-wn-marriott-cali",
+        nombre: "Hotel WN Marriott Cali",
+        img: "/img/hotelWNMarriottCali.jpg",
+        descripcion: "Este hotel de lujo ofrece un diseño contemporáneo y servicios exclusivos, ideal para viajeros de negocios y placer.",
+        bento: [
+          "/img/hotelWNMarriottCali1.jpg",
+          "/img/hotelWNMarriottCali2.jpg",
+          "/img/hotelWNMarriottCali3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Piscina infinita",
+          "Desayuno buffet",
+          "Centro de negocios",
+          "Spa con tratamientos especializados"
+        ],
+        descripciondetalles: [
+          "Vistas panorámicas de Cali desde la piscina infinita.",
+          "Gastronomía local en sus restaurantes exclusivos.",
+          "Wi-Fi de alta velocidad.",
+          "Salones para reuniones y eventos.",
+          "Ubicación privilegiada en el norte de la ciudad."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5633291888166!2d-76.53850312502749!3d3.4557740965186805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f19d047757%3A0x14b8c3e63b55e08a!2sCali%20Marriott%20Hotel!5e0!3m2!1ses!2sco!4v1733175194943!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel WN Marriott Cali",
+            description: "Hotel WN Marriott Cali ofrece una experiencia única de lujo y estilo, ideal para quienes buscan comodidad y servicios exclusivos.",
+            historia: {
+              title: "Historia",
+              content: "Abierto en 2012, el WN Marriott Cali ha sido diseñado para satisfacer las necesidades de viajeros de negocios y turistas. Su ubicación en el norte de Cali lo ha posicionado como uno de los mejores hoteles en la ciudad para eventos y conferencias internacionales."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El WN Marriott Cali es conocido por su decoración moderna y su oferta gastronómica, que combina lo mejor de la cocina internacional con sabores autóctonos de la región. Además, la ciudad de Cali ofrece una vibrante vida cultural que los huéspedes pueden disfrutar a solo minutos del hotel."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El hotel tiene una piscina infinita con vistas panorámicas de la ciudad, y su restaurante ofrece una selección de platos internacionales junto a una extensa carta de vinos locales. También es conocido por ser un lugar de alojamiento habitual para figuras del cine y la televisión durante su paso por la ciudad."
+            },
+            images: [
+              "/img/hWNMarriottCali1.jpg",
+              "/img/hWNMarriottCali2.jpg",
+              "/img/hotelWNMarriottCali3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerWNMarriottCali.jpg"
+      },
+      {
+        id: "hotel-hampton-inn-cali",
+        nombre: "Hampton Inn Cali",
+        img: "/img/hotelHamptonInnCali.jpg",
+        descripcion: "Este hotel ofrece una experiencia única en el corazón de Cali, con un excelente servicio, comodidad y ubicación cercana a centros comerciales y atractivos turísticos.",
+        bento: [
+          "/img/hotelHamptonInnCali1.jpg",
+          "/img/hotelHamptonInnCali2.jpg",
+          "/img/hotelHamptonInnCali3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Piscina al aire libre",
+          "Centro de negocios",
+          "Wi-Fi gratuito"
+        ],
+        descripciondetalles: [
+          "Piscina al aire libre con vistas panorámicas.",
+          "Habitaciones cómodas y modernas.",
+          "Desayuno tipo buffet con opciones locales e internacionales.",
+          "Wi-Fi gratuito en todo el hotel.",
+          "Salones para reuniones y eventos corporativos."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5750648278413!2d-76.54938992502748!3d3.452977096521464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6783a7aada1%3A0x5ebe0773bd1371c7!2sHampton%20by%20Hilton%20Cali%20Colombia!5e0!3m2!1ses!2sco!4v1733176754033!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hampton Inn Cali",
+            description: "El Hampton Inn Cali es conocido por su excelente ubicación y su enfoque en la comodidad de los viajeros de negocios y turistas.",
+            historia: {
+              title: "Historia",
+              content: "Inaugurado en 2018, el Hampton Inn Cali es uno de los hoteles más nuevos en la ciudad. Con su moderna infraestructura, ha sido reconocido por ofrecer una experiencia de calidad a los visitantes que buscan comodidad y excelente servicio."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel ofrece una variedad de platos locales e internacionales, y se encuentra cerca de varios centros culturales de la ciudad, lo que permite a los huéspedes disfrutar de la vida vibrante de Cali."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Este hotel es reconocido por su excelente servicio y por ser un lugar muy popular entre los viajeros frecuentes debido a su comodidad y ubicación estratégica."
+            },
+            images: [
+              "/img/hHamptonInnCali1.jpg",
+              "/img/hHamptonInnCali2.jpg",
+              "/img/hHamptonInnCali3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerHamptonInnCali.jpg"
+      },
+      {
+        id: "hotel-movich-cali",
+        nombre: "Movich Cali",
+        img: "/img/hotelMovichCali.jpg",
+        descripcion: "Un hotel de lujo con una ubicación inmejorable en el centro de Cali, ideal para aquellos que buscan una experiencia única y exclusiva.",
+        bento: [
+          "/img/hotelMovichCali1.jpg",
+          "/img/hotelMovichCali2.jpg",
+          "/img/hotelMovichCali3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Spa y gimnasio",
+          "Piscina al aire libre",
+          "Wi-Fi gratuito"
+        ],
+        descripciondetalles: [
+          "Piscina al aire libre con vistas espectaculares.",
+          "Salones para eventos y conferencias.",
+          "Wi-Fi gratuito en todo el hotel.",
+          "Centro de bienestar con spa y gimnasio.",
+          "Restaurante gourmet con opciones internacionales."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.563283855835!2d-76.53961202502751!3d3.4557848965186637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a671d59db255%3A0xa90939cce06fa404!2sHotel%20Movich%20Casa%20del%20Alferez!5e0!3m2!1ses!2sco!4v1733177334490!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Movich Cali",
+            description: "Movich Cali es un hotel que combina lujo, comodidad y la tradición de la ciudad para ofrecer una experiencia inigualable.",
+            historia: {
+              title: "Historia",
+              content: "Movich Cali abrió sus puertas en 2014, rápidamente ganándose la reputación de ser uno de los hoteles más exclusivos de la ciudad. Su servicio personalizado y sus instalaciones modernas lo convierten en el lugar ideal para viajeros de negocios y turistas."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel rinde homenaje a la cultura caleña al integrar elementos autóctonos en su decoración y ofrecer un menú que destaca los sabores de la región. Además, la ciudad es famosa por su salsa y festivales, lo que lo convierte en un lugar perfecto para experimentar la vida local."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Este hotel es conocido por su diseño moderno, su excelente servicio y sus impresionantes vistas de la ciudad desde la terraza."
+            },
+            images: [
+              "/img/hMovichCali1.jpg",
+              "/img/hMovichCali2.jpg",
+              "/img/hMovichCali3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerMovichCali.jpg"
+      },
+      {
+        id: "hotel-estelar-cali",
+        nombre: "Hotel Estelar Cali",
+        img: "/img/hotelEstelarCali.jpg",
+        descripcion: "Un hotel moderno y elegante en el corazón de Cali, con una ubicación estratégica cerca de los mejores centros comerciales y la vida nocturna de la ciudad.",
+        bento: [
+          "/img/hotelEstelarCali1.jpg",
+          "/img/hotelEstelarCali2.jpg",
+          "/img/hotelEstelarCali3.jpg"
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Desayuno buffet",
+          "Piscina al aire libre",
+          "Gimnasio",
+          "Wi-Fi gratuito"
+        ],
+        descripciondetalles: [
+          "Piscina exterior con vista a la ciudad.",
+          "Restaurante con cocina internacional.",
+          "Gimnasio totalmente equipado.",
+          "Wi-Fi gratuito en todo el hotel.",
+          "Salones para reuniones y eventos."
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63721.772636877875!2d-76.55639220336634!3d3.4444486616399734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shotel-estelar-cali!5e0!3m2!1ses!2sco!4v1733177729388!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Estelar Cali",
+            description: "El Hotel Estelar Cali es uno de los más prestigiosos de la ciudad, con una excelente ubicación y un servicio impecable.",
+            historia: {
+              title: "Historia",
+              content: "Abierto en 2012, el Hotel Estelar Cali es reconocido por su moderno diseño y su ubicación privilegiada en la ciudad. Ofrece un servicio de lujo y una experiencia única para todos sus huéspedes."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel refleja el espíritu caleño al ofrecer una gastronomía que combina platos típicos de la región con opciones internacionales, brindando a los huéspedes una experiencia culinaria única."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Este hotel es conocido por su excelente servicio y por estar cerca de algunos de los principales atractivos turísticos y comerciales de la ciudad."
+            },
+            images: [
+              "/img/hEstelarCali1.jpg",
+              "/img/hEstelarCali2.jpg",
+              "/img/hEstelarCali3.jpg"
+            ]
+          }
+        ],
+        flyer: "/img/FlyerEstelarCali.jpg"
+      }
+      
+    ]
+  },
+  
+  {
+    "nombre": "Santa Marta",
+    "hoteles": [
+      {
+        "id": "hotel-zuana-beach-resort",
+        "nombre": "Zuana Beach Resort",
+        "img": "/img/zuanaBeachResort.jpg",
+        "descripcion": "Un resort de lujo frente al mar Caribe, ideal para disfrutar de vacaciones familiares y experiencias inolvidables en Santa Marta.",
+        "bento": [
+          "/img/zuanaBeachResort1.jpg",
+          "/img/zuanaBeachResort2.jpg",
+          "/img/zuanaBeachResort3.jpg"
+        ],
+        "descripciongeneral": [
+          "Piscinas al aire libre",
+          "Acceso directo a la playa",
+          "Desayuno incluido",
+          "Spa y gimnasio",
+          "Restaurante gourmet"
+        ],
+        "descripciondetalles": [
+          "Habitaciones con vista al mar y balcones privados.",
+          "Piscinas infinitas con áreas recreativas.",
+          "Spa con masajes y tratamientos de relajación.",
+          "Wi-Fi gratuito en todo el resort.",
+          "Restaurantes que destacan la gastronomía caribeña."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d434400.4227532998!2d-74.35166863039179!3d11.234386217053776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sZuana%20Beach%20Resort!5e0!3m2!1ses!2sco!4v1733154894975!5m2!1ses!2sco",
+        "flyer": "/img/FlyerZuanaBeachResort.jpg"
+      },
+      {
+        "id": "hotel-irotama-resort",
+        "nombre": "Irotama Resort",
+        "img": "/img/irotamaResort.jpg",
+        "descripcion": "Con una ubicación privilegiada en Pozos Colorados, este resort combina naturaleza y lujo para una experiencia única.",
+        "bento": [
+          "/img/irotamaResort1.jpg",
+          "/img/irotamaResort2.jpg",
+          "/img/irotamaResort3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Villas y suites con vista al mar",
+          "Piscinas y acceso a la playa",
+          "Gimnasio y spa"
+        ],
+        "descripciondetalles": [
+          "Piscinas rodeadas de jardines tropicales.",
+          "Acceso directo a una playa privada.",
+          "Spa con servicios personalizados.",
+          "Restaurantes con especialidades locales e internacionales.",
+          "Áreas recreativas para niños y adultos."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2515954.9032993177!2d-75.79349361553622!3d11.747066621345729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sIrotama%20Resort!5e0!3m2!1ses!2sco!4v1733155096081!5m2!1ses!2sco",
+        "flyer": "/img/FlyerIrotamaResort.jpg"
+      },
+      {
+        "id": "hotel-casa-de-lada",
+        "nombre": "Hotel Casa de Leda",
+        "img": "/img/casaDeLeda.jpg",
+        "descripcion": "Este hotel boutique, ubicado en el centro histórico de Santa Marta, ofrece un ambiente íntimo y acogedor con un diseño único.",
+        "bento": [
+          "/img/casaDeLeda1.jpg",
+          "/img/casaDeLeda2.jpg",
+          "/img/casaDeLeda3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Spa con jacuzzi",
+          "Wi-Fi gratuito",
+          "Terraza con vista panorámica"
+        ],
+        "descripciondetalles": [
+          "Habitaciones decoradas con estilo colonial moderno.",
+          "Terraza con jacuzzi y vista a la catedral de Santa Marta.",
+          "Wi-Fi de alta velocidad en todas las áreas.",
+          "Spa con masajes y tratamientos personalizados.",
+          "Ubicación privilegiada cerca de atracciones históricas."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.255124657299!2d-74.21386932495123!3d11.242633388935902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f516616c32d%3A0x2596c7c10255d0ba!2sHotel%20Boutique%20%26%20Spa%20Casa%20de%20Leda%2C%20by%20Kali%20Hotels!5e0!3m2!1ses!2sco!4v1733156263333!5m2!1ses!2sco",
+        "flyer": "/img/FlyerCasaDeLeda.jpg"
+      },
+      {
+        "id": "hotel-santa-marta-marriott-resort",
+        "nombre": "Santa Marta Marriott Resort Playa Dormida",
+        "img": "/img/santaMartaMarriott.jpg",
+        "descripcion": "Un hotel de lujo frente al mar con diseño contemporáneo, ideal para quienes buscan relajación y comodidad.",
+        "bento": [
+          "/img/santaMartaMarriott1.jpg",
+          "/img/santaMartaMarriott2.jpg",
+          "/img/santaMartaMarriott3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Piscina infinita",
+          "Restaurante gourmet",
+          "Acceso directo a la playa",
+          "Wi-Fi gratuito"
+        ],
+        "descripciondetalles": [
+          "Habitaciones con balcones privados y vista al mar.",
+          "Piscina infinita con áreas de descanso.",
+          "Restaurante con especialidades caribeñas.",
+          "Wi-Fi gratuito de alta velocidad.",
+          "Salones para eventos y reuniones."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7234191325597!2d-74.23043692495294!3d11.1339645890374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4591e80c0ce69%3A0xac41dcadd7325b79!2sSanta%20Marta%20Marriott%20Resort%20Playa%20Dormida!5e0!3m2!1ses!2sco!4v1733156844521!5m2!1ses!2sco",
+        "flyer": "/img/FlyerSantaMartaMarriott.jpg"
+      },
+      {
+        "id": "hotel-mercure-santa-marta",
+        "nombre": "Mercure Santa Marta Emile",
+        "img": "/img/mercureSantaMarta.jpg",
+        "descripcion": "Ubicado en el sector de Bello Horizonte, este hotel ofrece comodidad y modernidad cerca del mar.",
+        "bento": [
+          "/img/mercureSantaMarta1.jpg",
+          "/img/mercureSantaMarta2.jpg",
+          "/img/mercureSantaMarta3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Piscina al aire libre",
+          "Desayuno incluido",
+          "Restaurante y bar",
+          "Gimnasio"
+        ],
+        "descripciondetalles": [
+          "Piscina rodeada de áreas verdes.",
+          "Wi-Fi gratuito en todas las instalaciones.",
+          "Restaurante con platos locales e internacionales.",
+          "Salones para reuniones y eventos corporativos.",
+          "Habitaciones modernas y funcionales."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.509090292172!2d-74.22741122495268!3d11.149892289022473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45886be770989%3A0xd497b678310d1667!2sMercure%20Santa%20Marta%20Emile!5e0!3m2!1ses!2sco!4v1733157034434!5m2!1ses!2sco",
+        "flyer": "/img/FlyerMercureSantaMarta.jpg"
+      },
+      {
+        "id": "hotel-best-western-plus-santa-marta",
+        "nombre": "Best Western Plus Santa Marta",
+        "img": "/img/bestWesternSantaMarta.jpg",
+        "descripcion": "Con una ubicación estratégica en el centro de Santa Marta, este hotel combina confort y conveniencia.",
+        "bento": [
+          "/img/bestWesternSantaMarta1.jpg",
+          "/img/bestWesternSantaMarta2.jpg",
+          "/img/bestWesternSantaMarta3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Piscina en la azotea",
+          "Wi-Fi gratuito",
+          "Centro de negocios"
+        ],
+        "descripciondetalles": [
+          "Piscina en la azotea con vistas panorámicas de la ciudad.",
+          "Desayuno buffet con opciones variadas.",
+          "Wi-Fi de alta velocidad.",
+          "Centro de negocios con servicios personalizados.",
+          "Habitaciones modernas y cómodas."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.306459454341!2d-74.21584012495138!3d11.238851588939385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57c1ba015c5%3A0x60b0682b8a1a5543!2sBest%20Western%20Plus%20Santa%20Marta%20Hotel!5e0!3m2!1ses!2sco!4v1733157207403!5m2!1ses!2sco",
+        "flyer": "/img/FlyerBestWesternSantaMarta.jpg"
+      }
+    ]
+  }
+    
+
 ];
