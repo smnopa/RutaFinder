@@ -325,25 +325,6 @@ export const actividades = [
     ],
   },
   {
-    nombre: "Bogotá",
-    actividades: [
-      {
-        id: "actividad3",
-        nombre: "Paseo por la Candelaria",
-        img: "/img/Actividades.jpg",
-        descripcion:
-          "Recorrido por el histórico barrio de La Candelaria en Bogotá.",
-      },
-      {
-        id: "actividad4",
-        nombre: "Museo del Oro",
-        img: "/img/Actividades.jpg",
-        descripcion:
-          "Explora la fascinante historia del oro en el museo más grande del país.",
-      },
-    ],
-  },
-  {
     nombre: "Armenia y Salento",
     actividades: [
       {
@@ -698,57 +679,240 @@ export const actividades = [
     nombre: "Bogotá",
     actividades: [
       {
-        id: "actividad3",
-        nombre: "Paseo por la Candelaria",
-        img: "/img/Actividades.jpg",
-        descripcion:
-          "Recorrido por el histórico barrio de La Candelaria en Bogotá.",
+        id: "cerro-monserrate",
+        nombre: "Cerro de Monserrate",
+        img: "/img/monserrate.jpg",
+        descripcion: "Uno de los puntos más icónicos de Bogotá, con vistas panorámicas de la ciudad.",
+        bento: ["/img/monserrate1.jpg", "/img/monserrate2.jpg"],
+        descripciongeneral: [
+          "Vistas panorámicas",
+          "Santuario religioso",
+          "Senderismo y teleférico",
+        ],
+        descripciondetalles: [
+          "Ideal para caminar, hacer deporte o disfrutar de la vista.",
+          "Santuario visitado por miles de peregrinos al año.",
+          "Opciones de transporte en teleférico o funicular.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.479457708305!2d-74.0761251451095!3d4.605672453609117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99bfd2a459a9%3A0x352a5134b65e607b!2sMonserrate!5e0!3m2!1ses!2sco!4v1733258686475!5m2!1ses!2sco",
+        flyer: "/img/flyerMonserrate.jpg",
       },
       {
-        id: "actividad4",
+        id: "museo-oro",
         nombre: "Museo del Oro",
-        img: "/img/Actividades.jpg",
-        descripcion:
-          "Explora la fascinante historia del oro en el museo más grande del país.",
+        img: "/img/museoOro.jpg",
+        descripcion: "Uno de los museos más importantes del mundo dedicado al oro precolombino.",
+        bento: ["/img/museoOro1.jpg", "/img/museoOro2.jpg"],
+        descripciongeneral: [
+          "Colección precolombina",
+          "Ubicación central",
+          "Recorridos guiados disponibles",
+        ],
+        descripciondetalles: [
+          "Exhibe más de 34,000 piezas de oro y objetos cerámicos.",
+          "Incluye actividades interactivas para niños.",
+          "Se encuentra en el centro histórico de Bogotá.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3976.9690073557863!2d-74.0751030750213!3d4.599574395375078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMuseo%20del%20Oro!5e0!3m2!1ses!2sco!4v1733258829785!5m2!1ses!2sco",
+        flyer: "/img/flyerMuseoOro.jpg",
+      },
+      {
+        id: "la-candelaria",
+        nombre: "La Candelaria",
+        img: "/img/candelaria.jpg",
+        descripcion: "El centro histórico y cultural de Bogotá, lleno de arquitectura colonial y museos.",
+        bento: ["/img/candelaria1.jpg", "/img/candelaria2.jpg"],
+        descripciongeneral: [
+          "Arquitectura colonial",
+          "Arte y cultura",
+          "Restaurantes típicos",
+        ],
+        descripciondetalles: [
+          "Lugares destacados como la Plaza de Bolívar y el Teatro Colón.",
+          "Galerías de arte y tiendas de artesanías.",
+          "Ambiente bohemio y cultural único.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.893878869938!2d-74.09163369511319!3d4.596398704200779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a844cf79cb%3A0xa58d1864daa71331!2sLa%20Candelaria%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733258943550!5m2!1ses!2sco",
+        flyer: "/img/flyerCandelaria.jpg",
+      },
+      {
+        id: "parque-simon-bolivar",
+        nombre: "Parque Simón Bolívar",
+        img: "/img/parqueSimonBolivar.jpg",
+        descripcion: "El pulmón verde de Bogotá, ideal para actividades al aire libre.",
+        bento: ["/img/parqueSimonBolivar1.jpg", "/img/parqueSimonBolivar2.jpg"],
+        descripciongeneral: [
+          "Espacios verdes",
+          "Deportes al aire libre",
+          "Eventos culturales",
+        ],
+        descripciondetalles: [
+          "Lago central donde puedes alquilar botes.",
+          "Zonas para picnic y rutas para ciclistas.",
+          "Sede de grandes conciertos y festivales.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254484.3936732638!2d-74.38249312937268!3d4.714603382544029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b3f1693b423%3A0x1759342653607dfc!2sParque%20Sim%C3%B3n%20Bolivar!5e0!3m2!1ses!2sco!4v1733259064188!5m2!1ses!2sco",
+        flyer: "/img/flyerSimonBolivar.jpg",
+      },
+      {
+        id: "museo-botero",
+        nombre: "Museo Botero",
+        img: "/img/museoBotero.jpg",
+        descripcion: "Una colección de arte donada por el artista Fernando Botero.",
+        bento: ["/img/museoBotero1.jpg", "/img/museoBotero2.jpg"],
+        descripciongeneral: [
+          "Arte moderno y clásico",
+          "Entrada gratuita",
+          "Ubicado en La Candelaria",
+        ],
+        descripciondetalles: [
+          "Exhibe más de 200 obras, incluyendo piezas de artistas internacionales.",
+          "Ubicado en una casa colonial restaurada.",
+          "Incluye actividades educativas para niños.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9850646619443!2d-74.07592522502131!3d4.596697995377956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a89d8291ad%3A0x2f9edf224143e1ac!2sMuseo%20Botero!5e0!3m2!1ses!2sco!4v1733259276389!5m2!1ses!2sco",
+        flyer: "/img/flyerBotero.jpg",
+      },
+      {
+        id: "zona-t",
+        nombre: "Zona T",
+        img: "/img/zonaT.jpg",
+        descripcion: "El lugar de moda en Bogotá para vida nocturna, compras y gastronomía.",
+        bento: ["/img/zonaT1.jpg", "/img/zonaT2.jpg"],
+        descripciongeneral: [
+          "Bares y discotecas",
+          "Restaurantes de alta cocina",
+          "Tiendas de lujo",
+        ],
+        descripciondetalles: [
+          "Ambiente moderno y cosmopolita.",
+          "Opciones de entretenimiento para todas las edades.",
+          "Destacada por su oferta gastronómica y cultural.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127250.17008377358!2d-74.18032585977079!3d4.6708675908106985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af537991dfb%3A0x5556d372ede48988!2sZona%20T%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733259446544!5m2!1ses!2sco",
+        flyer: "/img/flyerZonaT.jpg",
       },
     ],
   },
   {
-    nombre: "Bogotá",
+    nombre: "Medellín",
     actividades: [
       {
-        id: "actividad3",
-        nombre: "Paseo por la Candelaria",
-        img: "/img/Actividades.jpg",
-        descripcion:
-          "Recorrido por el histórico barrio de La Candelaria en Bogotá.",
+        id: "parque-arvi",
+        nombre: "Parque Arví",
+        img: "/img/parqueArvi.jpg",
+        descripcion: "Un parque ecológico ideal para disfrutar de la naturaleza y actividades al aire libre.",
+        bento: ["/img/parqueArvi1.jpg", "/img/parqueArvi2.jpg"],
+        descripciongeneral: [
+          "Senderos ecológicos",
+          "Avistamiento de fauna",
+          "Paseos en bicicleta",
+        ],
+        descripciondetalles: [
+          "Ubicado en las afueras de Medellín, accesible por el Metrocable.",
+          "Ofrece caminatas guiadas y actividades recreativas.",
+          "Ideal para un día en contacto con la naturaleza.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15863.755845476679!2d-75.50895250233656!3d6.271757349470664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sParque%20Arv%C3%AD!5e0!3m2!1ses!2sco!4v1733259656174!5m2!1ses!2sco",
+        flyer: "/img/flyerParqueArvi.jpg",
       },
       {
-        id: "actividad4",
-        nombre: "Museo del Oro",
-        img: "/img/Actividades.jpg",
-        descripcion:
-          "Explora la fascinante historia del oro en el museo más grande del país.",
+        id: "comuna-13",
+        nombre: "Comuna 13",
+        img: "/img/comuna13.jpg",
+        descripcion: "Un barrio lleno de historia, arte callejero y transformación social.",
+        bento: ["/img/comuna131.jpg", "/img/comuna132.jpg"],
+        descripciongeneral: [
+          "Graffitis coloridos",
+          "Tours guiados",
+          "Historia y cultura",
+        ],
+        descripciondetalles: [
+          "Explora el arte urbano y los graffitis que cuentan historias locales.",
+          "Recorrido histórico sobre la transformación de la Comuna 13.",
+          "Accesibilidad mediante escaleras eléctricas y transporte público.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.121338206378!2d-75.62642285873218!3d6.255738124931033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442bd61b35b135%3A0x7ac589026488978b!2sSan%20Javier%2C%20Medell%C3%ADn%2C%20San%20Javier%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733259770656!5m2!1ses!2sco",
+        flyer: "/img/flyerComuna13.jpg",
+      },
+      {
+        id: "parque-botero",
+        nombre: "Plaza Botero",
+        img: "/img/plazaBotero.jpg",
+        descripcion: "Un espacio al aire libre con esculturas icónicas del maestro Fernando Botero.",
+        bento: ["/img/plazaBotero1.jpg", "/img/plazaBotero2.jpg"],
+        descripciongeneral: [
+          "Arte al aire libre",
+          "Ubicación central",
+          "Entrada gratuita",
+        ],
+        descripciondetalles: [
+          "Exhibe más de 20 esculturas de Fernando Botero.",
+          "Ubicado junto al Museo de Antioquia.",
+          "Ideal para tomar fotos y conocer el centro de Medellín.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0887060699615!2d-75.57094022500944!3d6.252042093736408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428fecb4dff77%3A0x2e5a7e51ab929892!2sPlaza%20Botero!5e0!3m2!1ses!2sco!4v1733259868928!5m2!1ses!2sco",
+        flyer: "/img/flyerPlazaBotero.jpg",
+      },
+      {
+        id: "metrocable",
+        nombre: "Metrocable de Medellín",
+        img: "/img/metrocable.jpg",
+        descripcion: "Un sistema de transporte innovador que conecta la ciudad con las zonas montañosas.",
+        bento: ["/img/metrocable1.jpg", "/img/metrocable2.jpg"],
+        descripciongeneral: [
+          "Vistas panorámicas",
+          "Accesibilidad a barrios altos",
+          "Transporte eficiente",
+        ],
+        descripciondetalles: [
+          "Ofrece vistas únicas de Medellín desde lo alto.",
+          "Acceso directo al Parque Arví y otros destinos.",
+          "Parte integral del sistema de transporte público de la ciudad.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d126910.57517347118!2d-75.64094054738638!3d6.269586317695148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMetrocable%20de%20Medell%C3%ADn!5e0!3m2!1ses!2sco!4v1733260090570!5m2!1ses!2sco",
+        flyer: "/img/flyerMetrocable.jpg",
+      },
+      {
+        id: "parque-luces",
+        nombre: "Parque de las Luces",
+        img: "/img/parqueLuces.jpg",
+        descripcion: "Un espacio cultural y arquitectónico con modernas instalaciones de iluminación.",
+        bento: ["/img/parqueLuces1.jpg", "/img/parqueLuces2.jpg"],
+        descripciongeneral: [
+          "Esculturas luminosas",
+          "Centro cultural",
+          "Espacio fotográfico",
+        ],
+        descripciondetalles: [
+          "Sus estructuras iluminadas son un símbolo de la renovación urbana.",
+          "Ubicado cerca de la Biblioteca EPM y el Edificio Vásquez.",
+          "Ideal para visitar de noche por su iluminación espectacular.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1348015526182!2d-75.57456302602694!3d6.245960726328465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428551d4336d3%3A0x3265bf68e7f1f910!2sParque%20De%20Las%20Luces%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733260401813!5m2!1ses!2sco",
+        flyer: "/img/flyerParqueLuces.jpg",
+      },
+      {
+        id: "guatape",
+        nombre: "Piedra del Peñol y Guatapé",
+        img: "/img/penolGuatape.jpg",
+        descripcion: "Una excursión popular para disfrutar de la vista desde la Piedra del Peñol y el colorido pueblo de Guatapé.",
+        bento: ["/img/penol1.jpg", "/img/penol2.jpg"],
+        descripciongeneral: [
+          "Vista panorámica",
+          "Pueblo colorido",
+          "Actividades acuáticas",
+        ],
+        descripciondetalles: [
+          "La Piedra del Peñol tiene 740 escalones para llegar a la cima.",
+          "Guatapé es famoso por sus fachadas coloridas y zócalos decorativos.",
+          "Actividades como paseos en bote están disponibles en el embalse.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31730.43062145937!2d-75.19738049435543!3d6.223610500915277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e441d16240c903f%3A0x8d73bc39b5e6201b!2sPiedra%20del%20Pe%C3%B1ol!5e0!3m2!1ses!2sco!4v1733260530622!5m2!1ses!2sco",
+        flyer: "/img/flyerPenolGuatape.jpg",
       },
     ],
-  },
-  {
-    nombre: "Bogotá",
-    actividades: [
-      {
-        id: "actividad3",
-        nombre: "Paseo por la Candelaria",
-        img: "/img/Actividades.jpg",
-        descripcion:
-          "Recorrido por el histórico barrio de La Candelaria en Bogotá.",
-      },
-      {
-        id: "actividad4",
-        nombre: "Museo del Oro",
-        img: "/img/Actividades.jpg",
-        descripcion:
-          "Explora la fascinante historia del oro en el museo más grande del país.",
-      },
-    ],
-  },
+  }
+  
+
 ];
