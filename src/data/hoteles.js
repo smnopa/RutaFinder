@@ -1553,5 +1553,172 @@ export const ciudades = [
       }
       
     ]
+  },
+  {
+    "nombre": "Santa Marta",
+    "hoteles": [
+      {
+        "id": "hotel-zuana-beach-resort",
+        "nombre": "Zuana Beach Resort",
+        "img": "/img/zuanaBeachResort.jpg",
+        "descripcion": "Un resort de lujo frente al mar Caribe, ideal para disfrutar de vacaciones familiares y experiencias inolvidables en Santa Marta.",
+        "bento": [
+          "/img/zuanaBeachResort1.jpg",
+          "/img/zuanaBeachResort2.jpg",
+          "/img/zuanaBeachResort3.jpg"
+        ],
+        "descripciongeneral": [
+          "Piscinas al aire libre",
+          "Acceso directo a la playa",
+          "Desayuno incluido",
+          "Spa y gimnasio",
+          "Restaurante gourmet"
+        ],
+        "descripciondetalles": [
+          "Habitaciones con vista al mar y balcones privados.",
+          "Piscinas infinitas con áreas recreativas.",
+          "Spa con masajes y tratamientos de relajación.",
+          "Wi-Fi gratuito en todo el resort.",
+          "Restaurantes que destacan la gastronomía caribeña."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d434400.4227532998!2d-74.35166863039179!3d11.234386217053776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sZuana%20Beach%20Resort!5e0!3m2!1ses!2sco!4v1733154894975!5m2!1ses!2sco",
+        "flyer": "/img/FlyerZuanaBeachResort.jpg"
+      },
+      {
+        "id": "hotel-irotama-resort",
+        "nombre": "Irotama Resort",
+        "img": "/img/irotamaResort.jpg",
+        "descripcion": "Con una ubicación privilegiada en Pozos Colorados, este resort combina naturaleza y lujo para una experiencia única.",
+        "bento": [
+          "/img/irotamaResort1.jpg",
+          "/img/irotamaResort2.jpg",
+          "/img/irotamaResort3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Villas y suites con vista al mar",
+          "Piscinas y acceso a la playa",
+          "Gimnasio y spa"
+        ],
+        "descripciondetalles": [
+          "Piscinas rodeadas de jardines tropicales.",
+          "Acceso directo a una playa privada.",
+          "Spa con servicios personalizados.",
+          "Restaurantes con especialidades locales e internacionales.",
+          "Áreas recreativas para niños y adultos."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2515954.9032993177!2d-75.79349361553622!3d11.747066621345729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sIrotama%20Resort!5e0!3m2!1ses!2sco!4v1733155096081!5m2!1ses!2sco",
+        "flyer": "/img/FlyerIrotamaResort.jpg"
+      },
+      {
+        "id": "hotel-casa-de-lada",
+        "nombre": "Hotel Casa de Leda",
+        "img": "/img/casaDeLeda.jpg",
+        "descripcion": "Este hotel boutique, ubicado en el centro histórico de Santa Marta, ofrece un ambiente íntimo y acogedor con un diseño único.",
+        "bento": [
+          "/img/casaDeLeda1.jpg",
+          "/img/casaDeLeda2.jpg",
+          "/img/casaDeLeda3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Spa con jacuzzi",
+          "Wi-Fi gratuito",
+          "Terraza con vista panorámica"
+        ],
+        "descripciondetalles": [
+          "Habitaciones decoradas con estilo colonial moderno.",
+          "Terraza con jacuzzi y vista a la catedral de Santa Marta.",
+          "Wi-Fi de alta velocidad en todas las áreas.",
+          "Spa con masajes y tratamientos personalizados.",
+          "Ubicación privilegiada cerca de atracciones históricas."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.255124657299!2d-74.21386932495123!3d11.242633388935902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f516616c32d%3A0x2596c7c10255d0ba!2sHotel%20Boutique%20%26%20Spa%20Casa%20de%20Leda%2C%20by%20Kali%20Hotels!5e0!3m2!1ses!2sco!4v1733156263333!5m2!1ses!2sco",
+        "flyer": "/img/FlyerCasaDeLeda.jpg"
+      },
+      {
+        "id": "hotel-santa-marta-marriott-resort",
+        "nombre": "Santa Marta Marriott Resort Playa Dormida",
+        "img": "/img/santaMartaMarriott.jpg",
+        "descripcion": "Un hotel de lujo frente al mar con diseño contemporáneo, ideal para quienes buscan relajación y comodidad.",
+        "bento": [
+          "/img/santaMartaMarriott1.jpg",
+          "/img/santaMartaMarriott2.jpg",
+          "/img/santaMartaMarriott3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Piscina infinita",
+          "Restaurante gourmet",
+          "Acceso directo a la playa",
+          "Wi-Fi gratuito"
+        ],
+        "descripciondetalles": [
+          "Habitaciones con balcones privados y vista al mar.",
+          "Piscina infinita con áreas de descanso.",
+          "Restaurante con especialidades caribeñas.",
+          "Wi-Fi gratuito de alta velocidad.",
+          "Salones para eventos y reuniones."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7234191325597!2d-74.23043692495294!3d11.1339645890374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4591e80c0ce69%3A0xac41dcadd7325b79!2sSanta%20Marta%20Marriott%20Resort%20Playa%20Dormida!5e0!3m2!1ses!2sco!4v1733156844521!5m2!1ses!2sco",
+        "flyer": "/img/FlyerSantaMartaMarriott.jpg"
+      },
+      {
+        "id": "hotel-mercure-santa-marta",
+        "nombre": "Mercure Santa Marta Emile",
+        "img": "/img/mercureSantaMarta.jpg",
+        "descripcion": "Ubicado en el sector de Bello Horizonte, este hotel ofrece comodidad y modernidad cerca del mar.",
+        "bento": [
+          "/img/mercureSantaMarta1.jpg",
+          "/img/mercureSantaMarta2.jpg",
+          "/img/mercureSantaMarta3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Piscina al aire libre",
+          "Desayuno incluido",
+          "Restaurante y bar",
+          "Gimnasio"
+        ],
+        "descripciondetalles": [
+          "Piscina rodeada de áreas verdes.",
+          "Wi-Fi gratuito en todas las instalaciones.",
+          "Restaurante con platos locales e internacionales.",
+          "Salones para reuniones y eventos corporativos.",
+          "Habitaciones modernas y funcionales."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.509090292172!2d-74.22741122495268!3d11.149892289022473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45886be770989%3A0xd497b678310d1667!2sMercure%20Santa%20Marta%20Emile!5e0!3m2!1ses!2sco!4v1733157034434!5m2!1ses!2sco",
+        "flyer": "/img/FlyerMercureSantaMarta.jpg"
+      },
+      {
+        "id": "hotel-best-western-plus-santa-marta",
+        "nombre": "Best Western Plus Santa Marta",
+        "img": "/img/bestWesternSantaMarta.jpg",
+        "descripcion": "Con una ubicación estratégica en el centro de Santa Marta, este hotel combina confort y conveniencia.",
+        "bento": [
+          "/img/bestWesternSantaMarta1.jpg",
+          "/img/bestWesternSantaMarta2.jpg",
+          "/img/bestWesternSantaMarta3.jpg"
+        ],
+        "descripciongeneral": [
+          "Cancelación gratuita",
+          "Desayuno incluido",
+          "Piscina en la azotea",
+          "Wi-Fi gratuito",
+          "Centro de negocios"
+        ],
+        "descripciondetalles": [
+          "Piscina en la azotea con vistas panorámicas de la ciudad.",
+          "Desayuno buffet con opciones variadas.",
+          "Wi-Fi de alta velocidad.",
+          "Centro de negocios con servicios personalizados.",
+          "Habitaciones modernas y cómodas."
+        ],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.306459454341!2d-74.21584012495138!3d11.238851588939385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57c1ba015c5%3A0x60b0682b8a1a5543!2sBest%20Western%20Plus%20Santa%20Marta%20Hotel!5e0!3m2!1ses!2sco!4v1733157207403!5m2!1ses!2sco",
+        "flyer": "/img/FlyerBestWesternSantaMarta.jpg"
+      }
+    ]
   }
 ];
