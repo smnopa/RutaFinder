@@ -602,7 +602,7 @@ export const actividades = [
           "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
           "Comprueba la disponibilidad para ver los horarios de inicio.",
           "Descubre nuestro mariposario y disfruta de la experiencia de la naturaleza.",
-          "El avistamiento de aves es una experiencia inolvidable en el Jardín Botánico del Quindío.",
+          "El avistamiento de aves es una experiencia inolvidable, aproximandamente 20 mil especies en el Jardín Botánico del Quindío.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318.09499354124655!2d-75.6535521!3d4.5116806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f43b10d6dddd%3A0xf97d58b928ca87fe!2sJard%C3%ADn%20Bot%C3%A1nico%20Del%20Quind%C3%ADo!5e0!3m2!1ses!2sco!4v1701184871450!5m2!1ses!2sco",
         contentData: [
@@ -659,7 +659,7 @@ export const actividades = [
           "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
           "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
           "Comprueba la disponibilidad para ver los horarios de inicio.",
-          "Camina y disfruta de un espacio tranquilo y natural, en medio de la ciudad",
+          "Camina y disfruta de un espacio tranquilo y natural, en medio de la ciudad, disfruta un rato agradable con el sonido de la paz",
           "El avistamiento de aves es una experiencia inolvidable.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318.09469667956496!2d-75.6629152!3d4.5479794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f4fb8f430bbd%3A0x159c0ed6d96d65f!2sParque%20De%20La%20Vida!5e0!3m2!1ses!2sco!4v1701184871450!5m2!1ses!2sco",
