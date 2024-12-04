@@ -1455,7 +1455,7 @@ export const ciudades = [
           "Piscina al aire libre con vistas panorámicas.",
           "Habitaciones cómodas y modernas.",
           "Desayuno tipo buffet con opciones locales e internacionales.",
-          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el hotel WN Marriott Cali 2025",
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el hotelHampton Inn Cali 2025",
           "Salones para reuniones y eventos corporativos."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5750648278413!2d-76.54938992502748!3d3.452977096521464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6783a7aada1%3A0x5ebe0773bd1371c7!2sHampton%20by%20Hilton%20Cali%20Colombia!5e0!3m2!1ses!2sco!4v1733176754033!5m2!1ses!2sco",
@@ -1492,21 +1492,23 @@ export const ciudades = [
         bento: [
           "/img/hotelMovichCali1.jpg",
           "/img/hotelMovichCali2.jpg",
-          "/img/hotelMovichCali3.jpg"
+          "/img/hotelMovichCali3.jpg",
+          "/img/hotelMovichCali4.jpg",
+          "/img/hotelMovichCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno incluido",
+          "Wi-Fi gratuito",
           "Spa y gimnasio",
           "Piscina al aire libre",
-          "Wi-Fi gratuito"
         ],
         descripciondetalles: [
           "Piscina al aire libre con vistas espectaculares.",
-          "Salones para eventos y conferencias.",
+          "Desayunos",
           "Wi-Fi gratuito en todo el hotel.",
           "Centro de bienestar con spa y gimnasio.",
-          "Restaurante gourmet con opciones internacionales."
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el hotelHampton Inn Cali 2025"
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.563283855835!2d-76.53961202502751!3d3.4557848965186637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a671d59db255%3A0xa90939cce06fa404!2sHotel%20Movich%20Casa%20del%20Alferez!5e0!3m2!1ses!2sco!4v1733177334490!5m2!1ses!2sco",
         contentData: [
@@ -1536,32 +1538,34 @@ export const ciudades = [
       },
       {
         id: "hotel-estelar-cali",
-        nombre: "Hotel Estelar Cali",
+        nombre: "Hotel Intercontinental Cali",
         img: "/img/hotelEstelarCali.jpg",
         descripcion: "Un hotel moderno y elegante en el corazón de Cali, con una ubicación estratégica cerca de los mejores centros comerciales y la vida nocturna de la ciudad.",
         bento: [
           "/img/hotelEstelarCali1.jpg",
           "/img/hotelEstelarCali2.jpg",
-          "/img/hotelEstelarCali3.jpg"
+          "/img/hotelEstelarCali3.jpg",
+          "/img/hotelEstelarCali4.jpg",
+          "/img/hotelEstelarCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno buffet",
           "Piscina al aire libre",
           "Gimnasio",
-          "Wi-Fi gratuito"
+          "Salón para eventos"
         ],
         descripciondetalles: [
-          "Piscina exterior con vista a la ciudad.",
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el Intercontinental Cali 2025 .",
           "Restaurante con cocina internacional.",
           "Gimnasio totalmente equipado.",
-          "Wi-Fi gratuito en todo el hotel.",
+          "Spa con servicios de relajación y masajes por parte de profesionales.",
           "Salones para reuniones y eventos."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63721.772636877875!2d-76.55639220336634!3d3.4444486616399734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shotel-estelar-cali!5e0!3m2!1ses!2sco!4v1733177729388!5m2!1ses!2sco",
         contentData: [
           {
-            titulo: "Historia y Cultura del Hotel Estelar Cali",
+            titulo: "Historia y Cultura del Hotel Intercontinental Cali",
             description: "El Hotel Estelar Cali es uno de los más prestigiosos de la ciudad, con una excelente ubicación y un servicio impecable.",
             historia: {
               title: "Historia",
