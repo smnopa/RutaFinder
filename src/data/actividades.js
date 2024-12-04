@@ -878,18 +878,55 @@ export const actividades = [
         nombre: "Parque de las Luces",
         img: "/img/parqueLuces.jpg",
         descripcion: "Un espacio cultural y arquitectónico con modernas instalaciones de iluminación.",
-        bento: ["/img/parqueLuces1.jpg", "/img/parqueLuces2.jpg"],
+        bento: ["/img/parqueLuces1.jpeg", 
+                "/img/parqueLuces2.jpg",
+                "/img/parqueLuces3.jpg",
+                "/img/parqueLuces4.jpg",
+                "/img/parqueLuces5.jpg",
+             
+              ],
         descripciongeneral: [
+          "Estadía 10.5 horas (con capacidad de extención)",
+          "Servicio de recogida opcional",
           "Esculturas luminosas",
           "Centro cultural",
           "Espacio fotográfico",
         ],
         descripciondetalles: [
-          "Sus estructuras iluminadas son un símbolo de la renovación urbana.",
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Comprueba la disponibilidad para ver los horarios de inicio.",
+          "Sus estructuras iluminadas son un símbolo, para la ciudad cada luz resalta la belleza de medellín y la arquitectura moderna.",
           "Ubicado cerca de la Biblioteca EPM y el Edificio Vásquez.",
           "Ideal para visitar de noche por su iluminación espectacular.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1348015526182!2d-75.57456302602694!3d6.245960726328465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428551d4336d3%3A0x3265bf68e7f1f910!2sParque%20De%20Las%20Luces%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733260401813!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Parque de las luces Medellín Colombia",
+            description:
+              "El Parque de las Luces en Medellín fue inaugurado en 2005 como parte de la transformación urbana que la ciudad emprendió para revitalizar sus zonas más afectadas por el conflicto y el abandono.",
+            historia: {
+              title: "Historia",
+              content:
+                "Antes de su creación, el área donde se encuentra el parque era considerada insegura y estaba deteriorada. Hoy en día, este espacio simboliza la renovación y modernización del centro de Medellín, conectando las ideas de progreso y esperanza para la ciudad.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El parque no solo es un espacio de recreación, sino un importante símbolo cultural de Medellín. Representa el renacer de una ciudad marcada por la violencia, y su diseño combina la modernidad con la historia local. Los 300 postes luminosos que adornan el parque no son solo una característica visual, sino que reflejan la energía creativa y la voluntad de cambio que define la cultura paisa. Además, el parque se ha convertido en un lugar clave para eventos culturales, conciertos y festividades, promoviendo la vida comunitaria y artística de Medellín.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Cada uno de los postes luminosos tiene una altura de entre 18 y 24 metros, iluminando el parque de manera única durante la noche, además El diseño del parque incluye chorros de agua que emergen del suelo, proporcionando una interacción lúdica con el espacio. Alrededor del parque, se encuentran importantes edificios históricos como la Biblioteca EPM y el Edificio Vásquez, lo que le otorga un ambiente que combina modernidad y patrimonio, es por ello que Es un lugar recurrente para las celebraciones navideñas, donde las luces toman protagonismo, embelleciendo aún más el espacio y atrayendo a miles de visitantes locales y turistas.​",
+            },
+            images: [
+              "/img/hycParqueLuces1.jpg",
+              "/img/hycParqueLuces2.jpg",
+              "/img/hycParqueLuces3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerParqueLuces.jpg",
       },
       {
@@ -897,18 +934,53 @@ export const actividades = [
         nombre: "Piedra del Peñol y Guatapé",
         img: "/img/penolGuatape.jpg",
         descripcion: "Una excursión popular para disfrutar de la vista desde la Piedra del Peñol y el colorido pueblo de Guatapé.",
-        bento: ["/img/penol1.jpg", "/img/penol2.jpg"],
+        bento: ["/img/penol1.jpg", 
+                "/img/penol2.jpg",
+                "/img/penol3.jpg",
+                "/img/penol4.jpg",
+                "/img/penol5.jpg",],
         descripciongeneral: [
+          "Estadía 10.5 horas (con capacidad de extención)",
+          "Servicio de recogida opcional",
           "Vista panorámica",
           "Pueblo colorido",
           "Actividades acuáticas",
         ],
         descripciondetalles: [
-          "La Piedra del Peñol tiene 740 escalones para llegar a la cima.",
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Comprueba la disponibilidad para ver los horarios de inicio.",
+          "La Piedra del Peñol tiene 740 escalones para llegar a la cima, lo que ofrece una vista panorámica impresionante de Guatapé.",
           "Guatapé es famoso por sus fachadas coloridas y zócalos decorativos.",
           "Actividades como paseos en bote están disponibles en el embalse.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31730.43062145937!2d-75.19738049435543!3d6.223610500915277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e441d16240c903f%3A0x8d73bc39b5e6201b!2sPiedra%20del%20Pe%C3%B1ol!5e0!3m2!1ses!2sco!4v1733260530622!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de la Piedra del Peñol en Medellín Colombia",
+            description:
+              "La Piedra del Peñol, también conocida como el Peñón de Guatapé, es un gigantesco monolito de 220 metros de altura ubicado en el municipio de Guatapé, Antioquia. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Se estima que esta formación rocosa se originó hace unos 70 millones de años. En 1954, un grupo de habitantes locales, liderados por Luis Eduardo Villegas, escaló por primera vez la roca. Desde entonces, se construyeron 740 escalones que permiten a los visitantes llegar a la cima, donde se encuentra una espectacular vista panorámica del embalse de Guatapé.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Piedra del Peñol es un símbolo del orgullo antioqueño y de la tenacidad de su gente. Los municipios de El Peñol y Guatapé se disputaron históricamente la propiedad de la roca, lo que generó una fuerte rivalidad entre las dos comunidades. Además, la región alrededor de la piedra está profundamente ligada a la cultura cafetera y campesina, lo que se refleja en la vida diaria de los habitantes, la arquitectura colorida del pueblo de Guatapé, y las celebraciones culturales que atraen a turistas de todo el mundo.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La leyenda local dice que la Piedra del Peñol fue considerada sagrada por los indígenas tahamíes, quienes habitaron la región antes de la llegada de los colonos españoles.​ En la parte superior de la roca, hay una pequeña tienda de recuerdos y un mirador que permite vistas de 360 grados, además Los escalones que llevan a la cima fueron construidos en una grieta natural que atraviesa la roca, lo que permitió la creación de una escalera relativamente segura y estable, tambien La G y la U pintadas en la piedra son vestigios de un intento de escribir Guatapé por parte de sus habitantes, antes de que los ciudadanos de El Peñol intervinieran para detener la pintura.",
+            },
+            images: [
+              "/img/hycPiedra1.jpg",
+              "/img/hycPiedra2.jpg",
+              "/img/hycPiedra3.png",
+            ],
+          },
+        ],
         flyer: "/img/flyerPenolGuatape.jpg",
       },
     ],
