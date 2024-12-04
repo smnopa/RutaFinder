@@ -1012,6 +1012,34 @@ export const actividades = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15863.755845476679!2d-75.50895250233656!3d6.271757349470664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sParque%20Arv%C3%AD!5e0!3m2!1ses!2sco!4v1733259656174!5m2!1ses!2sco",
         flyer: "/img/flyerParqueArvi.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura del Parque Arví Colombia",
+            description:
+              "El Parque Arví, ubicado en la ciudad de Medellín, es una reserva natural que cubre más de 16,000 hectáreas en el corregimiento de Santa Elena. Se inauguró en 2010 con el propósito de proteger los recursos naturales de la región y ofrecer un espacio para la recreación sostenible.",
+            historia: {
+              title: "Historia",
+              content:
+                "El parque es una mezcla de áreas boscosas, senderos ecológicos, y restos arqueológicos de culturas prehispánicas que habitaban esta región. Durante la época precolombina, Santa Elena fue un paso importante para las comunidades indígenas como los Aburráes. A lo largo de los años, la zona se ha conservado gracias a su importancia ecológica y cultural.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El parque no solo ofrece actividades recreativas, sino que también es un lugar lleno de significado cultural. Santa Elena es conocida como la cuna de los silleteros, los artesanos floricultores que cada año se convierten en protagonistas del famoso Desfile de Silleteros en la Feria de las Flores de Medellín. En el parque, los visitantes pueden conocer de cerca esta tradición, además de disfrutar de diversas actividades culturales, talleres de educación ambiental, y proyectos de agroecología.El Parque Arví también es un ejemplo de turismo sostenible, ya que promueve la conservación de la naturaleza mientras educa a los visitantes sobre la biodiversidad y el patrimonio cultural de la región.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El parque es accesible mediante el Metrocable Arví, un sistema de transporte por teleférico que ofrece vistas espectaculares de Medellín y las montañas circundantes. Es uno de los primeros parques en el mundo con este tipo de acceso.  El parque alberga más de 70 especies de mamíferos y una gran cantidad de aves, lo que lo convierte en un paraíso para los amantes de la naturaleza y observadores de aves. Dentro del parque se pueden encontrar vestigios arqueológicos que revelan la presencia de culturas indígenas que habitaron la región siglos antes de la llegada de los colonizadores españoles.",
+            },
+            images: [
+              "/img/hycArvi1.jpg",
+              "/img/hycArvi2.jpg",
+              "/img/hycArvi3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "comuna-13",
@@ -1035,6 +1063,35 @@ export const actividades = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.121338206378!2d-75.62642285873218!3d6.255738124931033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442bd61b35b135%3A0x7ac589026488978b!2sSan%20Javier%2C%20Medell%C3%ADn%2C%20San%20Javier%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733259770656!5m2!1ses!2sco",
         flyer: "/img/flyerComuna13.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura de La Comuna 13 en Colombia",
+            description:
+              "La Comuna 13 de Medellín, también conocida como San Javier, ha tenido una historia compleja marcada por la violencia, la pobreza y la transformación social.",
+            historia: {
+              title: "Historia",
+              content:
+                "Durante las décadas de los 80 y 90, esta comuna fue uno de los puntos más conflictivos de la ciudad debido a la presencia de grupos armados ilegales, el narcotráfico y los enfrentamientos entre las autoridades y los insurgentes. Sin embargo, a partir de los 2000s, la comuna comenzó a experimentar una profunda transformación, impulsada por iniciativas comunitarias, el apoyo del gobierno local y el trabajo social de organizaciones no gubernamentales. Uno de los hitos más importantes en su historia reciente es la construcción del Metrocable que conecta la Comuna 13 con el sistema de transporte masivo de Medellín. Este proyecto, junto con otras iniciativas de urbanismo y regeneración social, ha permitido mejorar la calidad de vida en la zona y ha transformado la imagen de la comuna, convirtiéndola en un ejemplo de resiliencia urbana.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Comuna 13 ha sido un centro de creatividad y arte urbano. Conocida por su arte en las calles, especialmente los coloridos murales que adornan las paredes de las viviendas y edificios, la comuna ha visto cómo el graffiti y el arte mural se han convertido en herramientas de expresión social y política. Estos murales cuentan historias de lucha, resistencia y esperanza, reflejando tanto el sufrimiento de las décadas pasadas como la superación y el orgullo comunitario.El hip hop y la danza urbana también han sido parte fundamental de la cultura de la Comuna 13. Los jóvenes han utilizado estos movimientos como una forma de canalizar su energía de manera positiva, creando espacios donde la música, el baile y la expresión artística se convierten en un medio de transformación social.Además, la comuna se ha convertido en un destino turístico, con visitantes que llegan para conocer de cerca su historia, arte, y la notable transformación social y cultural que ha experimentado en los últimos años. El Tour de la Comuna 13 ofrece a los turistas una mirada profunda a los procesos de paz y reconciliación que se han dado en la comunidad.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La Comuna 13 es famosa por sus murales, los cuales representan la historia de la comunidad y de Medellín en general. Algunos de estos murales fueron creados por colectivos de artistas locales que usan el arte como una forma de sanación colectiva. El Metrocable que conecta la Comuna 13 con el sistema de transporte de Medellín no solo ha facilitado el acceso a servicios y empleos, sino que también ha sido un símbolo de inclusión social, transformando la percepción de la comuna y mejorando la conectividad con otras zonas de la ciudad. La Comuna 13 es un ejemplo mundial de cómo la cultura, el arte y el trabajo comunitario pueden contribuir a la reconstrucción del tejido social en zonas afectadas por la violencia. Hoy en día, es considerada un destino turístico que promueve el turismo de paz y reconciliación.",
+            },
+            images: [
+              "/img/hycComuna1.jpg",
+              "/img/hycComuna2.jpg",
+              "/img/hycComuna3.webp",
+
+            ],
+          },
+        ],
       },
       {
         id: "parque-botero",
