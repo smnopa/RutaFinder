@@ -595,4 +595,124 @@ export const paquetes = [
       },
     ],
   },
+  {
+    nombre: "Medellín",
+    paquetes: [
+      {
+        id: "paquete1",
+        nombre: "Explora el Parque Arví",
+        img: "/img/parqueArvi.png",
+        descripcion:
+          "Un destino natural ideal para disfrutar de caminatas, actividades al aire libre y paisajes espectaculares.",
+        bento: ["/img/arvi1.jpg", "/img/arvi2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Guía turístico local",
+          "Entrada al parque incluida",
+        ],
+        descripciondetalles: [
+          "Recorrido por senderos ecológicos y zonas de picnic.",
+          "Visita al mercado campesino dentro del parque.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15863.755845476679!2d-75.50895250233656!3d6.271757349470664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sParque%20Arv%C3%AD!5e0!3m2!1ses!2sco!4v1733353629271!5m2!1ses!2sco",
+        flyer: "/img/FlyerpParqueArvi.jpg",
+      },
+      {
+        id: "paquete2",
+        nombre: "Comuna 13: Arte y Resiliencia",
+        img: "/img/comuna13.png",
+        descripcion:
+          "Sumérgete en la historia de transformación de la Comuna 13, con arte urbano, cultura y música.",
+        bento: ["/img/pcomuna131.jpg", "/img/pcomuna132.jpg"],
+        descripciongeneral: [
+          "Tour guiado especializado",
+          "Demostraciones de arte callejero",
+          "Degustación de snacks locales",
+        ],
+        descripciondetalles: [
+          "Recorrido por murales y grafitis icónicos de la zona.",
+          "Visita a las escaleras eléctricas y miradores panorámicos.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7932.225815972892!2d-75.62977385873245!3d6.248849874958145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scomuna%2013%3A%20Arte%20y%20Resiliencia!5e0!3m2!1ses!2sco!4v1733353781453!5m2!1ses!2sco",
+        flyer: "/img/FlyerpComuna13.jpg",
+      },
+      {
+        id: "paquete3",
+        nombre: "Tour del Café Paisa",
+        img: "/img/tourCafe.png",
+        descripcion:
+          "Descubre el proceso del café colombiano en una finca cercana a Medellín.",
+        bento: ["/img/cafe1.jpg", "/img/cafe2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Recorrido por la finca cafetera",
+          "Degustación de café premium",
+        ],
+        descripciondetalles: [
+          "Aprende sobre la siembra, cosecha y tostado del café.",
+          "Disfruta de un paisaje rural único y relajante.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d253838.8861932214!2d-75.77655085026481!3d6.233039054371177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stour%20del%20caf%C3%A9%20medell%C3%ADn!5e0!3m2!1ses!2sco!4v1733353966524!5m2!1ses!2sco",
+        flyer: "/img/FlyerTourCafe.jpg",
+      },
+      {
+        id: "paquete4",
+        nombre: "Guatapé y Piedra del Peñol",
+        img: "/img/guatape.png",
+        descripcion:
+          "Una experiencia inolvidable visitando el colorido pueblo de Guatapé y escalando la icónica Piedra del Peñol.",
+        bento: ["/img/guatape1.jpg", "/img/guatape2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Entrada a la Piedra del Peñol",
+          "Recorrido guiado por Guatapé",
+        ],
+        descripciondetalles: [
+          "Incluye almuerzo típico de la región.",
+          "Oportunidad de paseos en bote por la represa.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31730.43062145937!2d-75.19766394435544!3d6.223610500915275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e441d16240c903f%3A0x8d73bc39b5e6201b!2sPiedra%20del%20Pe%C3%B1ol!5e0!3m2!1ses!2sco!4v1733354083387!5m2!1ses!2sco",
+        flyer: "/img/FlyerGuatape.jpg",
+      },
+      {
+        id: "paquete5",
+        nombre: "Medellín Nocturna",
+        img: "/img/medellinNocturna.png",
+        descripcion:
+          "Descubre la vibrante vida nocturna de Medellín con este tour especial.",
+        bento: ["/img/nocturnaMedellin1.jpg", "/img/nocturnaMedellin2.jpg"],
+        descripciongeneral: [
+          "Transporte nocturno",
+          "Visita a bares y miradores",
+          "Guía local especializado",
+        ],
+        descripciondetalles: [
+          "Recorre lugares como La 70 y el mirador de Las Palmas.",
+          "Incluye degustación de cócteles y snacks.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69980768887!2d-75.66361448980653!3d6.244367697476059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733354246021!5m2!1ses!2sco",
+        flyer: "/img/FlyerMedellinNocturna.jpg",
+      },
+      {
+        id: "paquete6",
+        nombre: "Tour Gastronómico en Medellín",
+        img: "/img/gastronomiaMedellin.png",
+        descripcion:
+          "Prueba los sabores únicos de la gastronomía paisa en este tour culinario.",
+        bento: ["/img/gastronomiaMedellin1.jpg", "/img/gastronomiaMedellin2.jpg"],
+        descripciongeneral: [
+          "Recorrido por restaurantes y mercados",
+          "Degustación de platos típicos",
+          "Clases de cocina paisa",
+        ],
+        descripciondetalles: [
+          "Prueba delicias como bandeja paisa, arepas y buñuelos.",
+          "Visita a lugares icónicos como el Mercado de la Minorista.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87229.24827378745!2d-75.58583312314819!3d6.195719709694598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46830cc8ad8d63%3A0xaee3685907f6f3dc!2sTour%20Gastron%C3%B3mico!5e0!3m2!1ses!2sco!4v1733354521270!5m2!1ses!2sco",
+        flyer: "/img/FlyerGastronomiaMedellin.jpg",
+      },
+    ],
+  }
+  
 ];
