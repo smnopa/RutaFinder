@@ -126,21 +126,122 @@ export const paquetes = [
     nombre: "Bogotá",
     paquetes: [
       {
-        id: "paquete3",
-        nombre: "Paquete Cultural",
-        img: "/img/paquetestodoenuno.png",
+        id: "paquete1",
+        nombre: "Monserrate y su Encanto",
+        img: "/img/monserrate.png",
         descripcion:
-          "Un recorrido por los principales museos y sitios culturales de Bogotá.",
+          "Explora el icónico cerro de Monserrate, disfruta de su vista panorámica y su riqueza cultural.",
+        bento: ["/img/pmonserrate1.jpg", "/img/pmonserrate2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Entrada al funicular o teleférico",
+          "Guía turístico incluido",
+        ],
+        descripciondetalles: [
+          "Recorrido por el santuario y sus alrededores.",
+          "Tiempo libre para disfrutar de la gastronomía local.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.479457708305!2d-74.0761251451095!3d4.605672453609117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99bfd2a459a9%3A0x352a5134b65e607b!2sMonserrate!5e0!3m2!1ses!2sco!4v1733350365846!5m2!1ses!2sco",
+        flyer: "/img/FlyerPMonserrate.jpg",
+      },
+      {
+        id: "paquete2",
+        nombre: "Museo del Oro y Centro Histórico",
+        img: "/img/museoOro.png",
+        descripcion:
+          "Un viaje por la historia y cultura de Bogotá a través de sus monumentos y su museo más icónico.",
+        bento: ["/img/pmuseoOro1.jpg", "/img/pmuseoOro2.jpg"],
+        descripciongeneral: [
+          "Entrada al Museo del Oro",
+          "Tour guiado por el centro histórico",
+          "Degustación de café colombiano",
+        ],
+        descripciondetalles: [
+          "Visita a la Plaza Bolívar y la Catedral Primada.",
+          "Descubre las colecciones de oro precolombino en el museo.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9559460113987!2d-74.07461602502126!3d4.601912795372756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a6c60f7ccd%3A0xc18fcd6091a051ed!2sMuseo%20del%20Oro!5e0!3m2!1ses!2sco!4v1733350539022!5m2!1ses!2sco",
+        flyer: "/img/FlyerPMuseoOro.jpg",
+      },
+      {
+        id: "paquete3",
+        nombre: "Tour por La Candelaria",
+        img: "/img/candelaria.png",
+        descripcion:
+          "Explora el barrio más emblemático de Bogotá con su arquitectura colonial y arte callejero.",
+        bento: ["/img/pcandelaria1.jpg", "/img/pcandelaria2.jpg"],
+        descripciongeneral: [
+          "Guía local especializado",
+          "Visita a sitios históricos",
+          "Degustación de chicha y productos típicos",
+        ],
+        descripciondetalles: [
+          "Recorrido por calles empedradas y coloridas casas coloniales.",
+          "Conoce la historia y cultura de este icónico barrio.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15907.946457054983!2d-74.08133381874529!3d4.596420314891553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a844cf79cb%3A0xa58d1864daa71331!2sLa%20Candelaria%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733350804921!5m2!1ses!2sco",
+        flyer: "/img/pFlyerCandelaria.jpg",
       },
       {
         id: "paquete4",
-        nombre: "Aventura en la Sabana",
-        img: "/img/paquetestodoenuno.png",
+        nombre: "Tour a la Catedral de Sal de Zipaquirá",
+        img: "/img/catedralSal.png",
         descripcion:
-          "Tour por los paisajes y actividades al aire libre en la Sabana de Bogotá.",
+          "Una experiencia única visitando la monumental Catedral de Sal, a solo una hora de Bogotá.",
+        bento: ["/img/catedral1.jpg", "/img/catedral2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Entrada a la Catedral de Sal",
+          "Guía turístico profesional",
+        ],
+        descripciondetalles: [
+          "Descubre el arte y la ingeniería detrás de esta maravilla subterránea.",
+          "Recorrido por las estaciones del viacrucis y el espectáculo de luces.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.522152669847!2d-74.01249202501859!3d5.0186999949577995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e407020507b7b01%3A0xdf488196ac237f!2sCatedral%20De%20Sal%20de%20Zipaquir%C3%A1!5e0!3m2!1ses!2sco!4v1733350969649!5m2!1ses!2sco",
+        flyer: "/img/FlyerCatedralSal.jpg",
+      },
+      {
+        id: "paquete5",
+        nombre: "Bogotá Nocturna",
+        img: "/img/bogotaNocturna.png",
+        descripcion:
+          "Descubre la magia de Bogotá de noche con este tour especial por sus puntos más vibrantes.",
+        bento: ["/img/nocturnaBogota1.jpg", "/img/nocturnaBogota2.jpg"],
+        descripciongeneral: [
+          "Transporte nocturno",
+          "Tour por miradores y bares emblemáticos",
+          "Bebidas incluidas",
+        ],
+        descripciondetalles: [
+          "Visita el mirador de La Calera para una vista nocturna de la ciudad.",
+          "Recorrido por bares y zonas de vida nocturna como Usaquén o Chapinero.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.530906301309!2d-74.10627223037748!3d4.497827933412301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fa3c7e191bbfd%3A0xebfbc77ce0eed879!2sLa%20Septima%207!5e0!3m2!1ses!2sco!4v1733351329014!5m2!1ses!2sco",
+        flyer: "/img/FlyerBogotaNocturna.jpg",
+      },
+      {
+        id: "paquete6",
+        nombre: "Aventura Gastronómica en Bogotá",
+        img: "/img/gastronomiaBogota.png",
+        descripcion:
+          "Prueba lo mejor de la gastronomía bogotana con este tour culinario por restaurantes y mercados locales.",
+        bento: ["/img/gastronomiaBogota1.jpg", "/img/gastronomiaBogota2.jpg"],
+        descripciongeneral: [
+          "Tour por mercados tradicionales",
+          "Degustación de platos típicos",
+          "Clases de cocina bogotana",
+        ],
+        descripciondetalles: [
+          "Prueba delicias como el ajiaco, tamales y postres tradicionales.",
+          "Recorre lugares icónicos como el Mercado de Paloquemao.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.982282537829!2d-74.07230142502134!3d4.597196495377445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a5f21874b7%3A0x6e0f2dc38bd9bb02!2sPlazoleta%20del%20Chorro%20de%20Quevedo!5e0!3m2!1ses!2sco!4v1733351563988!5m2!1ses!2sco",
+        flyer: "/img/FlyerGastronomiaBogota.jpg",
       },
     ],
   },
+  
   {
     nombre: "Armenia y Quindio",
     paquetes: [
@@ -200,7 +301,7 @@ export const paquetes = [
             },
           ],
           flyer: "/img/flyerVuelo.jpg",
-        },
+      },
       {
         id: "Plan-Quindio-super-económico",
         nombre: "Plan Quindio super económico",
@@ -316,8 +417,9 @@ export const paquetes = [
             },
           ],
           flyer: "/img/flyerPanaca.jpg",
-        },
-        {
+        
+      },
+      {
           id: "Paquete-arrieros-hospedaje",
           nombre: "Parque Temático y Cultural los arrieros",
           img: "/img/paqueteArrieros.jpg",
@@ -374,8 +476,8 @@ export const paquetes = [
               },
             ],
             flyer: "/img/flyerArrieros.webp",
-          },
-          {
+      },
+      {
             id: "Tour-Filandia-Salento-Valle del Cocora",
             nombre: "Tour Filandia + hospedaje",
             img: "/img/paqueteFilandia.jpg",
@@ -432,8 +534,8 @@ export const paquetes = [
                 },
               ],
               flyer: "/img/flyerFilandia.jpg",
-            },
-            {
+      },
+      {
               id: "Hospedaje-recorrido-finca-cacao",
               nombre: "Hospedaje y recorrido por la finca de cacao Evelyza",
               img: "/img/paqueteFincaCacao.png",
@@ -490,7 +592,7 @@ export const paquetes = [
                   },
                 ],
                 flyer: "/img/flyerFincaCacao.jpg",
-              },
+      },
     ],
   },
 ];
