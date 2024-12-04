@@ -432,18 +432,18 @@ export const ciudades = [
         contentData: [
           {
             titulo: "Historia y Cultura del Hotel Estelar Bogotá",
-            description: "Hotel Estelar Bogotá combina elegancia, comodidad y un excelente servicio para todos sus huéspedes.",
+            description: "El Hotel Estelar Bogotá, parte de la cadena hotelera colombiana Hoteles Estelar,.",
             historia: {
               title: "Historia",
-              content: "Desde su inauguración en 1990, el Hotel Estelar Bogotá ha sido un referente de lujo y comodidad en el sector financiero de la ciudad. Su diseño moderno lo posiciona como una excelente opción para los viajeros de negocios."
+              content: "fue inaugurado para brindar alojamiento de lujo y confort en la capital del país. Su ubicación en el corazón de la ciudad lo convierte en un punto clave tanto para viajeros de negocios como de placer, ofreciendo servicios modernos y cómodos."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel apoya a la comunidad artística local exhibiendo obras en sus instalaciones y ofreciendo experiencias gastronómicas que resaltan los sabores típicos de la región."
+              content: "El hotel mantiene una estrecha relación con la cultura local, destacando aspectos de la arquitectura y el diseño colombiano. Su restaurante también integra sabores típicos de la gastronomía local, ofreciendo una experiencia completa del país."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El hotel se destaca por sus amplias habitaciones y su spa, que ha sido galardonado como uno de los mejores de Bogotá."
+              content: "El Hotel Estelar Bogotá se encuentra cerca de importantes centros empresariales y culturales de la ciudad, además Es conocido por su servicio personalizado y enfoque en el bienestar de los huéspedes y Cuenta con modernas instalaciones que incluyen piscina, gimnasio y espacios para eventos empresariales de gran escala."
             },
             images: [
               "/img/hEstelarBogota1.jpg",
@@ -531,7 +531,7 @@ export const ciudades = [
           "Piscina climatizada con servicio de bar.",
           "Habitaciones con vistas espectaculares y tecnología avanzada.",
           "Spa de lujo con tratamientos personalizados.",
-          "Restaurante con cocina de autor que fusiona sabores colombianos e internacionales, mezclando la comidad nativa con la europea."
+          "Restaurante con cocina de autor que fusiona sabores colombianos internacionales, mezclando la comidad nativa con la europea."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4404603787443!2d-74.03721592502073!3d4.693272995281713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa6620c146f%3A0xa2922291a3de6e4d!2sW%20Bogota!5e0!3m2!1ses!2sco!4v1733238279224!5m2!1ses!2sco",
         contentData: [
@@ -567,7 +567,9 @@ export const ciudades = [
         bento: [
           "/img/hotelGrandHyattBogota1.jpg",
           "/img/hotelGrandHyattBogota2.jpg",
-          "/img/hotelGrandHyattBogota3.jpg"
+          "/img/hotelGrandHyattBogota3.jpg",
+          "/img/hotelGrandHyattBogota4.jpeg",
+          "/img/hotelGrandHyattBogota5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -577,28 +579,29 @@ export const ciudades = [
           "Restaurantes de alta cocina"
         ],
         descripciondetalles: [
-          "Habitaciones amplias con decoración sofisticada.",
+          "Habitaciones con decoración sofisticada, es una de las arquitecturas mas grandes de Bogotá, es catalogada como el hotel Rey",
           "Piscina cubierta y gimnasio con equipos de última generación.",
+          "Salones para eventos con capacidad para más de 1,000 personas.",
           "Spa con tratamientos exclusivos de relajación.",
-          "Restaurantes con especialidades locales e internacionales.",
-          "Salones para eventos con capacidad para más de 1,000 personas."
+          "Restaurantes con especialidades locales e internacionales."
+
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7193290663827!2d-74.10263132502111!3d4.644071395330723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bc1be4e2a53%3A0x1d610fc552832a6d!2sHotel%20Grand%20Hyatt%20%7C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733240165607!5m2!1ses!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura del Grand Hyatt Bogotá",
-            description: "El Grand Hyatt Bogotá combina lujo y sofisticación con un toque colombiano, ofreciendo una experiencia inigualable.",
+            description: "El Hotel Grand Hyatt Bogotá abrió sus puertas en 2018, trayendo la elegancia y el lujo característicos de la marca Hyatt a la capital colombiana.",
             historia: {
               title: "Historia",
-              content: "Desde su apertura en 2018, el Grand Hyatt Bogotá se ha destacado como uno de los hoteles más modernos y lujosos de la ciudad."
+              content: "Es uno de los desarrollos hoteleros más grandes y modernos de la ciudad, diseñado para ofrecer una experiencia de alta calidad tanto para huéspedes de negocios como de placer. Su estratégica ubicación en la zona de Ciudad Salitre lo coloca cerca de importantes centros financieros y culturales de Bogotá."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel celebra la diversidad cultural de Colombia a través de su oferta gastronómica y sus eventos temáticos."
+              content: "El Grand Hyatt Bogotá está profundamente influenciado por la cultura local. Sus interiores modernos incluyen elementos que reflejan el patrimonio colombiano, como el uso de materiales y texturas locales. El hotel también promueve la gastronomía colombiana en sus restaurantes, que ofrecen menús diseñados con ingredientes frescos y autóctonos. Además, es un espacio recurrente para eventos y actividades culturales, consolidándose como un referente de lujo en la escena hotelera y cultural de Bogotá."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El spa del hotel es considerado uno de los mejores de Bogotá, y su arquitectura ha sido premiada por su diseño innovador."
+              content: "El Grand Hyatt Bogotá cuenta con el spa urbano más grande de la ciudad, ofreciendo tratamientos de bienestar de primer nivel, además Su piscina cubierta ofrece vistas impresionantes del paisaje bogotano y El hotel alberga uno de los restaurantes más exclusivos de Bogotá, Ushin, especializado en parrilla de estilo japonés."
             },
             images: [
               "/img/hGrandHyattBogota1.jpg",
@@ -617,38 +620,40 @@ export const ciudades = [
         bento: [
           "/img/hotelMarriottBogota1.jpg",
           "/img/hotelMarriottBogota2.jpg",
-          "/img/hotelMarriottBogota3.jpg"
+          "/img/hotelMarriottBogota3.jpg",
+          "/img/hotelMarriottBogota4.jpg",
+          "/img/hotelMarriottBogota5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
-          "Desayuno incluido",
-          "Centro de negocios",
           "Piscina cubierta",
-          "Gimnasio y spa"
+          "Centro de negocios",
+          "Spa y gimnasio",
+          "Restaurantes de alta cocina"
         ],
         descripciondetalles: [
-          "Servicio de transporte al aeropuerto las 24 horas.",
-          "Restaurante con una amplia oferta culinaria internacional.",
-          "Piscina cubierta y gimnasio completamente equipado.",
-          "Salones para eventos empresariales y sociales.",
-          "Wi-Fi gratuito de alta velocidad en todas las instalaciones."
+          "Habitaciones con decoración sofisticada, es una de las arquitecturas mas grandes de Bogotá, es catalogada como el hotel Rey",
+          "Piscina cubierta y gimnasio con equipos de última generación.",
+          "Salones para eventos con capacidad para más de 1,000 personas.",
+          "Spa con tratamientos exclusivos de relajación.",
+          "Restaurantes con especialidades locales e internacionales."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.633573489694!2d-74.11117852502099!3d4.65925669531558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b9a4f5b2981%3A0x3789ecc0545d000f!2sBogota%20Marriott%20Hotel!5e0!3m2!1ses!2sco!4v1733240446749!5m2!1ses!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura del Bogotá Marriott Hotel",
-            description: "El Bogotá Marriott Hotel se destaca por su cercanía al aeropuerto y su servicio excepcional.",
+            description: "El Bogotá Marriott Hotel abrió sus puertas en 2009 en el corazón de la zona de negocios de Bogotá, convirtiéndose en uno de los primeros hoteles de lujo de la cadena Marriott en la ciudad.",
             historia: {
               title: "Historia",
-              content: "Desde su inauguración en 2009, este hotel ha sido una referencia para viajeros de negocios que buscan comodidad y eficiencia."
+              content: "Desde su apertura, ha sido un punto clave para viajeros de negocios y eventos importantes en la capital, destacándose por su servicio de alta calidad y modernas instalaciones."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel organiza actividades que destacan la cultura local y ofrece una experiencia gastronómica que resalta los sabores colombianos."
+              content: "El hotel refleja la cultura local mediante la oferta de servicios gastronómicos con influencias colombianas en sus restaurantes, que destacan ingredientes autóctonos. También incorpora elementos modernos en su diseño que capturan el espíritu vibrante de Bogotá."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Bogotá Marriott Hotel es conocido por su compromiso con la sostenibilidad, incorporando prácticas ecológicas en sus operaciones."
+              content: "Cuenta con una de las suites más grandes de la ciudad, ideal para alojamientos de lujo, tambien ofrece un spa con tratamientos inspirados en la flora colombiana, además Se destaca por su compromiso con prácticas sostenibles y su participación en programas de responsabilidad social en Bogotá."
             },
             images: [
               "/img/hMarriottBogota1.jpg",
