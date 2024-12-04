@@ -683,114 +683,307 @@ export const actividades = [
         nombre: "Cerro de Monserrate",
         img: "/img/monserrate.jpg",
         descripcion: "Uno de los puntos más icónicos de Bogotá, con vistas panorámicas de la ciudad.",
-        bento: ["/img/monserrate1.jpg", "/img/monserrate2.jpg"],
+        bento: ["/img/monserrate1.jpg", "/img/monserrate2.jpg", "/img/monserrate3.jpg", "/img/monserrate4.jpg", 
+          "/img/monserrate5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Vistas panorámicas",
           "Santuario religioso",
           "Senderismo y teleférico",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Ideal para caminar, hacer deporte o disfrutar de la vista.",
           "Santuario visitado por miles de peregrinos al año.",
           "Opciones de transporte en teleférico o funicular.",
+          "Contenido multimedia con audio y video.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.479457708305!2d-74.0761251451095!3d4.605672453609117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99bfd2a459a9%3A0x352a5134b65e607b!2sMonserrate!5e0!3m2!1ses!2sco!4v1733258686475!5m2!1ses!2sco",
         flyer: "/img/flyerMonserrate.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura del Cerro de Monserrate en Bogotá, Colombia",
+            description:
+              "El Cerro de Monserrate, ubicado en Bogotá, Colombia, es uno de los símbolos más emblemáticos de la ciudad. Su historia se remonta al siglo XVII, cuando en 1640 se construyó un santuario dedicado a la Virgen Morena de Montserrat, en honor a la montaña homónima en España.",
+            historia: {
+              title: "Historia",
+              content:
+                "En el siglo XX, la devoción se centró en el Señor Caído de Monserrate, una imagen de Cristo que es venerada por peregrinos locales y extranjeros. Monserrate ha sido testigo de varios eventos religiosos y sociales a lo largo de los años y es un lugar de peregrinación para miles de personas, especialmente durante la Semana Santa.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El cerro es tanto un sitio religioso como un atractivo turístico, ya que ofrece una profunda conexión espiritual para los peregrinos y, a la vez, una vista espectacular de Bogotá. Subir el cerro es una tradición para locales y turistas, ya sea a pie, en teleférico o funicular. Además de su importancia religiosa, Monserrate ha influido en la identidad cultural bogotana, siendo parte de la vida cotidiana de los habitantes de la ciudad, y ha sido representado en múltiples expresiones artísticas y literarias.El santuario en la cima también es un reflejo del sincretismo religioso en Colombia, donde la devoción cristiana se entrelaza con creencias populares y tradiciones ancestrales. A lo largo del camino hacia la cumbre, se encuentran estaciones del Vía Crucis, lo que añade una dimensión espiritual al ascenso.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El Cerro de Monserrate se eleva a 3,152 metros sobre el nivel del mar, proporcionando unas vistas panorámicas inigualables de Bogotá y sus alrededores. A lo largo del camino se pueden observar diversas especies de flora nativa y aves, lo que convierte el recorrido en una experiencia ecológica y espiritual. Además de la caminata, se puede acceder al cerro en teleférico o funicular, ambos inaugurados en el siglo XX, lo que ha facilitado la visita a miles de personas que quieren disfrutar de la vista sin el esfuerzo físico del ascenso.",
+            },
+            images: [
+              "/img/hycCerro1.jpg",
+              "/img/hycCerro2.jpg",
+              "/img/hycCerro3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "museo-oro",
         nombre: "Museo del Oro",
         img: "/img/museoOro.jpg",
         descripcion: "Uno de los museos más importantes del mundo dedicado al oro precolombino.",
-        bento: ["/img/museoOro1.jpg", "/img/museoOro2.jpg"],
+        bento: ["/img/museoOro1.jpeg","/img/museoOro2.jpg","/img/museoOro3.jpg","/img/museoOro4.webp", "/img/museoOro5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Colección precolombina",
           "Ubicación central",
           "Recorridos guiados disponibles",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Exhibe más de 34,000 piezas de oro y objetos cerámicos.",
           "Incluye actividades interactivas para niños.",
           "Se encuentra en el centro histórico de Bogotá.",
+          "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3976.9690073557863!2d-74.0751030750213!3d4.599574395375078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMuseo%20del%20Oro!5e0!3m2!1ses!2sco!4v1733258829785!5m2!1ses!2sco",
         flyer: "/img/flyerMuseoOro.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura del Museo del Oro Colombia",
+            description:
+              "El Museo del Oro, ubicado en Bogotá, es uno de los museos más importantes de América Latina y alberga una de las colecciones de orfebrería prehispánica más grandes del mundo. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1939 por el Banco de la República, el museo nació con el objetivo de preservar y exhibir los tesoros de oro y otros metales preciosos que fueron creados por las culturas indígenas de Colombia antes de la llegada de los europeos. Su colección original se inició con la adquisición de una pieza precolombina llamada poporo quimbaya. Con los años, el museo ha crecido exponencialmente, ampliando tanto su colección como su infraestructura.El edificio actual fue inaugurado en 1968 y ha sido objeto de varias renovaciones, la más significativa en 2008, cuando se rediseñó para ofrecer una experiencia más moderna e interactiva. Hoy en día, el museo cuenta con más de 34,000 piezas de oro y otros objetos arqueológicos.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Museo del Oro no solo resguarda artefactos, sino que también es un espacio para la interpretación y el entendimiento de las culturas precolombinas de Colombia. A través de su exhibición, el museo narra las historias y cosmovisiones de grupos como los Tairona, Muisca, Zenú, y Quimbaya, quienes utilizaban el oro no solo como material ornamental, sino como un elemento cargado de significado religioso y espiritual.El museo es un referente cultural y académico, pues sus exposiciones y actividades promueven el diálogo sobre la diversidad cultural y el legado indígena de Colombia. Las piezas expuestas muestran cómo las antiguas civilizaciones consideraban el oro como un medio de conexión entre lo humano y lo divino.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Uno de los objetos más destacados del museo es la famosa Balsa Muisca, que representa la ceremonia de El Dorado. Este pequeño objeto de oro sólido fue encontrado en una cueva en Pasca, Cundinamarca, y se ha convertido en uno de los emblemas más representativos del mito de El Dorado. El museo cuenta con exposiciones interactivas que permiten a los visitantes experimentar el proceso de fundición del oro y aprender sobre las técnicas de orfebrería utilizadas por las culturas prehispánicas. El Museo del Oro ha sido reconocido mundialmente por su invaluable colección y su enfoque pedagógico, siendo uno de los destinos más visitados en Colombia.",
+            },
+            images: [
+              "/img/hycMuseoOro1.jpg",
+              "/img/hycMuseoOro2.jpg",
+              "/img/hycMuseoOro3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "la-candelaria",
         nombre: "La Candelaria",
         img: "/img/candelaria.jpg",
         descripcion: "El centro histórico y cultural de Bogotá, lleno de arquitectura colonial y museos.",
-        bento: ["/img/candelaria1.jpg", "/img/candelaria2.jpg"],
+        bento: ["/img/candelaria1.jpg","/img/candelaria2.jpg","/img/candelaria3.jpg","/img/candelaria4.jpg", "/img/candelaria5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Arquitectura colonial",
           "Arte y cultura",
           "Restaurantes típicos",
+           "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Lugares destacados como la Plaza de Bolívar y el Teatro Colón.",
           "Galerías de arte y tiendas de artesanías.",
           "Ambiente bohemio y cultural único.",
+          "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.893878869938!2d-74.09163369511319!3d4.596398704200779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a844cf79cb%3A0xa58d1864daa71331!2sLa%20Candelaria%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733258943550!5m2!1ses!2sco",
         flyer: "/img/flyerCandelaria.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura de La Candelaria Bogotá",
+            description:
+              "La Candelaria, el centro histórico de Bogotá, es uno de los barrios más antiguos y emblemáticos de la ciudad. Su origen se remonta a la fundación de Bogotá en 1538 por Gonzalo Jiménez de Quesada. Este barrio fue el corazón del asentamiento colonial, y muchas de sus calles y edificaciones datan de los siglos XVII y XVIII.",
+            historia: {
+              title: "Historia",
+              content:
+                "En la Candelaria se encuentran importantes hitos históricos, como la Plaza de Bolívar, que ha sido testigo de numerosos eventos clave en la historia de Colombia, desde la época colonial hasta la independencia.Durante el siglo XIX, La Candelaria fue escenario de importantes episodios políticos y sociales, y aunque en el siglo XX se vio afectada por la modernización y el desplazamiento de sus residentes hacia otras zonas de la ciudad, se ha preservado como un lugar de enorme valor histórico, arquitectónico y cultural.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Candelaria es un lugar donde se respira cultura en cada rincón. Las casas coloniales, con balcones de madera y patios internos, reflejan la influencia española en la arquitectura de la época. En este barrio se encuentran importantes instituciones culturales como el Museo del Oro, el Museo Botero, y el Teatro Colón, que enriquecen la vida artística y cultural de Bogotá.Además, es un punto de encuentro para artistas, músicos y escritores, convirtiéndose en un epicentro bohemio. En sus calles adoquinadas, los visitantes pueden encontrar pequeñas galerías de arte, tiendas de artesanías, cafés y restaurantes que ofrecen una fusión entre la cultura tradicional y moderna.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Según la tradición, fue en este pequeño espacio donde Gonzalo Jiménez de Quesada fundó Bogotá. Hoy en día, es un punto de encuentro para turistas y locales, con una vibrante vida nocturna y artistas callejeros. La Candelaria es también famosa por sus coloridos murales y grafitis, que cuentan historias políticas, sociales y culturales, y han convertido al barrio en un museo al aire libre. Este barrio ha sido utilizado como locación para numerosas películas y series de televisión debido a su atmósfera colonial y su historia impregnada en cada rincón.",
+            },
+            images: [
+              "/img/hycCandelaria1.jpg",
+              "/img/hycCandelaria2.jpg",
+              "/img/hycCandelaria3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "parque-simon-bolivar",
         nombre: "Parque Simón Bolívar",
-        img: "/img/parqueSimonBolivar.jpg",
+        img: "/img/parqueSimonBolivar.webp",
         descripcion: "El pulmón verde de Bogotá, ideal para actividades al aire libre.",
-        bento: ["/img/parqueSimonBolivar1.jpg", "/img/parqueSimonBolivar2.jpg"],
+        bento: ["/img/parqueSimonBolivar1.jpg","/img/parqueSimonBolivar2.webp","/img/parqueSimonBolivar3.jpg","/img/parqueSimonBolivar4.webp", "/img/parqueSimonBolivar5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Espacios verdes",
           "Deportes al aire libre",
           "Eventos culturales",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Lago central donde puedes alquilar botes.",
           "Zonas para picnic y rutas para ciclistas.",
           "Sede de grandes conciertos y festivales.",
+           "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254484.3936732638!2d-74.38249312937268!3d4.714603382544029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b3f1693b423%3A0x1759342653607dfc!2sParque%20Sim%C3%B3n%20Bolivar!5e0!3m2!1ses!2sco!4v1733259064188!5m2!1ses!2sco",
         flyer: "/img/flyerSimonBolivar.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura del Parque Simón Bolívar",
+            description:
+              "El Parque Simón Bolívar, ubicado en el corazón de Bogotá, es uno de los espacios recreativos más grandes y emblemáticos de la ciudad. Fue inaugurado en 1966 como parte de un proyecto urbano destinado a crear áreas verdes que mejoraran la calidad de vida de los habitantes de la capital.",
+            historia: {
+              title: "Historia",
+              content:
+                "El parque lleva el nombre del libertador Simón Bolívar, figura clave en la independencia de varios países de América Latina. Con una extensión de más de 400 hectáreas, ha sido desde su creación un lugar de esparcimiento, eventos culturales y recreativos.A lo largo de los años, el parque ha sido sede de importantes eventos nacionales e internacionales, como conciertos masivos, festivales de música y celebraciones patrias. Su lago, sus amplias áreas verdes, y su infraestructura deportiva lo han convertido en un punto de encuentro para bogotanos y turistas por igual.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Parque Simón Bolívar es un símbolo de la vida pública y cultural de Bogotá. Además de su relevancia histórica, el parque es un espacio multifuncional que alberga numerosos festivales y eventos culturales, como el famoso Festival de Verano, el Rock al Parque, y Jazz al Parque, que son de entrada libre y atraen a miles de personas cada año.También, dentro del parque se encuentran espacios importantes como el Templete Eucarístico, un monumento construido en honor a la visita del Papa Juan Pablo II en 1986, y el Museo de los Niños, un centro interactivo de aprendizaje que ha fomentado la educación infantil a través de actividades lúdicas y didácticas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El Parque Simón Bolívar es frecuentemente comparado con el famoso Central Park de Nueva York debido a su tamaño y a su importancia como pulmón verde de la ciudad. Ha sido escenario de importantes conciertos internacionales de artistas como Paul McCartney y The Rolling Stones, con audiencias de más de 100,000 personas. Aunque la ciudad de Bogotá ha crecido significativamente, el parque sigue siendo considerado el pulmón verde del centro de la capital y una joya para el esparcimiento de las familias.",
+            },
+            images: [
+              "/img/hycSimon1.jpg",
+              "/img/hycSimon2.jpg",
+              "/img/hycSimon3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "museo-botero",
         nombre: "Museo Botero",
         img: "/img/museoBotero.jpg",
         descripcion: "Una colección de arte donada por el artista Fernando Botero.",
-        bento: ["/img/museoBotero1.jpg", "/img/museoBotero2.jpg"],
+        bento: ["/img/museoBotero1.jpg", "/img/museoBotero2.jpg","/img/museoBotero3.jpg","/img/museoBotero4.jpg", "/img/museoBotero5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Arte moderno y clásico",
           "Entrada gratuita",
           "Ubicado en La Candelaria",
+           "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Exhibe más de 200 obras, incluyendo piezas de artistas internacionales.",
           "Ubicado en una casa colonial restaurada.",
           "Incluye actividades educativas para niños.",
+           "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9850646619443!2d-74.07592522502131!3d4.596697995377956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a89d8291ad%3A0x2f9edf224143e1ac!2sMuseo%20Botero!5e0!3m2!1ses!2sco!4v1733259276389!5m2!1ses!2sco",
         flyer: "/img/flyerBotero.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura del Museo Botero, en Bogotá, Colombia",
+            description:
+              "El Museo Botero, ubicado en el centro histórico de Bogotá, es una de las principales atracciones culturales de la ciudad. Inaugurado en el año 2000, este museo alberga una vasta colección de obras del reconocido artista colombiano Fernando Botero, quien donó parte significativa de su colección personal al Banco de la República, permitiendo la creación del museo. Botero, famoso por su estilo único conocido como el boterismo, caracterizado por figuras voluminosas y exageradas, es uno de los artistas más importantes de Colombia y del mundo.",
+            historia: {
+              title: "Historia",
+              content:
+                "El museo está ubicado en una casa colonial del siglo XVIII en La Candelaria, lo que le da un aire especial de historia y cultura. Además de las obras del maestro Botero, el museo cuenta con una colección de arte internacional con obras de artistas como Picasso, Monet, Degas, y Dalí, entre otros, lo que lo convierte en un espacio de importancia tanto para el arte colombiano como mundial.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Museo Botero no solo es un espacio que celebra la obra de Botero, sino que también es un punto de encuentro cultural en Bogotá. La visión de Botero de hacer el arte accesible al público se refleja en la entrada gratuita del museo, permitiendo que personas de todas las clases sociales y edades puedan disfrutar de arte de alta calidad.Las salas del museo ofrecen una experiencia cultural única, donde el arte colombiano se mezcla con el arte internacional. Es un lugar donde se fomenta la apreciación artística y se realizan actividades educativas y culturales como charlas, talleres y visitas guiadas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Fernando Botero donó al Banco de la República más de 200 obras, incluyendo 123 de su propia autoría y 85 de su colección privada de artistas internacionales. El estilo de Botero, caracterizado por formas corpulentas y exageradas, busca representar una interpretación única del volumen y no simplemente la obesidad, como algunos podrían pensar. El museo se encuentra en una casona colonial restaurada que también alberga el Museo de Arte del Banco de la República, lo que añade un valor histórico adicional a la experiencia del visitante.",
+            },
+            images: [
+              "/img/hycMuseoBotero3.jpg",
+              "/img/hycMuseoBotero2.jpg",
+              "/img/hycMuseoBotero1.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "zona-t",
         nombre: "Zona T",
-        img: "/img/zonaT.jpg",
+        img: "/img/zonaT.jpeg",
         descripcion: "El lugar de moda en Bogotá para vida nocturna, compras y gastronomía.",
-        bento: ["/img/zonaT1.jpg", "/img/zonaT2.jpg"],
+        bento: ["/img/zonaT5.jpg", "/img/zonaT1.jpg","/img/zonaT2.jpg","/img/zonaT3.jpg","/img/zonaT4.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Bares y discotecas",
           "Restaurantes de alta cocina",
           "Tiendas de lujo",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Ambiente moderno y cosmopolita.",
           "Opciones de entretenimiento para todas las edades.",
           "Destacada por su oferta gastronómica y cultural.",
+          "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127250.17008377358!2d-74.18032585977079!3d4.6708675908106985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af537991dfb%3A0x5556d372ede48988!2sZona%20T%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733259446544!5m2!1ses!2sco",
         flyer: "/img/flyerZonaT.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura del La Zona T en Bogotá, Colombia",
+            description:
+              "La Zona T de Bogotá, ubicada en la exclusiva área de la localidad de Chapinero, es uno de los epicentros de la vida nocturna, comercial y gastronómica de la ciudad. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Se desarrolló principalmente en la década de los 90, cuando comenzaron a surgir locales de lujo, restaurantes de alta cocina y tiendas de marcas internacionales en los alrededores de las carreras 12 y 13, formando la característica forma de T que le da su nombre. Su cercanía con el parque de la 93 y el desarrollo de centros comerciales como Andino y El Retiro consolidaron esta zona como uno de los puntos de encuentro más importantes de la élite bogotana.Con el tiempo, la Zona T se ha modernizado, añadiendo más locales comerciales, bares y discotecas, y manteniendo su prestigio como un área de alta gama en la ciudad.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Zona T es un reflejo del estilo de vida cosmopolita y moderno de Bogotá. Es un espacio donde la moda, la gastronomía internacional y el entretenimiento de lujo convergen. En sus calles peatonales se encuentran los restaurantes más exclusivos, bares de diseño y discotecas de renombre, lo que la convierte en un destino preferido para quienes buscan una experiencia sofisticada en la ciudad.Culturalmente, la zona es diversa, ya que no solo es un punto de encuentro para los bogotanos, sino también para turistas nacionales e internacionales. La oferta gastronómica abarca desde la comida típica colombiana hasta cocina de autor y propuestas internacionales, lo que la hace un punto clave en la oferta cultural y culinaria de Bogotá.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La Zona T es conocida por ser el punto de encuentro de celebridades y personalidades públicas de Colombia, quienes frecuentan sus bares y restaurantes. Alrededor de la Zona T se encuentran algunas de las tiendas de marcas internacionales de lujo más importantes, como Louis Vuitton y Gucci. Algunas de sus calles principales están completamente peatonalizadas, permitiendo a los visitantes caminar con tranquilidad y disfrutar de su variada oferta sin el tránsito de vehículos.",
+            },
+            images: [
+              "/img/hycZona3.jpg",
+              "/img/hycZona2.jpg",
+              "/img/hycZona1.jpg",
+            ],
+          },
+        ],
       },
     ],
   },
@@ -802,38 +995,103 @@ export const actividades = [
         nombre: "Parque Arví",
         img: "/img/parqueArvi.jpg",
         descripcion: "Un parque ecológico ideal para disfrutar de la naturaleza y actividades al aire libre.",
-        bento: ["/img/parqueArvi1.jpg", "/img/parqueArvi2.jpg"],
+        bento: ["/img/parqueArvi2.jpg","/img/parqueArvi1.jpg","/img/parqueArvi5.jpg","/img/parqueArvi4.jpg", "/img/parqueArvi3.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Senderos ecológicos",
           "Avistamiento de fauna",
           "Paseos en bicicleta",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Ubicado en las afueras de Medellín, accesible por el Metrocable.",
           "Ofrece caminatas guiadas y actividades recreativas.",
           "Ideal para un día en contacto con la naturaleza.",
+          "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15863.755845476679!2d-75.50895250233656!3d6.271757349470664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sParque%20Arv%C3%AD!5e0!3m2!1ses!2sco!4v1733259656174!5m2!1ses!2sco",
         flyer: "/img/flyerParqueArvi.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura del Parque Arví Colombia",
+            description:
+              "El Parque Arví, ubicado en la ciudad de Medellín, es una reserva natural que cubre más de 16,000 hectáreas en el corregimiento de Santa Elena. Se inauguró en 2010 con el propósito de proteger los recursos naturales de la región y ofrecer un espacio para la recreación sostenible.",
+            historia: {
+              title: "Historia",
+              content:
+                "El parque es una mezcla de áreas boscosas, senderos ecológicos, y restos arqueológicos de culturas prehispánicas que habitaban esta región. Durante la época precolombina, Santa Elena fue un paso importante para las comunidades indígenas como los Aburráes. A lo largo de los años, la zona se ha conservado gracias a su importancia ecológica y cultural.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El parque no solo ofrece actividades recreativas, sino que también es un lugar lleno de significado cultural. Santa Elena es conocida como la cuna de los silleteros, los artesanos floricultores que cada año se convierten en protagonistas del famoso Desfile de Silleteros en la Feria de las Flores de Medellín. En el parque, los visitantes pueden conocer de cerca esta tradición, además de disfrutar de diversas actividades culturales, talleres de educación ambiental, y proyectos de agroecología.El Parque Arví también es un ejemplo de turismo sostenible, ya que promueve la conservación de la naturaleza mientras educa a los visitantes sobre la biodiversidad y el patrimonio cultural de la región.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El parque es accesible mediante el Metrocable Arví, un sistema de transporte por teleférico que ofrece vistas espectaculares de Medellín y las montañas circundantes. Es uno de los primeros parques en el mundo con este tipo de acceso.  El parque alberga más de 70 especies de mamíferos y una gran cantidad de aves, lo que lo convierte en un paraíso para los amantes de la naturaleza y observadores de aves. Dentro del parque se pueden encontrar vestigios arqueológicos que revelan la presencia de culturas indígenas que habitaron la región siglos antes de la llegada de los colonizadores españoles.",
+            },
+            images: [
+              "/img/hycArvi1.jpg",
+              "/img/hycArvi2.jpg",
+              "/img/hycArvi3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "comuna-13",
         nombre: "Comuna 13",
         img: "/img/comuna13.jpg",
         descripcion: "Un barrio lleno de historia, arte callejero y transformación social.",
-        bento: ["/img/comuna131.jpg", "/img/comuna132.jpg"],
+        bento: ["/img/comuna131.jpg", "/img/comuna132.jpg","/img/comuna133.jpg","/img/comuna134.jpg","/img/comuna135.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Graffitis coloridos",
           "Tours guiados",
           "Historia y cultura",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Explora el arte urbano y los graffitis que cuentan historias locales.",
           "Recorrido histórico sobre la transformación de la Comuna 13.",
           "Accesibilidad mediante escaleras eléctricas y transporte público.",
+          "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.121338206378!2d-75.62642285873218!3d6.255738124931033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442bd61b35b135%3A0x7ac589026488978b!2sSan%20Javier%2C%20Medell%C3%ADn%2C%20San%20Javier%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733259770656!5m2!1ses!2sco",
         flyer: "/img/flyerComuna13.jpg",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura de La Comuna 13 en Colombia",
+            description:
+              "La Comuna 13 de Medellín, también conocida como San Javier, ha tenido una historia compleja marcada por la violencia, la pobreza y la transformación social.",
+            historia: {
+              title: "Historia",
+              content:
+                "Durante las décadas de los 80 y 90, esta comuna fue uno de los puntos más conflictivos de la ciudad debido a la presencia de grupos armados ilegales, el narcotráfico y los enfrentamientos entre las autoridades y los insurgentes. Sin embargo, a partir de los 2000s, la comuna comenzó a experimentar una profunda transformación, impulsada por iniciativas comunitarias, el apoyo del gobierno local y el trabajo social de organizaciones no gubernamentales. Uno de los hitos más importantes en su historia reciente es la construcción del Metrocable que conecta la Comuna 13 con el sistema de transporte masivo de Medellín. Este proyecto, junto con otras iniciativas de urbanismo y regeneración social, ha permitido mejorar la calidad de vida en la zona y ha transformado la imagen de la comuna, convirtiéndola en un ejemplo de resiliencia urbana.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Comuna 13 ha sido un centro de creatividad y arte urbano. Conocida por su arte en las calles, especialmente los coloridos murales que adornan las paredes de las viviendas y edificios, la comuna ha visto cómo el graffiti y el arte mural se han convertido en herramientas de expresión social y política. Estos murales cuentan historias de lucha, resistencia y esperanza, reflejando tanto el sufrimiento de las décadas pasadas como la superación y el orgullo comunitario.El hip hop y la danza urbana también han sido parte fundamental de la cultura de la Comuna 13. Los jóvenes han utilizado estos movimientos como una forma de canalizar su energía de manera positiva, creando espacios donde la música, el baile y la expresión artística se convierten en un medio de transformación social.Además, la comuna se ha convertido en un destino turístico, con visitantes que llegan para conocer de cerca su historia, arte, y la notable transformación social y cultural que ha experimentado en los últimos años. El Tour de la Comuna 13 ofrece a los turistas una mirada profunda a los procesos de paz y reconciliación que se han dado en la comunidad.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La Comuna 13 es famosa por sus murales, los cuales representan la historia de la comunidad y de Medellín en general. Algunos de estos murales fueron creados por colectivos de artistas locales que usan el arte como una forma de sanación colectiva. El Metrocable que conecta la Comuna 13 con el sistema de transporte de Medellín no solo ha facilitado el acceso a servicios y empleos, sino que también ha sido un símbolo de inclusión social, transformando la percepción de la comuna y mejorando la conectividad con otras zonas de la ciudad. La Comuna 13 es un ejemplo mundial de cómo la cultura, el arte y el trabajo comunitario pueden contribuir a la reconstrucción del tejido social en zonas afectadas por la violencia. Hoy en día, es considerada un destino turístico que promueve el turismo de paz y reconciliación.",
+            },
+            images: [
+              "/img/hycComuna1.jpg",
+              "/img/hycComuna2.jpg",
+              "/img/hycComuna3.webp",
+
+            ],
+          },
+        ],
       },
       {
         id: "parque-botero",
@@ -1057,16 +1315,20 @@ export const actividades = [
         nombre: "Cerro de Cristo Rey",
         img: "/img/cristoRey.jpg",
         descripcion: "Un imponente monumento con vistas panorámicas de la ciudad de Cali.",
-        bento: ["/img/cristoRey1.jpg", "/img/cristoRey2.jpg"],
+        bento: ["/img/cristoRey1.jpg","/img/cristoRey2.jpg","/img/ristoRey3.jpg","/img/ristoRey4.jpg", "/img/ristoRey5.jpg"],
         descripciongeneral: [
+          "Guía turística",
           "Monumento icónico",
           "Vistas panorámicas",
           "Senderismo opcional",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "El monumento mide 26 metros de altura y es un símbolo de Cali.",
           "Ofrece vistas espectaculares de la ciudad y los alrededores.",
           "Ideal para caminatas y actividades al aire libre.",
+          "Contenido multimedia incluye videos y fotos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.645992210777!2d-76.56736552502758!3d3.436024296538474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a500540babf1%3A0xb09e9197f74835bf!2sMonumento%20a%20Cristo%20Rey!5e0!3m2!1ses!2sco!4v1733320701183!5m2!1ses!2sco",
         flyer: "/img/flyerCristoRey.jpg",
@@ -1076,16 +1338,20 @@ export const actividades = [
         nombre: "Zoológico de Cali",
         img: "/img/zoologicoCali.jpg",
         descripcion: "Un espacio dedicado a la conservación y educación ambiental.",
-        bento: ["/img/zoologicoCali1.jpg", "/img/zoologicoCali2.jpg"],
+        bento: ["/img/zoologicoCali1.jpg", "/img/zoologicoCali2.jpg","/img/zoologicoCali3.jpg","/img/zoologicoCali4.jpg","/img/zoologicoCali5.jpg",],
         descripciongeneral: [
+          "Guía turística",
           "Más de 200 especies",
           "Conservación de fauna",
           "Apto para familias",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Cuenta con áreas interactivas y especies de todo el mundo.",
           "Se enfoca en la conservación de especies endémicas de Colombia.",
           "Ideal para niños y adultos interesados en la naturaleza.",
+          "Contenido multimedia con audio y video.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.595473607401!2d-76.55941212502752!3d3.44810759652636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a5d22362f7f1%3A0x2c05ed4ac5063ab3!2sZool%C3%B3gico%20de%20Cali!5e0!3m2!1ses!2sco!4v1733321141307!5m2!1ses!2sco",
         flyer: "/img/flyerZoologicoCali.jpg",
@@ -1095,16 +1361,20 @@ export const actividades = [
         nombre: "Barrio San Antonio",
         img: "/img/sanAntonio.jpg",
         descripcion: "Un barrio histórico lleno de cultura, arte y gastronomía.",
-        bento: ["/img/sanAntonio1.jpg", "/img/sanAntonio2.jpg"],
+        bento: ["/img/sanAntonio5.jpg", "/img/sanAntonio1.jpg","/img/sanAntonio2.jpg","/img/sanAntonio3.jpg","/img/sanAntonio4.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Arquitectura colonial",
           "Ambiente bohemio",
           "Cafés y restaurantes",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Famoso por su parque, iglesias y casas de estilo colonial.",
           "Un lugar perfecto para disfrutar de la comida típica vallecaucana.",
           "Ideal para paseos relajados y actividades culturales.",
+          "Contenido multimedia con audio y video.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7965.194947166658!2d-76.54532870880503!3d3.447630036107275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a67c61d39a51%3A0x7b953cdb658a057b!2sSan%20Antonio%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1733321299408!5m2!1ses!2sco",
         flyer: "/img/flyerSanAntonio.jpg",
@@ -1114,16 +1384,20 @@ export const actividades = [
         nombre: "Río Pance",
         img: "/img/rioPance.jpg",
         descripcion: "Un destino natural ideal para disfrutar de un día de relajación.",
-        bento: ["/img/rioPance1.jpg", "/img/rioPance2.jpg"],
+        bento: ["/img/rioPance1.jpg", "/img/rioPance2.jpg","/img/rioPance3.jpg","/img/rioPance4.png","/img/rioPance5.webp",],
         descripciongeneral: [
+          "Guia turistica",
           "Contacto con la naturaleza",
           "Áreas recreativas",
           "Acceso gratuito",
+          "Frecuentado por turistas"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Un río cristalino rodeado de vegetación y espacios recreativos.",
           "Ideal para nadar, hacer picnic o caminatas.",
           "Frecuentado por locales y turistas que buscan tranquilidad.",
+          "Frecuentado por turistas que buscan tranquilidad.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63728.75656485133!2d-76.64503070349133!3d3.3384896888421176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sR%C3%ADo%20Pance!5e0!3m2!1ses!2sco!4v1733321536438!5m2!1ses!2sco",
         flyer: "/img/flyerRioPance.jpg",
@@ -1133,16 +1407,20 @@ export const actividades = [
         nombre: "Plaza de Cayzedo",
         img: "/img/plazaCayzedo.jpg",
         descripcion: "El corazón del centro histórico de Cali, lleno de vida y cultura.",
-        bento: ["/img/plazaCayzedo1.jpg", "/img/plazaCayzedo2.jpg"],
+        bento: ["/img/plazaCayzedo3.jpg", "/img/plazaCayzedo2.jpg","/img/plazaCayzedo1.jpg","/img/plazaCayzedo4.jpg","/img/plazaCayzedo5.jpg",],
         descripciongeneral: [
+          "Guia turistico",
           "Historia colonial",
           "Monumentos emblemáticos",
           "Cultura caleña",
+          "Acceso gratuito"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Un espacio central rodeado de edificios históricos y negocios.",
           "Ideal para conocer el centro de Cali y su arquitectura.",
           "Un punto de encuentro para locales y visitantes.",
+          "Frecuentado por turistas que buscan tranquilidad.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3982.5786822058994!2d-76.53451307502748!3d3.452114496522347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaza%20de%20Cayzedo!5e0!3m2!1ses!2sco!4v1733322198051!5m2!1ses!2sco",
         flyer: "/img/flyerPlazaCayzedo.jpg",
@@ -1152,16 +1430,20 @@ export const actividades = [
         nombre: "Ruta de la Salsa",
         img: "/img/rutaSalsa.jpg",
         descripcion: "Descubre la magia de la salsa en los famosos bares y discotecas de Cali.",
-        bento: ["/img/rutaSalsa1.jpg", "/img/rutaSalsa2.jpg"],
+        bento: ["/img/rutaSalsa1.jpg", "/img/rutaSalsa2.jpg", "/img/rutaSalsa3.webp","/img/rutaSalsa4.jpg","/img/rutaSalsa5.webp"],
         descripciongeneral: [
+          "Guia turistico",
           "Bailes en vivo",
           "Ambiente caleño",
           "Cultura musical",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Visita lugares icónicos como La Topa Tolondra y Zaperoco.",
           "Sumérgete en la vibrante cultura de la salsa caleña.",
           "Ideal para amantes de la música y el baile.",
+          "Contenido multimedia con audio y video.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7914.211939641533!2d-76.53988258078367!3d3.4434290112241888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a662b02dcb1f%3A0xcab389e4d4ad03ba!2sLa%20Topa%20Tolondra!5e0!3m2!1ses!2sco!4v1733322420774!5m2!1ses!2sco",
         flyer: "/img/flyerRutaSalsa.jpg",
