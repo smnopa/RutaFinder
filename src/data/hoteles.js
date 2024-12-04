@@ -131,18 +131,18 @@ export const ciudades = [
           "/img/hotelGHLCoralesdeIndia4.jpg",
         ],
         descripciongeneral: [
-          "Piscina infinita con vista al mar",
           "Desayuno incluido",
+          "Piscina infinita con vista al mar",
           "Spa y centro de bienestar",
-          "Wi-Fi gratuito",
+          "Servivio de transporte al aeropuerto",
           "Centro de negocios",
         ],
         descripciondetalles: [
           "Desayuno buffet internacional con platos locales y opciones saludables.",
           "Piscinas para adultos y niños con áreas recreativas.",
           "Spa con sauna y masajes especializados.",
-          "Servicio de traslado al aeropuerto bajo solicitud.",
-          "Salones para eventos y convenciones con tecnología avanzada.",
+          "Servicio de traslado al aeropuerto bajo solicitud, este servicio es gratuito para personas con discapacidad o enfermedades   .",
+          "Salones para eventos y convenciones con tecnología avanzada",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9752116470045!2d-75.5278244!3d10.4430594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6255fd6fd4067%3A0x72ca6dc9becdaa04!2sGHL%20Relax%20Hotel%20Corales%20de%20Indias!5e0!3m2!1ses-419!2sco!4v1701187450340!5m2!1ses-419!2sco",
         contentData: [
@@ -195,7 +195,7 @@ export const ciudades = [
           "Restaurantes y bares",
         ],
         descripciondetalles: [
-          "Cancela sin penalización hasta 48 horas antes de la llegada.",
+          "Servicio de traslado al aeropuerto bajo solicitud, este servicio es gratuito para personas con discapacidad o enfermedades   .",
           "Reserva hoy sin necesidad de pago inmediato.",
           "Español, Inglés y Portugués.",
           "Acceso exclusivo a playa privada y múltiples piscinas.",
@@ -309,7 +309,7 @@ export const ciudades = [
           "Wi-Fi gratuito",
         ],
         descripciondetalles: [
-          "Cancela con hasta 48 horas de antelación para un reembolso completo.",
+          "Servicio de traslado al aeropuerto bajo solicitud, este servicio es gratuito para personas con discapacidad o enfermedades   .",
           "Desayuno buffet con opciones internacionales y locales.",
           "Piscina infinita con vistas panorámicas al Caribe.",
           "Spa con masajes, tratamientos faciales y sauna.",
@@ -973,7 +973,7 @@ export const ciudades = [
           "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
           "Comprueba la disponibilidad para ver los horarios de inicio.",
           "El servicio de gimnacio esta abierto las 24 horas del dia.",
-          "El spa de lujo ofrece un masaje relajante y un tratamiento de hidromasaje.",
+          "El spa de lujo ofrece un masaje relajante y un tratamiento de hidromasaje, hecho por especialistas y profesionales de la salud.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318.1006255333271!2d-75.6614431!3d4.5498595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5adf2c34a57%3A0x6162de092f1f0da8!2sTrugo%20Luxury%20Rooms!5e0!3m2!1ses!2sco!4v1701184871450!5m2!1ses!2sco",
         contentData: [
@@ -1673,7 +1673,30 @@ export const ciudades = [
           "Áreas recreativas para niños y adultos."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.800441741089!2d-74.2252586!3d11.1499188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45958adc4b245%3A0xebb9ad3a60955a7f!2sIrotama%20Resort!5e0!3m2!1ses!2sco!4v1701594304179!5m2!1ses!2sco",
-        flyer: "/img/FlyerIrotamaResort.jpg"
+        flyer: "/img/FlyerIrotamaResort.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Irotama Resort",
+            description: "El Hotel Irotama Resort está ubicado en la playa de Bello Horizonte, cerca de Santa Marta, Colombia, y se ha convertido en uno de los destinos turísticos más destacados de la región.",
+            historia: {
+              title: "Historia",
+              content: "El resort se caracteriza por su ambiente relajante, rodeado de una impresionante naturaleza caribeña. Ofrece una variedad de opciones de alojamiento, desde habitaciones estándar hasta lujosos bungalows, todos diseñados para brindar comodidad y confort a sus huéspedes​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel es ideal tanto para familias como para parejas que buscan disfrutar de la tranquilidad del Caribe colombiano. Entre sus atracciones más destacadas se encuentra su playa privada, donde los visitantes pueden disfrutar de deportes acuáticos y del sol, así como varias piscinas y un spa. Además, el Irotama cuenta con diversos restaurantes que sirven platos típicos y de la cocina internacional"
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Un aspecto interesante de este resort es su cercanía al Parque Nacional Natural Tayrona, un lugar emblemático que atrae a los amantes de la naturaleza y la biodiversidad. Esta cercanía, junto con su infraestructura de alta calidad, lo convierte en un destino perfecto para quienes desean combinar descanso y exploración en uno de los lugares más hermosos de Colombia."
+            },
+            images: [
+              "/img/hycIrotoma1.jpg",
+              "/img/hycIrotoma2.jpg",
+              "/img/hycIrotoma3.jpg"
+            ]
+          }
+        ],
       },
       {
         id: "hotel-casa-de-lada",
@@ -1702,7 +1725,30 @@ export const ciudades = [
           "Ubicación privilegiada cerca de atracciones históricas de Santa Marta, como la Catedral de Santa Marta y la Plaza de la Libertad"
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.255124657299!2d-74.21386932495123!3d11.242633388935902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f516616c32d%3A0x2596c7c10255d0ba!2sHotel%20Boutique%20%26%20Spa%20Casa%20de%20Leda%2C%20by%20Kali%20Hotels!5e0!3m2!1ses!2sco!4v1733156263333!5m2!1ses!2sco",
-        flyer: "/img/FlyerCasaDeLeda.webp"
+        flyer: "/img/FlyerCasaDeLeda.webp",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Casa de Leda",
+            description: "El Hotel Casa de Leda es un hotel boutique ubicado en el centro histórico de Santa Marta",
+            historia: {
+              title: "Historia",
+              content: "Un lugar ideal para aquellos que buscan disfrutar de la comodidad moderna mientras se sumergen en la rica historia de la ciudad. Este hotel, con un estilo colonial que se mezcla con una decoración contemporánea, ofrece una experiencia única que conecta con la cultura local y el patrimonio de la ciudad​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Situado en una de las ciudades más antiguas de América, Casa de Leda se encuentra a poca distancia de sitios históricos como la Catedral Basílica de Santa Marta, el Parque de los Novios y el Camellón Rodrigo de Bastidas, donde los turistas pueden explorar la esencia de la ciudad y su legado cultural. Santa Marta, fundada en 1525, tiene una conexión profunda con figuras históricas como el libertador Simón Bolívar, quien pasó sus últimos días en la cercanía, lo que añade una capa de relevancia histórica al hospedarse en este hotel. Además de sus espacios de descanso, como una piscina en la terraza y un spa, Casa de Leda ofrece una experiencia completa de relajación y confort con un toque de lujo, perfecta para quienes buscan un refugio tanto para relajarse como para explorar, es por ello El hotel también se destaca por su compromiso con la sostenibilidad, reflejando la importancia de cuidar el medio ambiente mientras se disfrutan las maravillas naturales y culturales de Santa Marta."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El hotel está en el corazón del centro histórico, lo que permite a los visitantes acceder fácilmente a importantes atracciones turísticas como el Parque Tayrona, la Playa de Rodadero y el Museo del Oro."
+            },
+            images: [
+              "/img/hycLaCasa1.jpg",
+              "/img/hycLaCasa2.jpg",
+              "/img/hycLaCasa3.jpg"
+            ]
+          }
+        ],
       },
       {
         id: "hotel-santa-marta-marriott-resort",
@@ -1731,7 +1777,30 @@ export const ciudades = [
           "Salones para eventos y reuniones."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7234191325597!2d-74.23043692495294!3d11.1339645890374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4591e80c0ce69%3A0xac41dcadd7325b79!2sSanta%20Marta%20Marriott%20Resort%20Playa%20Dormida!5e0!3m2!1ses!2sco!4v1733156844521!5m2!1ses!2sco",
-        flyer: "/img/FlyerSantaMartaMarriott.jpg"
+        flyer: "/img/FlyerSantaMartaMarriott.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Santa Marta Marriott Resort Playa Dormida",
+            description: "Santa Marta Marriott Resort Playa Dormida es un hotel de lujo situado en una de las costas más hermosas de Colombia, en Santa Marta, muy cerca del Parque Nacional Natural Tayrona.",
+            historia: {
+              title: "Historia",
+              content: "Este resort, que fusiona lo moderno con lo tradicional, se ha consolidado como uno de los destinos más destacados para turistas que buscan una experiencia de alta calidad frente al mar Caribe, además Santa Marta, la ciudad más antigua de Colombia, tiene una rica historia relacionada con el proceso de independencia del país, la influencia de los pueblos indígenas y su conexión con la naturaleza. Este resort también se sitúa en una zona que fue originalmente poblada por los indígenas Tairona, quienes son conocidos por su avanzada organización social y sus contribuciones culturales a la región. La influencia de esta cultura se puede ver en las tradiciones y el entorno natural del área.​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El Santa Marta Marriott Resort Playa Dormida se encuentra en una ubicación estratégica, cerca de varios puntos históricos y culturales, como la Catedral Basílica de Santa Marta, el Museo del Oro Tairona y el Parque Tayrona, que atraen a los visitantes interesados en conocer más sobre el legado cultural de la región."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Está en una zona exclusiva de la costa Caribe colombiana, con acceso directo a las playas más bellas, rodeado por la selva tropical y las montañas de la Sierra Nevada. El resort sigue un modelo de sostenibilidad, con prácticas que protegen el medio ambiente y promueven el ecoturismo, permitiendo a los huéspedes disfrutar de la naturaleza sin comprometerla. Además de sus hermosas playas y jardines, el hotel cuenta con servicios de lujo, como piscinas infinitas, un spa de clase mundial, un gimnasio completo y una variedad de restaurantes gourmet que ofrecen lo mejor de la gastronomía local e internacional."
+            },
+            images: [
+              "/img/hycMarriott1.jpg",
+              "/img/hycMarriott2.jpg",
+              "/img/hycMarriott3.jpg"
+            ]
+          }
+        ],
       },
       {
         id: "hotel-mercure-santa-marta",
@@ -1760,7 +1829,30 @@ export const ciudades = [
           "Habitaciones modernas y funcionales."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.509090292172!2d-74.22741122495268!3d11.149892289022473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45886be770989%3A0xd497b678310d1667!2sMercure%20Santa%20Marta%20Emile!5e0!3m2!1ses!2sco!4v1733157034434!5m2!1ses!2sco",
-        flyer: "/img/FlyerMercureSantaMarta.jpg"
+        flyer: "/img/FlyerMercureSantaMarta.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Mercure Santa Marta Emile",
+            description: "El Mercure Santa Marta Emile es un elegante hotel ubicado en la ciudad costera de Santa Marta, uno de los destinos más visitados en la región del Caribe colombiano.",
+            historia: {
+              title: "Historia",
+              content: "Con una oferta de alta calidad en cuanto a alojamiento y servicios, el hotel atrae tanto a turistas que buscan relax frente al mar como a aquellos interesados en explorar la historia y cultura de Santa Marta y sus alrededores. Santa Marta, fundada en 1525, es una de las ciudades más antiguas de América Latina. A lo largo de su historia, ha sido testigo de importantes momentos de la independencia colombiana y ha sido hogar de diversos pueblos indígenas, como los Tairona, cuya influencia cultural es aún visible en la región.​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El Mercure Santa Marta Emile se encuentra en una ubicación estratégica, cerca de la costa y de importantes sitios históricos, lo que permite a los visitantes explorar la riqueza cultural de la ciudad, incluyendo la Catedral Basílica de Santa Marta, el Museo del Oro Tairona, y el Parque Nacional Natural Tayrona. Santa Marta, como puerto de entrada al Caribe, ha sido un punto clave de la historia de Colombia, y el hotel ofrece un ambiente que refleja tanto la historia local como las modernas comodidades."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Mercure Santa Marta Emile se destaca por su diseño contemporáneo que incorpora elementos que hacen alusión a la naturaleza y la cultura de la región, combinando comodidad con la estética del Caribe colombiano, además Situado cerca del malecón y la playa, es un punto de partida ideal para aquellos que quieren explorar tanto la ciudad como las maravillas naturales cercanas, como el Parque Tayrona y el Cabo San Juan. El hotel cuenta con una oferta gastronómica variada, destacándose sus restaurantes que sirven platos locales e internacionales, con énfasis en la cocina del Caribe colombiano, brindando una experiencia culinaria completa, es por ello Como parte de la cadena hotelera Mercure, el hotel está comprometido con prácticas sostenibles, promoviendo la conservación del medio ambiente y el uso responsable de los recursos naturales."
+            },
+            images: [
+              "/img/hycEmeli1.jpg",
+              "/img/hycEmeli2.jpg",
+              "/img/hycEmeli3.jpg"
+            ]
+          }
+        ],
       },
       {
         id: "hotel-best-western-plus-santa-marta",
@@ -1789,7 +1881,30 @@ export const ciudades = [
           "Habitaciones modernas y cómodas."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.306459454341!2d-74.21584012495138!3d11.238851588939385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57c1ba015c5%3A0x60b0682b8a1a5543!2sBest%20Western%20Plus%20Santa%20Marta%20Hotel!5e0!3m2!1ses!2sco!4v1733157207403!5m2!1ses!2sco",
-        flyer: "/img/FlyerBestWesternSantaMarta.jpg"
+        flyer: "/img/FlyerBestWesternSantaMarta.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Best Western Plus Santa Marta",
+            description: "El Best Western Plus Santa Marta es un hotel moderno ubicado en el corazón de Santa Marta, una de las ciudades más históricas y encantadoras de la costa Caribe colombiana. ",
+            historia: {
+              title: "Historia",
+              content: "El hotel forma parte de la reconocida cadena Best Western, y ha logrado destacarse por sus servicios de alta calidad, ideales tanto para viajeros de negocios como para turistas que buscan explorar las maravillas naturales de la región. El Best Western Plus Santa Marta refleja la fusión entre la modernidad y la riqueza cultural de la ciudad. Santa Marta, fundada en 1525 por el conquistador español Rodrigo de Bastidas, es la ciudad más antigua de Colombia y una de las más antiguas de América.​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Esta ciudad ha sido testigo de importantes eventos históricos, desde la época precolombina con los indígenas Tairona hasta la llegada de los colonizadores y, posteriormente, su influencia en el proceso de independencia de Colombia. Culturalmente, Santa Marta es el punto de entrada para explorar una de las joyas más importantes del Caribe: el Parque Nacional Natural Tayrona, que alberga no solo playas espectaculares, sino también sitios arqueológicos de gran relevancia histórica. El hotel se sitúa en una zona estratégica que permite a los huéspedes tener fácil acceso a esta riqueza cultural y natural."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Best Western Plus Santa Marta ofrece impresionantes vistas de la ciudad y del mar Caribe desde su terraza y habitaciones superiores. Es un lugar perfecto para disfrutar de atardeceres espectaculares, además El hotel cuenta con una piscina en la azotea que permite a los visitantes relajarse mientras disfrutan de una vista completa de la ciudad y el puerto de Santa Marta. Su restaurante ofrece una mezcla de cocina internacional con platos típicos de la región Caribe, brindando una experiencia gastronómica auténtica y variada. Como parte de la cadena Best Western, el hotel sigue una política de sostenibilidad, contribuyendo a la preservación del entorno natural de Santa Marta y apoyando prácticas amigables con el medio ambiente."
+            },
+            images: [
+              "/img/hycWestern1.jpg",
+              "/img/hycWestern2.jpg",
+              "/img/hycWestern3.jpg"
+            ]
+          }
+        ],
       }
     ]
   },
