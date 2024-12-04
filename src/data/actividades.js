@@ -859,18 +859,50 @@ export const actividades = [
         nombre: "Metrocable de Medellín",
         img: "/img/metrocable.jpg",
         descripcion: "Un sistema de transporte innovador que conecta la ciudad con las zonas montañosas.",
-        bento: ["/img/metrocable1.jpg", "/img/metrocable2.jpg"],
+        bento: ["/img/metrocable1.jpg","/img/metrocable2.jpg","/img/metrocable3.jpg","/img/metrocable4.jpg", 
+                "/img/metrocable5.jpeg"],
         descripciongeneral: [
+          "Estadía 10.5 horas (con capacidad de extención)",
+          "Servicio de recogida opcional",
           "Vistas panorámicas",
           "Accesibilidad a barrios altos",
           "Transporte eficiente",
         ],
         descripciondetalles: [
-          "Ofrece vistas únicas de Medellín desde lo alto.",
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Comprueba la disponibilidad para ver los horarios de inicio.",
+          "Ofrece vistas únicas de Medellín desde lo alto, te da la oportunidad de capturara momentos impresionantes e inolvidables",
           "Acceso directo al Parque Arví y otros destinos.",
           "Parte integral del sistema de transporte público de la ciudad.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d126910.57517347118!2d-75.64094054738638!3d6.269586317695148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMetrocable%20de%20Medell%C3%ADn!5e0!3m2!1ses!2sco!4v1733260090570!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del MetroCable en Medellín Colombia",
+            description:
+              "El Metrocable de Medellín fue inaugurado en 2004 como parte del sistema de transporte masivo de la ciudad. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Su creación tuvo el objetivo de mejorar la movilidad en zonas montañosas y de difícil acceso, facilitando la conexión de los barrios más alejados con el resto de la ciudad. Este sistema pionero de transporte público por cable aéreo se convirtió en un símbolo de la transformación social y urbanística de Medellín.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Metrocable ha tenido un impacto positivo en la vida cultural y social de las comunidades de las laderas de Medellín. Al mejorar la conectividad, ha permitido a los habitantes acceder con mayor facilidad a servicios educativos, culturales y laborales en el centro de la ciudad. También ha fomentado el turismo, ya que muchas estaciones del Metrocable se conectan con atracciones como el Parque Arví, que se ha convertido en un destino ecoturístico muy popular.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Medellín fue la primera ciudad del mundo en integrar un sistema de teleférico como transporte público masivo, además el Metrocable reduce el tiempo de viaje de más de una hora a solo 10 minutos para los habitantes de las zonas altas y Aparte de su función de transporte, el Metrocable ha contribuido a reducir los índices de violencia en algunos de los barrios más marginados de Medellín, al brindar oportunidades de desarrollo y conectividad.",
+            },
+            images: [
+              "/img/hycMetrocable1.jpg",
+              "/img/hycMetrocable2.jpg",
+              "/img/hycMetrocable3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerMetrocable.jpg",
       },
       {
