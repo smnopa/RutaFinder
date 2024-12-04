@@ -683,16 +683,21 @@ export const actividades = [
         nombre: "Cerro de Monserrate",
         img: "/img/monserrate.jpg",
         descripcion: "Uno de los puntos más icónicos de Bogotá, con vistas panorámicas de la ciudad.",
-        bento: ["/img/monserrate1.jpg", "/img/monserrate2.jpg"],
+        bento: ["/img/monserrate1.jpg", "/img/monserrate2.jpg", "/img/monserrate3.jpg", "/img/monserrate4.jpg", 
+          "/img/monserrate5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Vistas panorámicas",
           "Santuario religioso",
           "Senderismo y teleférico",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Ideal para caminar, hacer deporte o disfrutar de la vista.",
           "Santuario visitado por miles de peregrinos al año.",
           "Opciones de transporte en teleférico o funicular.",
+          "Contenido multimedia con audio y video.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.479457708305!2d-74.0761251451095!3d4.605672453609117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99bfd2a459a9%3A0x352a5134b65e607b!2sMonserrate!5e0!3m2!1ses!2sco!4v1733258686475!5m2!1ses!2sco",
         flyer: "/img/flyerMonserrate.jpg",
@@ -702,16 +707,20 @@ export const actividades = [
         nombre: "Museo del Oro",
         img: "/img/museoOro.jpg",
         descripcion: "Uno de los museos más importantes del mundo dedicado al oro precolombino.",
-        bento: ["/img/museoOro1.jpg", "/img/museoOro2.jpg"],
+        bento: ["/img/museoOro1.jpeg","/img/museoOro2.jpg","/img/museoOro3.jpg","/img/museoOro4.webp", "/img/museoOro5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Colección precolombina",
           "Ubicación central",
           "Recorridos guiados disponibles",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Exhibe más de 34,000 piezas de oro y objetos cerámicos.",
           "Incluye actividades interactivas para niños.",
           "Se encuentra en el centro histórico de Bogotá.",
+          "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3976.9690073557863!2d-74.0751030750213!3d4.599574395375078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMuseo%20del%20Oro!5e0!3m2!1ses!2sco!4v1733258829785!5m2!1ses!2sco",
         flyer: "/img/flyerMuseoOro.jpg",
@@ -721,16 +730,20 @@ export const actividades = [
         nombre: "La Candelaria",
         img: "/img/candelaria.jpg",
         descripcion: "El centro histórico y cultural de Bogotá, lleno de arquitectura colonial y museos.",
-        bento: ["/img/candelaria1.jpg", "/img/candelaria2.jpg"],
+        bento: ["/img/candelaria1.jpg","/img/candelaria2.jpg","/img/candelaria3.jpg","/img/candelaria4.jpg", "/img/candelaria5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Arquitectura colonial",
           "Arte y cultura",
           "Restaurantes típicos",
+           "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Lugares destacados como la Plaza de Bolívar y el Teatro Colón.",
           "Galerías de arte y tiendas de artesanías.",
           "Ambiente bohemio y cultural único.",
+          "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.893878869938!2d-74.09163369511319!3d4.596398704200779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a844cf79cb%3A0xa58d1864daa71331!2sLa%20Candelaria%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733258943550!5m2!1ses!2sco",
         flyer: "/img/flyerCandelaria.jpg",
@@ -738,18 +751,22 @@ export const actividades = [
       {
         id: "parque-simon-bolivar",
         nombre: "Parque Simón Bolívar",
-        img: "/img/parqueSimonBolivar.jpg",
+        img: "/img/parqueSimonBolivar.webp",
         descripcion: "El pulmón verde de Bogotá, ideal para actividades al aire libre.",
-        bento: ["/img/parqueSimonBolivar1.jpg", "/img/parqueSimonBolivar2.jpg"],
+        bento: ["/img/parqueSimonBolivar1.jpg","/img/parqueSimonBolivar2.webp","/img/parqueSimonBolivar3.jpg","/img/parqueSimonBolivar4.webp", "/img/parqueSimonBolivar5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Espacios verdes",
           "Deportes al aire libre",
           "Eventos culturales",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Lago central donde puedes alquilar botes.",
           "Zonas para picnic y rutas para ciclistas.",
           "Sede de grandes conciertos y festivales.",
+           "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254484.3936732638!2d-74.38249312937268!3d4.714603382544029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b3f1693b423%3A0x1759342653607dfc!2sParque%20Sim%C3%B3n%20Bolivar!5e0!3m2!1ses!2sco!4v1733259064188!5m2!1ses!2sco",
         flyer: "/img/flyerSimonBolivar.jpg",
@@ -759,16 +776,20 @@ export const actividades = [
         nombre: "Museo Botero",
         img: "/img/museoBotero.jpg",
         descripcion: "Una colección de arte donada por el artista Fernando Botero.",
-        bento: ["/img/museoBotero1.jpg", "/img/museoBotero2.jpg"],
+        bento: ["/img/museoBotero1.jpg", "/img/museoBotero2.jpg","/img/museoBotero3.jpg","/img/museoBotero4.jpg", "/img/museoBotero5.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Arte moderno y clásico",
           "Entrada gratuita",
           "Ubicado en La Candelaria",
+           "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Exhibe más de 200 obras, incluyendo piezas de artistas internacionales.",
           "Ubicado en una casa colonial restaurada.",
           "Incluye actividades educativas para niños.",
+           "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9850646619443!2d-74.07592522502131!3d4.596697995377956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a89d8291ad%3A0x2f9edf224143e1ac!2sMuseo%20Botero!5e0!3m2!1ses!2sco!4v1733259276389!5m2!1ses!2sco",
         flyer: "/img/flyerBotero.jpg",
@@ -776,18 +797,22 @@ export const actividades = [
       {
         id: "zona-t",
         nombre: "Zona T",
-        img: "/img/zonaT.jpg",
+        img: "/img/zonaT.jpeg",
         descripcion: "El lugar de moda en Bogotá para vida nocturna, compras y gastronomía.",
-        bento: ["/img/zonaT1.jpg", "/img/zonaT2.jpg"],
+        bento: ["/img/zonaT5.jpg", "/img/zonaT1.jpg","/img/zonaT2.jpg","/img/zonaT3.jpg","/img/zonaT4.jpg"],
         descripciongeneral: [
+          "Guia turistico",
           "Bares y discotecas",
           "Restaurantes de alta cocina",
           "Tiendas de lujo",
+          "Contenido multimedia"
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Ambiente moderno y cosmopolita.",
           "Opciones de entretenimiento para todas las edades.",
           "Destacada por su oferta gastronómica y cultural.",
+          "Contenido multimedia con audio y video."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127250.17008377358!2d-74.18032585977079!3d4.6708675908106985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af537991dfb%3A0x5556d372ede48988!2sZona%20T%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733259446544!5m2!1ses!2sco",
         flyer: "/img/flyerZonaT.jpg",
