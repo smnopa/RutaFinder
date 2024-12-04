@@ -358,7 +358,9 @@ export const ciudades = [
         bento: [
           "/img/hotelBogotaPlaza1.jpg",
           "/img/hotelBogotaPlaza2.jpg",
-          "/img/hotelBogotaPlaza3.jpg"
+          "/img/hotelBogotaPlaza3.jpg",
+          "/img/hotelBogotaPlaza4.jpg",
+          "/img/hotelBogotaPlaza5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -370,9 +372,9 @@ export const ciudades = [
         descripciondetalles: [
           "Habitaciones amplias y modernas con vistas a la ciudad.",
           "Restaurante gourmet con opciones internacionales.",
+          "Salones para reuniones y eventos corporativos, es muy utilizado por los grandes empresarios del pais, incluso del gobierno",
           "Spa con tratamientos especializados y gimnasio totalmente equipado.",
-          "Wi-Fi de alta velocidad en todo el hotel.",
-          "Salones para reuniones y eventos corporativos."
+          "Wi-Fi de alta velocidad en todo el hotel."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.480447005351!2d-74.05355932502073!3d4.686249695288719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a99efea2a47%3A0x1af7949be5e8bb99!2sBogot%C3%A1%20Plaza%20Hotel!5e0!3m2!1ses!2sco!4v1733237053139!5m2!1ses!2sco",
         contentData: [
@@ -403,26 +405,28 @@ export const ciudades = [
       {
         id: "hotel-estelar-bogota",
         nombre: "Hotel Estelar Bogotá",
-        img: "/img/hotelEstelarBogota.jpg",
+        img: "/img/hotelEstelarBogota.webp",
         descripcion: "Un hotel moderno y elegante ubicado en el centro financiero de Bogotá.",
         bento: [
-          "/img/hotelEstelarBogota1.jpg",
+          "/img/hotelEstelarBogota4.jpg",
           "/img/hotelEstelarBogota2.jpg",
-          "/img/hotelEstelarBogota3.jpg"
+          "/img/hotelEstelarBogota3.jpg",
+          "/img/hotelEstelarBogota1.jpg",
+          "/img/hotelEstelarBogota5.jpg"
         ],
         descripciongeneral: [
-          "Cancelación gratuita",
-          "Desayuno buffet",
           "Piscina al aire libre",
-          "Wi-Fi gratuito",
-          "Gimnasio y spa"
+          "Restaurante gourmet",
+          "Cancelación gratuita",
+          "Gimnasio y spa",
+          "Wi-Fi gratuito"
         ],
         descripciondetalles: [
           "Piscina al aire libre con vista panorámica de la ciudad.",
+          "Restaurante con cocina internacional y local",
           "Salones para eventos y reuniones corporativas.",
-          "Gimnasio y spa con servicios de relajación.",
-          "Wi-Fi gratuito de alta velocidad en todo el hotel.",
-          "Restaurante con cocina internacional y local."
+          "Gimnasio y spa con servicios de relajación, masajes por parte de profesionales, asi que podras disfrutar de un dia relajado",
+          "Wi-Fi gratuito de alta velocidad en todo el hotel."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50052.714021449225!2d-74.09245553470282!3d4.67988021058432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab2e9565caf%3A0x10d0ddf59c02d2e1!2sESTELAR%20La%20Fontana%20Hotel!5e0!3m2!1ses!2sco!4v1733237551525!5m2!1ses!2sco",
         contentData: [
@@ -458,18 +462,21 @@ export const ciudades = [
         bento: [
           "/img/hotelHiltonBogota1.jpg",
           "/img/hotelHiltonBogota2.jpg",
-          "/img/hotelHiltonBogota3.jpg"
+          "/img/hotelHiltonBogota3.jpg",
+          "/img/hotelHiltonBogota4.jpg",
+          "/img/hotelHiltonBogota5.jpeg"
         ],
         descripciongeneral: [
+          
           "Cancelación gratuita",
           "Piscina climatizada",
           "Gimnasio",
-          "Wi-Fi gratuito",
-          "Restaurante gourmet"
+          "Restaurante gourmet",
+          "Wi-Fi gratuito"
         ],
         descripciondetalles: [
           "Habitaciones espaciosas con decoración contemporánea.",
-          "Piscina climatizada y gimnasio de última generación.",
+          "Piscina climatizada, recreando las cvalidas aguas termales en Bogotá, y gimnasio de última generación. con maquinas de calidad",
           "Restaurante que ofrece cocina internacional y local.",
           "Salones para eventos y reuniones con capacidad para 500 personas.",
           "Wi-Fi de alta velocidad disponible en todas las áreas."
@@ -478,18 +485,18 @@ export const ciudades = [
         contentData: [
           {
             titulo: "Historia y Cultura del Hilton Bogotá",
-            description: "El Hilton Bogotá destaca por su excelente ubicación y su servicio cinco estrellas.",
+            description: "El Hotel Hilton Bogotá, ubicado en el distrito financiero de la ciudad, abrió sus puertas en 2011 como parte de la expansión de la cadena Hilton en Colombia.",
             historia: {
               title: "Historia",
-              content: "Abierto en 2012, el Hilton Bogotá es un hotel moderno diseñado para viajeros exigentes, ofreciendo comodidad y lujo en el corazón de la ciudad."
+              content: "Desde entonces, ha ofrecido alojamiento de lujo y servicios de alta calidad a viajeros de negocios y turistas, consolidándose como un destino de primer nivel en Bogotá."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel organiza eventos culturales y exhibiciones de arte en sus instalaciones, permitiendo a los huéspedes conectarse con la cultura local mientras disfrutan de un ambiente de lujo."
+              content: "El hotel refleja la cultura colombiana en su diseño interior, con toques modernos que integran materiales y colores locales. Además, alberga eventos de negocios, sociales y culturales, lo que lo convierte en un punto importante de interacción empresarial y cultural en la ciudad."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Hilton Bogotá es famoso por su piscina climatizada y su restaurante de autor, que ha ganado múltiples premios gastronómicos."
+              content: "Su diseño moderno incluye un elegante rooftop bar que ofrece vistas espectaculares de la ciudad, además El hotel está certificado con estándares de sostenibilidad, comprometido con prácticas amigables con el medio ambiente y Ha sido sede de importantes eventos internacionales, fortaleciendo su reputación en la industria hotelera en Bogotá."
             },
             images: [
               "/img/hHiltonBogota1.jpg",
@@ -508,7 +515,9 @@ export const ciudades = [
         bento: [
           "/img/hotelWBogota1.jpg",
           "/img/hotelWBogota2.jpg",
-          "/img/hotelWBogota3.jpg"
+          "/img/hotelWBogota3.jpg",
+          "/img/hotelWBogota4.jpeg",
+          "/img/hotelWBogota5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -522,7 +531,7 @@ export const ciudades = [
           "Piscina climatizada con servicio de bar.",
           "Habitaciones con vistas espectaculares y tecnología avanzada.",
           "Spa de lujo con tratamientos personalizados.",
-          "Restaurante con cocina de autor que fusiona sabores colombianos e internacionales."
+          "Restaurante con cocina de autor que fusiona sabores colombianos e internacionales, mezclando la comidad nativa con la europea."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4404603787443!2d-74.03721592502073!3d4.693272995281713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa6620c146f%3A0xa2922291a3de6e4d!2sW%20Bogota!5e0!3m2!1ses!2sco!4v1733238279224!5m2!1ses!2sco",
         contentData: [
