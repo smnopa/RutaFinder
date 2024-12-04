@@ -840,37 +840,101 @@ export const actividades = [
         nombre: "Plaza Botero",
         img: "/img/plazaBotero.jpg",
         descripcion: "Un espacio al aire libre con esculturas icónicas del maestro Fernando Botero.",
-        bento: ["/img/plazaBotero1.jpg", "/img/plazaBotero2.jpg"],
+        bento: ["/img/plazaBotero1.jpg","/img/plazaBotero2.jpg","/img/plazaBotero3.jpg","/img/plazaBotero4.jpg", 
+          "/img/plazaBotero5.jpg"],
         descripciongeneral: [
+          "Estadía 10.5 horas (con capacidad de extención)",
+          "Servicio de recogida opcional",
           "Arte al aire libre",
           "Ubicación central",
           "Entrada gratuita",
         ],
         descripciondetalles: [
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Comprueba la disponibilidad para ver los horarios de inicio.",
           "Exhibe más de 20 esculturas de Fernando Botero.",
-          "Ubicado junto al Museo de Antioquia.",
+          "Ubicado junto al Museo de Antioquia, uno de los mejores a nivel nacional y mundial, con una colección impresionante Botero.",
           "Ideal para tomar fotos y conocer el centro de Medellín.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0887060699615!2d-75.57094022500944!3d6.252042093736408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428fecb4dff77%3A0x2e5a7e51ab929892!2sPlaza%20Botero!5e0!3m2!1ses!2sco!4v1733259868928!5m2!1ses!2sco",
         flyer: "/img/flyerPlazaBotero.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Plaza Botero en Medellín Colombia",
+            description:
+              "La Plaza Botero en Medellín fue inaugurada en 2002 y se ubica en el centro de la ciudad. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Esta plaza alberga 23 esculturas monumentales donadas por el reconocido artista Fernando Botero, oriundo de Medellín. Las esculturas, con las características figuras voluminosas de Botero, se convirtieron rápidamente en un símbolo de la ciudad y de su renovación cultural.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La plaza es un espacio de interacción entre el arte y el público, atrayendo tanto a locales como a turistas. Se encuentra rodeada por instituciones culturales como el Museo de Antioquia y el Palacio de la Cultura Rafael Uribe Uribe, fomentando un ambiente de aprendizaje y aprecio por el arte.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Las esculturas de Botero en la plaza están al aire libre y son accesibles de forma gratuita, además las obras en la plaza son algunas de las piezas más grandes que Botero ha creado y donado a una ciudad, y es Es común ver a los visitantes tocando las esculturas, pues existe la creencia de que hacerlo trae buena suerte.",
+            },
+            images: [
+              "/img/hycBotero1.jpg",
+              "/img/hycBotero2.jpg",
+              "/img/hycBotero3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "metrocable",
         nombre: "Metrocable de Medellín",
         img: "/img/metrocable.jpg",
         descripcion: "Un sistema de transporte innovador que conecta la ciudad con las zonas montañosas.",
-        bento: ["/img/metrocable1.jpg", "/img/metrocable2.jpg"],
+        bento: ["/img/metrocable1.jpg","/img/metrocable2.jpg","/img/metrocable3.jpg","/img/metrocable4.jpg", 
+                "/img/metrocable5.jpeg"],
         descripciongeneral: [
+          "Estadía 10.5 horas (con capacidad de extención)",
+          "Servicio de recogida opcional",
           "Vistas panorámicas",
           "Accesibilidad a barrios altos",
           "Transporte eficiente",
         ],
         descripciondetalles: [
-          "Ofrece vistas únicas de Medellín desde lo alto.",
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Comprueba la disponibilidad para ver los horarios de inicio.",
+          "Ofrece vistas únicas de Medellín desde lo alto, te da la oportunidad de capturara momentos impresionantes e inolvidables",
           "Acceso directo al Parque Arví y otros destinos.",
           "Parte integral del sistema de transporte público de la ciudad.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d126910.57517347118!2d-75.64094054738638!3d6.269586317695148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMetrocable%20de%20Medell%C3%ADn!5e0!3m2!1ses!2sco!4v1733260090570!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del MetroCable en Medellín Colombia",
+            description:
+              "El Metrocable de Medellín fue inaugurado en 2004 como parte del sistema de transporte masivo de la ciudad. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Su creación tuvo el objetivo de mejorar la movilidad en zonas montañosas y de difícil acceso, facilitando la conexión de los barrios más alejados con el resto de la ciudad. Este sistema pionero de transporte público por cable aéreo se convirtió en un símbolo de la transformación social y urbanística de Medellín.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Metrocable ha tenido un impacto positivo en la vida cultural y social de las comunidades de las laderas de Medellín. Al mejorar la conectividad, ha permitido a los habitantes acceder con mayor facilidad a servicios educativos, culturales y laborales en el centro de la ciudad. También ha fomentado el turismo, ya que muchas estaciones del Metrocable se conectan con atracciones como el Parque Arví, que se ha convertido en un destino ecoturístico muy popular.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Medellín fue la primera ciudad del mundo en integrar un sistema de teleférico como transporte público masivo, además el Metrocable reduce el tiempo de viaje de más de una hora a solo 10 minutos para los habitantes de las zonas altas y Aparte de su función de transporte, el Metrocable ha contribuido a reducir los índices de violencia en algunos de los barrios más marginados de Medellín, al brindar oportunidades de desarrollo y conectividad.",
+            },
+            images: [
+              "/img/hycMetrocable1.jpg",
+              "/img/hycMetrocable2.jpg",
+              "/img/hycMetrocable3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerMetrocable.jpg",
       },
       {
@@ -878,18 +942,55 @@ export const actividades = [
         nombre: "Parque de las Luces",
         img: "/img/parqueLuces.jpg",
         descripcion: "Un espacio cultural y arquitectónico con modernas instalaciones de iluminación.",
-        bento: ["/img/parqueLuces1.jpg", "/img/parqueLuces2.jpg"],
+        bento: ["/img/parqueLuces1.jpeg", 
+                "/img/parqueLuces2.jpg",
+                "/img/parqueLuces3.jpg",
+                "/img/parqueLuces4.jpg",
+                "/img/parqueLuces5.jpg",
+             
+              ],
         descripciongeneral: [
+          "Estadía 10.5 horas (con capacidad de extención)",
+          "Servicio de recogida opcional",
           "Esculturas luminosas",
           "Centro cultural",
           "Espacio fotográfico",
         ],
         descripciondetalles: [
-          "Sus estructuras iluminadas son un símbolo de la renovación urbana.",
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Comprueba la disponibilidad para ver los horarios de inicio.",
+          "Sus estructuras iluminadas son un símbolo, para la ciudad cada luz resalta la belleza de medellín y la arquitectura moderna.",
           "Ubicado cerca de la Biblioteca EPM y el Edificio Vásquez.",
           "Ideal para visitar de noche por su iluminación espectacular.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1348015526182!2d-75.57456302602694!3d6.245960726328465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428551d4336d3%3A0x3265bf68e7f1f910!2sParque%20De%20Las%20Luces%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733260401813!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Parque de las luces Medellín Colombia",
+            description:
+              "El Parque de las Luces en Medellín fue inaugurado en 2005 como parte de la transformación urbana que la ciudad emprendió para revitalizar sus zonas más afectadas por el conflicto y el abandono.",
+            historia: {
+              title: "Historia",
+              content:
+                "Antes de su creación, el área donde se encuentra el parque era considerada insegura y estaba deteriorada. Hoy en día, este espacio simboliza la renovación y modernización del centro de Medellín, conectando las ideas de progreso y esperanza para la ciudad.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El parque no solo es un espacio de recreación, sino un importante símbolo cultural de Medellín. Representa el renacer de una ciudad marcada por la violencia, y su diseño combina la modernidad con la historia local. Los 300 postes luminosos que adornan el parque no son solo una característica visual, sino que reflejan la energía creativa y la voluntad de cambio que define la cultura paisa. Además, el parque se ha convertido en un lugar clave para eventos culturales, conciertos y festividades, promoviendo la vida comunitaria y artística de Medellín.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Cada uno de los postes luminosos tiene una altura de entre 18 y 24 metros, iluminando el parque de manera única durante la noche, además El diseño del parque incluye chorros de agua que emergen del suelo, proporcionando una interacción lúdica con el espacio. Alrededor del parque, se encuentran importantes edificios históricos como la Biblioteca EPM y el Edificio Vásquez, lo que le otorga un ambiente que combina modernidad y patrimonio, es por ello que Es un lugar recurrente para las celebraciones navideñas, donde las luces toman protagonismo, embelleciendo aún más el espacio y atrayendo a miles de visitantes locales y turistas.​",
+            },
+            images: [
+              "/img/hycParqueLuces1.jpg",
+              "/img/hycParqueLuces2.jpg",
+              "/img/hycParqueLuces3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerParqueLuces.jpg",
       },
       {
@@ -897,18 +998,53 @@ export const actividades = [
         nombre: "Piedra del Peñol y Guatapé",
         img: "/img/penolGuatape.jpg",
         descripcion: "Una excursión popular para disfrutar de la vista desde la Piedra del Peñol y el colorido pueblo de Guatapé.",
-        bento: ["/img/penol1.jpg", "/img/penol2.jpg"],
+        bento: ["/img/penol1.jpg", 
+                "/img/penol2.jpg",
+                "/img/penol3.jpg",
+                "/img/penol4.jpg",
+                "/img/penol5.jpg",],
         descripciongeneral: [
+          "Estadía 10.5 horas (con capacidad de extención)",
+          "Servicio de recogida opcional",
           "Vista panorámica",
           "Pueblo colorido",
           "Actividades acuáticas",
         ],
         descripciondetalles: [
-          "La Piedra del Peñol tiene 740 escalones para llegar a la cima.",
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Comprueba la disponibilidad para ver los horarios de inicio.",
+          "La Piedra del Peñol tiene 740 escalones para llegar a la cima, lo que ofrece una vista panorámica impresionante de Guatapé.",
           "Guatapé es famoso por sus fachadas coloridas y zócalos decorativos.",
           "Actividades como paseos en bote están disponibles en el embalse.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31730.43062145937!2d-75.19738049435543!3d6.223610500915277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e441d16240c903f%3A0x8d73bc39b5e6201b!2sPiedra%20del%20Pe%C3%B1ol!5e0!3m2!1ses!2sco!4v1733260530622!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de la Piedra del Peñol en Medellín Colombia",
+            description:
+              "La Piedra del Peñol, también conocida como el Peñón de Guatapé, es un gigantesco monolito de 220 metros de altura ubicado en el municipio de Guatapé, Antioquia. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Se estima que esta formación rocosa se originó hace unos 70 millones de años. En 1954, un grupo de habitantes locales, liderados por Luis Eduardo Villegas, escaló por primera vez la roca. Desde entonces, se construyeron 740 escalones que permiten a los visitantes llegar a la cima, donde se encuentra una espectacular vista panorámica del embalse de Guatapé.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Piedra del Peñol es un símbolo del orgullo antioqueño y de la tenacidad de su gente. Los municipios de El Peñol y Guatapé se disputaron históricamente la propiedad de la roca, lo que generó una fuerte rivalidad entre las dos comunidades. Además, la región alrededor de la piedra está profundamente ligada a la cultura cafetera y campesina, lo que se refleja en la vida diaria de los habitantes, la arquitectura colorida del pueblo de Guatapé, y las celebraciones culturales que atraen a turistas de todo el mundo.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La leyenda local dice que la Piedra del Peñol fue considerada sagrada por los indígenas tahamíes, quienes habitaron la región antes de la llegada de los colonos españoles.​ En la parte superior de la roca, hay una pequeña tienda de recuerdos y un mirador que permite vistas de 360 grados, además Los escalones que llevan a la cima fueron construidos en una grieta natural que atraviesa la roca, lo que permitió la creación de una escalera relativamente segura y estable, tambien La G y la U pintadas en la piedra son vestigios de un intento de escribir Guatapé por parte de sus habitantes, antes de que los ciudadanos de El Peñol intervinieran para detener la pintura.",
+            },
+            images: [
+              "/img/hycPiedra1.jpg",
+              "/img/hycPiedra2.jpg",
+              "/img/hycPiedra3.png",
+            ],
+          },
+        ],
         flyer: "/img/flyerPenolGuatape.jpg",
       },
     ],
