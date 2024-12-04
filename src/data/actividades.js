@@ -840,19 +840,51 @@ export const actividades = [
         nombre: "Plaza Botero",
         img: "/img/plazaBotero.jpg",
         descripcion: "Un espacio al aire libre con esculturas icónicas del maestro Fernando Botero.",
-        bento: ["/img/plazaBotero1.jpg", "/img/plazaBotero2.jpg"],
+        bento: ["/img/plazaBotero1.jpg","/img/plazaBotero2.jpg","/img/plazaBotero3.jpg","/img/plazaBotero4.jpg", 
+          "/img/plazaBotero5.jpg"],
         descripciongeneral: [
+          "Estadía 10.5 horas (con capacidad de extención)",
+          "Servicio de recogida opcional",
           "Arte al aire libre",
           "Ubicación central",
           "Entrada gratuita",
         ],
         descripciondetalles: [
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Comprueba la disponibilidad para ver los horarios de inicio.",
           "Exhibe más de 20 esculturas de Fernando Botero.",
-          "Ubicado junto al Museo de Antioquia.",
+          "Ubicado junto al Museo de Antioquia, uno de los mejores a nivel nacional y mundial, con una colección impresionante Botero.",
           "Ideal para tomar fotos y conocer el centro de Medellín.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0887060699615!2d-75.57094022500944!3d6.252042093736408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428fecb4dff77%3A0x2e5a7e51ab929892!2sPlaza%20Botero!5e0!3m2!1ses!2sco!4v1733259868928!5m2!1ses!2sco",
         flyer: "/img/flyerPlazaBotero.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Plaza Botero en Medellín Colombia",
+            description:
+              "La Plaza Botero en Medellín fue inaugurada en 2002 y se ubica en el centro de la ciudad. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Esta plaza alberga 23 esculturas monumentales donadas por el reconocido artista Fernando Botero, oriundo de Medellín. Las esculturas, con las características figuras voluminosas de Botero, se convirtieron rápidamente en un símbolo de la ciudad y de su renovación cultural.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La plaza es un espacio de interacción entre el arte y el público, atrayendo tanto a locales como a turistas. Se encuentra rodeada por instituciones culturales como el Museo de Antioquia y el Palacio de la Cultura Rafael Uribe Uribe, fomentando un ambiente de aprendizaje y aprecio por el arte.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Las esculturas de Botero en la plaza están al aire libre y son accesibles de forma gratuita, además las obras en la plaza son algunas de las piezas más grandes que Botero ha creado y donado a una ciudad, y es Es común ver a los visitantes tocando las esculturas, pues existe la creencia de que hacerlo trae buena suerte.",
+            },
+            images: [
+              "/img/hycBotero1.jpg",
+              "/img/hycBotero2.jpg",
+              "/img/hycBotero3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "metrocable",
