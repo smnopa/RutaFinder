@@ -1336,21 +1336,23 @@ export const ciudades = [
         bento: [
           "/img/hotelDannCarltonCali1.jpg",
           "/img/hotelDannCarltonCali2.jpg",
-          "/img/hotelDannCarltonCali3.jpg"
+          "/img/hotelDannCarltonCali3.jpg",
+          "/img/hotelDannCarltonCali4.jpg",
+          "/img/hotelDannCarltonCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno incluido",
           "Piscina al aire libre",
           "Centro de negocios",
-          "Spa y gimnasio"
+          "Salón conferencias"
         ],
         descripciondetalles: [
           "Habitaciones amplias con vistas a la ciudad.",
           "Desayuno buffet con opciones locales e internacionales.",
           "Piscina con área de solarium.",
           "Wi-Fi gratuito en todas las áreas.",
-          "Salones para eventos y convenciones."
+          "Salones para eventos y convenciones, especializados en reuniones y seminarios, con tecnología avanzada y muy útil, eventos"
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.587382691546!2d-76.54310272502752!3d3.450038896524423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a7cfb944c50b%3A0x25f19beaf4cd3742!2sHoteles%20Dann%20Carlton%20Cali!5e0!3m2!1ses!2sco!4v1733174895839!5m2!1ses!2sco",
         contentData: [
@@ -1386,17 +1388,19 @@ export const ciudades = [
         bento: [
           "/img/hotelWNMarriottCali1.jpg",
           "/img/hotelWNMarriottCali2.jpg",
-          "/img/hotelWNMarriottCali3.jpg"
+          "/img/hotelWNMarriottCali3.jpg",
+          "/img/hotelWNMarriottCali4.jpg",
+          "/img/hotelWNMarriottCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
-          "Piscina infinita",
           "Desayuno buffet",
+          "Zona Wifi",
           "Centro de negocios",
           "Spa con tratamientos especializados"
         ],
         descripciondetalles: [
-          "Vistas panorámicas de Cali desde la piscina infinita.",
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el hotel WN Marriott Cali 2025",
           "Gastronomía local en sus restaurantes exclusivos.",
           "Wi-Fi de alta velocidad.",
           "Salones para reuniones y eventos.",
@@ -1434,9 +1438,11 @@ export const ciudades = [
         img: "/img/hotelHamptonInnCali.jpg",
         descripcion: "Este hotel ofrece una experiencia única en el corazón de Cali, con un excelente servicio, comodidad y ubicación cercana a centros comerciales y atractivos turísticos.",
         bento: [
-          "/img/hotelHamptonInnCali1.jpg",
+          "/img/hotelHamptonInnCali4.webp",
           "/img/hotelHamptonInnCali2.jpg",
-          "/img/hotelHamptonInnCali3.jpg"
+          "/img/hotelHamptonInnCali3.jpg",
+          "/img/hotelHamptonInnCali1.jpg",
+          "/img/hotelHamptonInnCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1449,7 +1455,7 @@ export const ciudades = [
           "Piscina al aire libre con vistas panorámicas.",
           "Habitaciones cómodas y modernas.",
           "Desayuno tipo buffet con opciones locales e internacionales.",
-          "Wi-Fi gratuito en todo el hotel.",
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el hotel WN Marriott Cali 2025",
           "Salones para reuniones y eventos corporativos."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5750648278413!2d-76.54938992502748!3d3.452977096521464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6783a7aada1%3A0x5ebe0773bd1371c7!2sHampton%20by%20Hilton%20Cali%20Colombia!5e0!3m2!1ses!2sco!4v1733176754033!5m2!1ses!2sco",
