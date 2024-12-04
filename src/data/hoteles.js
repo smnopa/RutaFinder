@@ -1016,23 +1016,26 @@ export const ciudades = [
         img: "/img/hotelSanFernandoPlaza.jpg",
         descripcion: "El Hotel San Fernando Plaza, ubicado en El Poblado, Medellín, combina lujo y comodidad con una ubicación estratégica. Ofrece servicios exclusivos, una piscina con vista panorámica y restaurantes que destacan lo mejor de la gastronomía paisa.",
         bento: [
-          "/img/hotelSanFernandoPlaza1.jpg",
+          "/img/hotelSanFernandoPlaza6.webp",
           "/img/hotelSanFernandoPlaza2.jpg",
-          "/img/hotelSanFernandoPlaza3.jpg"
+          "/img/hotelSanFernandoPlaza3.jpg",
+          "/img/hotelSanFernandoPlaza4.jpg",
+          "/img/hotelSanFernandoPlaza5.jpg"
         ],
         descripciongeneral: [
+
           "Cancelación gratuita",
-          "Desayuno incluido",
-          "Piscina al aire libre",
+          "Piscina cubierta",
           "Centro de negocios",
-          "Spa y gimnasio"
+          "Spa y gimnasio",
+          "Restaurantes de alta cocina"
         ],
         descripciondetalles: [
           "Cancela con hasta 48 horas de antelación.",
           "Desayuno tipo buffet con platos locales e internacionales.",
           "Piscina con vistas espectaculares de Medellín.",
           "Wi-Fi gratuito en todas las áreas del hotel.",
-          "Gimnasio y spa con tratamientos especializados."
+          "Gimnasio y spa con tratamientos especializados, se brinda sesoria ergonomica para cada uno de los clientes VIP en el hotel.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3966.4528723150506!2d-75.57336207602714!3d6.203835876797651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSanFernandoPlaza!5e0!3m2!1ses-419!2sco!4v1732920897742!5m2!1ses-419!2sco",
         contentData: [
@@ -1068,7 +1071,9 @@ export const ciudades = [
         bento: [
           "/img/hotelDannCarlton1.jpg",
           "/img/hotelDannCarlton2.jpg",
-          "/img/hotelDannCarlton3.jpg"
+          "/img/hotelDannCarlton3.jpg",
+          "/img/hotelDannCarlton4.jpg",
+          "/img/hotelDannCarlton5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1081,7 +1086,7 @@ export const ciudades = [
           "Cancelación gratuita hasta 24 horas antes de la llegada.",
           "Desayuno tipo buffet con opciones saludables.",
           "Piscina con diseño tropical.",
-          "Salones para eventos con tecnología avanzada.",
+          "Salones para eventos con tecnología avanzada y equiposa en optimas condiciones es para reuniones y convenciones Premium.",
           "Servicio de transporte al aeropuerto (opcional)."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4266429739455!2d-75.57326072602717!3d6.20732042675891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282a784ae603%3A0x3fbde8512ade3fb1!2sHotel%20Dann%20Carlton%20Medell%C3%ADn!5e0!3m2!1ses-419!2sco!4v1732920846479!5m2!1ses-419!2sco",
@@ -1118,7 +1123,9 @@ export const ciudades = [
         bento: [
           "/img/hotelNHCollection1.jpg",
           "/img/hotelNHCollection2.jpg",
-          "/img/hotelNHCollection3.jpg"
+          "/img/hotelNHCollection3.jpg",
+          "/img/hotelNHCollection4.jpg",
+          "/img/hotelNHCollection5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1132,7 +1139,7 @@ export const ciudades = [
           "Desayuno tipo buffet con opciones internacionales.",
           "Piscina con vista panorámica.",
           "Salones para eventos corporativos.",
-          "Servicio de transporte al aeropuerto (previa solicitud)."
+          "Servicio de transporte al aeropuerto, servivio a personas con discapacidadad y atencion a servicios de salud (previa solicitud)."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5025376348194!2d-75.57517422602723!3d6.197232526870951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468287a8fd1741%3A0xc884096a4ae6804d!2sHotel%20NH%20Collection%20Medellin%20Royal!5e0!3m2!1ses-419!2sco!4v1732920800894!5m2!1ses-419!2sco",
         contentData: [
@@ -1168,18 +1175,20 @@ export const ciudades = [
         bento: [
           "/img/hotelIntercontinental1.jpg",
           "/img/hotelIntercontinental2.jpg",
-          "/img/hotelIntercontinental3.jpg"
+          "/img/hotelIntercontinental3.jpg",
+          "/img/hotelIntercontinentalMedellin4.jpg",
+          "/img/hotelIntercontinentalMedellin5.jpg"
         ],
         descripciongeneral: [
+          "Restaurante gourmet",
           "Cancelación gratuita",
           "Desayuno incluido",
           "Piscina olímpica",
           "Spa y gimnasio",
-          "Restaurante gourmet"
         ],
         descripciondetalles: [
           "Desayuno buffet con platos locales e internacionales.",
-          "Piscina olímpica rodeada de áreas verdes.",
+         "Servicio de transporte al aeropuerto, servivio a personas con discapacidadad y atencion a servicios de salud (previa solicitud).",
           "Spa con tratamientos de relajación y terapias.",
           "Wi-Fi de alta velocidad en todo el hotel.",
           "Centro de negocios y salones para eventos."
@@ -1218,7 +1227,9 @@ export const ciudades = [
         bento: [
           "/img/hotelNovotel1.jpg",
           "/img/hotelNovotel2.jpg",
-          "/img/hotelNovotel3.jpg"
+          "/img/hotelNovotel3.jpg",
+          "/img/hotelNovotel4.jpg",
+          "/img/hotelNovotel5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1228,9 +1239,9 @@ export const ciudades = [
           "Piscina y gimnasio"
         ],
         descripciondetalles: [
-          "Ubicación privilegiada dentro de un centro comercial.",
-          "Desayuno buffet con opciones internacionales.",
           "Salones para reuniones corporativas.",
+          "Desayuno buffet con opciones internacionales.",
+          "Ubicación privilegiada dentro de un centro comercial, esta funcion permiten a los huéspedes disfrutar de una experiencia de lujo",
           "Piscina con vista panorámica.",
           "Wi-Fi gratuito en todas las áreas."
         ],
@@ -1268,7 +1279,9 @@ export const ciudades = [
         bento: [
           "/img/hotelACMarriott1.jpg",
           "/img/hotelACMarriott2.jpg",
-          "/img/hotelACMarriott3.jpg"
+          "/img/hotelACMarriott4.jpg",
+          "/img/hotelACMarriott3.jpg",
+          "/img/hotelACMarriott5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1278,7 +1291,7 @@ export const ciudades = [
           "Gimnasio"
         ],
         descripciondetalles: [
-          "Desayuno buffet con opciones saludables.",
+          "Desayuno buffet con opciones saludables, se brinda una gran variedad de almuerzos y comidas pensando en tus itinerarios .",
           "Wi-Fi gratuito de alta velocidad.",
           "Centro de negocios totalmente equipado.",
           "Salones para reuniones y eventos.",
@@ -1302,8 +1315,8 @@ export const ciudades = [
               content: "El Hotel AC Marriott Medellín se destaca por su arquitectura moderna y su gimnasio completamente equipado. Además, su centro de negocios y los salones para eventos lo convierten en un lugar ideal para seminarios y reuniones. La ubicación en el centro de la ciudad permite fácil acceso a importantes zonas de Medellín, como El Poblado y la Milla de Oro."
             },
             images: [
-              "/img/hACMarriott1.jpg",
-              "/img/hACMarriott2.jpg",
+              "/img/hACMarriott1.jpeg",
+              "/img/hACMarriott2.webp",
               "/img/hACMarriott3.jpg"
             ]
           }
