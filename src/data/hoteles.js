@@ -1462,18 +1462,18 @@ export const ciudades = [
         contentData: [
           {
             titulo: "Historia y Cultura del Hampton Inn Cali",
-            description: "El Hampton Inn Cali es conocido por su excelente ubicación y su enfoque en la comodidad de los viajeros de negocios y turistas.",
+            description: "El Hampton by Hilton Cali, conocido por su servicio de alta calidad y enfoque en la comodidad, es un hotel situado en la dinámica ciudad de Cali, Colombia. Como parte de la cadena Hilton, ofrece una experiencia de alojamiento moderna y práctica, orientada tanto a viajeros de negocios como a turistas que buscan disfrutar de la cultura vibrante de la ciudad.",
             historia: {
               title: "Historia",
-              content: "Inaugurado en 2018, el Hampton Inn Cali es uno de los hoteles más nuevos en la ciudad. Con su moderna infraestructura, ha sido reconocido por ofrecer una experiencia de calidad a los visitantes que buscan comodidad y excelente servicio."
+              content: "El Hampton Inn forma parte del grupo hotelero Hilton, que ha estado presente en Colombia durante varios años, contribuyendo al desarrollo del sector turístico en el país. Este hotel en particular se inauguró para satisfacer la creciente demanda de hospedaje de calidad en Cali, una ciudad reconocida por su espíritu empresarial y su cultura salsera. A lo largo de los años, el Hampton by Hilton en Cali ha sido un referente para visitantes internacionales que buscan una mezcla de confort y proximidad a las principales atracciones de la ciudad."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel ofrece una variedad de platos locales e internacionales, y se encuentra cerca de varios centros culturales de la ciudad, lo que permite a los huéspedes disfrutar de la vida vibrante de Cali."
+              content: "Cali es conocida como la capital mundial de la salsa, lo que la convierte en un destino culturalmente rico para los amantes de la música y el baile. Los huéspedes del Hampton Inn están cerca de varios lugares icónicos para disfrutar de espectáculos de salsa y clases de baile, como la Escuela Nacional del Deporte y el famoso barrio San Antonio, donde la música late en cada rincón.Además, el hotel está ubicado en una zona estratégica para explorar la vibrante vida nocturna y las expresiones culturales de Cali, como sus festivales, entre ellos la Feria de Cali, que es un evento cultural que atrae a miles de turistas cada diciembre."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "Este hotel es reconocido por su excelente servicio y por ser un lugar muy popular entre los viajeros frecuentes debido a su comodidad y ubicación estratégica."
+              content: "Como parte del grupo Hilton, el Hampton by Hilton Cali sigue estándares internacionales de hospitalidad y servicio, lo que le permite ofrecer un servicio consistente y de alta calidad a sus huéspedes. El hotel está ubicado en el sector financiero de Cali, cerca de importantes centros comerciales y restaurantes de la ciudad, lo que lo hace ideal tanto para los viajeros de negocios como para los turistas. El hotel está ubicado en el sector financiero de Cali, cerca de importantes centros comerciales y restaurantes de la ciudad, lo que lo hace ideal tanto para los viajeros de negocios como para los turistas."
             },
             images: [
               "/img/hHamptonInnCali1.jpg",
@@ -1566,18 +1566,18 @@ export const ciudades = [
         contentData: [
           {
             titulo: "Historia y Cultura del Hotel Intercontinental Cali",
-            description: "El Hotel Estelar Cali es uno de los más prestigiosos de la ciudad, con una excelente ubicación y un servicio impecable.",
+            description: "El Hotel Intercontinental Cali, uno de los hoteles más icónicos de la ciudad, ofrece una mezcla de lujo, historia y cultura que lo ha convertido en un símbolo del turismo en la capital del Valle del Cauca. Es un destino clave tanto para viajeros de negocios como para aquellos que desean experimentar el encanto de Cali, conocida por su rica cultura, su música y su cálida hospitalidad.",
             historia: {
               title: "Historia",
-              content: "Abierto en 2012, el Hotel Estelar Cali es reconocido por su moderno diseño y su ubicación privilegiada en la ciudad. Ofrece un servicio de lujo y una experiencia única para todos sus huéspedes."
+              content: "El Hotel Intercontinental Cali abrió sus puertas en 1971 y desde entonces ha sido uno de los puntos de referencia más importantes en el turismo y la hotelería de la ciudad. Perteneciente a la cadena internacional InterContinental Hotels Group, su llegada marcó un hito en el desarrollo turístico y económico de Cali. A lo largo de las décadas, el hotel ha acogido importantes eventos internacionales, reuniones empresariales y visitantes de alto perfil, consolidándose como un referente de elegancia y prestigio en la región.El hotel ha sabido mantenerse actualizado, renovando sus instalaciones a lo largo de los años para ofrecer las mejores comodidades sin perder su esencia clásica y sofisticada."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel refleja el espíritu caleño al ofrecer una gastronomía que combina platos típicos de la región con opciones internacionales, brindando a los huéspedes una experiencia culinaria única."
+              content: "El Intercontinental Cali no solo se destaca por su servicio de lujo, sino también por estar profundamente conectado con la cultura de la ciudad. Ubicado en el corazón de Cali, es testigo de la vibrante vida urbana de la ciudad, famosa por ser la capital mundial de la salsa. La música y el baile son parte integral de la experiencia caleña, y el hotel refleja este espíritu al albergar diversos eventos que celebran la cultura local.El hotel está ubicado cerca de sitios culturales emblemáticos como el Teatro Municipal Enrique Buenaventura, la Iglesia La Ermita y el Barrio San Antonio, todos lugares que reflejan la historia y el arte de Cali. Además, durante la famosa Feria de Cali, el hotel se convierte en un punto neurálgico para los asistentes, ofreciendo una experiencia de primera clase para disfrutar de las festividades."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "Este hotel es conocido por su excelente servicio y por estar cerca de algunos de los principales atractivos turísticos y comerciales de la ciudad."
+              content: " El hotel alberga varios restaurantes reconocidos, como el Fogón de Piedra, donde se pueden degustar platos de la cocina local e internacional preparados al estilo tradicional, lo que permite una experiencia gastronómica auténtica. El hotel cuenta con una de las piscinas más grandes de los hoteles de la ciudad, lo que lo convierte en un lugar perfecto para relajarse y disfrutar del clima tropical de Cali. A lo largo de los años, el Hotel Intercontinental ha sido sede de numerosos eventos internacionales, desde conferencias empresariales hasta galas benéficas y festivales culturales."
             },
             images: [
               "/img/hEstelarCali1.jpg",
