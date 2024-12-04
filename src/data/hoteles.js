@@ -1610,7 +1610,7 @@ export const ciudades = [
           "Wi-Fi gratuito en todo el resort.",
           "Restaurantes que destacan la gastronomía caribeña, podrás probar los platos tipicos de Santa Marta y el Caribe, sabroso!!"
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d434400.4227532998!2d-74.35166863039179!3d11.234386217053776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sZuana%20Beach%20Resort!5e0!3m2!1ses!2sco!4v1733154894975!5m2!1ses!2sco",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0236264820136!2d-75.5699713!3d6.2297873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44284a480b3567%3A0xf1bd8c55ada0f91!2sZUANA%20BEACH%20RESORT!5e0!3m2!1ses!2sco!4v1701594502833!5m2!1ses!2sco",
         flyer: "/img/FlyerZuanaBeachResort.jpg",
         contentData: [
           {
@@ -1673,7 +1673,9 @@ export const ciudades = [
         bento: [
           "/img/casaDeLeda1.jpg",
           "/img/casaDeLeda2.jpg",
-          "/img/casaDeLeda3.jpg"
+          "/img/casaDeLeda3.jpg",
+          "/img/casaDeLeda4.jpg",
+          "/img/casaDeLeda5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1687,20 +1689,22 @@ export const ciudades = [
           "Terraza con jacuzzi y vista a la catedral de Santa Marta.",
           "Wi-Fi de alta velocidad en todas las áreas.",
           "Spa con masajes y tratamientos personalizados.",
-          "Ubicación privilegiada cerca de atracciones históricas."
+          "Ubicación privilegiada cerca de atracciones históricas de Santa Marta, como la Catedral de Santa Marta y la Plaza de la Libertad"
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.255124657299!2d-74.21386932495123!3d11.242633388935902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f516616c32d%3A0x2596c7c10255d0ba!2sHotel%20Boutique%20%26%20Spa%20Casa%20de%20Leda%2C%20by%20Kali%20Hotels!5e0!3m2!1ses!2sco!4v1733156263333!5m2!1ses!2sco",
-        flyer: "/img/FlyerCasaDeLeda.jpg"
+        flyer: "/img/FlyerCasaDeLeda.webp"
       },
       {
         id: "hotel-santa-marta-marriott-resort",
         nombre: "Santa Marta Marriott Resort Playa Dormida",
-        img: "/img/santaMartaMarriott.jpg",
+        img: "/img/santaMartaMarriott.webp",
         descripcion: "Un hotel de lujo frente al mar con diseño contemporáneo, ideal para quienes buscan relajación y comodidad.",
         bento: [
-          "/img/santaMartaMarriott1.jpg",
+          "/img/santaMartaMarriott4.jpg",
           "/img/santaMartaMarriott2.jpg",
-          "/img/santaMartaMarriott3.jpg"
+          "/img/santaMartaMarriott3.jpg",
+          "/img/santaMartaMarriott1.jpg",
+          "/img/santaMartaMarriott5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1712,7 +1716,7 @@ export const ciudades = [
         descripciondetalles: [
           "Habitaciones con balcones privados y vista al mar.",
           "Piscina infinita con áreas de descanso.",
-          "Restaurante con especialidades caribeñas.",
+          "Restaurantes que destacan la gastronomía caribeña, podrás probar los platos tipicos de Santa Marta y el Caribe, sabroso!!",
           "Wi-Fi gratuito de alta velocidad.",
           "Salones para eventos y reuniones."
         ],
@@ -1725,9 +1729,11 @@ export const ciudades = [
         img: "/img/mercureSantaMarta.jpg",
         descripcion: "Ubicado en el sector de Bello Horizonte, este hotel ofrece comodidad y modernidad cerca del mar.",
         bento: [
-          "/img/mercureSantaMarta1.jpg",
+          "/img/mercureSantaMarta5.jpg",
           "/img/mercureSantaMarta2.jpg",
-          "/img/mercureSantaMarta3.jpg"
+          "/img/mercureSantaMarta3.jpg",
+          "/img/mercureSantaMarta4.jpg",
+          "/img/mercureSantaMarta1.jpg",
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1739,7 +1745,7 @@ export const ciudades = [
         descripciondetalles: [
           "Piscina rodeada de áreas verdes.",
           "Wi-Fi gratuito en todas las instalaciones.",
-          "Restaurante con platos locales e internacionales.",
+          "Restaurantes que destacan la gastronomía caribeña, podrás probar los platos tipicos de Santa Marta y el Caribe, sabroso!!",
           "Salones para reuniones y eventos corporativos.",
           "Habitaciones modernas y funcionales."
         ],
@@ -1752,9 +1758,11 @@ export const ciudades = [
         img: "/img/bestWesternSantaMarta.jpg",
         descripcion: "Con una ubicación estratégica en el centro de Santa Marta, este hotel combina confort y conveniencia.",
         bento: [
-          "/img/bestWesternSantaMarta1.jpg",
+          "/img/bestWesternSantaMarta4.jpg",
           "/img/bestWesternSantaMarta2.jpg",
-          "/img/bestWesternSantaMarta3.jpg"
+          "/img/bestWesternSantaMarta3.jpg",
+          "/img/bestWesternSantaMarta1.jpg",
+          "/img/bestWesternSantaMarta5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1765,7 +1773,7 @@ export const ciudades = [
         ],
         descripciondetalles: [
           "Piscina en la azotea con vistas panorámicas de la ciudad.",
-          "Desayuno buffet con opciones variadas.",
+          "Dispones de un restaurante con gastronomía caribeña, podrás probar los platos tipicos de Santa Marta y el Caribe, sabroso!!",
           "Wi-Fi de alta velocidad.",
           "Centro de negocios con servicios personalizados.",
           "Habitaciones modernas y cómodas."
