@@ -832,7 +832,127 @@ export const paquetes = [
         flyer: "/img/FlyerRutaVino.jpg",
       },
     ],
+  },
+  {
+    nombre: "Santa Marta",
+    paquetes: [
+      {
+        id: "paquete1",
+        nombre: "Tayrona: Playa y Naturaleza",
+        img: "/img/ptayrona.png",
+        descripcion:
+          "Explora las paradisíacas playas del Parque Nacional Tayrona y sumérgete en su exuberante naturaleza.",
+        bento: ["/img/ptayrona1.jpg", "/img/ptayrona2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Entrada al Parque Tayrona",
+          "Guía especializado en biodiversidad",
+        ],
+        descripciondetalles: [
+          "Caminata guiada hacia las playas más famosas como Cabo San Juan.",
+          "Incluye refrigerio y tiempo libre para nadar y explorar.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d250406.9733184275!2d-74.22900832211596!3d11.290129112530865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTayrona%3A%20Playa%20y%20Naturaleza%20santa%20marta!5e0!3m2!1ses!2sco!4v1733414992970!5m2!1ses!2sco",
+        flyer: "/img/FlyerpTayrona.jpg",
+      },
+      {
+        id: "paquete2",
+        nombre: "Ciudad Perdida: Aventura Indígena",
+        img: "/img/ciudadPerdida.png",
+        descripcion:
+          "Una expedición de varios días hacia la misteriosa Ciudad Perdida, un legado de la cultura Tayrona.",
+        bento: ["/img/ciudadPerdida1.jpg", "/img/ciudadPerdida2.jpg"],
+        descripciongeneral: [
+          "Expedición de 4 días",
+          "Guías indígenas locales",
+          "Incluye alimentación y transporte",
+        ],
+        descripciondetalles: [
+          "Caminata por senderos selváticos hasta la histórica Ciudad Perdida.",
+          "Oportunidad de interactuar con comunidades indígenas locales.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4044076.6723497906!2d-77.34661738814532!3d8.173145476421958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%22Ciudad%20Perdida!5e0!3m2!1ses!2sco!4v1733415956525!5m2!1ses!2sco",
+        flyer: "/img/FlyerCiudadPerdida.jpg",
+      },
+      {
+        id: "paquete3",
+        nombre: "Rodadero y Acuario Marino",
+        img: "/img/rodaderoAcuario.png",
+        descripcion:
+          "Un día perfecto en el Rodadero y visita al Acuario y Museo del Mar para conocer la vida marina de la región.",
+        bento: ["/img/rodadero1.jpg", "/img/rodadero2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Entrada al Acuario Marino",
+          "Tiempo libre en el Rodadero",
+        ],
+        descripciondetalles: [
+          "Incluye paseo en lancha hacia el acuario.",
+          "Demostraciones educativas sobre fauna marina y playas cercanas.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15654.814239023597!2d-74.24223550141465!3d11.20955492346643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f5a8a12f197%3A0x6916282e7135b834!2sAcuario%20Mundo%20Marino!5e0!3m2!1ses!2sco!4v1733416649038!5m2!1ses!2sco",
+        flyer: "/img/FlyerRodadero.jpg",
+      },
+      {
+        id: "paquete4",
+        nombre: "Minca: Cascadas y Café",
+        img: "/img/pminca.png",
+        descripcion:
+          "Disfruta de la tranquilidad de Minca con un recorrido por cascadas y fincas cafeteras.",
+        bento: ["/img/pminca1.jpg", "/img/pminca2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Visita a cascadas y finca cafetera",
+          "Almuerzo típico incluido",
+        ],
+        descripciondetalles: [
+          "Recorrido guiado por cascadas como Pozo Azul.",
+          "Degustación de café local y explicación del proceso de producción.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7829.208804932143!2d-74.12182680850569!3d11.142812006116323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f129819389d3%3A0x9f9e3a171b198b5!2sMinca%2C%20Santa%20Marta%2C%20Magdalena!5e0!3m2!1ses!2sco!4v1733416970420!5m2!1ses!2sco",
+        flyer: "/img/FlyerpMinca.jpg",
+      },
+      {
+        id: "paquete5",
+        nombre: "Bahía Concha: Relájate en el Paraíso",
+        img: "/img/bahiaConcha.png",
+        descripcion:
+          "Una experiencia de relajación total en las aguas cristalinas de Bahía Concha.",
+        bento: ["/img/bahiaConcha1.jpg", "/img/bahiaConcha2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Almuerzo típico incluido",
+          "Guía turístico local",
+        ],
+        descripciondetalles: [
+          "Tiempo libre para disfrutar de la playa y actividades como snorkeling.",
+          "Opción de paseo en bote por la bahía.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31300.37235843068!2d-74.16900179054264!3d11.294706288771845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zQmFow61hIENvbmNoYTogUmVsw6FqYXRlIGVuIGVsIFBhcmHDrXNv!5e0!3m2!1ses!2sco!4v1733417303700!5m2!1ses!2sco",
+        flyer: "/img/FlyerBahiaConcha.jpg",
+      },
+      {
+        id: "paquete6",
+        nombre: "Taganga y Buceo",
+        img: "/img/taganga.png",
+        descripcion:
+          "Explora la pintoresca bahía de Taganga con actividades de buceo y snorkeling para disfrutar de su vida marina.",
+        bento: ["/img/taganga1.jpg", "/img/taganga2.jpg"],
+        descripciongeneral: [
+          "Curso básico de buceo",
+          "Equipos incluidos",
+          "Transporte ida y vuelta",
+        ],
+        descripciondetalles: [
+          "Incluye instrucción por profesionales certificados.",
+          "Oportunidad de explorar arrecifes y fauna marina de la región.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31304.669947828846!2d-74.22267354058073!3d11.255249841127005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTaganga%20y%20Buceo!5e0!3m2!1ses!2sco!4v1733417430700!5m2!1ses!2sco",
+        flyer: "/img/FlyerTaganga.jpg",
+      },
+    ],
   }
+  
   
   
 ];
