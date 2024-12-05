@@ -99,7 +99,7 @@ export const actividades = [
             mitos: {
               title: "Datos Curiosos",
               content:
-                "Originalmente conocida como el \"Portal de los Dulces\", la Torre del Reloj debe su nombre a la cercanía de un mercado donde se vendían golosinas tradicionales, una tradición que continúa hasta el día de hoy. La estructura fue diseñada para tener cuatro caras, pero el reloj fue importado de Suiza y en sus primeros años tuvo problemas de funcionamiento, lo que generó historias curiosas sobre su mantenimiento. Además, se dice que la torre fue testigo de varios eventos históricos clave, como la entrada triunfal de personajes importantes en la historia de Colombia, consolidándose como un ícono que conecta el pasado y el presente de Cartagena.",
+                'Originalmente conocida como el "Portal de los Dulces", la Torre del Reloj debe su nombre a la cercanía de un mercado donde se vendían golosinas tradicionales, una tradición que continúa hasta el día de hoy. La estructura fue diseñada para tener cuatro caras, pero el reloj fue importado de Suiza y en sus primeros años tuvo problemas de funcionamiento, lo que generó historias curiosas sobre su mantenimiento. Además, se dice que la torre fue testigo de varios eventos históricos clave, como la entrada triunfal de personajes importantes en la historia de Colombia, consolidándose como un ícono que conecta el pasado y el presente de Cartagena.',
             },
             images: [
               "/img/torreH1.png",
@@ -117,9 +117,9 @@ export const actividades = [
         descripcion:
           "Una de las plazas más emblemáticas de Cartagena, ubicada justo frente a la Torre del Reloj, rodeada de edificios históricos y restaurantes.",
         bento: [
-          "/img/plaza1.jpg",
-          "/img/plaza2.jpg",
-          "/img/plaza3.jpg",
+          "/img/plazaCoches.jpg",
+          "/img/plaza2.webp",
+          "/img/plaza3.webp",
           "/img/plaza4.jpg",
           "/img/plaza5.jpg",
         ],
@@ -143,17 +143,17 @@ export const actividades = [
             historia: {
               title: "Historia",
               content:
-                "Fue el lugar de mercado de esclavos durante la época colonial y actualmente es un punto de encuentro en el centro histórico.",
+                "La Plaza de los Coches es una de las plazas más emblemáticas y concurridas de Cartagena de Indias. Durante la época colonial, fue tristemente conocida como el principal mercado de esclavos, donde se realizaban transacciones que marcaron una etapa dolorosa de la historia de la ciudad. Su nombre proviene de la época en que los carruajes de caballos se estacionaban allí, siendo el acceso principal a la ciudad amurallada a través de la Torre del Reloj. Con el tiempo, la plaza dejó atrás su oscuro pasado y se transformó en un animado punto de encuentro, lleno de historia y vida, convirtiéndose en un símbolo de la transformación cultural y social de Cartagena.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "Es un lugar lleno de vida, con música, arte y cultura que reflejan la esencia de Cartagena.",
+                "Hoy en día, la Plaza de los Coches es un vibrante espacio donde se fusionan el pasado y el presente. Es habitual encontrar músicos, artistas callejeros y vendedores ambulantes que llenan el lugar de color y alegría, ofreciendo una experiencia auténtica de la cultura cartagenera. La plaza es también el epicentro de festividades locales y eventos culturales que reflejan la riqueza histórica de la ciudad. Sus cafés, restaurantes y tiendas de dulces típicos como cocadas y alegrías atraen tanto a turistas como a locales, creando un ambiente dinámico y acogedor.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "La plaza está rodeada por una arquitectura colonial, y en sus alrededores se encuentran algunas de las mejores tiendas de recuerdos.",
+                'Rodeada por edificios de arquitectura colonial, la Plaza de los Coches ofrece una estampa perfecta del Cartagena colonial. En sus alrededores se encuentran algunas de las mejores tiendas de recuerdos y artesanías, donde se pueden adquirir productos típicos como sombreros vueltiaos y joyería de esmeraldas. Además, en el centro de la plaza se encuentra una estatua de Pedro de Heredia, fundador de la ciudad. La plaza es también famosa por su "Portal de los ", una fila de coloridos puestos donde se venden dulces tradicionales que perpetúan las recetas heredadas desde tiempos coloniales.',
             },
             images: [
               "/img/plazaH1.jpg",
@@ -171,11 +171,11 @@ export const actividades = [
         descripcion:
           "Isla paradisíaca ubicada a pocos kilómetros de Cartagena, conocida por sus playas de aguas cristalinas y su ambiente tranquilo.",
         bento: [
-          "/img/isla1.jpg",
+          "/img/islaBaru.jpg",
           "/img/isla2.jpg",
-          "/img/isla3.jpg",
+          "/img/isla3.png",
           "/img/isla4.jpg",
-          "/img/isla5.jpg",
+          "/img/isla5.avif",
         ],
         descripciongeneral: [
           "Playas de arena blanca",
@@ -197,19 +197,19 @@ export const actividades = [
             historia: {
               title: "Historia",
               content:
-                "Antiguamente conocida como la 'Isla de las Palmas', es un lugar perfecto para disfrutar de actividades acuáticas y su fauna.",
+                'Originalmente conocida como la "Isla de las Palmas", Isla Barú fue durante mucho tiempo una zona prácticamente inexplorada, habitada por comunidades indígenas y utilizada esporádicamente por pescadores. Con el paso del tiempo, se convirtió en un lugar clave para actividades de pesca y comercio local. Hoy en día, es reconocida como un destino turístico de primer nivel, donde se pueden realizar diversas actividades acuáticas como snorkel, buceo y paseos en kayak, mientras se disfruta de la fauna marina y la vegetación exuberante que la rodea.',
             },
             cultura: {
               title: "Cultura",
               content:
-                "El entorno natural y las actividades de la isla brindan una experiencia única de relajación y contacto con la naturaleza.",
+                "El entorno de Isla Barú ofrece una experiencia única de conexión con la naturaleza. La isla no solo es un lugar para relajarse en sus paradisíacas playas, sino también un sitio donde se puede apreciar la cultura local. Los habitantes, en su mayoría pescadores y comerciantes, ofrecen a los visitantes la posibilidad de degustar platos típicos como el pescado frito con arroz de coco y patacones, una muestra de la cocina caribeña. La isla también organiza festivales locales que celebran la cultura afrocaribeña con música, danza y tradiciones que reflejan el espíritu alegre y hospitalario de la región.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "En la isla se encuentran algunas de las playas más vírgenes de la región y es famosa por su ambiente relajado.",
+                "Isla Barú alberga algunas de las playas más vírgenes y tranquilas de la región, siendo la más famosa Playa Blanca, conocida por su arena suave y sus aguas cristalinas. A pesar de ser un destino turístico popular, la isla ha logrado mantener su ambiente relajado y natural, ya que muchas áreas permanecen protegidas y libres de desarrollo masivo. Además, la isla es un punto clave para avistar estrellas de mar y diversas especies marinas, lo que la convierte en un destino perfecto para los amantes de la vida marina. Por la noche, algunas playas ofrecen la oportunidad de ver el fenómeno de la bioluminiscencia, donde el agua brilla mágicamente debido a los microorganismos marinos.",
             },
-            images: ["/img/islaH1.jpg", "/img/islaH2.jpg", "/img/islaH3.jpg"],
+            images: ["/img/islaH1.webp", "/img/islaH2.jpg", "/img/islaH3.webp"],
           },
         ],
         flyer: "/img/flyerIsla.jpg",
@@ -221,9 +221,9 @@ export const actividades = [
         descripcion:
           "Una de las maravillas de Cartagena, las murallas fueron construidas para proteger la ciudad de los ataques piratas y hoy son un importante símbolo histórico.",
         bento: [
-          "/img/murallas1.jpg",
+          "/img/murallas.jpg",
           "/img/murallas2.jpg",
-          "/img/murallas3.jpg",
+          "/img/murallas3.avif",
           "/img/murallas4.jpg",
           "/img/murallas5.jpg",
         ],
@@ -247,26 +247,26 @@ export const actividades = [
             historia: {
               title: "Historia",
               content:
-                "Las murallas se construyeron durante los siglos XVI y XVII, uniendo diferentes fortificaciones que rodeaban la ciudad.",
+                "Las Murallas de Cartagena son uno de los mayores símbolos de la defensa colonial española en América. Su construcción comenzó en 1586 bajo la dirección del ingeniero militar italiano Bautista Antonelli, tras el devastador ataque del pirata Francis Drake en 1585, y se extendió hasta el siglo XVIII. Estas fortificaciones fueron diseñadas para proteger la ciudad de los constantes ataques de piratas y de potencias enemigas, convirtiendo a Cartagena en uno de los puertos mejor defendidos del Caribe. Las murallas conectaban varios fuertes, como el Castillo de San Felipe de Barajas y el Fuerte de San Sebastián del Pastelillo, creando un sistema defensivo que resistió numerosos asedios.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "Las murallas forman parte del patrimonio histórico de Cartagena y son un recordatorio del pasado colonial de la ciudad.",
+                "Las Murallas de Cartagena no solo son un baluarte de la ingeniería militar, sino también un patrimonio cultural invaluable que simboliza la historia colonial de la ciudad. Declaradas Patrimonio de la Humanidad por la UNESCO en 1984, son un atractivo turístico que combina historia y belleza. A lo largo de las murallas, se encuentran cañones antiguos y puntos históricos que ofrecen una visión del pasado militar de la ciudad. Además, los paseos sobre las murallas al atardecer son populares entre locales y turistas, quienes disfrutan de la vista del mar Caribe mientras aprecian la arquitectura colonial que se conserva en la ciudad amurallada.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "Las murallas tienen varios puntos estratégicos, ideales para disfrutar de una vista panorámica de la ciudad y el mar.",
+                "Las murallas de Cartagena cuentan con numerosos puntos estratégicos, como el Baluarte de Santo Domingo y el Baluarte de San Francisco Javier, desde donde se obtienen vistas panorámicas espectaculares del mar y de la ciudad antigua. En algunos tramos, las murallas alcanzan hasta 11 metros de ancho, mostrando la magnitud de esta obra defensiva. Se dice que las murallas sirvieron como un medio para advertir a los habitantes sobre la llegada de posibles invasores mediante señales de humo. Además, estas murallas han resistido más de 400 años de tormentas tropicales y ataques, consolidándose como un símbolo de la fortaleza y resiliencia de Cartagena.",
             },
             images: [
-              "/img/murallasH1.jpg",
+              "/img/murallasH1.png",
               "/img/murallasH2.jpg",
               "/img/murallasH3.jpg",
             ],
           },
         ],
-        flyer: "/img/flyerMurallas.jpg",
+        flyer: "/img/flyerMurallas.jpeg",
       },
       {
         id: "Playa-Blanca",
@@ -275,8 +275,8 @@ export const actividades = [
         descripcion:
           "Una de las playas más famosas cerca de Cartagena, conocida por su arena blanca y aguas cristalinas. Ideal para relajarse y disfrutar del sol.",
         bento: [
-          "/img/playa1.jpg",
-          "/img/playa2.jpg",
+          "/img/playaBlanca.jpg",
+          "/img/playa2.avif",
           "/img/playa3.jpg",
           "/img/playa4.jpg",
           "/img/playa5.jpg",
@@ -301,21 +301,21 @@ export const actividades = [
             historia: {
               title: "Historia",
               content:
-                "Playa Blanca ha sido uno de los destinos más buscados por los turistas, tanto locales como internacionales, debido a su belleza natural.",
+                "Desde hace décadas, Playa Blanca ha sido uno de los destinos más buscados por turistas locales e internacionales. Originalmente, la zona era habitada por pescadores que vivían de la pesca y la agricultura. Con el tiempo, se fue consolidando como un destino turístico por su paisaje idílico y su proximidad a Cartagena. Aunque el desarrollo turístico ha aumentado, la playa ha logrado conservar gran parte de su encanto natural, atrayendo a visitantes que buscan una experiencia auténtica y sin grandes desarrollos urbanos.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "La zona alrededor de Playa Blanca es conocida por su cultura local, especialmente los pescadores que ofrecen frescos mariscos.",
+                "La vida en Playa Blanca está profundamente arraigada en la cultura local. Los pescadores, que aún hoy continúan con sus tradiciones, ofrecen mariscos frescos que preparan en pequeños restaurantes improvisados a lo largo de la playa. Los visitantes pueden degustar platos típicos como pescado frito, arroz con coco y patacones, en un ambiente relajado y acogedor. Además, la playa se ha convertido en un punto de encuentro cultural, donde los turistas pueden disfrutar de música caribeña, danzas locales y artesanías hechas a mano por los habitantes de la región.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "Playa Blanca es famosa no solo por sus aguas cristalinas, sino también por ser un lugar donde se pueden ver delfines y otras especies marinas.",
+                "Playa Blanca no solo es famosa por sus aguas cristalinas y arenas suaves, sino también por ser un lugar privilegiado para observar delfines y otras especies marinas. En ciertas épocas del año, es posible ver cómo estas criaturas se acercan a la costa, ofreciendo un espectáculo natural impresionante. Además, por las noches, se puede presenciar el fenómeno de la bioluminiscencia en sus aguas, donde microorganismos marinos emiten destellos de luz, creando un efecto mágico que fascina a los visitantes",
             },
             images: [
               "/img/playaH1.jpg",
-              "/img/playaH2.jpg",
+              "/img/playaH2.webp",
               "/img/playaH3.jpg",
             ],
           },
