@@ -131,18 +131,18 @@ export const ciudades = [
           "/img/hotelGHLCoralesdeIndia4.jpg",
         ],
         descripciongeneral: [
-          "Piscina infinita con vista al mar",
           "Desayuno incluido",
+          "Piscina infinita con vista al mar",
           "Spa y centro de bienestar",
-          "Wi-Fi gratuito",
+          "Servivio de transporte al aeropuerto",
           "Centro de negocios",
         ],
         descripciondetalles: [
           "Desayuno buffet internacional con platos locales y opciones saludables.",
           "Piscinas para adultos y niños con áreas recreativas.",
           "Spa con sauna y masajes especializados.",
-          "Servicio de traslado al aeropuerto bajo solicitud.",
-          "Salones para eventos y convenciones con tecnología avanzada.",
+          "Servicio de traslado al aeropuerto bajo solicitud, este servicio es gratuito para personas con discapacidad o enfermedades   .",
+          "Salones para eventos y convenciones con tecnología avanzada",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9752116470045!2d-75.5278244!3d10.4430594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6255fd6fd4067%3A0x72ca6dc9becdaa04!2sGHL%20Relax%20Hotel%20Corales%20de%20Indias!5e0!3m2!1ses-419!2sco!4v1701187450340!5m2!1ses-419!2sco",
         contentData: [
@@ -195,7 +195,7 @@ export const ciudades = [
           "Restaurantes y bares",
         ],
         descripciondetalles: [
-          "Cancela sin penalización hasta 48 horas antes de la llegada.",
+          "Servicio de traslado al aeropuerto bajo solicitud, este servicio es gratuito para personas con discapacidad o enfermedades   .",
           "Reserva hoy sin necesidad de pago inmediato.",
           "Español, Inglés y Portugués.",
           "Acceso exclusivo a playa privada y múltiples piscinas.",
@@ -309,7 +309,7 @@ export const ciudades = [
           "Wi-Fi gratuito",
         ],
         descripciondetalles: [
-          "Cancela con hasta 48 horas de antelación para un reembolso completo.",
+          "Servicio de traslado al aeropuerto bajo solicitud, este servicio es gratuito para personas con discapacidad o enfermedades   .",
           "Desayuno buffet con opciones internacionales y locales.",
           "Piscina infinita con vistas panorámicas al Caribe.",
           "Spa con masajes, tratamientos faciales y sauna.",
@@ -358,7 +358,9 @@ export const ciudades = [
         bento: [
           "/img/hotelBogotaPlaza1.jpg",
           "/img/hotelBogotaPlaza2.jpg",
-          "/img/hotelBogotaPlaza3.jpg"
+          "/img/hotelBogotaPlaza3.jpg",
+          "/img/hotelBogotaPlaza4.jpg",
+          "/img/hotelBogotaPlaza5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -370,9 +372,9 @@ export const ciudades = [
         descripciondetalles: [
           "Habitaciones amplias y modernas con vistas a la ciudad.",
           "Restaurante gourmet con opciones internacionales.",
+          "Salones para reuniones y eventos corporativos, es muy utilizado por los grandes empresarios del pais, incluso del gobierno",
           "Spa con tratamientos especializados y gimnasio totalmente equipado.",
-          "Wi-Fi de alta velocidad en todo el hotel.",
-          "Salones para reuniones y eventos corporativos."
+          "Wi-Fi de alta velocidad en todo el hotel."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.480447005351!2d-74.05355932502073!3d4.686249695288719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a99efea2a47%3A0x1af7949be5e8bb99!2sBogot%C3%A1%20Plaza%20Hotel!5e0!3m2!1ses!2sco!4v1733237053139!5m2!1ses!2sco",
         contentData: [
@@ -403,43 +405,45 @@ export const ciudades = [
       {
         id: "hotel-estelar-bogota",
         nombre: "Hotel Estelar Bogotá",
-        img: "/img/hotelEstelarBogota.jpg",
+        img: "/img/hotelEstelarBogota.webp",
         descripcion: "Un hotel moderno y elegante ubicado en el centro financiero de Bogotá.",
         bento: [
-          "/img/hotelEstelarBogota1.jpg",
+          "/img/hotelEstelarBogota4.jpg",
           "/img/hotelEstelarBogota2.jpg",
-          "/img/hotelEstelarBogota3.jpg"
+          "/img/hotelEstelarBogota3.jpg",
+          "/img/hotelEstelarBogota1.jpg",
+          "/img/hotelEstelarBogota5.jpg"
         ],
         descripciongeneral: [
-          "Cancelación gratuita",
-          "Desayuno buffet",
           "Piscina al aire libre",
-          "Wi-Fi gratuito",
-          "Gimnasio y spa"
+          "Restaurante gourmet",
+          "Cancelación gratuita",
+          "Gimnasio y spa",
+          "Wi-Fi gratuito"
         ],
         descripciondetalles: [
           "Piscina al aire libre con vista panorámica de la ciudad.",
+          "Restaurante con cocina internacional y local",
           "Salones para eventos y reuniones corporativas.",
-          "Gimnasio y spa con servicios de relajación.",
-          "Wi-Fi gratuito de alta velocidad en todo el hotel.",
-          "Restaurante con cocina internacional y local."
+          "Gimnasio y spa con servicios de relajación, masajes por parte de profesionales, asi que podras disfrutar de un dia relajado",
+          "Wi-Fi gratuito de alta velocidad en todo el hotel."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50052.714021449225!2d-74.09245553470282!3d4.67988021058432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab2e9565caf%3A0x10d0ddf59c02d2e1!2sESTELAR%20La%20Fontana%20Hotel!5e0!3m2!1ses!2sco!4v1733237551525!5m2!1ses!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura del Hotel Estelar Bogotá",
-            description: "Hotel Estelar Bogotá combina elegancia, comodidad y un excelente servicio para todos sus huéspedes.",
+            description: "El Hotel Estelar Bogotá, parte de la cadena hotelera colombiana Hoteles Estelar,.",
             historia: {
               title: "Historia",
-              content: "Desde su inauguración en 1990, el Hotel Estelar Bogotá ha sido un referente de lujo y comodidad en el sector financiero de la ciudad. Su diseño moderno lo posiciona como una excelente opción para los viajeros de negocios."
+              content: "fue inaugurado para brindar alojamiento de lujo y confort en la capital del país. Su ubicación en el corazón de la ciudad lo convierte en un punto clave tanto para viajeros de negocios como de placer, ofreciendo servicios modernos y cómodos."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel apoya a la comunidad artística local exhibiendo obras en sus instalaciones y ofreciendo experiencias gastronómicas que resaltan los sabores típicos de la región."
+              content: "El hotel mantiene una estrecha relación con la cultura local, destacando aspectos de la arquitectura y el diseño colombiano. Su restaurante también integra sabores típicos de la gastronomía local, ofreciendo una experiencia completa del país."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El hotel se destaca por sus amplias habitaciones y su spa, que ha sido galardonado como uno de los mejores de Bogotá."
+              content: "El Hotel Estelar Bogotá se encuentra cerca de importantes centros empresariales y culturales de la ciudad, además Es conocido por su servicio personalizado y enfoque en el bienestar de los huéspedes y Cuenta con modernas instalaciones que incluyen piscina, gimnasio y espacios para eventos empresariales de gran escala."
             },
             images: [
               "/img/hEstelarBogota1.jpg",
@@ -458,18 +462,21 @@ export const ciudades = [
         bento: [
           "/img/hotelHiltonBogota1.jpg",
           "/img/hotelHiltonBogota2.jpg",
-          "/img/hotelHiltonBogota3.jpg"
+          "/img/hotelHiltonBogota3.jpg",
+          "/img/hotelHiltonBogota4.jpg",
+          "/img/hotelHiltonBogota5.jpeg"
         ],
         descripciongeneral: [
+          
           "Cancelación gratuita",
           "Piscina climatizada",
           "Gimnasio",
-          "Wi-Fi gratuito",
-          "Restaurante gourmet"
+          "Restaurante gourmet",
+          "Wi-Fi gratuito"
         ],
         descripciondetalles: [
           "Habitaciones espaciosas con decoración contemporánea.",
-          "Piscina climatizada y gimnasio de última generación.",
+          "Piscina climatizada, recreando las cvalidas aguas termales en Bogotá, y gimnasio de última generación. con maquinas de calidad",
           "Restaurante que ofrece cocina internacional y local.",
           "Salones para eventos y reuniones con capacidad para 500 personas.",
           "Wi-Fi de alta velocidad disponible en todas las áreas."
@@ -478,18 +485,18 @@ export const ciudades = [
         contentData: [
           {
             titulo: "Historia y Cultura del Hilton Bogotá",
-            description: "El Hilton Bogotá destaca por su excelente ubicación y su servicio cinco estrellas.",
+            description: "El Hotel Hilton Bogotá, ubicado en el distrito financiero de la ciudad, abrió sus puertas en 2011 como parte de la expansión de la cadena Hilton en Colombia.",
             historia: {
               title: "Historia",
-              content: "Abierto en 2012, el Hilton Bogotá es un hotel moderno diseñado para viajeros exigentes, ofreciendo comodidad y lujo en el corazón de la ciudad."
+              content: "Desde entonces, ha ofrecido alojamiento de lujo y servicios de alta calidad a viajeros de negocios y turistas, consolidándose como un destino de primer nivel en Bogotá."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel organiza eventos culturales y exhibiciones de arte en sus instalaciones, permitiendo a los huéspedes conectarse con la cultura local mientras disfrutan de un ambiente de lujo."
+              content: "El hotel refleja la cultura colombiana en su diseño interior, con toques modernos que integran materiales y colores locales. Además, alberga eventos de negocios, sociales y culturales, lo que lo convierte en un punto importante de interacción empresarial y cultural en la ciudad."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Hilton Bogotá es famoso por su piscina climatizada y su restaurante de autor, que ha ganado múltiples premios gastronómicos."
+              content: "Su diseño moderno incluye un elegante rooftop bar que ofrece vistas espectaculares de la ciudad, además El hotel está certificado con estándares de sostenibilidad, comprometido con prácticas amigables con el medio ambiente y Ha sido sede de importantes eventos internacionales, fortaleciendo su reputación en la industria hotelera en Bogotá."
             },
             images: [
               "/img/hHiltonBogota1.jpg",
@@ -508,7 +515,9 @@ export const ciudades = [
         bento: [
           "/img/hotelWBogota1.jpg",
           "/img/hotelWBogota2.jpg",
-          "/img/hotelWBogota3.jpg"
+          "/img/hotelWBogota3.jpg",
+          "/img/hotelWBogota4.jpeg",
+          "/img/hotelWBogota5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -522,7 +531,7 @@ export const ciudades = [
           "Piscina climatizada con servicio de bar.",
           "Habitaciones con vistas espectaculares y tecnología avanzada.",
           "Spa de lujo con tratamientos personalizados.",
-          "Restaurante con cocina de autor que fusiona sabores colombianos e internacionales."
+          "Restaurante con cocina de autor que fusiona sabores colombianos internacionales, mezclando la comidad nativa con la europea."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4404603787443!2d-74.03721592502073!3d4.693272995281713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa6620c146f%3A0xa2922291a3de6e4d!2sW%20Bogota!5e0!3m2!1ses!2sco!4v1733238279224!5m2!1ses!2sco",
         contentData: [
@@ -558,7 +567,9 @@ export const ciudades = [
         bento: [
           "/img/hotelGrandHyattBogota1.jpg",
           "/img/hotelGrandHyattBogota2.jpg",
-          "/img/hotelGrandHyattBogota3.jpg"
+          "/img/hotelGrandHyattBogota3.jpg",
+          "/img/hotelGrandHyattBogota4.jpeg",
+          "/img/hotelGrandHyattBogota5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -568,28 +579,29 @@ export const ciudades = [
           "Restaurantes de alta cocina"
         ],
         descripciondetalles: [
-          "Habitaciones amplias con decoración sofisticada.",
+          "Habitaciones con decoración sofisticada, es una de las arquitecturas mas grandes de Bogotá, es catalogada como el hotel Rey",
           "Piscina cubierta y gimnasio con equipos de última generación.",
+          "Salones para eventos con capacidad para más de 1,000 personas.",
           "Spa con tratamientos exclusivos de relajación.",
-          "Restaurantes con especialidades locales e internacionales.",
-          "Salones para eventos con capacidad para más de 1,000 personas."
+          "Restaurantes con especialidades locales e internacionales."
+
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7193290663827!2d-74.10263132502111!3d4.644071395330723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bc1be4e2a53%3A0x1d610fc552832a6d!2sHotel%20Grand%20Hyatt%20%7C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733240165607!5m2!1ses!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura del Grand Hyatt Bogotá",
-            description: "El Grand Hyatt Bogotá combina lujo y sofisticación con un toque colombiano, ofreciendo una experiencia inigualable.",
+            description: "El Hotel Grand Hyatt Bogotá abrió sus puertas en 2018, trayendo la elegancia y el lujo característicos de la marca Hyatt a la capital colombiana.",
             historia: {
               title: "Historia",
-              content: "Desde su apertura en 2018, el Grand Hyatt Bogotá se ha destacado como uno de los hoteles más modernos y lujosos de la ciudad."
+              content: "Es uno de los desarrollos hoteleros más grandes y modernos de la ciudad, diseñado para ofrecer una experiencia de alta calidad tanto para huéspedes de negocios como de placer. Su estratégica ubicación en la zona de Ciudad Salitre lo coloca cerca de importantes centros financieros y culturales de Bogotá."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel celebra la diversidad cultural de Colombia a través de su oferta gastronómica y sus eventos temáticos."
+              content: "El Grand Hyatt Bogotá está profundamente influenciado por la cultura local. Sus interiores modernos incluyen elementos que reflejan el patrimonio colombiano, como el uso de materiales y texturas locales. El hotel también promueve la gastronomía colombiana en sus restaurantes, que ofrecen menús diseñados con ingredientes frescos y autóctonos. Además, es un espacio recurrente para eventos y actividades culturales, consolidándose como un referente de lujo en la escena hotelera y cultural de Bogotá."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El spa del hotel es considerado uno de los mejores de Bogotá, y su arquitectura ha sido premiada por su diseño innovador."
+              content: "El Grand Hyatt Bogotá cuenta con el spa urbano más grande de la ciudad, ofreciendo tratamientos de bienestar de primer nivel, además Su piscina cubierta ofrece vistas impresionantes del paisaje bogotano y El hotel alberga uno de los restaurantes más exclusivos de Bogotá, Ushin, especializado en parrilla de estilo japonés."
             },
             images: [
               "/img/hGrandHyattBogota1.jpg",
@@ -608,38 +620,40 @@ export const ciudades = [
         bento: [
           "/img/hotelMarriottBogota1.jpg",
           "/img/hotelMarriottBogota2.jpg",
-          "/img/hotelMarriottBogota3.jpg"
+          "/img/hotelMarriottBogota3.jpg",
+          "/img/hotelMarriottBogota4.jpg",
+          "/img/hotelMarriottBogota5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
-          "Desayuno incluido",
-          "Centro de negocios",
           "Piscina cubierta",
-          "Gimnasio y spa"
+          "Centro de negocios",
+          "Spa y gimnasio",
+          "Restaurantes de alta cocina"
         ],
         descripciondetalles: [
-          "Servicio de transporte al aeropuerto las 24 horas.",
-          "Restaurante con una amplia oferta culinaria internacional.",
-          "Piscina cubierta y gimnasio completamente equipado.",
-          "Salones para eventos empresariales y sociales.",
-          "Wi-Fi gratuito de alta velocidad en todas las instalaciones."
+          "Habitaciones con decoración sofisticada, es una de las arquitecturas mas grandes de Bogotá, es catalogada como el hotel Rey",
+          "Piscina cubierta y gimnasio con equipos de última generación.",
+          "Salones para eventos con capacidad para más de 1,000 personas.",
+          "Spa con tratamientos exclusivos de relajación.",
+          "Restaurantes con especialidades locales e internacionales."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.633573489694!2d-74.11117852502099!3d4.65925669531558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b9a4f5b2981%3A0x3789ecc0545d000f!2sBogota%20Marriott%20Hotel!5e0!3m2!1ses!2sco!4v1733240446749!5m2!1ses!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura del Bogotá Marriott Hotel",
-            description: "El Bogotá Marriott Hotel se destaca por su cercanía al aeropuerto y su servicio excepcional.",
+            description: "El Bogotá Marriott Hotel abrió sus puertas en 2009 en el corazón de la zona de negocios de Bogotá, convirtiéndose en uno de los primeros hoteles de lujo de la cadena Marriott en la ciudad.",
             historia: {
               title: "Historia",
-              content: "Desde su inauguración en 2009, este hotel ha sido una referencia para viajeros de negocios que buscan comodidad y eficiencia."
+              content: "Desde su apertura, ha sido un punto clave para viajeros de negocios y eventos importantes en la capital, destacándose por su servicio de alta calidad y modernas instalaciones."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel organiza actividades que destacan la cultura local y ofrece una experiencia gastronómica que resalta los sabores colombianos."
+              content: "El hotel refleja la cultura local mediante la oferta de servicios gastronómicos con influencias colombianas en sus restaurantes, que destacan ingredientes autóctonos. También incorpora elementos modernos en su diseño que capturan el espíritu vibrante de Bogotá."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Bogotá Marriott Hotel es conocido por su compromiso con la sostenibilidad, incorporando prácticas ecológicas en sus operaciones."
+              content: "Cuenta con una de las suites más grandes de la ciudad, ideal para alojamientos de lujo, tambien ofrece un spa con tratamientos inspirados en la flora colombiana, además Se destaca por su compromiso con prácticas sostenibles y su participación en programas de responsabilidad social en Bogotá."
             },
             images: [
               "/img/hMarriottBogota1.jpg",
@@ -959,7 +973,7 @@ export const ciudades = [
           "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
           "Comprueba la disponibilidad para ver los horarios de inicio.",
           "El servicio de gimnacio esta abierto las 24 horas del dia.",
-          "El spa de lujo ofrece un masaje relajante y un tratamiento de hidromasaje.",
+          "El spa de lujo ofrece un masaje relajante y un tratamiento de hidromasaje, hecho por especialistas y profesionales de la salud.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318.1006255333271!2d-75.6614431!3d4.5498595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5adf2c34a57%3A0x6162de092f1f0da8!2sTrugo%20Luxury%20Rooms!5e0!3m2!1ses!2sco!4v1701184871450!5m2!1ses!2sco",
         contentData: [
@@ -1002,23 +1016,26 @@ export const ciudades = [
         img: "/img/hotelSanFernandoPlaza.jpg",
         descripcion: "El Hotel San Fernando Plaza, ubicado en El Poblado, Medellín, combina lujo y comodidad con una ubicación estratégica. Ofrece servicios exclusivos, una piscina con vista panorámica y restaurantes que destacan lo mejor de la gastronomía paisa.",
         bento: [
-          "/img/hotelSanFernandoPlaza1.jpg",
+          "/img/hotelSanFernandoPlaza6.webp",
           "/img/hotelSanFernandoPlaza2.jpg",
-          "/img/hotelSanFernandoPlaza3.jpg"
+          "/img/hotelSanFernandoPlaza3.jpg",
+          "/img/hotelSanFernandoPlaza4.jpg",
+          "/img/hotelSanFernandoPlaza5.jpg"
         ],
         descripciongeneral: [
+
           "Cancelación gratuita",
-          "Desayuno incluido",
-          "Piscina al aire libre",
+          "Piscina cubierta",
           "Centro de negocios",
-          "Spa y gimnasio"
+          "Spa y gimnasio",
+          "Restaurantes de alta cocina"
         ],
         descripciondetalles: [
           "Cancela con hasta 48 horas de antelación.",
           "Desayuno tipo buffet con platos locales e internacionales.",
           "Piscina con vistas espectaculares de Medellín.",
           "Wi-Fi gratuito en todas las áreas del hotel.",
-          "Gimnasio y spa con tratamientos especializados."
+          "Gimnasio y spa con tratamientos especializados, se brinda sesoria ergonomica para cada uno de los clientes VIP en el hotel.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3966.4528723150506!2d-75.57336207602714!3d6.203835876797651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSanFernandoPlaza!5e0!3m2!1ses-419!2sco!4v1732920897742!5m2!1ses-419!2sco",
         contentData: [
@@ -1054,7 +1071,9 @@ export const ciudades = [
         bento: [
           "/img/hotelDannCarlton1.jpg",
           "/img/hotelDannCarlton2.jpg",
-          "/img/hotelDannCarlton3.jpg"
+          "/img/hotelDannCarlton3.jpg",
+          "/img/hotelDannCarlton4.jpg",
+          "/img/hotelDannCarlton5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1067,7 +1086,7 @@ export const ciudades = [
           "Cancelación gratuita hasta 24 horas antes de la llegada.",
           "Desayuno tipo buffet con opciones saludables.",
           "Piscina con diseño tropical.",
-          "Salones para eventos con tecnología avanzada.",
+          "Salones para eventos con tecnología avanzada y equiposa en optimas condiciones es para reuniones y convenciones Premium.",
           "Servicio de transporte al aeropuerto (opcional)."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4266429739455!2d-75.57326072602717!3d6.20732042675891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282a784ae603%3A0x3fbde8512ade3fb1!2sHotel%20Dann%20Carlton%20Medell%C3%ADn!5e0!3m2!1ses-419!2sco!4v1732920846479!5m2!1ses-419!2sco",
@@ -1104,7 +1123,9 @@ export const ciudades = [
         bento: [
           "/img/hotelNHCollection1.jpg",
           "/img/hotelNHCollection2.jpg",
-          "/img/hotelNHCollection3.jpg"
+          "/img/hotelNHCollection3.jpg",
+          "/img/hotelNHCollection4.jpg",
+          "/img/hotelNHCollection5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1118,7 +1139,7 @@ export const ciudades = [
           "Desayuno tipo buffet con opciones internacionales.",
           "Piscina con vista panorámica.",
           "Salones para eventos corporativos.",
-          "Servicio de transporte al aeropuerto (previa solicitud)."
+          "Servicio de transporte al aeropuerto, servivio a personas con discapacidadad y atencion a servicios de salud (previa solicitud)."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5025376348194!2d-75.57517422602723!3d6.197232526870951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468287a8fd1741%3A0xc884096a4ae6804d!2sHotel%20NH%20Collection%20Medellin%20Royal!5e0!3m2!1ses-419!2sco!4v1732920800894!5m2!1ses-419!2sco",
         contentData: [
@@ -1154,18 +1175,20 @@ export const ciudades = [
         bento: [
           "/img/hotelIntercontinental1.jpg",
           "/img/hotelIntercontinental2.jpg",
-          "/img/hotelIntercontinental3.jpg"
+          "/img/hotelIntercontinental3.jpg",
+          "/img/hotelIntercontinentalMedellin4.jpg",
+          "/img/hotelIntercontinentalMedellin5.jpg"
         ],
         descripciongeneral: [
+          "Restaurante gourmet",
           "Cancelación gratuita",
           "Desayuno incluido",
           "Piscina olímpica",
           "Spa y gimnasio",
-          "Restaurante gourmet"
         ],
         descripciondetalles: [
           "Desayuno buffet con platos locales e internacionales.",
-          "Piscina olímpica rodeada de áreas verdes.",
+         "Servicio de transporte al aeropuerto, servivio a personas con discapacidadad y atencion a servicios de salud (previa solicitud).",
           "Spa con tratamientos de relajación y terapias.",
           "Wi-Fi de alta velocidad en todo el hotel.",
           "Centro de negocios y salones para eventos."
@@ -1204,7 +1227,9 @@ export const ciudades = [
         bento: [
           "/img/hotelNovotel1.jpg",
           "/img/hotelNovotel2.jpg",
-          "/img/hotelNovotel3.jpg"
+          "/img/hotelNovotel3.jpg",
+          "/img/hotelNovotel4.jpg",
+          "/img/hotelNovotel5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1214,9 +1239,9 @@ export const ciudades = [
           "Piscina y gimnasio"
         ],
         descripciondetalles: [
-          "Ubicación privilegiada dentro de un centro comercial.",
-          "Desayuno buffet con opciones internacionales.",
           "Salones para reuniones corporativas.",
+          "Desayuno buffet con opciones internacionales.",
+          "Ubicación privilegiada dentro de un centro comercial, esta funcion permiten a los huéspedes disfrutar de una experiencia de lujo",
           "Piscina con vista panorámica.",
           "Wi-Fi gratuito en todas las áreas."
         ],
@@ -1254,7 +1279,9 @@ export const ciudades = [
         bento: [
           "/img/hotelACMarriott1.jpg",
           "/img/hotelACMarriott2.jpg",
-          "/img/hotelACMarriott3.jpg"
+          "/img/hotelACMarriott4.jpg",
+          "/img/hotelACMarriott3.jpg",
+          "/img/hotelACMarriott5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1264,7 +1291,7 @@ export const ciudades = [
           "Gimnasio"
         ],
         descripciondetalles: [
-          "Desayuno buffet con opciones saludables.",
+          "Desayuno buffet con opciones saludables, se brinda una gran variedad de almuerzos y comidas pensando en tus itinerarios .",
           "Wi-Fi gratuito de alta velocidad.",
           "Centro de negocios totalmente equipado.",
           "Salones para reuniones y eventos.",
@@ -1288,8 +1315,8 @@ export const ciudades = [
               content: "El Hotel AC Marriott Medellín se destaca por su arquitectura moderna y su gimnasio completamente equipado. Además, su centro de negocios y los salones para eventos lo convierten en un lugar ideal para seminarios y reuniones. La ubicación en el centro de la ciudad permite fácil acceso a importantes zonas de Medellín, como El Poblado y la Milla de Oro."
             },
             images: [
-              "/img/hACMarriott1.jpg",
-              "/img/hACMarriott2.jpg",
+              "/img/hACMarriott1.jpeg",
+              "/img/hACMarriott2.webp",
               "/img/hACMarriott3.jpg"
             ]
           }
@@ -1309,21 +1336,23 @@ export const ciudades = [
         bento: [
           "/img/hotelDannCarltonCali1.jpg",
           "/img/hotelDannCarltonCali2.jpg",
-          "/img/hotelDannCarltonCali3.jpg"
+          "/img/hotelDannCarltonCali3.jpg",
+          "/img/hotelDannCarltonCali4.jpg",
+          "/img/hotelDannCarltonCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno incluido",
           "Piscina al aire libre",
           "Centro de negocios",
-          "Spa y gimnasio"
+          "Salón conferencias"
         ],
         descripciondetalles: [
           "Habitaciones amplias con vistas a la ciudad.",
           "Desayuno buffet con opciones locales e internacionales.",
           "Piscina con área de solarium.",
           "Wi-Fi gratuito en todas las áreas.",
-          "Salones para eventos y convenciones."
+          "Salones para eventos y convenciones, especializados en reuniones y seminarios, con tecnología avanzada y muy útil, eventos"
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.587382691546!2d-76.54310272502752!3d3.450038896524423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a7cfb944c50b%3A0x25f19beaf4cd3742!2sHoteles%20Dann%20Carlton%20Cali!5e0!3m2!1ses!2sco!4v1733174895839!5m2!1ses!2sco",
         contentData: [
@@ -1359,17 +1388,19 @@ export const ciudades = [
         bento: [
           "/img/hotelWNMarriottCali1.jpg",
           "/img/hotelWNMarriottCali2.jpg",
-          "/img/hotelWNMarriottCali3.jpg"
+          "/img/hotelWNMarriottCali3.jpg",
+          "/img/hotelWNMarriottCali4.jpg",
+          "/img/hotelWNMarriottCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
-          "Piscina infinita",
           "Desayuno buffet",
+          "Zona Wifi",
           "Centro de negocios",
           "Spa con tratamientos especializados"
         ],
         descripciondetalles: [
-          "Vistas panorámicas de Cali desde la piscina infinita.",
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el hotel WN Marriott Cali 2025",
           "Gastronomía local en sus restaurantes exclusivos.",
           "Wi-Fi de alta velocidad.",
           "Salones para reuniones y eventos.",
@@ -1407,9 +1438,11 @@ export const ciudades = [
         img: "/img/hotelHamptonInnCali.jpg",
         descripcion: "Este hotel ofrece una experiencia única en el corazón de Cali, con un excelente servicio, comodidad y ubicación cercana a centros comerciales y atractivos turísticos.",
         bento: [
-          "/img/hotelHamptonInnCali1.jpg",
+          "/img/hotelHamptonInnCali4.webp",
           "/img/hotelHamptonInnCali2.jpg",
-          "/img/hotelHamptonInnCali3.jpg"
+          "/img/hotelHamptonInnCali3.jpg",
+          "/img/hotelHamptonInnCali1.jpg",
+          "/img/hotelHamptonInnCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
@@ -1422,25 +1455,25 @@ export const ciudades = [
           "Piscina al aire libre con vistas panorámicas.",
           "Habitaciones cómodas y modernas.",
           "Desayuno tipo buffet con opciones locales e internacionales.",
-          "Wi-Fi gratuito en todo el hotel.",
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el hotelHampton Inn Cali 2025",
           "Salones para reuniones y eventos corporativos."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5750648278413!2d-76.54938992502748!3d3.452977096521464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6783a7aada1%3A0x5ebe0773bd1371c7!2sHampton%20by%20Hilton%20Cali%20Colombia!5e0!3m2!1ses!2sco!4v1733176754033!5m2!1ses!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura del Hampton Inn Cali",
-            description: "El Hampton Inn Cali es conocido por su excelente ubicación y su enfoque en la comodidad de los viajeros de negocios y turistas.",
+            description: "El Hampton by Hilton Cali, conocido por su servicio de alta calidad y enfoque en la comodidad, es un hotel situado en la dinámica ciudad de Cali, Colombia. Como parte de la cadena Hilton, ofrece una experiencia de alojamiento moderna y práctica, orientada tanto a viajeros de negocios como a turistas que buscan disfrutar de la cultura vibrante de la ciudad.",
             historia: {
               title: "Historia",
-              content: "Inaugurado en 2018, el Hampton Inn Cali es uno de los hoteles más nuevos en la ciudad. Con su moderna infraestructura, ha sido reconocido por ofrecer una experiencia de calidad a los visitantes que buscan comodidad y excelente servicio."
+              content: "El Hampton Inn forma parte del grupo hotelero Hilton, que ha estado presente en Colombia durante varios años, contribuyendo al desarrollo del sector turístico en el país. Este hotel en particular se inauguró para satisfacer la creciente demanda de hospedaje de calidad en Cali, una ciudad reconocida por su espíritu empresarial y su cultura salsera. A lo largo de los años, el Hampton by Hilton en Cali ha sido un referente para visitantes internacionales que buscan una mezcla de confort y proximidad a las principales atracciones de la ciudad."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel ofrece una variedad de platos locales e internacionales, y se encuentra cerca de varios centros culturales de la ciudad, lo que permite a los huéspedes disfrutar de la vida vibrante de Cali."
+              content: "Cali es conocida como la capital mundial de la salsa, lo que la convierte en un destino culturalmente rico para los amantes de la música y el baile. Los huéspedes del Hampton Inn están cerca de varios lugares icónicos para disfrutar de espectáculos de salsa y clases de baile, como la Escuela Nacional del Deporte y el famoso barrio San Antonio, donde la música late en cada rincón.Además, el hotel está ubicado en una zona estratégica para explorar la vibrante vida nocturna y las expresiones culturales de Cali, como sus festivales, entre ellos la Feria de Cali, que es un evento cultural que atrae a miles de turistas cada diciembre."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "Este hotel es reconocido por su excelente servicio y por ser un lugar muy popular entre los viajeros frecuentes debido a su comodidad y ubicación estratégica."
+              content: "Como parte del grupo Hilton, el Hampton by Hilton Cali sigue estándares internacionales de hospitalidad y servicio, lo que le permite ofrecer un servicio consistente y de alta calidad a sus huéspedes. El hotel está ubicado en el sector financiero de Cali, cerca de importantes centros comerciales y restaurantes de la ciudad, lo que lo hace ideal tanto para los viajeros de negocios como para los turistas. El hotel está ubicado en el sector financiero de Cali, cerca de importantes centros comerciales y restaurantes de la ciudad, lo que lo hace ideal tanto para los viajeros de negocios como para los turistas."
             },
             images: [
               "/img/hHamptonInnCali1.jpg",
@@ -1459,21 +1492,23 @@ export const ciudades = [
         bento: [
           "/img/hotelMovichCali1.jpg",
           "/img/hotelMovichCali2.jpg",
-          "/img/hotelMovichCali3.jpg"
+          "/img/hotelMovichCali3.jpg",
+          "/img/hotelMovichCali4.jpg",
+          "/img/hotelMovichCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno incluido",
+          "Wi-Fi gratuito",
           "Spa y gimnasio",
           "Piscina al aire libre",
-          "Wi-Fi gratuito"
         ],
         descripciondetalles: [
           "Piscina al aire libre con vistas espectaculares.",
-          "Salones para eventos y conferencias.",
+          "Desayunos",
           "Wi-Fi gratuito en todo el hotel.",
           "Centro de bienestar con spa y gimnasio.",
-          "Restaurante gourmet con opciones internacionales."
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el hotelHampton Inn Cali 2025"
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.563283855835!2d-76.53961202502751!3d3.4557848965186637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a671d59db255%3A0xa90939cce06fa404!2sHotel%20Movich%20Casa%20del%20Alferez!5e0!3m2!1ses!2sco!4v1733177334490!5m2!1ses!2sco",
         contentData: [
@@ -1503,44 +1538,46 @@ export const ciudades = [
       },
       {
         id: "hotel-estelar-cali",
-        nombre: "Hotel Estelar Cali",
+        nombre: "Hotel Intercontinental Cali",
         img: "/img/hotelEstelarCali.jpg",
         descripcion: "Un hotel moderno y elegante en el corazón de Cali, con una ubicación estratégica cerca de los mejores centros comerciales y la vida nocturna de la ciudad.",
         bento: [
           "/img/hotelEstelarCali1.jpg",
           "/img/hotelEstelarCali2.jpg",
-          "/img/hotelEstelarCali3.jpg"
+          "/img/hotelEstelarCali3.jpg",
+          "/img/hotelEstelarCali4.jpg",
+          "/img/hotelEstelarCali5.jpg"
         ],
         descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno buffet",
           "Piscina al aire libre",
           "Gimnasio",
-          "Wi-Fi gratuito"
+          "Salón para eventos"
         ],
         descripciondetalles: [
-          "Piscina exterior con vista a la ciudad.",
+          "Vistas panorámicas del norte de Cali, observando desde una zona privilegiada, y VIP suites en el Intercontinental Cali 2025 .",
           "Restaurante con cocina internacional.",
           "Gimnasio totalmente equipado.",
-          "Wi-Fi gratuito en todo el hotel.",
+          "Spa con servicios de relajación y masajes por parte de profesionales.",
           "Salones para reuniones y eventos."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63721.772636877875!2d-76.55639220336634!3d3.4444486616399734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shotel-estelar-cali!5e0!3m2!1ses!2sco!4v1733177729388!5m2!1ses!2sco",
         contentData: [
           {
-            titulo: "Historia y Cultura del Hotel Estelar Cali",
-            description: "El Hotel Estelar Cali es uno de los más prestigiosos de la ciudad, con una excelente ubicación y un servicio impecable.",
+            titulo: "Historia y Cultura del Hotel Intercontinental Cali",
+            description: "El Hotel Intercontinental Cali, uno de los hoteles más icónicos de la ciudad, ofrece una mezcla de lujo, historia y cultura que lo ha convertido en un símbolo del turismo en la capital del Valle del Cauca. Es un destino clave tanto para viajeros de negocios como para aquellos que desean experimentar el encanto de Cali, conocida por su rica cultura, su música y su cálida hospitalidad.",
             historia: {
               title: "Historia",
-              content: "Abierto en 2012, el Hotel Estelar Cali es reconocido por su moderno diseño y su ubicación privilegiada en la ciudad. Ofrece un servicio de lujo y una experiencia única para todos sus huéspedes."
+              content: "El Hotel Intercontinental Cali abrió sus puertas en 1971 y desde entonces ha sido uno de los puntos de referencia más importantes en el turismo y la hotelería de la ciudad. Perteneciente a la cadena internacional InterContinental Hotels Group, su llegada marcó un hito en el desarrollo turístico y económico de Cali. A lo largo de las décadas, el hotel ha acogido importantes eventos internacionales, reuniones empresariales y visitantes de alto perfil, consolidándose como un referente de elegancia y prestigio en la región.El hotel ha sabido mantenerse actualizado, renovando sus instalaciones a lo largo de los años para ofrecer las mejores comodidades sin perder su esencia clásica y sofisticada."
             },
             cultura: {
               title: "Cultura",
-              content: "El hotel refleja el espíritu caleño al ofrecer una gastronomía que combina platos típicos de la región con opciones internacionales, brindando a los huéspedes una experiencia culinaria única."
+              content: "El Intercontinental Cali no solo se destaca por su servicio de lujo, sino también por estar profundamente conectado con la cultura de la ciudad. Ubicado en el corazón de Cali, es testigo de la vibrante vida urbana de la ciudad, famosa por ser la capital mundial de la salsa. La música y el baile son parte integral de la experiencia caleña, y el hotel refleja este espíritu al albergar diversos eventos que celebran la cultura local.El hotel está ubicado cerca de sitios culturales emblemáticos como el Teatro Municipal Enrique Buenaventura, la Iglesia La Ermita y el Barrio San Antonio, todos lugares que reflejan la historia y el arte de Cali. Además, durante la famosa Feria de Cali, el hotel se convierte en un punto neurálgico para los asistentes, ofreciendo una experiencia de primera clase para disfrutar de las festividades."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "Este hotel es conocido por su excelente servicio y por estar cerca de algunos de los principales atractivos turísticos y comerciales de la ciudad."
+              content: " El hotel alberga varios restaurantes reconocidos, como el Fogón de Piedra, donde se pueden degustar platos de la cocina local e internacional preparados al estilo tradicional, lo que permite una experiencia gastronómica auténtica. El hotel cuenta con una de las piscinas más grandes de los hoteles de la ciudad, lo que lo convierte en un lugar perfecto para relajarse y disfrutar del clima tropical de Cali. A lo largo de los años, el Hotel Intercontinental ha sido sede de numerosos eventos internacionales, desde conferencias empresariales hasta galas benéficas y festivales culturales."
             },
             images: [
               "/img/hEstelarCali1.jpg",
@@ -1555,170 +1592,320 @@ export const ciudades = [
     ]
   },
   {
-    "nombre": "Santa Marta",
-    "hoteles": [
+    nombre: "Santa Marta",
+    hoteles: [
       {
-        "id": "hotel-zuana-beach-resort",
-        "nombre": "Zuana Beach Resort",
-        "img": "/img/zuanaBeachResort.jpg",
-        "descripcion": "Un resort de lujo frente al mar Caribe, ideal para disfrutar de vacaciones familiares y experiencias inolvidables en Santa Marta.",
-        "bento": [
+        id: "hotel-zuana-beach-resort",
+        nombre: "Zuana Beach Resort",
+        img: "/img/zuanaBeachResort.jpg",
+        descripcion: "Un resort de lujo frente al mar Caribe, ideal para disfrutar de vacaciones familiares y experiencias inolvidables en Santa Marta.",
+        bento: [
           "/img/zuanaBeachResort1.jpg",
           "/img/zuanaBeachResort2.jpg",
-          "/img/zuanaBeachResort3.jpg"
+          "/img/zuanaBeachResort3.jpg",
+          "/img/zuanaBeachResort4.jpg",
+          "/img/zuanaBeachResort5.jpg"
         ],
-        "descripciongeneral": [
+        descripciongeneral: [
           "Piscinas al aire libre",
           "Acceso directo a la playa",
           "Desayuno incluido",
           "Spa y gimnasio",
           "Restaurante gourmet"
         ],
-        "descripciondetalles": [
+        descripciondetalles: [
           "Habitaciones con vista al mar y balcones privados.",
           "Piscinas infinitas con áreas recreativas.",
           "Spa con masajes y tratamientos de relajación.",
           "Wi-Fi gratuito en todo el resort.",
-          "Restaurantes que destacan la gastronomía caribeña."
+          "Restaurantes que destacan la gastronomía caribeña, podrás probar los platos tipicos de Santa Marta y el Caribe, sabroso!!"
         ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d434400.4227532998!2d-74.35166863039179!3d11.234386217053776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sZuana%20Beach%20Resort!5e0!3m2!1ses!2sco!4v1733154894975!5m2!1ses!2sco",
-        "flyer": "/img/FlyerZuanaBeachResort.jpg"
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0236264820136!2d-75.5699713!3d6.2297873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44284a480b3567%3A0xf1bd8c55ada0f91!2sZUANA%20BEACH%20RESORT!5e0!3m2!1ses!2sco!4v1701594502833!5m2!1ses!2sco",
+        flyer: "/img/FlyerZuanaBeachResort.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Zuana Beach Resort",
+            description: "El Hotel Zuana Beach Resort, ubicado en Santa Marta, abrió sus puertas en la década de 1990.",
+            historia: {
+              title: "Historia",
+              content: "Fue diseñado para ofrecer una experiencia de lujo frente al mar Caribe, combinando el confort moderno con la belleza natural de la región. Desde su apertura, se ha convertido en uno de los destinos turísticos más populares en la costa colombiana."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel refleja la cultura caribeña a través de su arquitectura, gastronomía y actividades. Los huéspedes pueden disfrutar de comida típica de la región y de actividades que celebran las tradiciones locales, como la música vallenata y los deportes acuáticos."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El hotel tiene una de las piscinas más grandes de la región, incluye vistas espectaculares de la Sierra Nevada de Santa Marta y el Mar Caribe, además El resort cuenta con un club infantil que incluye actividades educativas sobre la biodiversidad de la región."
+            },
+            images: [
+              "/img/hycZauna1.jpg",
+              "/img/hycZauna2.jpg",
+              "/img/hycZauna3.jpg"
+            ]
+          }
+        ],
       },
       {
-        "id": "hotel-irotama-resort",
-        "nombre": "Irotama Resort",
-        "img": "/img/irotamaResort.jpg",
-        "descripcion": "Con una ubicación privilegiada en Pozos Colorados, este resort combina naturaleza y lujo para una experiencia única.",
-        "bento": [
+        id: "hotel-irotama-resort",
+        nombre: "Irotama Resort",
+        img: "/img/irotamaResort.jpg",
+        descripcion: "Con una ubicación privilegiada en Pozos Colorados, este resort combina naturaleza y lujo para una experiencia única.",
+        bento: [
           "/img/irotamaResort1.jpg",
           "/img/irotamaResort2.jpg",
-          "/img/irotamaResort3.jpg"
+          "/img/irotamaResort3.jpg",
+          "/img/irotamaResort4.jpg",
+          "/img/irotamaResort5.jpg"
         ],
-        "descripciongeneral": [
+        descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno incluido",
           "Villas y suites con vista al mar",
           "Piscinas y acceso a la playa",
           "Gimnasio y spa"
         ],
-        "descripciondetalles": [
+        descripciondetalles: [
           "Piscinas rodeadas de jardines tropicales.",
           "Acceso directo a una playa privada.",
-          "Spa con servicios personalizados.",
+          "Las vistas desde el hotel Irotama Resort son impresionantes, disfruta de la brisa del mar Caribe y de la belleza de la naturaleza.",
           "Restaurantes con especialidades locales e internacionales.",
           "Áreas recreativas para niños y adultos."
         ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2515954.9032993177!2d-75.79349361553622!3d11.747066621345729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sIrotama%20Resort!5e0!3m2!1ses!2sco!4v1733155096081!5m2!1ses!2sco",
-        "flyer": "/img/FlyerIrotamaResort.jpg"
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.800441741089!2d-74.2252586!3d11.1499188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45958adc4b245%3A0xebb9ad3a60955a7f!2sIrotama%20Resort!5e0!3m2!1ses!2sco!4v1701594304179!5m2!1ses!2sco",
+        flyer: "/img/FlyerIrotamaResort.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Irotama Resort",
+            description: "El Hotel Irotama Resort está ubicado en la playa de Bello Horizonte, cerca de Santa Marta, Colombia, y se ha convertido en uno de los destinos turísticos más destacados de la región.",
+            historia: {
+              title: "Historia",
+              content: "El resort se caracteriza por su ambiente relajante, rodeado de una impresionante naturaleza caribeña. Ofrece una variedad de opciones de alojamiento, desde habitaciones estándar hasta lujosos bungalows, todos diseñados para brindar comodidad y confort a sus huéspedes​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El hotel es ideal tanto para familias como para parejas que buscan disfrutar de la tranquilidad del Caribe colombiano. Entre sus atracciones más destacadas se encuentra su playa privada, donde los visitantes pueden disfrutar de deportes acuáticos y del sol, así como varias piscinas y un spa. Además, el Irotama cuenta con diversos restaurantes que sirven platos típicos y de la cocina internacional"
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Un aspecto interesante de este resort es su cercanía al Parque Nacional Natural Tayrona, un lugar emblemático que atrae a los amantes de la naturaleza y la biodiversidad. Esta cercanía, junto con su infraestructura de alta calidad, lo convierte en un destino perfecto para quienes desean combinar descanso y exploración en uno de los lugares más hermosos de Colombia."
+            },
+            images: [
+              "/img/hycIrotoma1.jpg",
+              "/img/hycIrotoma2.jpg",
+              "/img/hycIrotoma3.jpg"
+            ]
+          }
+        ],
       },
       {
-        "id": "hotel-casa-de-lada",
-        "nombre": "Hotel Casa de Leda",
-        "img": "/img/casaDeLeda.jpg",
-        "descripcion": "Este hotel boutique, ubicado en el centro histórico de Santa Marta, ofrece un ambiente íntimo y acogedor con un diseño único.",
-        "bento": [
+        id: "hotel-casa-de-lada",
+        nombre: "Hotel Casa de Leda",
+        img: "/img/casaDeLeda.jpg",
+        descripcion: "Este hotel boutique, ubicado en el centro histórico de Santa Marta, ofrece un ambiente íntimo y acogedor con un diseño único.",
+        bento: [
           "/img/casaDeLeda1.jpg",
           "/img/casaDeLeda2.jpg",
-          "/img/casaDeLeda3.jpg"
+          "/img/casaDeLeda3.jpg",
+          "/img/casaDeLeda4.jpg",
+          "/img/casaDeLeda5.jpg"
         ],
-        "descripciongeneral": [
+        descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno incluido",
           "Spa con jacuzzi",
           "Wi-Fi gratuito",
           "Terraza con vista panorámica"
         ],
-        "descripciondetalles": [
+        descripciondetalles: [
           "Habitaciones decoradas con estilo colonial moderno.",
           "Terraza con jacuzzi y vista a la catedral de Santa Marta.",
           "Wi-Fi de alta velocidad en todas las áreas.",
           "Spa con masajes y tratamientos personalizados.",
-          "Ubicación privilegiada cerca de atracciones históricas."
+          "Ubicación privilegiada cerca de atracciones históricas de Santa Marta, como la Catedral de Santa Marta y la Plaza de la Libertad"
         ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.255124657299!2d-74.21386932495123!3d11.242633388935902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f516616c32d%3A0x2596c7c10255d0ba!2sHotel%20Boutique%20%26%20Spa%20Casa%20de%20Leda%2C%20by%20Kali%20Hotels!5e0!3m2!1ses!2sco!4v1733156263333!5m2!1ses!2sco",
-        "flyer": "/img/FlyerCasaDeLeda.jpg"
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.255124657299!2d-74.21386932495123!3d11.242633388935902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f516616c32d%3A0x2596c7c10255d0ba!2sHotel%20Boutique%20%26%20Spa%20Casa%20de%20Leda%2C%20by%20Kali%20Hotels!5e0!3m2!1ses!2sco!4v1733156263333!5m2!1ses!2sco",
+        flyer: "/img/FlyerCasaDeLeda.webp",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Hotel Casa de Leda",
+            description: "El Hotel Casa de Leda es un hotel boutique ubicado en el centro histórico de Santa Marta",
+            historia: {
+              title: "Historia",
+              content: "Un lugar ideal para aquellos que buscan disfrutar de la comodidad moderna mientras se sumergen en la rica historia de la ciudad. Este hotel, con un estilo colonial que se mezcla con una decoración contemporánea, ofrece una experiencia única que conecta con la cultura local y el patrimonio de la ciudad​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Situado en una de las ciudades más antiguas de América, Casa de Leda se encuentra a poca distancia de sitios históricos como la Catedral Basílica de Santa Marta, el Parque de los Novios y el Camellón Rodrigo de Bastidas, donde los turistas pueden explorar la esencia de la ciudad y su legado cultural. Santa Marta, fundada en 1525, tiene una conexión profunda con figuras históricas como el libertador Simón Bolívar, quien pasó sus últimos días en la cercanía, lo que añade una capa de relevancia histórica al hospedarse en este hotel. Además de sus espacios de descanso, como una piscina en la terraza y un spa, Casa de Leda ofrece una experiencia completa de relajación y confort con un toque de lujo, perfecta para quienes buscan un refugio tanto para relajarse como para explorar, es por ello El hotel también se destaca por su compromiso con la sostenibilidad, reflejando la importancia de cuidar el medio ambiente mientras se disfrutan las maravillas naturales y culturales de Santa Marta."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El hotel está en el corazón del centro histórico, lo que permite a los visitantes acceder fácilmente a importantes atracciones turísticas como el Parque Tayrona, la Playa de Rodadero y el Museo del Oro."
+            },
+            images: [
+              "/img/hycLaCasa1.jpg",
+              "/img/hycLaCasa2.jpg",
+              "/img/hycLaCasa3.jpg"
+            ]
+          }
+        ],
       },
       {
-        "id": "hotel-santa-marta-marriott-resort",
-        "nombre": "Santa Marta Marriott Resort Playa Dormida",
-        "img": "/img/santaMartaMarriott.jpg",
-        "descripcion": "Un hotel de lujo frente al mar con diseño contemporáneo, ideal para quienes buscan relajación y comodidad.",
-        "bento": [
-          "/img/santaMartaMarriott1.jpg",
+        id: "hotel-santa-marta-marriott-resort",
+        nombre: "Santa Marta Marriott Resort Playa Dormida",
+        img: "/img/santaMartaMarriott.webp",
+        descripcion: "Un hotel de lujo frente al mar con diseño contemporáneo, ideal para quienes buscan relajación y comodidad.",
+        bento: [
+          "/img/santaMartaMarriott4.jpg",
           "/img/santaMartaMarriott2.jpg",
-          "/img/santaMartaMarriott3.jpg"
+          "/img/santaMartaMarriott3.jpg",
+          "/img/santaMartaMarriott1.jpg",
+          "/img/santaMartaMarriott5.jpg"
         ],
-        "descripciongeneral": [
+        descripciongeneral: [
           "Cancelación gratuita",
           "Piscina infinita",
           "Restaurante gourmet",
           "Acceso directo a la playa",
           "Wi-Fi gratuito"
         ],
-        "descripciondetalles": [
+        descripciondetalles: [
           "Habitaciones con balcones privados y vista al mar.",
           "Piscina infinita con áreas de descanso.",
-          "Restaurante con especialidades caribeñas.",
+          "Restaurantes que destacan la gastronomía caribeña, podrás probar los platos tipicos de Santa Marta y el Caribe, sabroso!!",
           "Wi-Fi gratuito de alta velocidad.",
           "Salones para eventos y reuniones."
         ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7234191325597!2d-74.23043692495294!3d11.1339645890374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4591e80c0ce69%3A0xac41dcadd7325b79!2sSanta%20Marta%20Marriott%20Resort%20Playa%20Dormida!5e0!3m2!1ses!2sco!4v1733156844521!5m2!1ses!2sco",
-        "flyer": "/img/FlyerSantaMartaMarriott.jpg"
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7234191325597!2d-74.23043692495294!3d11.1339645890374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4591e80c0ce69%3A0xac41dcadd7325b79!2sSanta%20Marta%20Marriott%20Resort%20Playa%20Dormida!5e0!3m2!1ses!2sco!4v1733156844521!5m2!1ses!2sco",
+        flyer: "/img/FlyerSantaMartaMarriott.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Santa Marta Marriott Resort Playa Dormida",
+            description: "Santa Marta Marriott Resort Playa Dormida es un hotel de lujo situado en una de las costas más hermosas de Colombia, en Santa Marta, muy cerca del Parque Nacional Natural Tayrona.",
+            historia: {
+              title: "Historia",
+              content: "Este resort, que fusiona lo moderno con lo tradicional, se ha consolidado como uno de los destinos más destacados para turistas que buscan una experiencia de alta calidad frente al mar Caribe, además Santa Marta, la ciudad más antigua de Colombia, tiene una rica historia relacionada con el proceso de independencia del país, la influencia de los pueblos indígenas y su conexión con la naturaleza. Este resort también se sitúa en una zona que fue originalmente poblada por los indígenas Tairona, quienes son conocidos por su avanzada organización social y sus contribuciones culturales a la región. La influencia de esta cultura se puede ver en las tradiciones y el entorno natural del área.​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El Santa Marta Marriott Resort Playa Dormida se encuentra en una ubicación estratégica, cerca de varios puntos históricos y culturales, como la Catedral Basílica de Santa Marta, el Museo del Oro Tairona y el Parque Tayrona, que atraen a los visitantes interesados en conocer más sobre el legado cultural de la región."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Está en una zona exclusiva de la costa Caribe colombiana, con acceso directo a las playas más bellas, rodeado por la selva tropical y las montañas de la Sierra Nevada. El resort sigue un modelo de sostenibilidad, con prácticas que protegen el medio ambiente y promueven el ecoturismo, permitiendo a los huéspedes disfrutar de la naturaleza sin comprometerla. Además de sus hermosas playas y jardines, el hotel cuenta con servicios de lujo, como piscinas infinitas, un spa de clase mundial, un gimnasio completo y una variedad de restaurantes gourmet que ofrecen lo mejor de la gastronomía local e internacional."
+            },
+            images: [
+              "/img/hycMarriott1.jpg",
+              "/img/hycMarriott2.jpg",
+              "/img/hycMarriott3.jpg"
+            ]
+          }
+        ],
       },
       {
-        "id": "hotel-mercure-santa-marta",
-        "nombre": "Mercure Santa Marta Emile",
-        "img": "/img/mercureSantaMarta.jpg",
-        "descripcion": "Ubicado en el sector de Bello Horizonte, este hotel ofrece comodidad y modernidad cerca del mar.",
-        "bento": [
-          "/img/mercureSantaMarta1.jpg",
+        id: "hotel-mercure-santa-marta",
+        nombre: "Mercure Santa Marta Emile",
+        img: "/img/mercureSantaMarta.jpg",
+        descripcion: "Ubicado en el sector de Bello Horizonte, este hotel ofrece comodidad y modernidad cerca del mar.",
+        bento: [
+          "/img/mercureSantaMarta5.jpg",
           "/img/mercureSantaMarta2.jpg",
-          "/img/mercureSantaMarta3.jpg"
+          "/img/mercureSantaMarta3.jpg",
+          "/img/mercureSantaMarta4.jpg",
+          "/img/mercureSantaMarta1.jpg",
         ],
-        "descripciongeneral": [
+        descripciongeneral: [
           "Cancelación gratuita",
           "Piscina al aire libre",
           "Desayuno incluido",
           "Restaurante y bar",
           "Gimnasio"
         ],
-        "descripciondetalles": [
+        descripciondetalles: [
           "Piscina rodeada de áreas verdes.",
           "Wi-Fi gratuito en todas las instalaciones.",
-          "Restaurante con platos locales e internacionales.",
+          "Restaurantes que destacan la gastronomía caribeña, podrás probar los platos tipicos de Santa Marta y el Caribe, sabroso!!",
           "Salones para reuniones y eventos corporativos.",
           "Habitaciones modernas y funcionales."
         ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.509090292172!2d-74.22741122495268!3d11.149892289022473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45886be770989%3A0xd497b678310d1667!2sMercure%20Santa%20Marta%20Emile!5e0!3m2!1ses!2sco!4v1733157034434!5m2!1ses!2sco",
-        "flyer": "/img/FlyerMercureSantaMarta.jpg"
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.509090292172!2d-74.22741122495268!3d11.149892289022473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45886be770989%3A0xd497b678310d1667!2sMercure%20Santa%20Marta%20Emile!5e0!3m2!1ses!2sco!4v1733157034434!5m2!1ses!2sco",
+        flyer: "/img/FlyerMercureSantaMarta.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Mercure Santa Marta Emile",
+            description: "El Mercure Santa Marta Emile es un elegante hotel ubicado en la ciudad costera de Santa Marta, uno de los destinos más visitados en la región del Caribe colombiano.",
+            historia: {
+              title: "Historia",
+              content: "Con una oferta de alta calidad en cuanto a alojamiento y servicios, el hotel atrae tanto a turistas que buscan relax frente al mar como a aquellos interesados en explorar la historia y cultura de Santa Marta y sus alrededores. Santa Marta, fundada en 1525, es una de las ciudades más antiguas de América Latina. A lo largo de su historia, ha sido testigo de importantes momentos de la independencia colombiana y ha sido hogar de diversos pueblos indígenas, como los Tairona, cuya influencia cultural es aún visible en la región.​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El Mercure Santa Marta Emile se encuentra en una ubicación estratégica, cerca de la costa y de importantes sitios históricos, lo que permite a los visitantes explorar la riqueza cultural de la ciudad, incluyendo la Catedral Basílica de Santa Marta, el Museo del Oro Tairona, y el Parque Nacional Natural Tayrona. Santa Marta, como puerto de entrada al Caribe, ha sido un punto clave de la historia de Colombia, y el hotel ofrece un ambiente que refleja tanto la historia local como las modernas comodidades."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Mercure Santa Marta Emile se destaca por su diseño contemporáneo que incorpora elementos que hacen alusión a la naturaleza y la cultura de la región, combinando comodidad con la estética del Caribe colombiano, además Situado cerca del malecón y la playa, es un punto de partida ideal para aquellos que quieren explorar tanto la ciudad como las maravillas naturales cercanas, como el Parque Tayrona y el Cabo San Juan. El hotel cuenta con una oferta gastronómica variada, destacándose sus restaurantes que sirven platos locales e internacionales, con énfasis en la cocina del Caribe colombiano, brindando una experiencia culinaria completa, es por ello Como parte de la cadena hotelera Mercure, el hotel está comprometido con prácticas sostenibles, promoviendo la conservación del medio ambiente y el uso responsable de los recursos naturales."
+            },
+            images: [
+              "/img/hycEmeli1.jpg",
+              "/img/hycEmeli2.jpg",
+              "/img/hycEmeli3.jpg"
+            ]
+          }
+        ],
       },
       {
-        "id": "hotel-best-western-plus-santa-marta",
-        "nombre": "Best Western Plus Santa Marta",
-        "img": "/img/bestWesternSantaMarta.jpg",
-        "descripcion": "Con una ubicación estratégica en el centro de Santa Marta, este hotel combina confort y conveniencia.",
-        "bento": [
-          "/img/bestWesternSantaMarta1.jpg",
+        id: "hotel-best-western-plus-santa-marta",
+        nombre: "Best Western Plus Santa Marta",
+        img: "/img/bestWesternSantaMarta.jpg",
+        descripcion: "Con una ubicación estratégica en el centro de Santa Marta, este hotel combina confort y conveniencia.",
+        bento: [
+          "/img/bestWesternSantaMarta4.jpg",
           "/img/bestWesternSantaMarta2.jpg",
-          "/img/bestWesternSantaMarta3.jpg"
+          "/img/bestWesternSantaMarta3.jpg",
+          "/img/bestWesternSantaMarta1.jpg",
+          "/img/bestWesternSantaMarta5.jpg"
         ],
-        "descripciongeneral": [
+        descripciongeneral: [
           "Cancelación gratuita",
           "Desayuno incluido",
           "Piscina en la azotea",
           "Wi-Fi gratuito",
           "Centro de negocios"
         ],
-        "descripciondetalles": [
+        descripciondetalles: [
           "Piscina en la azotea con vistas panorámicas de la ciudad.",
-          "Desayuno buffet con opciones variadas.",
+          "Dispones de un restaurante con gastronomía caribeña, podrás probar los platos tipicos de Santa Marta y el Caribe, sabroso!!",
           "Wi-Fi de alta velocidad.",
           "Centro de negocios con servicios personalizados.",
           "Habitaciones modernas y cómodas."
         ],
-        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.306459454341!2d-74.21584012495138!3d11.238851588939385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57c1ba015c5%3A0x60b0682b8a1a5543!2sBest%20Western%20Plus%20Santa%20Marta%20Hotel!5e0!3m2!1ses!2sco!4v1733157207403!5m2!1ses!2sco",
-        "flyer": "/img/FlyerBestWesternSantaMarta.jpg"
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.306459454341!2d-74.21584012495138!3d11.238851588939385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57c1ba015c5%3A0x60b0682b8a1a5543!2sBest%20Western%20Plus%20Santa%20Marta%20Hotel!5e0!3m2!1ses!2sco!4v1733157207403!5m2!1ses!2sco",
+        flyer: "/img/FlyerBestWesternSantaMarta.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Best Western Plus Santa Marta",
+            description: "El Best Western Plus Santa Marta es un hotel moderno ubicado en el corazón de Santa Marta, una de las ciudades más históricas y encantadoras de la costa Caribe colombiana. ",
+            historia: {
+              title: "Historia",
+              content: "El hotel forma parte de la reconocida cadena Best Western, y ha logrado destacarse por sus servicios de alta calidad, ideales tanto para viajeros de negocios como para turistas que buscan explorar las maravillas naturales de la región. El Best Western Plus Santa Marta refleja la fusión entre la modernidad y la riqueza cultural de la ciudad. Santa Marta, fundada en 1525 por el conquistador español Rodrigo de Bastidas, es la ciudad más antigua de Colombia y una de las más antiguas de América.​"
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Esta ciudad ha sido testigo de importantes eventos históricos, desde la época precolombina con los indígenas Tairona hasta la llegada de los colonizadores y, posteriormente, su influencia en el proceso de independencia de Colombia. Culturalmente, Santa Marta es el punto de entrada para explorar una de las joyas más importantes del Caribe: el Parque Nacional Natural Tayrona, que alberga no solo playas espectaculares, sino también sitios arqueológicos de gran relevancia histórica. El hotel se sitúa en una zona estratégica que permite a los huéspedes tener fácil acceso a esta riqueza cultural y natural."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Best Western Plus Santa Marta ofrece impresionantes vistas de la ciudad y del mar Caribe desde su terraza y habitaciones superiores. Es un lugar perfecto para disfrutar de atardeceres espectaculares, además El hotel cuenta con una piscina en la azotea que permite a los visitantes relajarse mientras disfrutan de una vista completa de la ciudad y el puerto de Santa Marta. Su restaurante ofrece una mezcla de cocina internacional con platos típicos de la región Caribe, brindando una experiencia gastronómica auténtica y variada. Como parte de la cadena Best Western, el hotel sigue una política de sostenibilidad, contribuyendo a la preservación del entorno natural de Santa Marta y apoyando prácticas amigables con el medio ambiente."
+            },
+            images: [
+              "/img/hycWestern1.jpg",
+              "/img/hycWestern2.jpg",
+              "/img/hycWestern3.jpg"
+            ]
+          }
+        ],
       }
     ]
-  }
+  },
 ];
