@@ -1839,28 +1839,28 @@ export const actividades = [
         flyer: "/img/flyerSierraNevada.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura de La Plaza Botero en Medellín Colombia",
+            titulo: "Historia y Cultura de Sierra Nevada de Santa Marta Colombia",
             description:
-              "La Plaza Botero en Medellín fue inaugurada en 2002 y se ubica en el centro de la ciudad. ",
+              " La Sierra Nevada de Santa Marta es una de las formaciones montañosas más antiguas del mundo. Se estima que surgió hace millones de años a partir de procesos geológicos complejos.",
             historia: {
               title: "Historia",
               content:
-                "Esta plaza alberga 23 esculturas monumentales donadas por el reconocido artista Fernando Botero, oriundo de Medellín. Las esculturas, con las características figuras voluminosas de Botero, se convirtieron rápidamente en un símbolo de la ciudad y de su renovación cultural.",
+                " Desde tiempos ancestrales, la Sierra ha sido el hogar de cuatro pueblos indígenas: los Kogui, Arhuaco, Wiwa y Kankuamo. Estas comunidades han desarrollado una profunda conexión con la naturaleza y han mantenido sus tradiciones y cosmovisiones a lo largo de los siglos.Conquista y colonización: Con la llegada de los españoles, la Sierra Nevada fue objeto de exploración y colonización. Sin embargo, los pueblos indígenas resistieron y lograron preservar gran parte de su territorio y cultura.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "La plaza es un espacio de interacción entre el arte y el público, atrayendo tanto a locales como a turistas. Se encuentra rodeada por instituciones culturales como el Museo de Antioquia y el Palacio de la Cultura Rafael Uribe Uribe, fomentando un ambiente de aprendizaje y aprecio por el arte.​",
+                "Los pueblos indígenas de la Sierra Nevada tienen una cosmovisión única que considera a la montaña como un ser vivo y sagrado. Cada elemento de la naturaleza tiene un significado profundo y está conectado con el mundo espiritual.Las tradiciones de estos pueblos incluyen la agricultura ancestral, la elaboración de artesanías, la medicina tradicional y ceremonias espirituales.Cada pueblo indígena tiene su propia lengua, lo que refleja la diversidad cultural de la región.​",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "Las esculturas de Botero en la plaza están al aire libre y son accesibles de forma gratuita, además las obras en la plaza son algunas de las piezas más grandes que Botero ha creado y donado a una ciudad, y es Es común ver a los visitantes tocando las esculturas, pues existe la creencia de que hacerlo trae buena suerte.",
+                " La Sierra Nevada de Santa Marta es la montaña costera más alta del mundo, con picos que superan los 5.000 metros sobre el nivel del mar. La Sierra Nevada es un hotspot de biodiversidad, con una gran variedad de flora y fauna, muchas de ellas endémicas. En las profundidades de la Sierra se encuentra la Ciudad Perdida, una antigua ciudad construida por la civilización Tayrona. La Sierra Nevada fue declarada Reserva de la Biosfera por la UNESCO en reconocimiento a su importancia ecológica y cultural. os pueblos indígenas construyeron una extensa red de caminos de piedra que conectaban sus comunidades y facilitaban el intercambio cultural.",
             },
             images: [
-              "/img/hycBotero1.jpg",
-              "/img/hycBotero2.jpg",
-              "/img/hycBotero3.jpg",
+              "/img/hycSierra1.jpg",
+              "/img/hycSierra2.jpg",
+              "/img/hycSierra3.jpg",
             ],
           },
         ],
@@ -1889,28 +1889,28 @@ export const actividades = [
         flyer: "/img/flyerMinca.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura de La Plaza Botero en Medellín Colombia",
+            titulo: "Historia y Cultura de La Minca Santa Marta Colombia",
             description:
-              "La Plaza Botero en Medellín fue inaugurada en 2002 y se ubica en el centro de la ciudad. ",
+              "Minca es un pequeño pueblo colombiano ubicado en las estribaciones de la Sierra Nevada de Santa Marta, a pocos kilómetros de Santa Marta. Conocido como la capital ecológica de Colombia, Minca es un destino ideal para los amantes de la naturaleza y aquellos que buscan escapar del bullicio de la ciudad.",
             historia: {
               title: "Historia",
               content:
-                "Esta plaza alberga 23 esculturas monumentales donadas por el reconocido artista Fernando Botero, oriundo de Medellín. Las esculturas, con las características figuras voluminosas de Botero, se convirtieron rápidamente en un símbolo de la ciudad y de su renovación cultural.",
+                "La historia de Minca está estrechamente ligada a la Sierra Nevada de Santa Marta y a las comunidades indígenas que habitaron la región durante siglos. Con la llegada de los colonizadores españoles, la zona experimentó cambios significativos, incluyendo la introducción de nuevas especies y cultivos. Minca se convirtió en una importante zona agrícola, destacando la producción de café y caña de azúcar. A lo largo de los años, la región ha enfrentado diversos desafíos, como la violencia y el conflicto armado, pero ha logrado recuperarse y posicionarse como un destino turístico sostenible.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "La plaza es un espacio de interacción entre el arte y el público, atrayendo tanto a locales como a turistas. Se encuentra rodeada por instituciones culturales como el Museo de Antioquia y el Palacio de la Cultura Rafael Uribe Uribe, fomentando un ambiente de aprendizaje y aprecio por el arte.​",
+                "La cultura de Minca es una rica mezcla de tradiciones indígenas y coloniales. Los habitantes de Minca valoran la conexión con la naturaleza y practican una agricultura sostenible. La producción de café de alta calidad es una de las principales actividades económicas de la región, y los visitantes pueden conocer las fincas cafetaleras y aprender sobre el proceso de producción. Además, Minca cuenta con una rica biodiversidad, y los habitantes locales han desarrollado un profundo respeto por el medio ambiente.​",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "Las esculturas de Botero en la plaza están al aire libre y son accesibles de forma gratuita, además las obras en la plaza son algunas de las piezas más grandes que Botero ha creado y donado a una ciudad, y es Es común ver a los visitantes tocando las esculturas, pues existe la creencia de que hacerlo trae buena suerte.",
+                "Minca es famosa por la producción de café de alta calidad, cultivado en fincas orgánicas a gran altura. La ubicación de Minca en la Sierra Nevada de Santa Marta la convierte en un lugar con una gran diversidad de flora y fauna. Minca cuenta con numerosas cascadas y ríos cristalinos, ideales para nadar y relajarse. Existen una gran variedad de senderos ecológicos que permiten explorar la belleza natural de la Sierra Nevada. Muchos de los habitantes de Minca se dedican a la agricultura orgánica, cultivando frutas, verduras y hortalizas de forma sostenible.",
             },
             images: [
-              "/img/hycBotero1.jpg",
-              "/img/hycBotero2.jpg",
-              "/img/hycBotero3.jpg",
+              "/img/hycMinca1.jpg",
+              "/img/hycMinca2.jpg",
+              "/img/hycMinca3.jpeg",
             ],
           },
         ],
