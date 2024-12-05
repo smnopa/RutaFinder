@@ -412,7 +412,7 @@ export const actividades = [
           "Ofrece la experiencia de un caficultor local y profesional.",
           "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318.09522404758444!2d-75.6685049!3d4.6689425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3889788ac94a81%3A0x7652446180ef8e53!2sMirador%20Colina%20Iluminada!5e0!3m2!1ses!2sco!4v1701184871450!5m2!1ses!2sco",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4976711311264!2d-75.5891956!3d4.6233198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e388c590c7101ef%3A0xaa46844d58673c88!2sLas%20Acacias%20Coffee%20Farm!5e0!3m2!1ses!2sco!4v1701594741239!5m2!1ses!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura de Las Acacias Coffee Farm en Colombia",
