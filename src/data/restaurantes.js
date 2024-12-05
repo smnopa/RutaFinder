@@ -133,6 +133,33 @@ export const restaurantes = [
           "Ambiente vibrante y decoraciones únicas.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31811.33339877655!2d-74.1647740061035!3d4.697445745412364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAndr%C3%A9s%20Carne%20de%20Res!5e0!3m2!1ses!2sco!4v1733241302290!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Andrés Carne de Res",
+            description:
+              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+            },
+            images: [
+              "/img/hycAndresCarneDeRes1.jpg",
+              "/img/hycAndresCarneDeRes2.jpg",
+              "/img/hycAndresCarneDeRes3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerAndresCarneDeRes.jpg",
       },
       {
@@ -152,6 +179,33 @@ export const restaurantes = [
           "Decoración elegante en un espacio único.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6332606848737!2d-74.05715682502098!3d4.659311995315547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5d998dd291%3A0x9ee74e6243460a25!2sHarry%20Sasson!5e0!3m2!1ses!2sco!4v1733241648353!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Harry Sasson",
+            description:
+              "El restaurante Harry Sasson es un ícono de la alta cocina colombiana, conocido por su innovación y su uso de ingredientes locales.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado por el reconocido chef Harry Sasson, este restaurante abrió sus puertas en Bogotá como un espacio para reinventar la gastronomía colombiana. A lo largo de los años, ha recibido múltiples premios y reconocimientos internacionales, consolidándose como uno de los mejores restaurantes de América Latina.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La propuesta culinaria de Harry Sasson resalta la riqueza cultural de Colombia al incorporar ingredientes autóctonos y técnicas modernas. Su ambiente elegante y su enfoque en la sostenibilidad lo convierten en un referente de la cocina contemporánea.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Harry Sasson ha sido incluido en las listas de los mejores chefs del mundo, y su restaurante es frecuentado por políticos, celebridades y amantes de la gastronomía.",
+            },
+            images: [
+              "/img/hycHarrySasson1.jpg",
+              "/img/hycHarrySasson2.jpg",
+              "/img/hycHarrySasson3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerHarrySasson.jpg",
       },
       {
@@ -170,7 +224,34 @@ export const restaurantes = [
           "Espacios acogedores con música en vivo los fines de semana.",
           "Variedad de cervezas artesanales colombianas.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15908.23130703115!2d-74.23240384458006!3d4.583641299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f581ebb6c1b%3A0x22f1f669a922b038!2sLa%20Hamburgueseria%205R!5e0!3m2!1ses!2sco!4v1733419199716!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Hamburguesería",
+            description:
+              "La Hamburguesería es un lugar que combina comida, música y un ambiente relajado, ideal para compartir momentos únicos.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundada en Bogotá, La Hamburguesería se ha expandido como un lugar icónico para disfrutar de hamburguesas artesanales. Su compromiso con los ingredientes frescos y locales ha sido clave en su éxito.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante fomenta la cultura musical y local, con música en vivo los fines de semana, creando un ambiente único y dinámico.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La Hamburguesería colabora con cervecerías artesanales locales para ofrecer una experiencia auténtica y variada.",
+            },
+            images: [
+              "/img/hycHamburgueseria1.jpg",
+              "/img/hycHamburgueseria2.jpg",
+              "/img/hycHamburgueseria3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerLaHamburgueseria.jpg",
       },
       {
@@ -190,6 +271,33 @@ export const restaurantes = [
           "Famoso por su helado artesanal.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31815.82328697329!2d-74.18884248916015!3d4.5979797000000024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCrepes%20%26%20Waffles!5e0!3m2!1ses!2sco!4v1733242109146!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Crepes & Waffles",
+            description:
+              "Crepes & Waffles es una cadena que destaca por su impacto social y la calidad de su comida.",
+            historia: {
+              title: "Historia",
+              content:
+                "Desde sus inicios en Bogotá, Crepes & Waffles se ha convertido en una de las cadenas más queridas de Colombia. Reconocida por emplear principalmente a mujeres cabeza de familia, tiene un enfoque en la responsabilidad social.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Crepes & Waffles refleja la diversidad colombiana en su menú y apoya iniciativas culturales y sociales.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Es conocido por su helado artesanal y su compromiso con el medio ambiente, usando empaques biodegradables.",
+            },
+            images: [
+              "/img/hycCrepes1.jpg",
+              "/img/hycCrepes2.jpg",
+              "/img/hycCrepes3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerCrepesWaffles.jpg",
       },
       {
@@ -209,10 +317,38 @@ export const restaurantes = [
           "Ideal para disfrutar de la gastronomía local en el corazón del centro histórico.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9777227752274!2d-74.07738872502132!3d4.598013395376664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a7c7c3b7c9%3A0x6dc04a7bb9509e61!2sLa%20Puerta%20Falsa!5e0!3m2!1ses!2sco!4v1733242393834!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Puerta Falsa",
+            description:
+              "La Puerta Falsa es un testimonio vivo de la historia y la tradición gastronómica de Bogotá.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1816, este restaurante ha mantenido sus raíces como un lugar emblemático para disfrutar de la auténtica comida colombiana. Es conocido por su chocolate santafereño, tamales y ajiaco, platos que reflejan la historia culinaria de la región.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Ubicado en el centro histórico, La Puerta Falsa es un punto de encuentro cultural, atrayendo tanto a locales como a turistas que desean experimentar la auténtica Bogotá.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Es uno de los restaurantes más antiguos de Colombia y ha aparecido en múltiples documentales gastronómicos internacionales.",
+            },
+            images: [
+              "/img/hycPuertaFalsa1.jpg",
+              "/img/hycPuertaFalsa2.jpg",
+              "/img/hycPuertaFalsa3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerLaPuertaFalsa.jpg",
-      }
+      },
     ],
   },
+  
   {
     nombre: "Armenia y Salento",
     restaurantes: [
@@ -272,7 +408,7 @@ export const restaurantes = [
               },
             ],
             flyer: "/img/flyerRestauranteCafé.jpg",
-          },
+        },
           {
             id: "Restaurante-El-Solar",
             nombre: "Restaurante El Solar en Armenia",
