@@ -714,15 +714,38 @@ export const restaurantes = [
         descripciongeneral: [
           "Cocina de autor",
           "Menú degustación",
-          "Ubicación en El Poblado",
+          "Ubicación en El Poblado"
         ],
         descripciondetalles: [
           "Fundado por el chef Juan Manuel Barrientos, reconocido internacionalmente.",
           "Experiencia multisensorial que incluye platos innovadores y presentaciones artísticas.",
-          "Requiere reserva previa debido a su alta demanda.",
+          "Requiere reserva previa debido a su alta demanda."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31731.3474407434!2d-75.61173944436355!3d6.208411101874614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428b7c008c217%3A0x1472a8e8325e2728!2sElcielo%20Medell%C3%ADn%20Restaurant!5e0!3m2!1ses!2sco!4v1733242857992!5m2!1ses!2sco",
         flyer: "/img/flyerElCielo.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de El Cielo",
+            description: "El Cielo ofrece una experiencia gastronómica única con platos innovadores, un menú degustación y presentaciones multisensoriales.",
+            historia: {
+              title: "Historia",
+              content: "El Cielo fue fundado por el chef Juan Manuel Barrientos, un innovador de la gastronomía colombiana. El restaurante se ha ganado un lugar destacado en la escena culinaria internacional gracias a su propuesta creativa que fusiona la alta cocina con experiencias multisensoriales. En El Cielo, cada plato es una obra de arte, diseñada para sorprender a los sentidos, ofreciendo una experiencia única."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El Cielo celebra la cultura colombiana a través de su cocina de autor y su enfoque artístico. El restaurante tiene un fuerte compromiso con la gastronomía local, pero siempre buscando formas innovadoras de presentar los sabores tradicionales. Es un lugar donde la comida y el arte se combinan para crear una experiencia única e inolvidable."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Cielo se ha convertido en uno de los restaurantes más famosos de Colombia, reconocido internacionalmente por su propuesta creativa y su enfoque multisensorial. El chef Juan Manuel Barrientos ha llevado la gastronomía colombiana a nuevas alturas, presentando sus platos en prestigiosos eventos gastronómicos internacionales."
+            },
+            images: [
+              "/img/hycElCielo1.jpg",
+              "/img/hycElCielo2.jpg",
+              "/img/hycElCielo3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "restaurante-medellin-2",
@@ -733,15 +756,38 @@ export const restaurantes = [
         descripciongeneral: [
           "Comida típica paisa",
           "Ambiente tradicional",
-          "Ideal para familias",
+          "Ideal para familias"
         ],
         descripciondetalles: [
           "Platos como bandeja paisa, mondongo y sancocho.",
           "Decoración inspirada en la cultura paisa.",
-          "Varios puntos en la ciudad, pero el de Las Palmas es el más icónico.",
+          "Varios puntos en la ciudad, pero el de Las Palmas es el más icónico."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2033643.0841402002!2d-75.91437496935806!3d5.423177977888833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sHatoviejo!5e0!3m2!1ses!2sco!4v1733243009970!5m2!1ses!2sco",
         flyer: "/img/flyerHatoviejo.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Hatoviejo",
+            description: "Hatoviejo es un restaurante tradicional que celebra la cocina típica paisa y la cultura antioqueña.",
+            historia: {
+              title: "Historia",
+              content: "Hatoviejo es un restaurante emblemático de Medellín, especializado en la cocina típica paisa. Fundado con el objetivo de ofrecer los sabores más auténticos de Antioquia, Hatoviejo ha sido un referente de la gastronomía local durante décadas. Con su decoración tradicional y su ambiente cálido, es el lugar perfecto para disfrutar de los platos más representativos de la región."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El restaurante es un reflejo de la cultura paisa, ofreciendo una experiencia completa que va más allá de la comida. Desde la decoración que resalta los elementos tradicionales de Antioquia hasta la música en vivo que ameniza las noches, Hatoviejo es un lugar donde los comensales pueden sentir el alma de la región."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Hatoviejo es conocido no solo por su deliciosa bandeja paisa, sino también por ser uno de los lugares más emblemáticos de Medellín. Además de su comida, el restaurante es famoso por su ambiente festivo, que refleja la calidez y hospitalidad de los antioqueños."
+            },
+            images: [
+              "/img/hycHatoviejo1.jpg",
+              "/img/hycHatoviejo2.jpg",
+              "/img/hycHatoviejo3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "restaurante-medellin-3",
@@ -752,15 +798,38 @@ export const restaurantes = [
         descripciongeneral: [
           "Platos tradicionales",
           "Ambiente acogedor",
-          "Precios accesibles",
+          "Precios accesibles"
         ],
         descripciondetalles: [
           "Conocido por su sopa de mondongo, frijoles y asados.",
           "Ideal para visitantes y locales que buscan comida auténtica.",
-          "Servicio rápido y amigable.",
+          "Servicio rápido y amigable."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63459.02459137898!2d-75.6179339986631!3d6.238797899783524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smondongos%20restaurante%20medellin!5e0!3m2!1ses!2sco!4v1733243180851!5m2!1ses!2sco",
         flyer: "/img/flyerMondongos.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Mondongos",
+            description: "Mondongos es uno de los restaurantes más tradicionales de Medellín, conocido por sus platos auténticos como la sopa de mondongo.",
+            historia: {
+              title: "Historia",
+              content: "Mondongos es un restaurante icónico en Medellín, fundado con la misión de ofrecer platos tradicionales antioqueños. Su especialidad, la sopa de mondongo, se ha convertido en un emblema de la gastronomía local. Durante años, Mondongos ha sido un lugar de encuentro para locales y turistas que buscan disfrutar de la auténtica comida paisa."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El restaurante es un reflejo de la cultura paisa, ofreciendo un ambiente acogedor donde la comida y la tradición se combinan. Mondongos es el lugar perfecto para probar los sabores más representativos de la región, en un ambiente cálido y familiar."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Mondongos es conocido por su receta secreta de sopa de mondongo, que ha sido transmitida a lo largo de los años. Además, es un lugar muy popular tanto entre los habitantes de Medellín como entre los turistas que visitan la ciudad."
+            },
+            images: [
+              "/img/hycMondongos1.jpg",
+              "/img/hycMondongos2.jpg",
+              "/img/hycMondongos3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "restaurante-medellin-4",
@@ -771,15 +840,38 @@ export const restaurantes = [
         descripciongeneral: [
           "Cocina de autor",
           "Ambiente elegante",
-          "Ubicado en El Poblado",
+          "Ubicado en El Poblado"
         ],
         descripciondetalles: [
           "Ofrecen menú a la carta y degustaciones guiadas.",
           "Platos con ingredientes locales y técnicas modernas.",
-          "Amplia carta de vinos y cócteles.",
+          "Amplia carta de vinos y cócteles."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4067341982!2d-75.56824392500971!3d6.20996399377793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282901500937%3A0xfd54a9b1a9914d2c!2sCarmen!5e0!3m2!1ses!2sco!4v1733243446161!5m2!1ses!2sco",
         flyer: "/img/flyerCarmen.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Carmen",
+            description: "Carmen es un restaurante contemporáneo que fusiona lo mejor de la cocina local e internacional en un ambiente sofisticado.",
+            historia: {
+              title: "Historia",
+              content: "Carmen, fundado en el corazón de El Poblado, es uno de los restaurantes más innovadores de Medellín. El restaurante se ha destacado por su enfoque único en la gastronomía, combinando técnicas culinarias modernas con ingredientes tradicionales colombianos. Con una carta cuidadosamente seleccionada, Carmen ha sido reconocido por su enfoque en la alta cocina."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Carmen resalta la riqueza cultural de Colombia al integrar sabores locales con técnicas contemporáneas. El restaurante refleja la evolución de la gastronomía colombiana, fusionando la tradición con la innovación. Además, Carmen apoya el talento local, utilizando productos frescos y de calidad de la región."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Carmen ha sido elogiado tanto por locales como por turistas. Con su carta creativa y su ambiente elegante, se ha ganado un lugar privilegiado en la gastronomía de Medellín, siendo un referente para aquellos que buscan una experiencia gastronómica única."
+            },
+            images: [
+              "/img/hycCarmen1.jpg",
+              "/img/hycCarmen2.jpg",
+              "/img/hycCarmen3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "restaurante-medellin-5",
@@ -790,18 +882,41 @@ export const restaurantes = [
         descripciongeneral: [
           "Variedad de cocinas",
           "Ambiente moderno",
-          "Ideal para grupos",
+          "Ideal para grupos"
         ],
         descripciondetalles: [
           "Más de 30 opciones gastronómicas en un mismo lugar.",
           "Platos que van desde comida rápida hasta opciones gourmet.",
-          "Perfecto para compartir con amigos o en familia.",
+          "Perfecto para compartir con amigos o en familia."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.285951071472!2d-75.57800482500959!3d6.2259780937621105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429cac347588f%3A0xc5161940357a8cc0!2sMercado%20del%20R%C3%ADo!5e0!3m2!1ses!2sco!4v1733243599716!5m2!1ses!2sco",
         flyer: "/img/flyerMercadoDelRio.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Mercado del Río",
+            description: "Mercado del Río es el lugar perfecto para disfrutar de una variedad de cocinas en un ambiente moderno y vibrante.",
+            historia: {
+              title: "Historia",
+              content: "Mercado del Río ha revolucionado la forma en que los medellinenses disfrutan de la comida. Con más de 30 opciones gastronómicas, ha logrado reunir lo mejor de la comida local e internacional en un solo lugar. Desde sus inicios, ha sido un punto de encuentro para quienes buscan una experiencia gastronómica diversa y única."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El mercado refleja la diversidad gastronómica de Medellín y de Colombia. Ofrece un espacio en el que los comensales pueden disfrutar de una variedad de opciones culinarias, mientras se sumergen en un ambiente moderno y dinámico. Mercado del Río es un punto de encuentro donde la cultura gastronómica local y mundial se fusionan."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Mercado del Río se ha convertido en uno de los lugares más populares de Medellín, con una amplia variedad de cocinas y un ambiente vibrante. Es conocido por su arquitectura moderna y su concepto innovador, que ha atraído tanto a locales como a turistas."
+            },
+            images: [
+              "/img/hycMercadoDelRio1.jpg",
+              "/img/hycMercadoDelRio2.jpg",
+              "/img/hycMercadoDelRio3.jpg"
+            ]
+          }
+        ]
       },
       {
-        id: "restaurante-medellin-7",
+        id: "restaurante-medellin-6",
         nombre: "Alambique",
         img: "/img/alambique.jpg",
         descripcion: "Un restaurante escondido en El Poblado que ofrece cocina creativa y un ambiente bohemio.",
@@ -809,18 +924,41 @@ export const restaurantes = [
         descripciongeneral: [
           "Cocina creativa",
           "Ambiente bohemio",
-          "Terraza al aire libre",
+          "Terraza al aire libre"
         ],
         descripciondetalles: [
           "Especializado en platos innovadores con ingredientes locales.",
           "Decoración única con un toque artístico y vintage.",
-          "Ideal para cenas íntimas y encuentros sociales.",
+          "Ideal para cenas íntimas y encuentros sociales."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4001517296897!2d-75.57337072500975!3d6.21083779377704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282bd472c605%3A0x809158f3af3c4193!2sAlambique!5e0!3m2!1ses!2sco!4v1733243997511!5m2!1ses!2sco",
         flyer: "/img/flyerAlambique.jpg",
-      },      
-    ],
-  },
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Alambique",
+            description: "Alambique es el lugar donde la cocina creativa y el arte se encuentran, ofreciendo una experiencia gastronómica única en Medellín.",
+            historia: {
+              title: "Historia",
+              content: "Alambique es un restaurante moderno y bohemio que ha ganado popularidad por su enfoque innovador en la gastronomía. Ofrece platos creativos que combinan sabores internacionales con ingredientes colombianos, brindando una experiencia culinaria única en el corazón de Medellín."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El restaurante es un punto de encuentro para los amantes de la buena comida y el arte. Su ambiente bohemio y su decoración vintage lo convierten en un lugar especial para quienes buscan disfrutar de una experiencia más allá de la comida, rodeados de arte y cultura."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Alambique ha sido reconocido por su concepto innovador, que combina la cocina creativa con un ambiente artístico y relajado. Es uno de los lugares más recomendados para aquellos que buscan una experiencia gastronómica única y diferente en Medellín."
+            },
+            images: [
+              "/img/hycAlambique1.jpg",
+              "/img/hycAlambique2.jpg",
+              "/img/hycAlambique3.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },  
   {
     nombre: "Cali",
     restaurantes: [
@@ -841,6 +979,33 @@ export const restaurantes = [
           "Opciones para vegetarianos disponibles.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.651860666183!2d-76.54756822502763!3d3.4346178965398817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a68330bc2525%3A0x2bda342241f6f9b6!2sLa%20Comitiva!5e0!3m2!1ses!2sco!4v1733244350608!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Comitiva",
+            description:
+              "La Comitiva es un restaurante que honra las tradiciones culinarias de Colombia, fusionando la esencia de la gastronomía local con un toque contemporáneo.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en el corazón de Cali, La Comitiva se creó con la misión de rescatar los sabores auténticos de la cocina colombiana. Desde su apertura, el restaurante se ha convertido en un punto de referencia para los amantes de la gastronomía local, ofreciendo una carta que combina recetas tradicionales con presentaciones modernas, manteniendo viva la herencia culinaria del país.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Comitiva celebra la diversidad cultural de Colombia en cada plato. Sus espacios están diseñados para crear un ambiente acogedor que refleja la calidez de la región, mientras que su menú destaca ingredientes frescos y locales, honrando la tradición de los agricultores y productores del Valle del Cauca.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El nombre 'La Comitiva' rinde homenaje a las tradiciones familiares colombianas, en las que la comida es el centro de reunión y celebración. Además, el restaurante trabaja activamente con proveedores locales, apoyando la economía regional y promoviendo prácticas sostenibles.",
+            },
+            images: [
+              "/img/hycLaComitiva1.jpg",
+              "/img/hycLaComitiva2.jpg",
+              "/img/hycLaComitiva3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerLaComitiva.jpg",
       },
       {
@@ -860,6 +1025,33 @@ export const restaurantes = [
           "Ambiente relajante para disfrutar con la familia.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10260.987617921972!2d-76.53910669377149!3d3.4543530511942846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a668dbbce24f%3A0xc8edf9550e118b13!2sFarallon!5e0!3m2!1ses!2sco!4v1733244781413!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de El Farallón",
+            description:
+              "El Restaurante El Farallón combina las tradiciones culinarias de Cali con una ubicación privilegiada que ofrece vistas panorámicas espectaculares.",
+            historia: {
+              title: "Historia",
+              content:
+                "Desde su apertura hace más de dos décadas, El Farallón ha sido un referente de la gastronomía caleña. Su ubicación estratégica en las colinas cercanas a la ciudad lo convierte en un lugar único, donde los comensales pueden disfrutar de platos típicos mientras contemplan la belleza natural del Valle del Cauca.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Farallón es un espacio que celebra las raíces caleñas. Sus recetas, transmitidas de generación en generación, preservan los sabores tradicionales del Valle. Además, el restaurante organiza eventos culturales, como noches de música folclórica, que enriquecen la experiencia de los visitantes.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El restaurante toma su nombre de la palabra 'farallón', que se refiere a formaciones rocosas. Su diseño arquitectónico se integra armoniosamente con el paisaje, y sus platos destacan ingredientes como el maíz y la yuca, esenciales en la cocina valluna.",
+            },
+            images: [
+              "/img/hycFarallon1.jpg",
+              "/img/hycFarallon2.jpg",
+              "/img/hycFarallon3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerElFarallon.jpg",
       },
       {
@@ -879,10 +1071,37 @@ export const restaurantes = [
           "Ideal para cenas o eventos sociales.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31860.66671511227!2d-76.55337419551017!3d3.4510036274955005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sLa%20Lupe%20restaurante%20cali!5e0!3m2!1ses!2sco!4v1733255609167!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Lupe",
+            description:
+              "La Lupe es un espacio culinario que combina la creatividad de la cocina internacional con el espíritu vibrante de Cali.",
+            historia: {
+              title: "Historia",
+              content:
+                "La Lupe abrió sus puertas en el barrio Granada, uno de los epicentros gastronómicos de Cali, con la idea de ofrecer una propuesta única que mezclara sabores colombianos con técnicas internacionales. Desde su apertura, se ha ganado un lugar especial por su ambiente moderno y su enfoque en la innovación culinaria.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante adopta la cultura caleña a través de su ambiente vibrante y su menú que incorpora ingredientes locales como el lulo y el chontaduro. Sus cócteles son una expresión de la creatividad de sus mixólogos, quienes mezclan sabores tropicales con destilados de alta calidad.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El nombre 'La Lupe' es un homenaje a la icónica cantante cubana Lupe Victoria Yolí Raymond, conocida como La Lupe, cuyo espíritu apasionado inspira el concepto del restaurante. Además, La Lupe es famosa por sus 'Noches de Salsa', donde la música se fusiona con la gastronomía para crear una experiencia inolvidable.",
+            },
+            images: [
+              "/img/hycLaLupe1.jpg",
+              "/img/hycLaLupe2.jpg",
+              "/img/hycLaLupe3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerLaLupe.jpg",
       },
       {
-        id: "restaurante-cali-7",
+        id: "restaurante-cali-4",
         nombre: "Ringlete",
         img: "/img/ringlete.jpg",
         descripcion: "Restaurante que rescata los sabores tradicionales del Valle del Cauca con un toque auténtico y hogareño.",
@@ -898,8 +1117,35 @@ export const restaurantes = [
           "Ideal para disfrutar en familia o con amigos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5461508804137!2d-76.53679662502745!3d3.4598641965145784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a66c4caca82d%3A0x3717562e9b24806!2sRestaurante%20Ringlete!5e0!3m2!1ses!2sco!4v1733256085221!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Ringlete",
+            description:
+              "Ringlete es un restaurante que rescata las tradiciones culinarias del Valle del Cauca, ofreciendo una experiencia auténtica en un entorno hogareño y rústico.",
+            historia: {
+              title: "Historia",
+              content:
+                "Ringlete comenzó como un pequeño restaurante en el corazón de Cali, con la visión de ofrecer platos tradicionales del Valle del Cauca en un ambiente acogedor. Con el tiempo, se ha consolidado como uno de los favoritos locales, siendo reconocido por su autenticidad y por la calidad de los ingredientes frescos con los que elabora cada plato.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante pone un énfasis especial en la cultura del Valle, utilizando recetas autóctonas y trabajando con productos locales. El ambiente rústico, con elementos decorativos típicos de la región, evoca las raíces de los campesinos del Valle del Cauca, lo que crea una experiencia inmersiva para los comensales.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La chuleta valluna, uno de los platos insignia de Ringlete, es tan popular que ha sido mencionada en diversas publicaciones gastronómicas como uno de los platos más emblemáticos de la región. Además, el restaurante tiene una gran colección de artesanías que representan la tradición local.",
+            },
+            images: [
+              "/img/hycRinglete1.jpg",
+              "/img/hycRinglete2.jpg",
+              "/img/hycRinglete3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerRinglete.jpg",
-      },      
+      },
       {
         id: "restaurante-cali-5",
         nombre: "El Zaguán de San Antonio",
@@ -917,10 +1163,37 @@ export const restaurantes = [
           "Ubicado en el histórico barrio San Antonio.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.604122146687!2d-76.54331532502754!3d3.446041996528431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a67dad90aceb%3A0x2d7799e995d4ca8c!2sEl%20Zagu%C3%A1n%20de%20San%20Antonio!5e0!3m2!1ses!2sco!4v1733256203259!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de El Zaguán de San Antonio",
+            description:
+              "El Zaguán de San Antonio es un restaurante que combina la tradición gastronómica del Valle con un toque gourmet, en un ambiente bohemio y con una vista espectacular del barrio histórico de San Antonio.",
+            historia: {
+              title: "Historia",
+              content:
+                "Este restaurante ha sido un pilar de la gastronomía local, ofreciendo platos típicos del Valle del Cauca en un ambiente relajado y acogedor. Con sus años de trayectoria, El Zaguán de San Antonio se ha establecido como uno de los mejores lugares para disfrutar de la comida tradicional caleña en un entorno único.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante refleja la rica herencia cultural del Valle del Cauca, combinando la gastronomía autóctona con la tradición bohemia del barrio San Antonio. Su decoración, que incorpora elementos típicos de la región, crea una atmósfera cálida que invita a los comensales a disfrutar de la auténtica cocina valluna.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El Zaguán de San Antonio es famoso por su ubicación en uno de los barrios más emblemáticos de Cali, conocido por su arquitectura colonial y su vibrante vida nocturna. Además, el restaurante es conocido por su 'Sancocho San Antonio', una receta exclusiva de la casa.",
+            },
+            images: [
+              "/img/hycZaguan1.jpg",
+              "/img/hycZaguan2.jpg",
+              "/img/hycZaguan3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerElZaguanSanAntonio.jpg",
       },
       {
-        id: "restaurante-cali-9",
+        id: "restaurante-cali-6",
         nombre: "Plaza de Mercado Alameda",
         img: "/img/plazaAlameda.jpg",
         descripcion: "Un espacio tradicional donde los comensales pueden disfrutar de auténticos platos caleños en medio de un ambiente vibrante y lleno de cultura local.",
@@ -936,10 +1209,37 @@ export const restaurantes = [
           "Ideal para explorar la gastronomía autóctona de Cali.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.6503024046833!2d-76.53827722502753!3d3.4349913965395067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a68fe0a98a4d%3A0x11ebd8fade54663c!2sPlaza%20de%20mercado%20Alameda!5e0!3m2!1ses!2sco!4v1733256550170!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Plaza de Mercado Alameda",
+            description:
+              "La Plaza de Mercado Alameda es un ícono de la gastronomía caleña, un lugar vibrante donde los sabores autóctonos se encuentran con la calidez de la cultura local.",
+            historia: {
+              title: "Historia",
+              content:
+                "La Plaza de Mercado Alameda es uno de los puntos más tradicionales de Cali, donde los visitantes pueden disfrutar de los platos más representativos del Valle del Cauca. Este espacio ha sido testigo de generaciones que han compartido su amor por la gastronomía local, consolidándose como un referente cultural y gastronómico de la ciudad.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Plaza de Mercado Alameda es un lugar lleno de vida y cultura, donde los comensales pueden experimentar la auténtica comida caleña. Con su ambiente local y su interacción con los vendedores, es el lugar ideal para conocer los sabores típicos y disfrutar de la hospitalidad de la gente de Cali.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La Plaza de Mercado Alameda es famosa por sus 'empanadas de pipián', un platillo tradicional que ha sido transmitido de generación en generación. Además, el mercado es un lugar donde las familias locales se reúnen para compartir y celebrar, creando un ambiente festivo y acogedor.",
+            },
+            images: [
+              "/img/hycPlazaAlameda1.jpg",
+              "/img/hycPlazaAlameda2.jpg",
+              "/img/hycPlazaAlameda3.jpg",
+            ],
+          },
+        ],
         flyer: "/img/flyerPlazaAlameda.jpg",
-      }     
-    ],
-  },
+      }
+    ]
+  },  
   {
     nombre: "Santa Marta",
     restaurantes: [
