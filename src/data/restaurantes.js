@@ -121,13 +121,17 @@ export const restaurantes = [
         nombre: "Andrés Carne de Res",
         img: "/img/andresCarneDeRes.jpg",
         descripcion: "Un ícono cultural y gastronómico que combina comida, música y diversión.",
-        bento: ["/img/andresCarneDeRes1.jpg", "/img/andresCarneDeRes2.jpg"],
+        bento: ["/img/andresCarneDeRes1.jpg", "/img/andresCarneDeRes2.jpg", "/img/andresCarneDeRes3.jpg","/img/andresCarneDeRes4.jpg","/img/andresCarneDeRes5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
           "Ambiente festivo",
           "Menú variado",
           "Espectáculos en vivo",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Reconocido por su experiencia gastronómica única.",
           "Ideal para disfrutar de la auténtica cocina colombiana.",
           "Ambiente vibrante y decoraciones únicas.",
@@ -154,9 +158,9 @@ export const restaurantes = [
                 "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
             },
             images: [
-              "/img/hycAndresCarneDeRes1.jpg",
-              "/img/hycAndresCarneDeRes2.jpg",
-              "/img/hycAndresCarneDeRes3.jpg",
+              "/img/hycCarnes1.jpg",
+              "/img/hycCarnes2.jpg",
+              "/img/hycCarnes3.jpg",
             ],
           },
         ],
@@ -165,15 +169,19 @@ export const restaurantes = [
       {
         id: "restaurante-bogota-2",
         nombre: "Harry Sasson",
-        img: "/img/harrySasson.jpg",
+        img: "/img/harrySasson1.jpg",
         descripcion: "Restaurante de alta cocina con un enfoque en ingredientes locales.",
-        bento: ["/img/harrySasson1.jpg", "/img/harrySasson2.jpg"],
+        bento: ["/img/harrySasson3.webp", "/img/harrySasson2.jpg", "/img/harrySasson.jpg","/img/harrySasson4.jpg","/img/harrySasson5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
           "Cocina de autor",
           "Ambiente sofisticado",
           "Menú con ingredientes locales",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos cuidadosamente diseñados por el chef Harry Sasson.",
           "Amplia carta de vinos internacionales.",
           "Decoración elegante en un espacio único.",
@@ -200,9 +208,9 @@ export const restaurantes = [
                 "Harry Sasson ha sido incluido en las listas de los mejores chefs del mundo, y su restaurante es frecuentado por políticos, celebridades y amantes de la gastronomía.",
             },
             images: [
-              "/img/hycHarrySasson1.jpg",
-              "/img/hycHarrySasson2.jpg",
-              "/img/hycHarrySasson3.jpg",
+              "/img/hycHarry1.jpg",
+              "/img/hycHarry2.jpg",
+              "/img/hycHarry3.jpg",
             ],
           },
         ],
@@ -211,15 +219,19 @@ export const restaurantes = [
       {
         id: "restaurante-bogota-8",
         nombre: "La Hamburguesería",
-        img: "/img/laHamburgueseria.jpg",
+        img: "/img/laHamburgueseria.png",
         descripcion: "Hamburguesas artesanales y cervezas locales en un ambiente relajado.",
-        bento: ["/img/laHamburgueseria1.jpg", "/img/laHamburgueseria2.jpg"],
+        bento: ["/img/laHamburgueseria1.png", "/img/hycHambuerguer3.jpg", "/img/laHamburgueseria3.jpeg","/img/laHamburgueseria3.png","/img/hycHambuerguer2.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
           "Especialidad en hamburguesas",
           "Música en vivo",
           "Opciones vegetarianas",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Conocido por sus hamburguesas gourmet y opciones personalizables.",
           "Espacios acogedores con música en vivo los fines de semana.",
           "Variedad de cervezas artesanales colombianas.",
@@ -246,26 +258,30 @@ export const restaurantes = [
                 "La Hamburguesería colabora con cervecerías artesanales locales para ofrecer una experiencia auténtica y variada.",
             },
             images: [
-              "/img/hycHamburgueseria1.jpg",
-              "/img/hycHamburgueseria2.jpg",
-              "/img/hycHamburgueseria3.jpg",
+              "/img/hycHambuerguer1.jpg",
+              "/img/laHamburgueseria5.jpg",
+              "/img/laHamburgueseria2.jpg",
             ],
           },
         ],
-        flyer: "/img/flyerLaHamburgueseria.jpg",
+        flyer: "/img/flyerHambuerguesa.jpg",
       },
       {
         id: "restaurante-bogota-9",
         nombre: "Crepes & Waffles",
-        img: "/img/crepesWaffles.jpg",
+        img: "/img/crepesWaffles.webp",
         descripcion: "Cadena colombiana conocida por su calidad y variedad en crepes, waffles y helados.",
-        bento: ["/img/crepesWaffles1.jpg", "/img/crepesWaffles2.jpg"],
+        bento: ["/img/crepesWaffles1.jpg", "/img/crepesWaffles3.jpg","/img/crepesWaffles2.jpg", "/img/crepesWaffles4.jpg", "/img/crepesWaffles5.jpg", ],
         descripciongeneral: [
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
           "Amplio menú",
           "Opciones saludables",
           "Postres artesanales",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Gran variedad de crepes dulces y salados.",
           "Ambiente familiar y precios accesibles.",
           "Famoso por su helado artesanal.",
@@ -305,13 +321,17 @@ export const restaurantes = [
         nombre: "La Puerta Falsa",
         img: "/img/laPuertaFalsa.jpg",
         descripcion: "Un restaurante histórico de Bogotá famoso por su ambiente tradicional y sus auténticos platos colombianos.",
-        bento: ["/img/laPuertaFalsa1.jpg", "/img/laPuertaFalsa2.jpg"],
+        bento: ["/img/laPuertaFalsa1.jpg", "/img/laPuertaFalsa2.jpg", "/img/laPuertaFalsa3.jpg","/img/laPuertaFalsa4.jpg","/img/laPuertaFalsa5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
           "Comida típica colombiana",
           "Ambiente tradicional",
           "Precios accesibles",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Fundado en 1816, es uno de los restaurantes más antiguos de Bogotá.",
           "Conocido por su ajiaco, tamales y chocolate santafereño.",
           "Ideal para disfrutar de la gastronomía local en el corazón del centro histórico.",
@@ -340,7 +360,7 @@ export const restaurantes = [
             images: [
               "/img/hycPuertaFalsa1.jpg",
               "/img/hycPuertaFalsa2.jpg",
-              "/img/hycPuertaFalsa3.jpg",
+              "/img/hycPuertaFalsa3.webp",
             ],
           },
         ],
@@ -710,13 +730,17 @@ export const restaurantes = [
         nombre: "El Cielo",
         img: "/img/elCielo.jpg",
         descripcion: "Un restaurante de alta cocina que combina creatividad y técnica para ofrecer una experiencia gastronómica única.",
-        bento: ["/img/elCielo1.jpg", "/img/elCielo2.jpg"],
+        bento: ["/img/elCielo5.jpg", "/img/elCielo2.jpg", "/img/elCielo3.jpg","/img/elCielo4.jpg","/img/elCielo1.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Cocina de autor",
           "Menú degustación",
           "Ubicación en El Poblado"
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Fundado por el chef Juan Manuel Barrientos, reconocido internacionalmente.",
           "Experiencia multisensorial que incluye platos innovadores y presentaciones artísticas.",
           "Requiere reserva previa debido a su alta demanda."
@@ -752,13 +776,17 @@ export const restaurantes = [
         nombre: "Hatoviejo",
         img: "/img/hatoviejo.jpg",
         descripcion: "Especializado en comida típica paisa, este restaurante es un referente de la tradición antioqueña.",
-        bento: ["/img/hatoviejo1.jpg", "/img/hatoviejo2.jpg"],
+        bento: ["/img/hatoviejo1.webp", "/img/hatoviejo2.jpg", "/img/hatoviejo3.jpg","/img/hatoviejo4.jpg","/img/hatoviejo5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Comida típica paisa",
           "Ambiente tradicional",
           "Ideal para familias"
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos como bandeja paisa, mondongo y sancocho.",
           "Decoración inspirada en la cultura paisa.",
           "Varios puntos en la ciudad, pero el de Las Palmas es el más icónico."
@@ -794,13 +822,17 @@ export const restaurantes = [
         nombre: "Mondongos",
         img: "/img/mondongos.jpg",
         descripcion: "Un restaurante icónico de Medellín conocido por su mondongo y otros platos tradicionales.",
-        bento: ["/img/mondongos1.jpg", "/img/mondongos2.jpg"],
+        bento: ["/img/mondongos1.jpg", "/img/mondongos2.jpg", "/img/mondongos3.jpg","/img/mondongos4.jpg","/img/mondongos5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Platos tradicionales",
           "Ambiente acogedor",
           "Precios accesibles"
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Conocido por su sopa de mondongo, frijoles y asados.",
           "Ideal para visitantes y locales que buscan comida auténtica.",
           "Servicio rápido y amigable."
@@ -825,7 +857,7 @@ export const restaurantes = [
             },
             images: [
               "/img/hycMondongos1.jpg",
-              "/img/hycMondongos2.jpg",
+              "/img/hycMondongos2.webp",
               "/img/hycMondongos3.jpg"
             ]
           }
@@ -836,13 +868,17 @@ export const restaurantes = [
         nombre: "Carmen",
         img: "/img/carmen.jpg",
         descripcion: "Cocina contemporánea que fusiona sabores locales e internacionales en un entorno elegante.",
-        bento: ["/img/carmen1.jpg", "/img/carmen2.jpg"],
+        bento: ["/img/Carmen1.jpg", "/img/Carmen2.jpg", "/img/Carmen3.jpg","/img/Carmen4.jpg","/img/Carmen5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Cocina de autor",
           "Ambiente elegante",
           "Ubicado en El Poblado"
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Ofrecen menú a la carta y degustaciones guiadas.",
           "Platos con ingredientes locales y técnicas modernas.",
           "Amplia carta de vinos y cócteles."
@@ -878,13 +914,17 @@ export const restaurantes = [
         nombre: "Mercado del Río",
         img: "/img/mercadoDelRio.jpg",
         descripcion: "Un espacio gastronómico con una amplia variedad de opciones para todos los gustos.",
-        bento: ["/img/mercadoDelRio1.jpg", "/img/mercadoDelRio2.jpg"],
+        bento: ["/img/mercadoDelRio5.jpg", "/img/mercadoDelRio2.jpg", "/img/mercadoDelRio3.jpg","/img/mercadoDelRio4.jpg","/img/mercadoDelRio1.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Variedad de cocinas",
           "Ambiente moderno",
           "Ideal para grupos"
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Más de 30 opciones gastronómicas en un mismo lugar.",
           "Platos que van desde comida rápida hasta opciones gourmet.",
           "Perfecto para compartir con amigos o en familia."
@@ -920,13 +960,17 @@ export const restaurantes = [
         nombre: "Alambique",
         img: "/img/alambique.jpg",
         descripcion: "Un restaurante escondido en El Poblado que ofrece cocina creativa y un ambiente bohemio.",
-        bento: ["/img/alambique1.jpg", "/img/alambique2.jpg"],
+        bento: ["/img/alambique1.jpg", "/img/alambique2.jpg", "/img/alambique3.jpg","/img/alambique4.jpg","/img/alambique5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Cocina creativa",
           "Ambiente bohemio",
           "Terraza al aire libre"
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Especializado en platos innovadores con ingredientes locales.",
           "Decoración única con un toque artístico y vintage.",
           "Ideal para cenas íntimas y encuentros sociales."
@@ -967,13 +1011,17 @@ export const restaurantes = [
         nombre: "La Comitiva",
         img: "/img/laComitiva.jpg",
         descripcion: "Restaurante que ofrece platos tradicionales colombianos con un toque moderno.",
-        bento: ["/img/laComitiva1.jpg", "/img/laComitiva2.jpg"],
+        bento: ["/img/laComitiva5.jpg", "/img/laComitiva2.jpg", "/img/laComitiva3.jpg","/img/laComitiva4.jpg","/img/laComitiva1.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Cocina colombiana",
           "Ambiente acogedor",
           "Platos tradicionales",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos típicos como sancocho y bandeja paisa.",
           "Ambiente relajado para disfrutar en familia o con amigos.",
           "Opciones para vegetarianos disponibles.",
@@ -1013,13 +1061,17 @@ export const restaurantes = [
         nombre: "Restaurante El Farallón",
         img: "/img/elFarallon.jpg",
         descripcion: "Con vistas panorámicas y comida típica caleña, es ideal para disfrutar de la gastronomía local.",
-        bento: ["/img/elFarallon1.jpg", "/img/elFarallon2.jpg"],
+        bento: ["/img/elFarallon1.jpg", "/img/elFarallon2.jpg", "/img/elFarallon3.jpg","/img/elFarallon4.jpg","/img/elFarallon5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Vista panorámica",
           "Comida típica caleña",
           "Ambiente familiar",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos como el arroz atollado y la empanada de pipián.",
           "Ubicado en una zona tranquila de Cali con vistas espectaculares.",
           "Ambiente relajante para disfrutar con la familia.",
@@ -1059,13 +1111,17 @@ export const restaurantes = [
         nombre: "La Lupe",
         img: "/img/laLupe.jpg",
         descripcion: "Un restaurante con toques de cocina fusión en el corazón de Cali.",
-        bento: ["/img/laLupe1.jpg", "/img/laLupe2.jpg"],
+        bento: ["/img/laLupe1.jpg", "/img/laLupe2.jpg", "/img/laLupe3.jpg","/img/laLupe4.jpg","/img/laLupe5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Cocina fusión",
           "Ambiente moderno",
           "Cócteles creativos",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Cocina internacional con influencia colombiana.",
           "Cócteles innovadores para acompañar los platillos.",
           "Ideal para cenas o eventos sociales.",
@@ -1093,7 +1149,7 @@ export const restaurantes = [
             },
             images: [
               "/img/hycLaLupe1.jpg",
-              "/img/hycLaLupe2.jpg",
+              "/img/hycLaLupe2.jpeg",
               "/img/hycLaLupe3.jpg",
             ],
           },
@@ -1105,13 +1161,17 @@ export const restaurantes = [
         nombre: "Ringlete",
         img: "/img/ringlete.jpg",
         descripcion: "Restaurante que rescata los sabores tradicionales del Valle del Cauca con un toque auténtico y hogareño.",
-        bento: ["/img/ringlete1.jpg", "/img/ringlete2.jpg"],
+        bento: ["/img/ringlete1.webp", "/img/ringlete2.jpg", "/img/ringlete3.jpg","/img/ringlete4.jpg","/img/ringlete5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Comida típica del Valle",
           "Ambiente tradicional",
           "Platos regionales",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Especialidad en platos como la chuleta valluna y el arroz atollado.",
           "Ambiente rústico que evoca las raíces del Valle del Cauca.",
           "Ideal para disfrutar en familia o con amigos.",
@@ -1149,15 +1209,19 @@ export const restaurantes = [
       {
         id: "restaurante-cali-5",
         nombre: "El Zaguán de San Antonio",
-        img: "/img/elZaguanSanAntonio.jpg",
+        img: "/img/elZaguanSanAntonio1.jpg",
         descripcion: "Restaurante tradicional que ofrece comida típica con un toque gourmet en el barrio San Antonio.",
-        bento: ["/img/elZaguanSanAntonio1.jpg", "/img/elZaguanSanAntonio2.jpg"],
+        bento: ["/img/elZaguanSanAntonio.jpg", "/img/elZaguanSanAntonio2.jpg", "/img/elZaguanSanAntonio3.jpg","/img/elZaguanSanAntonio4.jpg","/img/elZaguanSanAntonio5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Comida tradicional",
           "Ambiente bohemio",
           "Vista al barrio San Antonio",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos como el chontaduro y el sancocho.",
           "Ideal para disfrutar con amigos o familiares.",
           "Ubicado en el histórico barrio San Antonio.",
@@ -1194,16 +1258,20 @@ export const restaurantes = [
       },
       {
         id: "restaurante-cali-6",
-        nombre: "Plaza de Mercado Alameda",
+        nombre: "Comidas Típicas Mercado Alameda",
         img: "/img/plazaAlameda.jpg",
         descripcion: "Un espacio tradicional donde los comensales pueden disfrutar de auténticos platos caleños en medio de un ambiente vibrante y lleno de cultura local.",
-        bento: ["/img/plazaAlameda1.jpg", "/img/plazaAlameda2.jpg"],
+        bento: ["/img/plazaAlameda1.jpg", "/img/plazaAlameda2.jpg", "/img/plazaAlameda3.jpg","/img/plazaAlameda4.webp","/img/plazaAlameda5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Comida típica caleña",
           "Ambiente local",
           "Precios accesibles",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos icónicos como sancocho valluno, empanadas de pipián y aborrajados.",
           "Ambiente acogedor con atención cercana de los locales.",
           "Ideal para explorar la gastronomía autóctona de Cali.",
