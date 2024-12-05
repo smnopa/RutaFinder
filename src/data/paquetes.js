@@ -126,21 +126,122 @@ export const paquetes = [
     nombre: "Bogotá",
     paquetes: [
       {
-        id: "paquete3",
-        nombre: "Paquete Cultural",
-        img: "/img/paquetestodoenuno.png",
+        id: "paquete1",
+        nombre: "Monserrate y su Encanto",
+        img: "/img/monserrate.png",
         descripcion:
-          "Un recorrido por los principales museos y sitios culturales de Bogotá.",
+          "Explora el icónico cerro de Monserrate, disfruta de su vista panorámica y su riqueza cultural.",
+        bento: ["/img/pmonserrate1.jpg", "/img/pmonserrate2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Entrada al funicular o teleférico",
+          "Guía turístico incluido",
+        ],
+        descripciondetalles: [
+          "Recorrido por el santuario y sus alrededores.",
+          "Tiempo libre para disfrutar de la gastronomía local.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.479457708305!2d-74.0761251451095!3d4.605672453609117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99bfd2a459a9%3A0x352a5134b65e607b!2sMonserrate!5e0!3m2!1ses!2sco!4v1733350365846!5m2!1ses!2sco",
+        flyer: "/img/FlyerPMonserrate.jpg",
+      },
+      {
+        id: "paquete2",
+        nombre: "Museo del Oro y Centro Histórico",
+        img: "/img/museoOro.png",
+        descripcion:
+          "Un viaje por la historia y cultura de Bogotá a través de sus monumentos y su museo más icónico.",
+        bento: ["/img/pmuseoOro1.jpg", "/img/pmuseoOro2.jpg"],
+        descripciongeneral: [
+          "Entrada al Museo del Oro",
+          "Tour guiado por el centro histórico",
+          "Degustación de café colombiano",
+        ],
+        descripciondetalles: [
+          "Visita a la Plaza Bolívar y la Catedral Primada.",
+          "Descubre las colecciones de oro precolombino en el museo.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9559460113987!2d-74.07461602502126!3d4.601912795372756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a6c60f7ccd%3A0xc18fcd6091a051ed!2sMuseo%20del%20Oro!5e0!3m2!1ses!2sco!4v1733350539022!5m2!1ses!2sco",
+        flyer: "/img/FlyerPMuseoOro.jpg",
+      },
+      {
+        id: "paquete3",
+        nombre: "Tour por La Candelaria",
+        img: "/img/candelaria.png",
+        descripcion:
+          "Explora el barrio más emblemático de Bogotá con su arquitectura colonial y arte callejero.",
+        bento: ["/img/pcandelaria1.jpg", "/img/pcandelaria2.jpg"],
+        descripciongeneral: [
+          "Guía local especializado",
+          "Visita a sitios históricos",
+          "Degustación de chicha y productos típicos",
+        ],
+        descripciondetalles: [
+          "Recorrido por calles empedradas y coloridas casas coloniales.",
+          "Conoce la historia y cultura de este icónico barrio.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15907.946457054983!2d-74.08133381874529!3d4.596420314891553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a844cf79cb%3A0xa58d1864daa71331!2sLa%20Candelaria%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733350804921!5m2!1ses!2sco",
+        flyer: "/img/pFlyerCandelaria.jpg",
       },
       {
         id: "paquete4",
-        nombre: "Aventura en la Sabana",
-        img: "/img/paquetestodoenuno.png",
+        nombre: "Tour a la Catedral de Sal de Zipaquirá",
+        img: "/img/catedralSal.png",
         descripcion:
-          "Tour por los paisajes y actividades al aire libre en la Sabana de Bogotá.",
+          "Una experiencia única visitando la monumental Catedral de Sal, a solo una hora de Bogotá.",
+        bento: ["/img/catedral1.jpg", "/img/catedral2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Entrada a la Catedral de Sal",
+          "Guía turístico profesional",
+        ],
+        descripciondetalles: [
+          "Descubre el arte y la ingeniería detrás de esta maravilla subterránea.",
+          "Recorrido por las estaciones del viacrucis y el espectáculo de luces.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.522152669847!2d-74.01249202501859!3d5.0186999949577995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e407020507b7b01%3A0xdf488196ac237f!2sCatedral%20De%20Sal%20de%20Zipaquir%C3%A1!5e0!3m2!1ses!2sco!4v1733350969649!5m2!1ses!2sco",
+        flyer: "/img/FlyerCatedralSal.jpg",
+      },
+      {
+        id: "paquete5",
+        nombre: "Bogotá Nocturna",
+        img: "/img/bogotaNocturna.png",
+        descripcion:
+          "Descubre la magia de Bogotá de noche con este tour especial por sus puntos más vibrantes.",
+        bento: ["/img/nocturnaBogota1.jpg", "/img/nocturnaBogota2.jpg"],
+        descripciongeneral: [
+          "Transporte nocturno",
+          "Tour por miradores y bares emblemáticos",
+          "Bebidas incluidas",
+        ],
+        descripciondetalles: [
+          "Visita el mirador de La Calera para una vista nocturna de la ciudad.",
+          "Recorrido por bares y zonas de vida nocturna como Usaquén o Chapinero.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.530906301309!2d-74.10627223037748!3d4.497827933412301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fa3c7e191bbfd%3A0xebfbc77ce0eed879!2sLa%20Septima%207!5e0!3m2!1ses!2sco!4v1733351329014!5m2!1ses!2sco",
+        flyer: "/img/FlyerBogotaNocturna.jpg",
+      },
+      {
+        id: "paquete6",
+        nombre: "Aventura Gastronómica en Bogotá",
+        img: "/img/gastronomiaBogota.png",
+        descripcion:
+          "Prueba lo mejor de la gastronomía bogotana con este tour culinario por restaurantes y mercados locales.",
+        bento: ["/img/gastronomiaBogota1.jpg", "/img/gastronomiaBogota2.jpg"],
+        descripciongeneral: [
+          "Tour por mercados tradicionales",
+          "Degustación de platos típicos",
+          "Clases de cocina bogotana",
+        ],
+        descripciondetalles: [
+          "Prueba delicias como el ajiaco, tamales y postres tradicionales.",
+          "Recorre lugares icónicos como el Mercado de Paloquemao.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.982282537829!2d-74.07230142502134!3d4.597196495377445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a5f21874b7%3A0x6e0f2dc38bd9bb02!2sPlazoleta%20del%20Chorro%20de%20Quevedo!5e0!3m2!1ses!2sco!4v1733351563988!5m2!1ses!2sco",
+        flyer: "/img/FlyerGastronomiaBogota.jpg",
       },
     ],
   },
+  
   {
     nombre: "Armenia y Quindio",
     paquetes: [
@@ -200,7 +301,7 @@ export const paquetes = [
             },
           ],
           flyer: "/img/flyerVuelo.jpg",
-        },
+      },
       {
         id: "Plan-Quindio-super-económico",
         nombre: "Plan Quindio super económico",
@@ -316,8 +417,9 @@ export const paquetes = [
             },
           ],
           flyer: "/img/flyerPanaca.jpg",
-        },
-        {
+        
+      },
+      {
           id: "Paquete-arrieros-hospedaje",
           nombre: "Parque Temático y Cultural los arrieros",
           img: "/img/paqueteArrieros.jpg",
@@ -374,8 +476,8 @@ export const paquetes = [
               },
             ],
             flyer: "/img/flyerArrieros.webp",
-          },
-          {
+      },
+      {
             id: "Tour-Filandia-Salento-Valle del Cocora",
             nombre: "Tour Filandia + hospedaje",
             img: "/img/paqueteFilandia.jpg",
@@ -432,8 +534,8 @@ export const paquetes = [
                 },
               ],
               flyer: "/img/flyerFilandia.jpg",
-            },
-            {
+      },
+      {
               id: "Hospedaje-recorrido-finca-cacao",
               nombre: "Hospedaje y recorrido por la finca de cacao Evelyza",
               img: "/img/paqueteFincaCacao.png",
@@ -490,7 +592,127 @@ export const paquetes = [
                   },
                 ],
                 flyer: "/img/flyerFincaCacao.jpg",
-              },
+      },
     ],
   },
+  {
+    nombre: "Medellín",
+    paquetes: [
+      {
+        id: "paquete1",
+        nombre: "Explora el Parque Arví",
+        img: "/img/parqueArvi.png",
+        descripcion:
+          "Un destino natural ideal para disfrutar de caminatas, actividades al aire libre y paisajes espectaculares.",
+        bento: ["/img/arvi1.jpg", "/img/arvi2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Guía turístico local",
+          "Entrada al parque incluida",
+        ],
+        descripciondetalles: [
+          "Recorrido por senderos ecológicos y zonas de picnic.",
+          "Visita al mercado campesino dentro del parque.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15863.755845476679!2d-75.50895250233656!3d6.271757349470664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sParque%20Arv%C3%AD!5e0!3m2!1ses!2sco!4v1733353629271!5m2!1ses!2sco",
+        flyer: "/img/FlyerpParqueArvi.jpg",
+      },
+      {
+        id: "paquete2",
+        nombre: "Comuna 13: Arte y Resiliencia",
+        img: "/img/comuna13.png",
+        descripcion:
+          "Sumérgete en la historia de transformación de la Comuna 13, con arte urbano, cultura y música.",
+        bento: ["/img/pcomuna131.jpg", "/img/pcomuna132.jpg"],
+        descripciongeneral: [
+          "Tour guiado especializado",
+          "Demostraciones de arte callejero",
+          "Degustación de snacks locales",
+        ],
+        descripciondetalles: [
+          "Recorrido por murales y grafitis icónicos de la zona.",
+          "Visita a las escaleras eléctricas y miradores panorámicos.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7932.225815972892!2d-75.62977385873245!3d6.248849874958145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scomuna%2013%3A%20Arte%20y%20Resiliencia!5e0!3m2!1ses!2sco!4v1733353781453!5m2!1ses!2sco",
+        flyer: "/img/FlyerpComuna13.jpg",
+      },
+      {
+        id: "paquete3",
+        nombre: "Tour del Café Paisa",
+        img: "/img/tourCafe.png",
+        descripcion:
+          "Descubre el proceso del café colombiano en una finca cercana a Medellín.",
+        bento: ["/img/cafe1.jpg", "/img/cafe2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Recorrido por la finca cafetera",
+          "Degustación de café premium",
+        ],
+        descripciondetalles: [
+          "Aprende sobre la siembra, cosecha y tostado del café.",
+          "Disfruta de un paisaje rural único y relajante.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d253838.8861932214!2d-75.77655085026481!3d6.233039054371177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stour%20del%20caf%C3%A9%20medell%C3%ADn!5e0!3m2!1ses!2sco!4v1733353966524!5m2!1ses!2sco",
+        flyer: "/img/FlyerTourCafe.jpg",
+      },
+      {
+        id: "paquete4",
+        nombre: "Guatapé y Piedra del Peñol",
+        img: "/img/guatape.png",
+        descripcion:
+          "Una experiencia inolvidable visitando el colorido pueblo de Guatapé y escalando la icónica Piedra del Peñol.",
+        bento: ["/img/guatape1.jpg", "/img/guatape2.jpg"],
+        descripciongeneral: [
+          "Transporte ida y vuelta",
+          "Entrada a la Piedra del Peñol",
+          "Recorrido guiado por Guatapé",
+        ],
+        descripciondetalles: [
+          "Incluye almuerzo típico de la región.",
+          "Oportunidad de paseos en bote por la represa.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31730.43062145937!2d-75.19766394435544!3d6.223610500915275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e441d16240c903f%3A0x8d73bc39b5e6201b!2sPiedra%20del%20Pe%C3%B1ol!5e0!3m2!1ses!2sco!4v1733354083387!5m2!1ses!2sco",
+        flyer: "/img/FlyerGuatape.jpg",
+      },
+      {
+        id: "paquete5",
+        nombre: "Medellín Nocturna",
+        img: "/img/medellinNocturna.png",
+        descripcion:
+          "Descubre la vibrante vida nocturna de Medellín con este tour especial.",
+        bento: ["/img/nocturnaMedellin1.jpg", "/img/nocturnaMedellin2.jpg"],
+        descripciongeneral: [
+          "Transporte nocturno",
+          "Visita a bares y miradores",
+          "Guía local especializado",
+        ],
+        descripciondetalles: [
+          "Recorre lugares como La 70 y el mirador de Las Palmas.",
+          "Incluye degustación de cócteles y snacks.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69980768887!2d-75.66361448980653!3d6.244367697476059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733354246021!5m2!1ses!2sco",
+        flyer: "/img/FlyerMedellinNocturna.jpg",
+      },
+      {
+        id: "paquete6",
+        nombre: "Tour Gastronómico en Medellín",
+        img: "/img/gastronomiaMedellin.png",
+        descripcion:
+          "Prueba los sabores únicos de la gastronomía paisa en este tour culinario.",
+        bento: ["/img/gastronomiaMedellin1.jpg", "/img/gastronomiaMedellin2.jpg"],
+        descripciongeneral: [
+          "Recorrido por restaurantes y mercados",
+          "Degustación de platos típicos",
+          "Clases de cocina paisa",
+        ],
+        descripciondetalles: [
+          "Prueba delicias como bandeja paisa, arepas y buñuelos.",
+          "Visita a lugares icónicos como el Mercado de la Minorista.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87229.24827378745!2d-75.58583312314819!3d6.195719709694598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46830cc8ad8d63%3A0xaee3685907f6f3dc!2sTour%20Gastron%C3%B3mico!5e0!3m2!1ses!2sco!4v1733354521270!5m2!1ses!2sco",
+        flyer: "/img/FlyerGastronomiaMedellin.jpg",
+      },
+    ],
+  }
+  
 ];
