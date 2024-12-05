@@ -412,7 +412,7 @@ export const actividades = [
           "Ofrece la experiencia de un caficultor local y profesional.",
           "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318.09522404758444!2d-75.6685049!3d4.6689425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3889788ac94a81%3A0x7652446180ef8e53!2sMirador%20Colina%20Iluminada!5e0!3m2!1ses!2sco!4v1701184871450!5m2!1ses!2sco",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4976711311264!2d-75.5891956!3d4.6233198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e388c590c7101ef%3A0xaa46844d58673c88!2sLas%20Acacias%20Coffee%20Farm!5e0!3m2!1ses!2sco!4v1701594741239!5m2!1ses!2sco",
         contentData: [
           {
             titulo: "Historia y Cultura de Las Acacias Coffee Farm en Colombia",
@@ -1332,6 +1332,33 @@ export const actividades = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.645992210777!2d-76.56736552502758!3d3.436024296538474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a500540babf1%3A0xb09e9197f74835bf!2sMonumento%20a%20Cristo%20Rey!5e0!3m2!1ses!2sco!4v1733320701183!5m2!1ses!2sco",
         flyer: "/img/flyerCristoRey.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Cerro de Cristo Rey en Cali Colombia",
+            description:
+              "El Cerro de Cristo Rey, ubicado en la ciudad de Cali, Colombia, es uno de los monumentos más emblemáticos del Valle del Cauca.  ",
+            historia: {
+              title: "Historia",
+              content:
+                "Su historia se remonta a 1953, cuando se inauguró la imponente estatua de Cristo Rey que se alza sobre el cerro. La construcción de la estatua fue promovida por el sacerdote salesiano José María Arteaga Gómez, como parte de una celebración religiosa por la paz en Colombia después del período conocido como La Violencia. La estatua mide 26 metros de altura y se ha convertido en un símbolo religioso y turístico para los caleños y visitantes. El cerro mismo ha sido un punto importante en la historia de Cali, tanto por su significado religioso como por su ubicación estratégica, que ofrece una vista panorámica espectacular de la ciudad y sus alrededores. A lo largo de los años, el Cristo Rey ha sido el escenario de diversas celebraciones religiosas, eventos culturales y ha servido como un lugar de peregrinación para los devotos.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Cristo Rey no solo es un ícono religioso, sino que también forma parte de la identidad cultural de Cali. La ciudad, conocida por su espíritu alegre y su relación con la música salsa, ve en el cerro y su estatua un lugar de encuentro, reflexión y espiritualidad. Los caleños frecuentan el lugar tanto para actividades religiosas como para aprovechar su belleza natural.El acceso al Cristo Rey es una experiencia cultural en sí misma, ya que el camino está lleno de arte callejero, como murales que reflejan la cultura popular de la región, y puestos de comida típica que ofrecen a los visitantes una muestra de la gastronomía local. Además, es común ver a grupos de turistas y habitantes de la ciudad realizar caminatas hasta la cima como parte de su rutina de ejercicio o para conectarse con la naturaleza.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La estatua de Cristo Rey pesa aproximadamente 464 toneladas y su construcción tardó cerca de cinco años en completarse. Al pie de la estatua hay un altar conocido como el Altar de la Paz, que simboliza el deseo de reconciliación y unidad en Colombia, sobre todo después de los años de conflicto interno que vivió el país. Durante la noche, el Cristo Rey se ilumina, lo que lo convierte en un punto de referencia visible desde varios lugares de Cali. Esta iluminación realza su majestuosidad y es especialmente impresionante durante las festividades navideñas.",
+            },
+            images: [
+              "/img/hycCristo1.jpg",
+              "/img/hycCristo2.jpg",
+              "/img/hycCristo3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "zoologico-cali",
@@ -1355,6 +1382,33 @@ export const actividades = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.595473607401!2d-76.55941212502752!3d3.44810759652636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a5d22362f7f1%3A0x2c05ed4ac5063ab3!2sZool%C3%B3gico%20de%20Cali!5e0!3m2!1ses!2sco!4v1733321141307!5m2!1ses!2sco",
         flyer: "/img/flyerZoologicoCali.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Zoológico de Cali Colombia",
+            description:
+              "El Zoológico de Cali, uno de los más importantes de Colombia y América Latina, fue fundado en 1969 por la Sociedad de Mejoras Públicas de Cali, una organización sin ánimo de lucro dedicada al desarrollo y conservación de la ciudad.",
+            historia: {
+              title: "Historia",
+              content:
+                "Inicialmente, el zoológico surgió como una propuesta para promover el cuidado de la fauna nativa y fomentar la educación ambiental en la región del Valle del Cauca.El zoológico ocupa aproximadamente 25 hectáreas en las orillas del río Cali, en una zona rica en biodiversidad, lo que favoreció el proyecto desde sus comienzos. A lo largo de los años, el zoológico ha evolucionado para convertirse en un centro de conservación, investigación y recreación. Hoy en día alberga más de 1.800 animales de 250 especies diferentes, muchas de las cuales son endémicas de Colombia y otras regiones de América del Sur.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Zoológico de Cali es mucho más que un lugar de exhibición de animales; es un espacio educativo y cultural que busca concienciar a los visitantes sobre la importancia de la conservación de la fauna y los ecosistemas. Desde su creación, ha sido pionero en Colombia en la implementación de programas de conservación y educación ambiental, involucrando a la comunidad en el cuidado del medio ambiente y de las especies en peligro de extinción.Además, el zoológico colabora con programas internacionales de conservación y reintroducción de especies en sus hábitats naturales. Esta labor lo ha consolidado como un referente en la región para la protección de la biodiversidad. También realiza actividades culturales y pedagógicas, como talleres educativos y exposiciones interactivas, que permiten a los visitantes aprender sobre los animales de manera lúdica y participativa.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "l Zoológico de Cali es reconocido como uno de los mejores zoológicos de América Latina por su enfoque en la conservación y bienestar animal.A diferencia de otros zoológicos, el de Cali se destaca por intentar replicar fielmente los hábitats naturales de cada una de sus especies, lo que mejora la calidad de vida de los animales. El zoológico cuenta con un aviario impresionante, donde se pueden observar aves de diversas partes del mundo volando en un ambiente similar a su entorno natural. Es uno de los principales atractivos, ya que permite una experiencia de inmersión. El Zoológico de Cali trabaja en la conservación de especies en peligro de extinción como el cóndor de los Andes, el tapir y varias especies de anfibios, contribuyendo a su recuperación y protección.",
+            },
+            images: [
+              "/img/hycZoologico1.jpg",
+              "/img/hycZoologico2.jpg",
+              "/img/hycZoologico3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "san-antonio",
@@ -1378,6 +1432,33 @@ export const actividades = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7965.194947166658!2d-76.54532870880503!3d3.447630036107275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a67c61d39a51%3A0x7b953cdb658a057b!2sSan%20Antonio%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1733321299408!5m2!1ses!2sco",
         flyer: "/img/flyerSanAntonio.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Barrio San Antonio Cali Colombia",
+            description:
+              "El Barrio San Antonio, ubicado en el corazón de Cali, es uno de los sectores más antiguos y representativos de la ciudad. Su origen se remonta al siglo XVIII, cuando Cali aún era un pequeño poblado colonial.",
+            historia: {
+              title: "Historia",
+              content:
+                "En sus inicios, el barrio comenzó a desarrollarse alrededor de la Iglesia de San Antonio, un templo emblemático que fue construido en 1747 y que sigue siendo uno de los íconos del lugar.El barrio tiene una profunda conexión con la historia de Cali, ya que fue uno de los primeros asentamientos residenciales fuera del centro histórico. Durante el siglo XIX, San Antonio se convirtió en una zona residencial de clase media-alta, con casas coloniales de techos de teja y calles empedradas. Su arquitectura conserva ese estilo, lo que lo convierte en un lugar lleno de encanto y atractivo turístico.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "San Antonio es conocido por ser el barrio bohemio y cultural de Cali. En sus estrechas calles empedradas se encuentran talleres de artistas, galerías, tiendas de artesanías, cafés, y restaurantes que reflejan la creatividad y diversidad cultural de la ciudad. El barrio es un punto de encuentro para artistas, músicos y escritores, quienes a menudo organizan eventos y presentaciones en espacios públicos y privados.La cultura del barrio también se refleja en la gastronomía, con una amplia oferta de restaurantes que ofrecen desde cocina típica caleña hasta platos internacionales. Además, la colina de San Antonio, que domina el barrio, es un lugar popular para disfrutar de presentaciones artísticas al aire libre, como cuenteros, músicos y teatreros, especialmente durante las tardes y noches.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La pequeña iglesia del barrio es una de las construcciones más antiguas de Cali. Desde su explanada, los visitantes pueden disfrutar de una vista panorámica de la ciudad. San Antonio es famoso por su ambiente bohemio. En el barrio han surgido y se han desarrollado numerosos artistas locales, y sus calles están llenas de murales y arte urbano. Debido a su antigüedad, San Antonio está lleno de leyendas e historias locales. Se dice que algunas de sus casas coloniales están encantadas, lo que atrae a los curiosos. San Antonio es un punto de referencia obligado para los turistas que visitan Cali. Sus calles empedradas, casas de estilo colonial y ambiente relajado hacen de este lugar uno de los más pintorescos de la ciudad.",
+            },
+            images: [
+              "/img/hycAntonio1.jpg",
+              "/img/hycAntonio2.jpg",
+              "/img/hycAntonio3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "rio-pance",
@@ -1401,6 +1482,33 @@ export const actividades = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63728.75656485133!2d-76.64503070349133!3d3.3384896888421176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sR%C3%ADo%20Pance!5e0!3m2!1ses!2sco!4v1733321536438!5m2!1ses!2sco",
         flyer: "/img/flyerRioPance.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Río Pance Cali Colombia",
+            description:
+              "El Río Pance es uno de los ríos más importantes y emblemáticos de Cali, ubicado al sur de la ciudad, en la zona rural. Históricamente, el río ha sido un lugar de encuentro para las familias caleñas, especialmente los fines de semana y días festivos, ya que sus aguas frescas y cristalinas ofrecen un espacio de recreo natural. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Su historia está íntimamente ligada a las comunidades indígenas que habitaban esta región del Valle del Cauca antes de la llegada de los colonizadores españoles. Estos pueblos utilizaban el río como fuente de agua y alimento, lo que estableció su relevancia desde tiempos prehispánicos.En la época colonial y republicana, el área alrededor del Río Pance fue aprovechada principalmente para la agricultura, particularmente la caña de azúcar y café. A lo largo de los años, el río ha mantenido su importancia como un recurso natural, pero su rol ha cambiado con el desarrollo de la ciudad, transformándose en un sitio recreativo clave para los habitantes de Cali y los turistas.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Río Pance es un lugar profundamente arraigado en la cultura de Cali. Se le conoce como el pulmón verde de la ciudad debido a la riqueza ecológica de sus alrededores. Es común ver familias locales disfrutar de días de campo, asados, caminatas y baños en sus aguas. Además, se han desarrollado diversas iniciativas comunitarias y ambientales para la preservación del río, lo que lo convierte en un símbolo de la conciencia ecológica de la región.Pance también ha sido escenario de manifestaciones culturales, como festivales y eventos que celebran las tradiciones del Valle del Cauca. En sus alrededores, se pueden encontrar restaurantes que ofrecen platos típicos de la gastronomía caleña, como el sancocho de gallina, que es una de las comidas más tradicionales disfrutadas en la orilla del río..​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                " El Río Pance es un sitio ideal para el ecoturismo. Los visitantes pueden disfrutar de senderos ecológicos y observar una amplia variedad de flora y fauna que habita en los alrededores del río, incluidas especies de aves endémicas. Aunque el río en sí no tiene aguas termales, hay fuentes termales naturales en las cercanías, lo que hace que la región sea aún más atractiva para el turismo de bienestar. Parte del área que rodea el río está protegida bajo el Parque Nacional Natural Farallones de Cali, lo que ayuda a mantener el ecosistema relativamente intacto. El Río Pance es un lugar donde los caleños suelen refrescarse durante los días calurosos, y es especialmente popular en la temporada de diciembre, cuando muchas familias van a pasar el día en sus orillas.",
+            },
+            images: [
+              "/img/hycRio1.jpg",
+              "/img/hycRio2.jpg",
+              "/img/hycRio3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "plaza-cayzedo",
@@ -1424,6 +1532,33 @@ export const actividades = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3982.5786822058994!2d-76.53451307502748!3d3.452114496522347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaza%20de%20Cayzedo!5e0!3m2!1ses!2sco!4v1733322198051!5m2!1ses!2sco",
         flyer: "/img/flyerPlazaCayzedo.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Plaza de Cayzedo en Cali Colombia",
+            description:
+              "La Plaza de Cayzedo es uno de los espacios más importantes y representativos de Cali. Su origen se remonta al siglo XVI, cuando fue concebida como el centro administrativo y social de la ciudad durante la época colonial. ",
+            historia: {
+              title: "Historia",
+              content:
+                "Inicialmente llamada Plaza Mayor, este espacio servía como punto de encuentro para mercados, celebraciones religiosas y políticas, y actividades comerciales. En 1813, durante la época de la independencia, fue renombrada en honor al prócer caleño Joaquín de Cayzedo y Cuero, quien fue presidente de la provincia de Popayán y participó activamente en la lucha por la independencia de Colombia.A lo largo de su historia, la plaza ha sido testigo de numerosos acontecimientos importantes, desde proclamaciones políticas hasta movimientos sociales, consolidándose como un símbolo de la vida pública de Cali. Durante los años, ha sufrido diversas remodelaciones, pero siempre manteniendo su importancia como un punto central de la ciudad.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Plaza de Cayzedo es un lugar lleno de vida y cultura. Está rodeada por algunos de los edificios más emblemáticos de la ciudad, como el Edificio Otero, la Catedral de San Pedro, y el Palacio Nacional. Estos edificios históricos aportan a la plaza un aire colonial y moderno a la vez, y se convierten en puntos de referencia arquitectónica de Cali.La plaza es un lugar de encuentro para caleños y turistas, donde se puede disfrutar de actividades culturales y recreativas. Los habitantes locales suelen reunirse aquí para conversar o disfrutar de una tarde tranquila bajo la sombra de las palmeras centenarias que adornan el lugar. La plaza también es un escenario para presentaciones artísticas, desde música en vivo hasta actos teatrales, lo que la convierte en un espacio donde la cultura caleña se manifiesta en diversas formas.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La plaza está adornada por majestuosas palmas reales que datan de más de 100 años, convirtiéndose en un símbolo distintivo del lugar.Durante muchos años, la Plaza de Cayzedo funcionó como un “faro urbano”, un lugar desde donde se medía el tiempo en la ciudad mediante el uso de relojes públicos en sus edificios circundantes. Es uno de los principales lugares de encuentro en Cali, donde las personas se citan para iniciar recorridos por el centro histórico de la ciudad. Muchos de los edificios que rodean la plaza son considerados patrimonio arquitectónico de Cali, preservando la historia de la ciudad mientras conviven con su desarrollo urbano.",
+            },
+            images: [
+              "/img/hycPlaza1.jpg",
+              "/img/hycPlaza2.jpg",
+              "/img/hycPlaza3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "salsa-cali",
@@ -1447,6 +1582,33 @@ export const actividades = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7914.211939641533!2d-76.53988258078367!3d3.4434290112241888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a662b02dcb1f%3A0xcab389e4d4ad03ba!2sLa%20Topa%20Tolondra!5e0!3m2!1ses!2sco!4v1733322420774!5m2!1ses!2sco",
         flyer: "/img/flyerRutaSalsa.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Ruta de la Salsa en Cali Colombia",
+            description:
+              "La Ruta de la Salsa en Cali es una experiencia cultural que ha evolucionado desde las décadas de 1960 y 1970, cuando la salsa comenzó a ganar popularidad en la ciudad. Cali, conocida como la Capital Mundial de la Salsa, ha cultivado un profundo amor por este género musical, influenciada por ritmos caribeños provenientes de Puerto Rico, Cuba y Nueva York.",
+            historia: {
+              title: "Historia",
+              content:
+                "La salsa en Cali se convirtió no solo en música, sino en una expresión cultural que atraviesa generaciones y que ha marcado la identidad de la ciudad. Durante el auge de la salsa, surgieron reconocidas agrupaciones caleñas y espacios emblemáticos como discotecas y clubes de baile que dieron vida a la actual Ruta de la Salsa.Esta ruta es un recorrido por varios puntos de la ciudad, donde se puede aprender sobre la historia de este género, disfrutar de espectáculos en vivo y practicar los sensuales pasos que caracterizan a la salsa caleña. A lo largo del tiempo, la salsa se ha consolidado como un elemento vital en la vida social de los caleños, quienes disfrutan de grandes festivales, como el Festival Mundial de Salsa de Cali, que atrae a miles de bailarines y fanáticos del mundo.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La salsa en Cali no es solo un género musical, es una forma de vida. La cultura salsera se respira en cada esquina, con escuelas de baile y academias que enseñan desde niños hasta adultos mayores. Los caleños llevan la salsa en la sangre, y esta cultura se extiende a todos los ámbitos, desde los barrios populares hasta los clubes nocturnos más reconocidos. La Ruta de la Salsa incluye paradas en discotecas legendarias como Zaperoco, Tintindeo, y MalaMaña, donde tanto turistas como locales disfrutan de una auténtica experiencia salsera.La música, el baile y la improvisación hacen de la salsa en Cali algo único. Las calles se llenan de ritmos tropicales, y la alegría y pasión de los bailarines son contagiosas. La salsa en Cali tiene un estilo propio, rápido y energético, y su cultura refleja la idiosincrasia caleña: alegre, vibrante y festiva.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Cali es la ciudad que más campeones mundiales de salsa ha producido. Las escuelas de baile de la ciudad entrenan a bailarines de élite que compiten en escenarios internacionales. En varios parques y plazas, como el Parque de los Estudiantes y el Boulevard del Río, se organizan eventos gratuitos donde la gente baila salsa al aire libre, una experiencia que mezcla lo comunitario con lo festivo. En Cali, los coleccionistas de discos de salsa tienen un lugar especial en la cultura salsera. Existen tiendas y ferias dedicadas exclusivamente a la venta de vinilos de salsa, donde los fanáticos pueden encontrar joyas musicales raras. A diferencia de las discotecas, las salsotecas son espacios especializados en salsa, donde se tocan clásicos del género y se preserva la esencia de la salsa de antaño.",
+            },
+            images: [
+              "/img/hycRuta1.jpg",
+              "/img/hycRuta2.jpg",
+              "/img/hycRuta3.jpg",
+            ],
+          },
+        ],
       },
     ],
   },
@@ -1458,114 +1620,300 @@ export const actividades = [
         nombre: "Parque Nacional Natural Tayrona",
         img: "/img/parqueTayrona.jpg",
         descripcion: "Uno de los parques más bellos de Colombia, conocido por sus playas paradisíacas y biodiversidad.",
-        bento: ["/img/tayrona1.jpg", "/img/tayrona2.jpg"],
+        bento: ["/img/tayrona5.jpg", "/img/tayrona2.jpg","/img/tayrona3.jpg","/img/tayrona4.jpg","/img/tayrona1.jpg",],
         descripciongeneral: [
+          "Parque Nacional Natural Tayrona",
           "Playas de ensueño",
           "Senderismo y naturaleza",
           "Riqueza cultural indígena",
+          "Aventura y diversión",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Camina por senderos rodeados de flora y fauna únicas.",
           "Descubre playas como Cabo San Juan y La Piscina.",
           "Aprende sobre las culturas indígenas que habitan el parque.",
+          "Descubre las maravillas naturales de Tayrona.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.3864204976876!2d-74.06833102495037!3d11.30644088887638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef48b22eaf45f4d%3A0x485723dccbdb882f!2sParque%20Nacional%20Natural%20Tayrona!5e0!3m2!1ses!2sco!4v1733322533376!5m2!1ses!2sco",
         flyer: "/img/flyerTayrona.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Parque Nacional Natural Tayrona en Santa Marta Colombia",
+            description:
+              "El Parque Nacional Natural Tayrona, ubicado en la región caribeña de Colombia, cerca de Santa Marta, fue establecido en 1969 como un área protegida para conservar la biodiversidad de la Sierra Nevada de Santa Marta.",
+            historia: {
+              title: "Historia",
+              content:
+                "Sin embargo, su historia se remonta mucho antes, ya que la zona fue habitada por los indígenas taironas, una civilización avanzada que prosperó entre los siglos VII y XVI. Los taironas construyeron complejos sistemas de terrazas y caminos de piedra, algunos de los cuales todavía se pueden encontrar en la Ciudad Perdida y dentro del propio parque.El parque ha sido testigo de diversas etapas de colonización y explotación, pero con la creación del parque nacional, se buscó proteger tanto el entorno natural como el legado cultural de las comunidades indígenas que aún habitan la región. Hoy en día, los descendientes de los taironas, como los koguis, arhuacos y wiwas, siguen manteniendo una conexión espiritual y cultural con el parque, considerándolo un lugar sagrado.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El Parque Tayrona no solo es un santuario natural, sino también cultural. Los indígenas que viven en las estribaciones de la Sierra Nevada consideran el parque y la montaña como el corazón del mundo. Para ellos, la naturaleza tiene un profundo significado espiritual, y llevan a cabo rituales y ceremonias que buscan proteger el equilibrio entre el ser humano y la naturaleza. La preservación de sus tradiciones, sus creencias en la Madre Tierra (Pachamama) y su enfoque de armonía con el entorno son parte integral de la identidad cultural del parque.El turismo en Tayrona también tiene un componente cultural, donde los visitantes pueden aprender sobre las costumbres de los pueblos indígenas, sus formas de vida y el respeto que sienten por la tierra. El acceso al parque, en ciertas áreas, está controlado por estas comunidades, que buscan mantener su integridad y evitar la sobreexplotación.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El Parque Tayrona es uno de los parques naturales más biodiversos de Colombia. Alberga más de 300 especies de aves, más de 100 especies de mamíferos, y una impresionante variedad de flora, incluidos árboles centenarios y plantas exóticas. El parque es famoso por sus playas de arena blanca y aguas cristalinas, como Cabo San Juan y Playa Cristal, algunas de las cuales están consideradas entre las más hermosas del mundo. Sin embargo, no todas son aptas para nadar debido a las fuertes corrientes. Aunque no está dentro de los límites del parque, el acceso a la famosa Ciudad Perdida, una antigua ciudad tairona, se hace a través de la Sierra Nevada. Este sitio arqueológico es más antiguo que Machu Picchu y es uno de los principales atractivos culturales de la región. A lo largo del parque, hay cabañas ecológicas y zonas de camping donde los visitantes pueden pernoctar en contacto directo con la naturaleza, respetando los principios de sostenibilidad y conservación. En los últimos años, el parque ha implementado periodos de cierre para permitir la recuperación de la flora y fauna, respetando también las demandas de las comunidades indígenas.",
+            },
+            images: [
+              "/img/hycTayrona1.jpg",
+              "/img/hycTayrona2.jpg",
+              "/img/hycTayrona3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "quintas-de-san-pedro",
         nombre: "Quinta de San Pedro Alejandrino",
-        img: "/img/quintaSanPedro.jpg",
+        img: "/img/quinta4.jpg",
         descripcion: "La histórica hacienda donde pasó sus últimos días Simón Bolívar.",
-        bento: ["/img/quinta1.jpg", "/img/quinta2.jpg"],
+        bento: ["/img/quinta1.jpg", "/img/quinta2.jpg","/img/quinta3.jpg","/img/quinta4.jpg","/img/quinta5.jpg",],
         descripciongeneral: [
+          "Casa de Simón Bolívar",
           "Historia colonial",
           "Museo cultural",
           "Monumento histórico",
+          "Jardines",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Explora la casa-museo que honra la vida de Simón Bolívar.",
           "Conoce la historia de la independencia en este icónico lugar.",
           "Recorre sus hermosos jardines y esculturas.",
+          "Casa de Simón Bolívar, ubicada en Santa Marta, Colombia.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.450222252838!2d-74.17997832495152!3d11.22825398894932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f5a9a9fc67d9%3A0xf552123b187c24e7!2sQuinta%20de%20San%20Pedro%20Alejandrino!5e0!3m2!1ses!2sco!4v1733322813254!5m2!1ses!2sco",
         flyer: "/img/flyerQuintaSanPedro.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Quinta de San Pedro Alejandrino en Santa Marta Colombia",
+            description:
+              "La Quinta de San Pedro Alejandrino, ubicada en Santa Marta, fue fundada en 1608 como una hacienda destinada a la producción de ron, miel y azúcar.",
+            historia: {
+              title: "Historia",
+              content:
+                "Sin embargo, su relevancia histórica radica en ser el lugar donde el libertador Simón Bolívar pasó sus últimos días. Bolívar, gravemente enfermo, llegó a la Quinta el 6 de diciembre de 1830 y falleció allí el 17 de diciembre del mismo año. La finca fue donada por su entonces propietario, Joaquín de Mier, para acoger a Bolívar durante su convalecencia. Hoy en día, la Quinta es uno de los monumentos más importantes de Colombia, convertido en un museo y centro cultural dedicado a preservar la memoria del libertador y su lucha por la independencia de varios países sudamericanos.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Quinta de San Pedro Alejandrino no solo guarda la memoria de Simón Bolívar, sino que también es un símbolo del proceso de independencia latinoamericana. Es un espacio cultural donde se rinde homenaje a su legado y a las ideas de libertad y justicia que promovió. Dentro de sus instalaciones, se pueden apreciar piezas históricas, documentos y objetos relacionados con la vida y obra de Bolívar.Además, la Quinta alberga el Altar de la Patria, un monumento que exalta los valores patrióticos y la importancia del pensamiento bolivariano en la construcción de la identidad latinoamericana. El sitio es también un lugar de encuentro para actividades culturales, conferencias y eventos relacionados con la historia y el arte.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La Quinta cuenta con el Jardín Botánico y el Museo Bolivariano de Arte Contemporáneo, rodeados de exuberante vegetación y especies nativas de la región. Este espacio conecta el legado histórico con el medio ambiente, creando un entorno de serenidad y reflexión. Originalmente, la finca era un espacio de producción agrícola, pero también funcionaba como un lugar de descanso para su propietario y visitantes, destacándose por su arquitectura colonial típica de la época. Simón Bolívar pronunció sus famosas palabras ¡Colombianos! Mis últimos votos son por la felicidad de la patria en este lugar, marcando su despedida definitiva de la vida pública y de su sueño de una América unida. La habitación donde falleció Bolívar y el mobiliario original de la época se conservan en el museo, lo que permite a los visitantes hacer un recorrido por la vida del libertador en sus momentos finales.",
+            },
+            images: [
+              "/img/hycSan1.jpg",
+              "/img/hycSan2.jpg",
+              "/img/hycSan3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "playa-cristal",
         nombre: "Playa Cristal",
         img: "/img/playaCristal.jpg",
         descripcion: "Una de las playas más limpias y cristalinas del Caribe colombiano.",
-        bento: ["/img/cristal1.jpg", "/img/cristal2.jpg"],
+        bento: ["/img/cristal1.jpg", "/img/cristal2.jpg", "/img/cristal3.jpg","/img/cristal4.jpg","/img/cristal5.webp",],
         descripciongeneral: [
+          "Playa de agua limpia",
           "Aguas cristalinas",
           "Ideal para snorkel",
           "Ambiente tranquilo",
+          "Aventura y diversión",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Disfruta de aguas turquesas perfectas para actividades acuáticas.",
           "Ideal para nadar, bucear y relajarse.",
           "Se recomienda llegar temprano para evitar la multitud.",
+          "Frecuentado por turistas que buscan tranquilidad.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31296.959972946468!2d-74.0971896405124!3d11.325938986908529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef48c4cce0a77c3%3A0xc0b94ee552723513!2sPlaya%20Cristal%20o%20playa%20muerto%2C%20Santa%20Marta%2C%20Magdalena!5e0!3m2!1ses!2sco!4v1733322950127!5m2!1ses!2sco",
         flyer: "/img/flyerPlayaCristal.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de la Playa Cristal Santa Marta Colombia",
+            description:
+              "Playa Cristal, también conocida como Playa del Muerto, se encuentra en el Parque Nacional Natural Tayrona, cerca de Santa Marta. Esta playa es parte de un área protegida que fue habitada por los indígenas Tayrona, una de las civilizaciones precolombinas más avanzadas de Colombia.",
+            historia: {
+              title: "Historia",
+              content:
+                "Aunque la presencia de esta cultura es más evidente en otras zonas del parque, Playa Cristal está rodeada por una rica historia indígena y natural que se remonta a cientos de años. Se convirtió en un lugar turístico de relevancia por su belleza escénica y aguas cristalinas que le dan su nombre actual.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Playa Cristal forma parte de la riqueza cultural y ambiental del Parque Tayrona, donde la preservación de la naturaleza es una prioridad. El respeto por las tradiciones indígenas sigue siendo un aspecto importante en la región, y los visitantes son alentados a mantener una interacción respetuosa con el entorno. El área está impregnada de la influencia de los pueblos indígenas que una vez habitaron la Sierra Nevada, lo que añade un componente cultural a la experiencia de visitar la playa. Aunque Playa Cristal en sí no tiene una fuerte presencia de comunidades indígenas en la actualidad, se encuentra en una zona que honra las prácticas ancestrales de respeto a la naturaleza.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Playa Cristal recibe su nombre por la claridad de sus aguas, que permiten a los turistas ver el fondo marino a simple vista, lo que la convierte en un lugar ideal para el esnórquel. Debido a las políticas de conservación del Parque Tayrona, el acceso a Playa Cristal está controlado y se limita el número de visitantes diarios para proteger el ecosistema. Las aguas de Playa Cristal son hogar de una variedad de especies marinas, como corales, peces tropicales y tortugas, lo que la convierte en uno de los mejores destinos para actividades subacuáticas en la región. Aunque no se encuentran restos arqueológicos directos en Playa Cristal, el área circundante forma parte del territorio ancestral de los Tayrona, quienes veneraban la naturaleza y los paisajes que rodean la playa.",
+            },
+            images: [
+              "/img/hycCristal1.jpg",
+              "/img/hycCristal2.jpg",
+              "/img/hycCristal3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "pueblito-tayrona",
         nombre: "Pueblito Tayrona",
         img: "/img/pueblitoTayrona.jpg",
         descripcion: "Un asentamiento arqueológico que refleja la rica historia de los indígenas Tayrona.",
-        bento: ["/img/pueblito1.jpg", "/img/pueblito2.jpg"],
+        bento: ["/img/pueblitoTayrona1.jpg", "/img/pueblito2.jpg", "/img/pueblitoTayrona3.jpg","/img/pueblitoTayrona4.jpg","/img/pueblitoTayrona5.jpg",],
         descripciongeneral: [
+          "Pueblito Tayrona",
           "Patrimonio arqueológico",
           "Cultura indígena",
           "Senderismo exigente",
+          "Aventura",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Descubre las terrazas y caminos de piedra construidos por los Tayrona.",
           "Aprende sobre su historia y legado cultural.",
           "Ideal para amantes de la naturaleza y la arqueología.",
+          "Aventura y senderismo exigente.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125204.69975057396!2d-73.94454113221806!3d11.287348095011293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef493b010b4b383%3A0x37b814023c25bd52!2sPueblito%2C%20Santa%20Marta%2C%20Magdalena!5e0!3m2!1ses!2sco!4v1733323244056!5m2!1ses!2sco",
         flyer: "/img/flyerPueblitoTayrona.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Pueblito Tayrona en Santa Marta Colombia",
+            description:
+              "Pueblito Tayrona es un sitio arqueológico que forma parte del Parque Nacional Natural Tayrona en la Sierra Nevada de Santa Marta, Colombia.",
+            historia: {
+              title: "Historia",
+              content:
+                "Es uno de los asentamientos precolombinos más importantes de los indígenas Tayrona, una civilización que floreció entre los siglos IX y XV. Este lugar servía como un centro político y económico para la comunidad indígena, conocido en su tiempo como Chairama. Los Tayrona desarrollaron una avanzada ingeniería para su tiempo, construyendo terrazas, caminos empedrados y sistemas de acueductos que aún son visibles hoy. Pueblito Tayrona es considerado un reflejo de la organización compleja de esta cultura.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Pueblito Tayrona es un ejemplo vivo del legado indígena en la región. Aunque fue abandonado en el siglo XVII debido a la conquista española, los descendientes de los Tayrona, como los Kogui y los Wiwa, continúan habitando la Sierra Nevada, manteniendo vivas muchas de las tradiciones ancestrales. El sitio está cargado de significado espiritual para estas comunidades, quienes consideran la tierra sagrada. Pueblito Tayrona no solo es un espacio de exploración arqueológica, sino también un lugar donde la conexión con la naturaleza y el respeto por los ancestros son fundamentales para la cultura indígena.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Las terrazas de Pueblito Tayrona fueron construidas con una técnica de mampostería en piedra, diseñada para evitar la erosión en la montaña. Muchas de estas estructuras siguen intactas, demostrando la habilidad de los Tayrona en ingeniería. Se puede acceder a Pueblito Tayrona a través de un camino empedrado que sigue siendo el mismo que usaban los Tayrona hace cientos de años. Este sendero conecta Pueblito con las aldeas costeras del Parque Tayrona. El entorno de Pueblito Tayrona está rodeado de exuberante vegetación tropical y es hogar de diversas especies de flora y fauna, lo que lo convierte en un destino ideal tanto para la historia como para los amantes de la naturaleza. Para los indígenas que habitan la Sierra Nevada, Pueblito Tayrona es un sitio sagrado, considerado un punto de conexión entre la tierra y los seres espirituales. Las ceremonias tradicionales aún se realizan en la zona.",
+            },
+            images: [
+              "/img/hycPueblito1.jpg",
+              "/img/hycPueblito2.jpg",
+              "/img/hycPueblito3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "sierra-nevada",
         nombre: "Sierra Nevada de Santa Marta",
         img: "/img/sierraNevada.jpg",
         descripcion: "La cadena montañosa litoral más alta del mundo, hogar de culturas indígenas y biodiversidad única.",
-        bento: ["/img/sierra1.jpg", "/img/sierra2.jpg"],
+        bento: ["/img/sierra3.jpg", "/img/sierra2.jpg", "/img/sierra1.jpg","/img/sierra4.jpg","/img/sierra5.jpg",],
         descripciongeneral: [
+          "Riqueza cultural y tradiciones indígenas",
           "Montañas majestuosas",
           "Ecoturismo y biodiversidad",
           "Cultura indígena viva",
+          "Caminos ecológicos",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Explora caminos ecológicos y disfruta de vistas impresionantes.",
           "Conoce a las comunidades indígenas que habitan la región.",
           "Participa en actividades como avistamiento de aves y ecoturismo.",
+          "Descubre la riqueza cultural y tradiciones indígenas de la Sierra Nevada.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31350.124945803298!2d-73.71294394098372!3d10.829240416640229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef52666f2cf342b%3A0x6319df3735fd572b!2sSierra%20Nevada%20de%20Santa%20Marta!5e0!3m2!1ses!2sco!4v1733323374134!5m2!1ses!2sco",
         flyer: "/img/flyerSierraNevada.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Sierra Nevada de Santa Marta Colombia",
+            description:
+              " La Sierra Nevada de Santa Marta es una de las formaciones montañosas más antiguas del mundo. Se estima que surgió hace millones de años a partir de procesos geológicos complejos.",
+            historia: {
+              title: "Historia",
+              content:
+                " Desde tiempos ancestrales, la Sierra ha sido el hogar de cuatro pueblos indígenas: los Kogui, Arhuaco, Wiwa y Kankuamo. Estas comunidades han desarrollado una profunda conexión con la naturaleza y han mantenido sus tradiciones y cosmovisiones a lo largo de los siglos.Conquista y colonización: Con la llegada de los españoles, la Sierra Nevada fue objeto de exploración y colonización. Sin embargo, los pueblos indígenas resistieron y lograron preservar gran parte de su territorio y cultura.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Los pueblos indígenas de la Sierra Nevada tienen una cosmovisión única que considera a la montaña como un ser vivo y sagrado. Cada elemento de la naturaleza tiene un significado profundo y está conectado con el mundo espiritual.Las tradiciones de estos pueblos incluyen la agricultura ancestral, la elaboración de artesanías, la medicina tradicional y ceremonias espirituales.Cada pueblo indígena tiene su propia lengua, lo que refleja la diversidad cultural de la región.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                " La Sierra Nevada de Santa Marta es la montaña costera más alta del mundo, con picos que superan los 5.000 metros sobre el nivel del mar. La Sierra Nevada es un hotspot de biodiversidad, con una gran variedad de flora y fauna, muchas de ellas endémicas. En las profundidades de la Sierra se encuentra la Ciudad Perdida, una antigua ciudad construida por la civilización Tayrona. La Sierra Nevada fue declarada Reserva de la Biosfera por la UNESCO en reconocimiento a su importancia ecológica y cultural. os pueblos indígenas construyeron una extensa red de caminos de piedra que conectaban sus comunidades y facilitaban el intercambio cultural.",
+            },
+            images: [
+              "/img/hycSierra1.jpg",
+              "/img/hycSierra2.jpg",
+              "/img/hycSierra3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "minca",
-        nombre: "Minca",
+        nombre: "Minca Santa Marta",
         img: "/img/minca.jpg",
         descripcion: "Un pueblo ecológico rodeado de montañas, cascadas y plantaciones de café.",
-        bento: ["/img/minca1.jpg", "/img/minca2.jpg"],
+        bento: ["/img/minca1.jpg", "/img/minca2.webp", "/img/minca3.jpg","/img/minca4.jpg","/img/minca5.jpg",],
         descripciongeneral: [
+          "Pueblo ecológico",
           "Ambiente tranquilo",
           "Cascadas naturales",
           "Plantaciones de café",
+          "Conectividad con la naturaleza",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Visita cascadas como Pozo Azul y Marinka.",
           "Disfruta de tours por fincas cafetaleras para aprender sobre el cultivo de café.",
           "Un destino ideal para conectarse con la naturaleza.",
+          "Descubre la riqueza cultural y tradiciones indígenas de la Sierra Nevada.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7829.208804932143!2d-74.12182680850569!3d11.142812006116323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f129819389d3%3A0x9f9e3a171b198b5!2sMinca%2C%20Santa%20Marta%2C%20Magdalena!5e0!3m2!1ses!2sco!4v1733323567579!5m2!1ses!2sco",
         flyer: "/img/flyerMinca.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Minca Santa Marta Colombia",
+            description:
+              "Minca es un pequeño pueblo colombiano ubicado en las estribaciones de la Sierra Nevada de Santa Marta, a pocos kilómetros de Santa Marta. Conocido como la capital ecológica de Colombia, Minca es un destino ideal para los amantes de la naturaleza y aquellos que buscan escapar del bullicio de la ciudad.",
+            historia: {
+              title: "Historia",
+              content:
+                "La historia de Minca está estrechamente ligada a la Sierra Nevada de Santa Marta y a las comunidades indígenas que habitaron la región durante siglos. Con la llegada de los colonizadores españoles, la zona experimentó cambios significativos, incluyendo la introducción de nuevas especies y cultivos. Minca se convirtió en una importante zona agrícola, destacando la producción de café y caña de azúcar. A lo largo de los años, la región ha enfrentado diversos desafíos, como la violencia y el conflicto armado, pero ha logrado recuperarse y posicionarse como un destino turístico sostenible.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La cultura de Minca es una rica mezcla de tradiciones indígenas y coloniales. Los habitantes de Minca valoran la conexión con la naturaleza y practican una agricultura sostenible. La producción de café de alta calidad es una de las principales actividades económicas de la región, y los visitantes pueden conocer las fincas cafetaleras y aprender sobre el proceso de producción. Además, Minca cuenta con una rica biodiversidad, y los habitantes locales han desarrollado un profundo respeto por el medio ambiente.​",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Minca es famosa por la producción de café de alta calidad, cultivado en fincas orgánicas a gran altura. La ubicación de Minca en la Sierra Nevada de Santa Marta la convierte en un lugar con una gran diversidad de flora y fauna. Minca cuenta con numerosas cascadas y ríos cristalinos, ideales para nadar y relajarse. Existen una gran variedad de senderos ecológicos que permiten explorar la belleza natural de la Sierra Nevada. Muchos de los habitantes de Minca se dedican a la agricultura orgánica, cultivando frutas, verduras y hortalizas de forma sostenible.",
+            },
+            images: [
+              "/img/hycMinca1.jpg",
+              "/img/hycMinca2.jpg",
+              "/img/hycMinca3.jpeg",
+            ],
+          },
+        ],
       },
     ],
   }
