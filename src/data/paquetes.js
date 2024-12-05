@@ -137,7 +137,7 @@ export const paquetes = [
         id: "paquete6",
         nombre:
           "Tour privado a pie en Cartagena (Ciudad amurallada y Getsemaní)",
-        img: "/img/tourPrivado.png",
+        img: "/img/tourPrivado.jpg",
         descripcion:
           "Conoce a pie los secretos de la ciudad amurallada y el vibrante barrio de Getsemaní en un tour privado guiado por expertos locales.",
         bento: [
