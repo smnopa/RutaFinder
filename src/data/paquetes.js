@@ -4,121 +4,161 @@ export const paquetes = [
     paquetes: [
       {
         id: "paquete1",
-        nombre: "Paquete Playa y Sol",
-        img: "/img/paquetestodoenuno.png",
+        nombre: "Tour en Cuatrimoto Cartagena",
+        img: "/img/cuatrimoto.jpg",
         descripcion:
-          "Un paquete que incluye playas paradisíacas y actividades acuáticas.",
+          "Disfruta de un emocionante recorrido en cuatrimoto por los hermosos paisajes de Cartagena, combinando aventura y playas exclusivas.",
         bento: [
-          "/img/hotelCaribe.jpg",
-          "/img/hotelCaribe2.jpg",
-          "/img/hotelCaribe3.jpg",
+          "/img/cuatrimoto1.jpg",
+          "/img/cuatrimoto2.jpg",
+          "/img/cuatrimoto3.jpg",
+          "/img/cuatrimoto4.jpg",
+          "/img/cuatrimoto5.jpg",
         ],
         descripciongeneral: [
-          "Cancelación gratuita",
-          "Reservar ahora y pagar después",
-          "Guía Turístico",
+          "Recorrido en cuatrimoto por playas y caminos naturales",
+          "Guía especializado durante todo el tour",
+          "Transporte incluido",
         ],
         descripciondetalles: [
-          "Incluye transporte y acceso a playas exclusivas.",
-          "Actividades como snorkel y kayak.",
+          "Aventura en cuatrimoto a través de rutas únicas en Cartagena.",
+          "Visita a playas paradisíacas y lugares de difícil acceso.",
+          "Oportunidad de realizar actividades como snorkel en zonas exclusivas.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
-        flyer: "/img/FlyerHotelCaribe.jpg",
+        flyer: "/img/FlyerCuatrimoto.webp",
       },
       {
         id: "paquete2",
-        nombre: "Aventura en Cartagena",
-        img: "/img/paquetestodoenuno.png",
+        nombre: "Clase de Cocina con Vista, Elegancia y Sabor",
+        img: "/img/claseCocina.jpg",
         descripcion:
-          "Un paquete lleno de actividades de aventura por la ciudad y alrededores.",
-        bento: ["/img/aventura1.jpg", "/img/aventura2.jpg"],
+          "Vive una experiencia culinaria única con clases de cocina mientras disfrutas de vistas espectaculares y sabores locales.",
+        bento: [
+          "/img/claseCocina1.jpg",
+          "/img/claseCocina2.jpg",
+          "/img/claseCocina3.jpg",
+          "/img/claseCocina4.jpg",
+          "/img/claseCocina5.jpg",
+        ],
         descripciongeneral: [
-          "Paseo en lancha rápida",
-          "Deportes extremos",
-          "Guía profesional",
+          "Clases de cocina con ingredientes locales",
+          "Vista panorámica del mar Caribe",
+          "Instructores expertos",
         ],
         descripciondetalles: [
-          "Explora las islas cercanas con emocionantes actividades.",
-          "Incluye almuerzo y equipo de seguridad.",
+          "Aprende a preparar platos típicos con un chef local.",
+          "Disfruta de una comida preparada por ti mismo mientras contemplas las vistas.",
+          "Incluye un recorrido por los mercados locales para seleccionar los ingredientes.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
-        flyer: "/img/FlyerAventura.jpg",
+        flyer: "/img/FlayerclaseCocina.webp",
       },
       {
         id: "paquete3",
-        nombre: "Descubre el Centro Histórico",
-        img: "/img/paquetestodoenuno.png",
+        nombre:
+          "Tour de 5 paradas por las islas del Rosario con almuerzo y entradas",
+        img: "/img/tourIslas.jpg",
         descripcion:
-          "Recorre el centro histórico con guías expertos y vive la cultura local.",
-        bento: ["/img/historia1.jpg", "/img/historia2.jpg"],
+          "Recorre las islas del Rosario con un tour guiado que incluye un almuerzo delicioso y visitas a monumentos históricos.",
+        bento: [
+          "/img/tourIslas1.jpg",
+          "/img/tourIslas2.jpg",
+          "/img/tourIslas3.jpg",
+          "/img/tourIslas4.jpg",
+          "/img/tourIslas5.jpg",
+        ],
         descripciongeneral: [
-          "Tour guiado por la ciudad amurallada",
-          "Incluye entradas a museos",
-          "Degustación de comida típica",
+          "Tour guiado por las islas del Rosario",
+          "Almuerzo típico incluido",
+          "Entradas a museos y monumentos históricos",
         ],
         descripciondetalles: [
-          "Visita los principales monumentos y plazas.",
-          "Guía bilingüe para una experiencia completa.",
+          "Visita las hermosas islas del Rosario y explora su biodiversidad.",
+          "Disfruta de un almuerzo con vista al mar y la cultura local.",
+          "Incluye acceso a museos y monumentos de la región.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
-        flyer: "/img/FlyerCentroHistorico.jpg",
+        flyer: "/img/FlayertourIslas.jpg",
       },
       {
         id: "paquete4",
-        nombre: "Islas del Rosario: Todo Incluido",
-        img: "/img/paquetestodoenuno.png",
+        nombre: "Tour De Palenque, Camino a la Emancipación",
+        img: "/img/tourPalenque.jpg",
         descripcion:
-          "Relájate en las hermosas Islas del Rosario con todo incluido.",
-        bento: ["/img/islas1.jpg", "/img/islas2.jpg"],
+          "Descubre la historia y cultura de Palenque en un tour único que te lleva por rutas históricas y playas exclusivas.",
+        bento: [
+          "/img/tourPalenque1.jpg",
+          "/img/tourPalenque2.jpg",
+          "/img/tourPalenque3.jpg",
+          "/img/tourPalenque4.jpg",
+          "/img/tourPalenque5.jpg",
+        ],
         descripciongeneral: [
+          "Recorrido cultural por Palenque",
           "Transporte ida y vuelta",
           "Almuerzo incluido",
-          "Acceso a playas privadas",
         ],
         descripciondetalles: [
-          "Disfruta de playas de arena blanca y aguas cristalinas.",
-          "Actividades acuáticas y relajación garantizada.",
+          "Conoce la historia de Palenque, un sitio de gran valor cultural.",
+          "Disfruta de un almuerzo tradicional mientras exploras la región.",
+          "Accede a playas exclusivas para un descanso relajante.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
-        flyer: "/img/FlyerIslasRosario.jpg",
+        flyer: "/img/FlayertourPalenque.jpg",
       },
       {
         id: "paquete5",
-        nombre: "Cartagena Nocturna",
-        img: "/img/paquetestodoenuno.png",
+        nombre: "Crucero a la puesta del Sol en Cartagena",
+        img: "/img/crucero.jpg",
         descripcion:
-          "Vive la magia de Cartagena de noche con este paquete especial.",
-        bento: ["/img/nocturna1.jpg", "/img/nocturna2.jpg"],
+          "Disfruta de un crucero exclusivo por Cartagena mientras observas la puesta del sol y la magia nocturna de la ciudad.",
+        bento: [
+          "/img/crucero1.jpg",
+          "/img/crucero2.jpg",
+          "/img/crucero3.jpg",
+          "/img/crucero4.jpg",
+          "/img/crucero5.jpg",
+        ],
         descripciongeneral: [
-          "Tour en chiva rumbera",
-          "Visita a bares y discotecas",
-          "Bebidas incluidas",
+          "Crucero por la bahía de Cartagena",
+          "Bebidas y entretenimiento a bordo",
+          "Vista panorámica del atardecer",
         ],
         descripciondetalles: [
-          "Conoce la vida nocturna de Cartagena en un ambiente seguro.",
-          "Guías locales para la mejor experiencia.",
+          "Navega por la bahía mientras disfrutas de un cóctel.",
+          "Explora la ciudad desde el mar y disfruta de música en vivo.",
+          "Captura la puesta del sol mientras navegas hacia las islas cercanas.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
-        flyer: "/img/FlyerCartagenaNocturna.jpg",
+        flyer: "/img/Flayercrucero.jpg",
       },
       {
         id: "paquete6",
-        nombre: "Aventura Gastronómica",
-        img: "/img/paquetestodoenuno.png",
+        nombre:
+          "Tour privado a pie en Cartagena (Ciudad amurallada y Getsemaní)",
+        img: "/img/tourPrivado.jpg",
         descripcion:
-          "Descubre los sabores únicos de Cartagena con este tour culinario.",
-        bento: ["/img/gastronomia1.jpg", "/img/gastronomia2.jpg"],
+          "Conoce a pie los secretos de la ciudad amurallada y el vibrante barrio de Getsemaní en un tour privado guiado por expertos locales.",
+        bento: [
+          "/img/tourPrivado1.jpg",
+          "/img/tourPrivado2.jpg",
+          "/img/tourPrivado3.jpg",
+          "/img/tourPrivado4.jpg",
+          "/img/tourPrivado5.jpg",
+        ],
         descripciongeneral: [
-          "Recorrido por los mejores restaurantes",
-          "Clases de cocina local",
-          "Degustaciones incluidas",
+          "Recorrido privado a pie por Cartagena",
+          "Visita a la ciudad amurallada y Getsemaní",
+          "Guía local especializado",
         ],
         descripciondetalles: [
-          "Aprende a preparar platos típicos cartageneros.",
-          "Disfruta de una experiencia gastronómica única.",
+          "Explora los colores y sabores de Cartagena en un recorrido único.",
+          "Visita los sitios históricos de la ciudad y el vibrante barrio de Getsemaní.",
+          "Disfruta de una experiencia culinaria en restaurantes locales.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
-        flyer: "/img/FlyerGastronomia.jpg",
+        flyer: "/img/FlyertourPrivado.png",
       },
     ],
   },
@@ -301,64 +341,64 @@ export const paquetes = [
             },
           ],
           flyer: "/img/flyerVuelo.jpg",
-      },
+        },
       {
         id: "Plan-Quindio-super-económico",
         nombre: "Plan Quindio super económico",
         img: "/img/paqueteEjeCafetero.jpg",
         descripcion:
           "El Plan Quindio Super económico 4 dias 3 noches con PARQUE DEL CAFE , SALENTO, VALLE DE COCORA Y TERMALES, ha sido diseñado para aquellas personas que quieren disfrutar el Eje Cafetero al mejor precio posible, alojándose en una tradicional finca cafetera, de muy fácil acceso en vehículo privado o público.",
-          bento: [
-            "/img/paqueteEjeCafetero1.jpg",
-            "/img/paqueteEjeCafetero2.jpg",
-            "/img/paqueteEjeCafetero3.jpg",
-            "/img/paqueteEjeCafetero4.jpeg",
-            "/img/paqueteEjeCafetero5.jpg",
-          ],
-          descripciongeneral: [
-            "Cancelación gratuita",
-            "Reservar tu transporte privado",
-            "Pasaporte múltiple al parque del café",
-            "Ingreso al Valle de Cocora",
-            "Ingreso a Termales Santa Rosa",
-          ],
-          descripciondetalles: [
-            "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
-            "Planes flexibles: reserva transporte privado de inmediato, sin que se te haga el cargo.",
-            "Traslado al Parque del Café y tiquetes para todas las atracciones con disponibilidada para personas con discapacidad",
-            "Traslado al Valle de Cocora y caminata",
-            "Traslado a Termales Santa Rosa y ingreso a sus termales y piscinas",
-          ],
-          mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.1066079264926!2d-75.7738652!3d4.5409094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e385f3a3bc3c35d%3A0xa91b90ca5f875e4d!2sParque%20del%20caf%C3%A9!5e0!3m2!1ses!2sco!4v1701263871655!5m2!1ses!2sco",
-          contentData: [
-            {
-              titulo: "Historia y Cultura, Plan Quindio super económico del Quindío",
-              description:
-                "El tour que combina el Parque del Café, los Termales de Santa Rosa y el Valle del Cocora te brinda una experiencia única en el corazón del Eje Cafetero de Colombia, rica en historia y cultura.",
-              historia: {
-                title: "Historia",
-                content:
-                  "Este tour refleja la historia rica y diversa del Eje Cafetero, una región que se desarrolló a partir del cultivo del café a fines del siglo XIX. El Parque del Café fue creado en 1995 como una forma de preservar y promocionar esta herencia, además de educar a las generaciones futuras sobre la importancia económica y cultural del café para Colombia.Por su parte, el Valle del Cocora ha sido un área protegida desde 1985 debido a la necesidad de conservar la palma de cera, que ha sido parte integral de la historia natural de la región y un emblema nacional, además Los Termales de Santa Rosa también tienen una historia profunda, ya que las aguas termales han sido utilizadas desde tiempos precolombinos por sus propiedades curativas. Hoy, combinan esa tradición con instalaciones modernas para que los visitantes disfruten de una experiencia de bienestar en un entorno natural impresionante.",
-              },
-              cultura: {
-                title: "Cultura",
-                content:
-                  "Este tour es un reflejo de la cultura cafetera, que ha dado forma a la identidad del Eje Cafetero. En el Parque del Café, la cultura se vive a través de su arquitectura, música, danza y las representaciones teatrales de la vida rural, que muestran la importancia del café en la vida cotidiana. Además, el parque promueve el respeto por la tierra y las técnicas agrícolas sostenibles.En el Valle del Cocora, la cultura se entrelaza con la naturaleza. Los locales tienen un respeto profundo por la palma de cera y por todo el ecosistema que rodea al valle. Esta conexión entre la naturaleza y la cultura se refleja en las tradiciones de la región, donde la conservación de los recursos naturales es clave para el bienestar de la comunidad.Los Termales de Santa Rosa son una parte esencial de la cultura de bienestar que existe en el Eje Cafetero. Desde tiempos ancestrales, las aguas termales han sido veneradas por sus propiedades curativas, y hoy en día son un lugar donde locales y turistas se reúnen para relajarse y conectarse con la naturaleza.",
-              },
-              mitos: {
-                title: "Datos Curiosos",
-                content:
-                  "El Quindío produce uno de los cafés más suaves del mundo, debido a su ubicación geográfica, clima y altura, y En algunos tours, se ofrece la oportunidad de preparar tu propio café, lo que te permite experimentar todo el proceso, desde la recolección hasta la degustación final, además En la mayoría de las fincas, el café crece junto a otros cultivos como plátanos y frutas tropicales, lo que enriquece tanto el sabor como el ecosistema agrícola.",
-              },
-              images: [
-                "/img/hycEje1.jpg",
-                "/img/hycEje2.jpg",
-                "/img/hycEje3.jpg",
-
-              ],
+        bento: [
+          "/img/paqueteEjeCafetero1.jpg",
+          "/img/paqueteEjeCafetero2.jpg",
+          "/img/paqueteEjeCafetero3.jpg",
+          "/img/paqueteEjeCafetero4.jpeg",
+          "/img/paqueteEjeCafetero5.jpg",
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Reservar tu transporte privado",
+          "Pasaporte múltiple al parque del café",
+          "Ingreso al Valle de Cocora",
+          "Ingreso a Termales Santa Rosa",
+        ],
+        descripciondetalles: [
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Planes flexibles: reserva transporte privado de inmediato, sin que se te haga el cargo.",
+          "Traslado al Parque del Café y tiquetes para todas las atracciones con disponibilidada para personas con discapacidad",
+          "Traslado al Valle de Cocora y caminata",
+          "Traslado a Termales Santa Rosa y ingreso a sus termales y piscinas",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.1066079264926!2d-75.7738652!3d4.5409094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e385f3a3bc3c35d%3A0xa91b90ca5f875e4d!2sParque%20del%20caf%C3%A9!5e0!3m2!1ses!2sco!4v1701263871655!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo:
+              "Historia y Cultura, Plan Quindio super económico del Quindío",
+            description:
+              "El tour que combina el Parque del Café, los Termales de Santa Rosa y el Valle del Cocora te brinda una experiencia única en el corazón del Eje Cafetero de Colombia, rica en historia y cultura.",
+            historia: {
+              title: "Historia",
+              content:
+                "Este tour refleja la historia rica y diversa del Eje Cafetero, una región que se desarrolló a partir del cultivo del café a fines del siglo XIX. El Parque del Café fue creado en 1995 como una forma de preservar y promocionar esta herencia, además de educar a las generaciones futuras sobre la importancia económica y cultural del café para Colombia.Por su parte, el Valle del Cocora ha sido un área protegida desde 1985 debido a la necesidad de conservar la palma de cera, que ha sido parte integral de la historia natural de la región y un emblema nacional, además Los Termales de Santa Rosa también tienen una historia profunda, ya que las aguas termales han sido utilizadas desde tiempos precolombinos por sus propiedades curativas. Hoy, combinan esa tradición con instalaciones modernas para que los visitantes disfruten de una experiencia de bienestar en un entorno natural impresionante.",
             },
-          ],
-          flyer: "/img/flyerEjeCafetero.png",
+            cultura: {
+              title: "Cultura",
+              content:
+                "Este tour es un reflejo de la cultura cafetera, que ha dado forma a la identidad del Eje Cafetero. En el Parque del Café, la cultura se vive a través de su arquitectura, música, danza y las representaciones teatrales de la vida rural, que muestran la importancia del café en la vida cotidiana. Además, el parque promueve el respeto por la tierra y las técnicas agrícolas sostenibles.En el Valle del Cocora, la cultura se entrelaza con la naturaleza. Los locales tienen un respeto profundo por la palma de cera y por todo el ecosistema que rodea al valle. Esta conexión entre la naturaleza y la cultura se refleja en las tradiciones de la región, donde la conservación de los recursos naturales es clave para el bienestar de la comunidad.Los Termales de Santa Rosa son una parte esencial de la cultura de bienestar que existe en el Eje Cafetero. Desde tiempos ancestrales, las aguas termales han sido veneradas por sus propiedades curativas, y hoy en día son un lugar donde locales y turistas se reúnen para relajarse y conectarse con la naturaleza.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El Quindío produce uno de los cafés más suaves del mundo, debido a su ubicación geográfica, clima y altura, y En algunos tours, se ofrece la oportunidad de preparar tu propio café, lo que te permite experimentar todo el proceso, desde la recolección hasta la degustación final, además En la mayoría de las fincas, el café crece junto a otros cultivos como plátanos y frutas tropicales, lo que enriquece tanto el sabor como el ecosistema agrícola.",
+            },
+            images: [
+              "/img/hycEje1.jpg",
+              "/img/hycEje2.jpg",
+              "/img/hycEje3.jpg",
+            ],
+          },
+        ],
+        flyer: "/img/flyerEjeCafetero.png",
       },
       {
         id: "Paquete-uno-hotel-Panaca",
@@ -417,9 +457,8 @@ export const paquetes = [
             },
           ],
           flyer: "/img/flyerPanaca.jpg",
-        
-      },
-      {
+        },
+        {
           id: "Paquete-arrieros-hospedaje",
           nombre: "Parque Temático y Cultural los arrieros",
           img: "/img/paqueteArrieros.jpg",
@@ -476,8 +515,8 @@ export const paquetes = [
               },
             ],
             flyer: "/img/flyerArrieros.webp",
-      },
-      {
+          },
+          {
             id: "Tour-Filandia-Salento-Valle del Cocora",
             nombre: "Tour Filandia + hospedaje",
             img: "/img/paqueteFilandia.jpg",
@@ -534,8 +573,8 @@ export const paquetes = [
                 },
               ],
               flyer: "/img/flyerFilandia.jpg",
-      },
-      {
+            },
+            {
               id: "Hospedaje-recorrido-finca-cacao",
               nombre: "Hospedaje y recorrido por la finca de cacao Evelyza",
               img: "/img/paqueteFincaCacao.png",
@@ -592,7 +631,7 @@ export const paquetes = [
                   },
                 ],
                 flyer: "/img/flyerFincaCacao.jpg",
-      },
+              },
     ],
   },
   {
