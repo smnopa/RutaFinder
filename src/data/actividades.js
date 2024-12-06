@@ -16,12 +16,14 @@ export const actividades = [
           "/img/sanFelipe5.jpg",
         ],
         descripciongeneral: [
+          "Historia colonial",
           "Fortaleza histórica",
           "Vistas panorámicas",
           "Guía local disponible",
           "Recorrido por túneles",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Incluye visitas a las murallas y túneles subterráneos.",
           "Vistas impresionantes de la ciudad amurallada y el mar Caribe.",
           "Se recomienda llevar protector solar y agua.",
@@ -70,12 +72,14 @@ export const actividades = [
           "/img/torre5.jpg",
         ],
         descripciongeneral: [
+          "Torre del Reloj",
           "Ubicación central",
           "Arquitectura colonial",
           "Entrada histórica",
           "Fotografía recomendada",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "La torre fue diseñada en 1800 y es parte del acceso principal a la ciudad amurallada.",
           "Es un lugar ideal para tomar fotos y apreciar la arquitectura colonial de Cartagena.",
           "Está cerca de otros puntos turísticos importantes, como la Plaza de los Coches.",
@@ -124,12 +128,14 @@ export const actividades = [
           "/img/plaza5.jpg",
         ],
         descripciongeneral: [
+          "Plaza de los Coches",
           "Ambiente turístico",
           "Cultura local",
           "Eventos y festivales",
           "Accesibilidad desde la Torre del Reloj",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Es un excelente lugar para relajarse y disfrutar del ambiente cartagenero.",
           "Los restaurantes y tiendas locales son perfectos para disfrutar de la comida típica.",
           "La plaza se utiliza para eventos culturales y festivales durante todo el año.",
@@ -178,12 +184,14 @@ export const actividades = [
           "/img/isla5.avif",
         ],
         descripciongeneral: [
+          "Playas de agua cristalina",
           "Playas de arena blanca",
           "Actividades acuáticas",
           "Ideal para relajarse",
           "Accesibilidad desde Cartagena",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "La isla es famosa por sus playas de arena blanca y agua turquesa.",
           "Ideal para actividades como el buceo, snorkeling y paseos en bote.",
           "Puedes llegar a la isla en transporte público o por barco desde Cartagena.",
@@ -228,15 +236,18 @@ export const actividades = [
           "/img/murallas5.jpg",
         ],
         descripciongeneral: [
+          "Paseo a pie",
           "Historia colonial",
           "Recorrido panorámico",
           "Vistas al mar",
           "Accesibilidad desde el centro histórico",
         ],
         descripciondetalles: [
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
           "Las murallas ofrecen una caminata tranquila con vistas impresionantes del mar Caribe.",
           "Se puede realizar un recorrido a pie y disfrutar de las históricas estructuras.",
           "El lugar es ideal para fotos y explorar la historia de Cartagena.",
+          "Se recomienda llevar protector solar y agua.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.256467239467!2d-75.5474399!3d10.4296151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9f3fb420c7%3A0x2553d110a2ea22e0!2sMurallas%20de%20Cartagena!5e0!3m2!1ses!2sco!4v1701464262552!5m2!1ses!2sco",
         contentData: [
@@ -286,11 +297,15 @@ export const actividades = [
           "Aguas turquesas",
           "Ideal para deportes acuáticos",
           "Ambiente relajado",
+          "Guia personal"
+          
         ],
         descripciondetalles: [
           "Playa Blanca es famosa por su arena blanca y agua transparente, perfecta para nadar y relajarse.",
           "Es un excelente lugar para realizar actividades acuáticas como el kayak, snorkel y paseos en bote.",
           "A unos 45 minutos de Cartagena, es un destino ideal para un día de playa en un entorno natural.",
+          "Puedes llegar a la playa en transporte público o por barco desde Cartagena.",
+          "Guia turistico de la ciudad de Bogota, concretamente en la actividad que estes haciendo, te brindará informacion y consejos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.256467239467!2d-75.6083729!3d10.2952982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef629d8ff6d4d8f%3A0x5f699e2aa7e17a79!2sPlaya%20Blanca!5e0!3m2!1ses!2sco!4v1701464409608!5m2!1ses!2sco",
         contentData: [
