@@ -19,14 +19,41 @@ export const paquetes = [
           "Recorrido en cuatrimoto por playas y caminos naturales",
           "Guía especializado durante todo el tour",
           "Transporte incluido",
+          "Camara profesional para capturar momentos inolvidables",
+          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Aventura en cuatrimoto a través de rutas únicas en Cartagena.",
           "Visita a playas paradisíacas y lugares de difícil acceso.",
           "Oportunidad de realizar actividades como snorkel en zonas exclusivas.",
+          "Camara profesional para capturar momentos inolvidables.",
+          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
         flyer: "/img/FlyerCuatrimoto.webp",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Museo del Oro",
+            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            historia: {
+              title: "Historia",
+              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+            },
+            images: [
+              "/img/hycMuseoOro1.jpg",
+              "/img/hycMuseoOro2.jpg",
+              "/img/hycMuseoOro3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete2",
@@ -53,6 +80,29 @@ export const paquetes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
         flyer: "/img/FlayerclaseCocina.webp",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Museo del Oro",
+            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            historia: {
+              title: "Historia",
+              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+            },
+            images: [
+              "/img/hycMuseoOro1.jpg",
+              "/img/hycMuseoOro2.jpg",
+              "/img/hycMuseoOro3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete3",
@@ -80,6 +130,29 @@ export const paquetes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
         flyer: "/img/FlayertourIslas.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Museo del Oro",
+            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            historia: {
+              title: "Historia",
+              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+            },
+            images: [
+              "/img/hycMuseoOro1.jpg",
+              "/img/hycMuseoOro2.jpg",
+              "/img/hycMuseoOro3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete4",
@@ -106,6 +179,29 @@ export const paquetes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
         flyer: "/img/FlayertourPalenque.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Museo del Oro",
+            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            historia: {
+              title: "Historia",
+              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+            },
+            images: [
+              "/img/hycMuseoOro1.jpg",
+              "/img/hycMuseoOro2.jpg",
+              "/img/hycMuseoOro3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete5",
@@ -132,6 +228,29 @@ export const paquetes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
         flyer: "/img/Flayercrucero.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Museo del Oro",
+            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            historia: {
+              title: "Historia",
+              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+            },
+            images: [
+              "/img/hycMuseoOro1.jpg",
+              "/img/hycMuseoOro2.jpg",
+              "/img/hycMuseoOro3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete6",
@@ -159,6 +278,29 @@ export const paquetes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=...",
         flyer: "/img/FlyertourPrivado.png",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Museo del Oro",
+            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            historia: {
+              title: "Historia",
+              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+            },
+            images: [
+              "/img/hycMuseoOro1.jpg",
+              "/img/hycMuseoOro2.jpg",
+              "/img/hycMuseoOro3.jpg"
+            ]
+          }
+        ]
       },
     ],
   },
