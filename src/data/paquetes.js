@@ -1020,7 +1020,7 @@ export const paquetes = [
         img: "/img/gastronomiaMedellin.png",
         descripcion:
           "Prueba los sabores únicos de la gastronomía paisa en este tour culinario.",
-        bbento: ["/img/gastronomiaMedellin1.jpg", "/img/gastronomiaMedellin2.jpg", "/img/gastronomiaMedellinn3.jpg", "/img/gastronomiaMedellinn4.webp", "/img/gastronomiaMedellinn5.webp"],
+        bento: ["/img/gastronomiaMedellin1.jpg", "/img/gastronomiaMedellin2.jpg", "/img/gastronomiaMedellinn3.jpg", "/img/gastronomiaMedellinn4.webp", "/img/gastronomiaMedellinn5.webp"],
         descripciongeneral: [
           "Recorrido por restaurantes y mercados",
           "Degustación de platos típicos",
