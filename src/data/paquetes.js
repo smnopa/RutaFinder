@@ -136,7 +136,7 @@ export const paquetes = [
       {
         id: "paquete6",
         nombre:
-          "Camina Privada (Ciudad amurallada y Getsemaní)",
+          "Camina Privada (Ciudad amurallada+Getsemaní)",
         img: "/img/tourPrivado.jpg",
         descripcion:
           "Conoce a pie los secretos de la ciudad amurallada y el vibrante barrio de Getsemaní en un tour privado guiado por expertos locales.",
