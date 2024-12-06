@@ -171,50 +171,18 @@ export const paquetes = [
         img: "/img/monserrate.png",
         descripcion:
           "Explora el icónico cerro de Monserrate, disfruta de su vista panorámica y su riqueza cultural.",
-        bento: ["/img/pmonserrate1.jpg", "/img/pmonserrate2.jpg", "/img/pmonserrate3.jpg", "/img/pmonserrate4.webp", "/img/pmonserrate5.jpg"],
+        bento: ["/img/pmonserrate1.jpg", "/img/pmonserrate2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Entrada al funicular o teleférico",
           "Guía turístico incluido",
-          "Camara profesional para capturar momentos inolvidables",
-          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Recorrido por el santuario y sus alrededores.",
           "Tiempo libre para disfrutar de la gastronomía local.",
-          "Vista panorámica del cerro de Monserrate.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.479457708305!2d-74.0761251451095!3d4.605672453609117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99bfd2a459a9%3A0x352a5134b65e607b!2sMonserrate!5e0!3m2!1ses!2sco!4v1733350365846!5m2!1ses!2sco",
         flyer: "/img/FlyerPMonserrate.jpg",
-        contentData: [
-          {
-            titulo: "Historia del Castillo de San Felipe de Barajas",
-            description:
-              "La cultura de Monserrate es una fusión única de tradiciones indígenas, coloniales y contemporáneas. Su encanto radica en la majestuosidad de su santuario, las vistas panorámicas de Bogotá y la riqueza de su historia. Imágenes de devotos, artesanías y festividades capturan la esencia de este lugar mágico que cautiva a propios y extraños.",
-            historia: {
-              title: "Historia",
-              content:
-                'El Castillo de San Felipe de Barajas, ubicado en Cartagena de Indias, es una de las fortificaciones militares más imponentes construidas por los españoles en América. Su construcción comenzó en 1536 y se extendió hasta 1657, bajo la supervisión de ingenieros militares como Antonio de Arévalo. Originalmente llamado "Castillo de San Lázaro", fue renombrado en honor al rey Felipe IV de España. Este bastión fue crucial para proteger la ciudad de ataques de piratas y potencias extranjeras, como el famoso intento fallido de asedio liderado por el almirante inglés Edward Vernon en 1741. La solidez de su diseño, con laberínticos túneles y cañones estratégicamente posicionados, lo convirtió en una obra maestra de la ingeniería militar colonial.',
-            },
-            cultura: {
-              title: "Cultura",
-              content:
-                "Hoy en día, el Castillo de San Felipe de Barajas es un símbolo de la resistencia y la historia de Cartagena, declarado Patrimonio de la Humanidad por la UNESCO en 1984. Sirve como escenario de eventos culturales, exposiciones y festivales que celebran la rica historia de la ciudad. Los visitantes pueden recorrer sus túneles subterráneos, explorar las murallas y disfrutar de una vista panorámica de Cartagena. Es un lugar donde convergen la historia colonial y la cultura contemporánea, con espectáculos de danza, teatro y música que honran las tradiciones afrocolombianas e indígenas locales. Además, el castillo alberga una exposición permanente sobre las técnicas de defensa militar empleadas durante la colonia.",
-            },
-            mitos: {
-              title: "Datos Curiosos",
-              content:
-                "El Castillo de San Felipe de Barajas fue construido principalmente por esclavos africanos, quienes tallaron la roca coralina que forma sus resistentes muros, dejando una huella invaluable en la estructura. Sus túneles subterráneos destacan por una acústica diseñada para detectar movimientos enemigos, lo que lo convertía en una fortaleza prácticamente impenetrable. Durante el asedio más famoso, en 1741, un pequeño ejército liderado por Blas de Lezo resistió con éxito a una flota británica mucho mayor, en una de las victorias más emblemáticas de la historia militar española. Además, una leyenda popular asegura que en sus inmediaciones se encuentra un tesoro pirata oculto, lo que ha alimentado la curiosidad de exploradores durante siglos.",
-            },
-            images: [
-              "/img/castilloH1.jpg",
-              "/img/castilloH2.jpg",
-              "/img/castilloH3.jpg",
-            ],
-          },
-        ],
       },
       {
         id: "paquete-museoOro",
@@ -222,23 +190,41 @@ export const paquetes = [
         img: "/img/museoOro.png",
         descripcion:
           "Un viaje por la historia y cultura de Bogotá a través de sus monumentos y su museo más icónico.",
-        bento: ["/img/pmuseoOro1.jpg", "/img/pmuseoOro2.jpg", "/img/pmuseoOro3.jpg", "/img/pmuseoOro4.jpg", "/img/pmuseoOro5.jpg"],
+        bento: ["/img/pmuseoOro1.jpg", "/img/pmuseoOro2.jpg"],
         descripciongeneral: [
           "Entrada al Museo del Oro",
           "Tour guiado por el centro histórico",
           "Degustación de café colombiano",
-          "Camara profesional para capturar momentos inolvidables",
-          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Visita a la Plaza Bolívar y la Catedral Primada.",
           "Descubre las colecciones de oro precolombino en el museo.",
-          "Conoce la historia y cultura de Bogotá.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9559460113987!2d-74.07461602502126!3d4.601912795372756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a6c60f7ccd%3A0xc18fcd6091a051ed!2sMuseo%20del%20Oro!5e0!3m2!1ses!2sco!4v1733350539022!5m2!1ses!2sco",
         flyer: "/img/FlyerPMuseoOro.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Museo del Oro",
+            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            historia: {
+              title: "Historia",
+              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+            },
+            images: [
+              "/img/hycMuseoOro1.jpg",
+              "/img/hycMuseoOro2.jpg",
+              "/img/hycMuseoOro3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-candelaria",
@@ -246,23 +232,41 @@ export const paquetes = [
         img: "/img/candelaria.png",
         descripcion:
           "Explora el barrio más emblemático de Bogotá con su arquitectura colonial y arte callejero.",
-        bento: ["/img/pcandelaria1.jpg", "/img/pcandelaria2.jpg", "/img/pcandelaria3.jpg", "/img/pcandelaria4.jpg", "/img/pcandelaria5.jpg"],
+        bento: ["/img/pcandelaria1.jpg", "/img/pcandelaria2.jpg"],
         descripciongeneral: [
           "Guía local especializado",
           "Visita a sitios históricos",
           "Degustación de chicha y productos típicos",
-          "Camara profesional para capturar momentos inolvidables",
-          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Recorrido por calles empedradas y coloridas casas coloniales.",
           "Conoce la historia y cultura de este icónico barrio.",
-          "Descubre la arquitectura colonial y el arte callejero.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15907.946457054983!2d-74.08133381874529!3d4.596420314891553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a844cf79cb%3A0xa58d1864daa71331!2sLa%20Candelaria%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733350804921!5m2!1ses!2sco",
         flyer: "/img/pFlyerCandelaria.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de La Candelaria",
+            description: "La Candelaria es el lugar donde la historia de Bogotá cobra vida a través de su arquitectura y su arte.",
+            historia: {
+              title: "Historia",
+              content: "Fundado en 1538, este barrio histórico fue el corazón de la Bogotá colonial. Desde entonces, sus calles empedradas, iglesias y plazas han sido testigos de importantes eventos históricos que han moldeado el destino de Colombia."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "La Candelaria es un centro cultural vibrante, conocido por sus teatros, museos y muralismo. El arte callejero ha transformado muchas de sus paredes en lienzos que cuentan historias de la ciudad y de su gente."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "La Candelaria es hogar de la Universidad de los Andes y otros centros culturales importantes. Además, se dice que este barrio tiene algunos de los edificios más antiguos de la ciudad, incluyendo la emblemática Casa de la Moneda."
+            },
+            images: [
+              "/img/hycCandelaria1.jpg",
+              "/img/hycCandelaria2.jpg",
+              "/img/hycCandelaria3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-catedral",
@@ -270,23 +274,40 @@ export const paquetes = [
         img: "/img/catedralSal.png",
         descripcion:
           "Una experiencia única visitando la monumental Catedral de Sal, a solo una hora de Bogotá.",
-        bento: ["/img/catedral1.jpg", "/img/catedral2.jpg", "/img/catedral3.jpg", "/img/catedral4.png", "/img/catedral5.jpg"],
+        bento: ["/img/catedral1.jpg", "/img/catedral2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Entrada a la Catedral de Sal",
           "Guía turístico profesional",
-          "Camara profesional para capturar momentos inolvidables",
-          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
-          "Descubre el arte y la ingeniería detrás de esta maravilla subterránea.",
           "Recorrido por las estaciones del viacrucis y el espectáculo de luces.",
-          "Conoce la historia y el significado de la Catedral de Sal.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.522152669847!2d-74.01249202501859!3d5.0186999949577995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e407020507b7b01%3A0xdf488196ac237f!2sCatedral%20De%20Sal%20de%20Zipaquir%C3%A1!5e0!3m2!1ses!2sco!4v1733350969649!5m2!1ses!2sco",
         flyer: "/img/FlyerCatedralSal.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de la Catedral de Sal",
+            description: "La Catedral de Sal de Zipaquirá es una de las joyas arquitectónicas y espirituales de Colombia.",
+            historia: {
+              title: "Historia",
+              content: "Construida dentro de una mina de sal, la Catedral de Sal fue inaugurada en 1995. Su origen se remonta al siglo XX, cuando se excavó una mina de sal que eventualmente se transformó en un lugar de culto único. Hoy, es considerada una de las maravillas de Colombia."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "La Catedral de Sal es un símbolo de la creatividad humana. Su diseño innovador combina arquitectura y arte, creando un ambiente espiritual que atrae tanto a turistas como a peregrinos."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "La Catedral de Sal es considerada una de las tres más importantes del mundo, junto con las de Wieliczka (Polonia) y Sufism (Irán). Tiene una profundidad de más de 200 metros bajo tierra."
+            },
+            images: [
+              "/img/hycCatedralSal1.jpg",
+              "/img/hycCatedralSal2.jpg",
+              "/img/hycCatedralSal3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-nocturna",
@@ -294,23 +315,41 @@ export const paquetes = [
         img: "/img/bogotaNocturna.png",
         descripcion:
           "Descubre la magia de Bogotá de noche con este tour especial por sus puntos más vibrantes.",
-        bento: ["/img/nocturnaBogota1.jpg", "/img/nocturnaBogota2.jpg", "/img/nocturnaBogota3.jpg", "/img/nocturnaBogota4.jpg", "/img/nocturnaBogota5.jpg"],
+        bento: ["/img/nocturnaBogota1.jpg", "/img/nocturnaBogota2.jpg"],
         descripciongeneral: [
           "Transporte nocturno",
           "Tour por miradores y bares emblemáticos",
           "Bebidas incluidas",
-          "Camara profesional para capturar momentos inolvidables",
-          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Visita el mirador de La Calera para una vista nocturna de la ciudad.",
           "Recorrido por bares y zonas de vida nocturna como Usaquén o Chapinero.",
-          "Degustación de bebidas y comida local.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.530906301309!2d-74.10627223037748!3d4.497827933412301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fa3c7e191bbfd%3A0xebfbc77ce0eed879!2sLa%20Septima%207!5e0!3m2!1ses!2sco!4v1733351329014!5m2!1ses!2sco",
         flyer: "/img/FlyerBogotaNocturna.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Bogotá Nocturna",
+            description: "La vida nocturna de Bogotá está llena de historias y tradiciones.",
+            historia: {
+              title: "Historia",
+              content: "La vida nocturna de Bogotá comenzó a tomar fuerza en la década de los 90, cuando los bares y clubes se convirtieron en puntos de encuentro para artistas y creativos. Desde entonces, la capital se ha consolidado como uno de los destinos nocturnos más vibrantes de América Latina."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Bogotá es conocida por su diversidad cultural, y su vida nocturna es un reflejo de ello. Desde las discotecas de salsa en la zona T hasta los bares de rock en la Candelaria, Bogotá ofrece una amplia variedad para todos los gustos."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "A lo largo de los años, Bogotá ha sido sede de eventos internacionales como el Festival de Jazz y la Feria del Libro, que atraen a miles de turistas cada año, en especial por su vida nocturna y la calidez de sus habitantes."
+            },
+            images: [
+              "/img/hycBogotaNocturna1.jpg",
+              "/img/hycBogotaNocturna2.jpg",
+              "/img/hycBogotaNocturna3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-gastronomia",
@@ -318,27 +357,45 @@ export const paquetes = [
         img: "/img/gastronomiaBogota.png",
         descripcion:
           "Prueba lo mejor de la gastronomía bogotana con este tour culinario por restaurantes y mercados locales.",
-        bento: ["/img/gastronomiaBogota1.jpg", "/img/gastronomiaBogota2.jpg", "/img/gastronomiaBogota3.jpg", "/img/gastronomiaBogota4.jpg", "/img/gastronomiaBogota5.jpg"],
+        bento: ["/img/gastronomiaBogota1.jpg", "/img/gastronomiaBogota2.jpg"],
         descripciongeneral: [
           "Tour por mercados tradicionales",
           "Degustación de platos típicos",
           "Clases de cocina bogotana",
-          "Camara profesional para capturar momentos inolvidables",
-          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Prueba delicias como el ajiaco, tamales y postres tradicionales.",
           "Recorre lugares icónicos como el Mercado de Paloquemao.",
-          "Aprende a cocinar con expertos locales.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.982282537829!2d-74.07230142502134!3d4.597196495377445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a5f21874b7%3A0x6e0f2dc38bd9bb02!2sPlazoleta%20del%20Chorro%20de%20Quevedo!5e0!3m2!1ses!2sco!4v1733351563988!5m2!1ses!2sco",
         flyer: "/img/FlyerGastronomiaBogota.jpg",
-      },
-    ],
-  },
-  
+        contentData: [
+          {
+            titulo: "Historia y Cultura Gastronómica de Bogotá",
+            description: "La gastronomía de Bogotá está marcada por una fusión de sabores autóctonos e influencias internacionales.",
+            historia: {
+              title: "Historia",
+              content: "La gastronomía bogotana es el reflejo de la historia del país. Platos como el ajiaco y los tamales datan de tiempos precolombinos, mientras que las tradiciones culinarias más recientes se enriquecen con influencias españolas, africanas y árabes."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "En Bogotá, la gastronomía es una forma de contar historias. Los mercados, como el de Paloquemao, son lugares vibrantes donde se pueden encontrar productos frescos y platos preparados con ingredientes locales que representan la diversidad de la región."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "La gastronomía bogotana es muy conocida por su variedad, que incluye no solo platos tradicionales, sino también propuestas innovadoras que combinan sabores de distintas partes del mundo, como los restaurantes de la zona de Usaquén."
+            },
+            images: [
+              "/img/hycGastronomiaBogota1.jpg",
+              "/img/hycGastronomiaBogota2.jpg",
+              "/img/hycGastronomiaBogota3.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },  
+    
   {
     nombre: "Armenia y Quindio",
     paquetes: [
@@ -700,22 +757,41 @@ export const paquetes = [
         img: "/img/parqueArvi.png",
         descripcion:
           "Un destino natural ideal para disfrutar de caminatas, actividades al aire libre y paisajes espectaculares.",
-        bento: ["/img/arvi1.jpg", "/img/arvi2.jpg", "/img/gastronomiaMedellin3.jpg", "/img/gastronomiaMedellin4.jpg", "/img/gastronomiaMedellin5.jpg"],
+        bento: ["/img/arvi1.jpg", "/img/arvi2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Guía turístico local",
           "Entrada al parque incluida",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Recorrido por senderos ecológicos y zonas de picnic.",
           "Visita al mercado campesino dentro del parque.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15863.755845476679!2d-75.50895250233656!3d6.271757349470664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sParque%20Arv%C3%AD!5e0!3m2!1ses!2sco!4v1733353629271!5m2!1ses!2sco",
         flyer: "/img/FlyerpParqueArvi.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Parque Arví",
+            description: "El Parque Arví es un tesoro natural, ideal para los amantes del ecoturismo, y un espacio de vital importancia para la conservación del medio ambiente.",
+            historia: {
+              title: "Historia",
+              content: "El Parque Arví, ubicado en el corazón de la región andina, ha sido habitado por pueblos indígenas desde tiempos precolombinos. Fue creado con el propósito de proteger sus valiosos ecosistemas y ofrecer a los turistas un espacio único para conectarse con la naturaleza."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "La cultura del Parque Arví está profundamente vinculada con las tradiciones de los pueblos indígenas de Antioquia. Durante su visita, los turistas pueden disfrutar de actividades que celebran esta herencia cultural, como el avistamiento de aves y las caminatas guiadas por los ecosistemas locales."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Parque Arví es hogar de una biodiversidad impresionante, que incluye especies como el cóndor de los Andes, el guanaco y el puma, lo que lo convierte en un destino perfecto para los amantes de la fauna y flora."
+            },
+            images: [
+              "/img/hycArvi1.jpg",
+              "/img/hycArvi2.jpg",
+              "/img/hycArvi3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-comuna-13",
@@ -723,23 +799,41 @@ export const paquetes = [
         img: "/img/comuna13.png",
         descripcion:
           "Sumérgete en la historia de transformación de la Comuna 13, con arte urbano, cultura y música.",
-        bento: ["/img/pcomuna131.jpg", "/img/pcomuna132.jpg", "/img/pcomuna133.webp", "/img/pcomuna134.jpg", "/img/pcomuna134.jpeg"],
+        bento: ["/img/pcomuna131.jpg", "/img/pcomuna132.jpg"],
         descripciongeneral: [
           "Tour guiado especializado",
           "Demostraciones de arte callejero",
           "Degustación de snacks locales",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Recorrido por murales y grafitis icónicos de la zona.",
           "Visita a las escaleras eléctricas y miradores panorámicos.",
-          "Degustación de snacks locales.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7932.225815972892!2d-75.62977385873245!3d6.248849874958145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scomuna%2013%3A%20Arte%20y%20Resiliencia!5e0!3m2!1ses!2sco!4v1733353781453!5m2!1ses!2sco",
         flyer: "/img/FlyerpComuna13.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de la Comuna 13",
+            description: "La Comuna 13 es un ejemplo de resiliencia y transformación. A través de los años, la comuna ha sido testigo de profundas transformaciones sociales y culturales.",
+            historia: {
+              title: "Historia",
+              content: "La Comuna 13 ha vivido una de las transformaciones más significativas de Medellín. Pasó de ser una zona de conflicto armado a convertirse en un epicentro de arte urbano y cultura popular. Hoy, la comuna es un símbolo de la lucha por la paz y la unidad social."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "La cultura urbana de la Comuna 13 ha dado lugar a una explosión de arte, especialmente en forma de murales y grafitis que cuentan historias de resistencia, esperanza y renovación. El arte en las calles es una forma de sanar las heridas del pasado y construir una nueva identidad para la comunidad."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Las escaleras eléctricas de la Comuna 13, inauguradas en 2011, son consideradas un logro arquitectónico que simboliza el progreso de la zona, ya que permiten una mejor conectividad y acceso a las áreas más empinadas del barrio."
+            },
+            images: [
+              "/img/hycComuna131.jpg",
+              "/img/hycComuna132.jpg",
+              "/img/hycComuna133.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-tour-cafe",
@@ -747,21 +841,40 @@ export const paquetes = [
         img: "/img/tourCafe.png",
         descripcion:
           "Descubre el proceso del café colombiano en una finca cercana a Medellín.",
-        bento: ["/img/cafe1.jpg", "/img/cafe2.jpg", "/img/cafe3.jpg", "/img/cafe4.jpg", "/img/cafe5.jpg"],
+        bento: ["/img/cafe1.jpg", "/img/cafe2.jpg"],
         descripciongeneral: [
           "Recorrido por la finca cafetera",
           "Degustación de café premium",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Aprende sobre la siembra, cosecha y tostado del café.",
           "Disfruta de un paisaje rural único y relajante.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d253838.8861932214!2d-75.77655085026481!3d6.233039054371177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stour%20del%20caf%C3%A9%20medell%C3%ADn!5e0!3m2!1ses!2sco!4v1733353966524!5m2!1ses!2sco",
         flyer: "/img/FlyerTourCafe.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Café Paisa",
+            description: "El café colombiano es uno de los más reconocidos en el mundo, y Medellín es un epicentro de su cultivo.",
+            historia: {
+              title: "Historia",
+              content: "La cultura cafetera en Antioquia comenzó en el siglo XIX, y hoy el café sigue siendo uno de los principales motores económicos y culturales de la región. El proceso de cultivo y recolección del café ha sido perfeccionado a lo largo de los años, lo que ha permitido que el café paisa sea reconocido a nivel mundial."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El café es una parte integral de la identidad paisa. Las fincas cafeteras no solo producen café, sino que son un espacio donde la comunidad se conecta con su historia y tradiciones."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El café paisa ha sido considerado uno de los mejores del mundo, y las fincas en Medellín producen algunas de las variedades más premiadas en competiciones internacionales."
+            },
+            images: [
+              "/img/hycCafe1.jpg",
+              "/img/hycCafe2.jpg",
+              "/img/hycCafe3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-guatape",
@@ -769,23 +882,41 @@ export const paquetes = [
         img: "/img/guatape.png",
         descripcion:
           "Una experiencia inolvidable visitando el colorido pueblo de Guatapé y escalando la icónica Piedra del Peñol.",
-        bento: ["/img/guatape1.jpg", "/img/guatape2.jpg", "/img/guatape3.jpg", "/img/guatape4.jpg", "/img/guatape5.jpg"],
+        bento: ["/img/guatape1.jpg", "/img/guatape2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Entrada a la Piedra del Peñol",
           "Recorrido guiado por Guatapé",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Incluye almuerzo típico de la región.",
           "Oportunidad de paseos en bote por la represa.",
-          "Visita la Piedra del Peñol, una obra de arte monumental.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31730.43062145937!2d-75.19766394435544!3d6.223610500915275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e441d16240c903f%3A0x8d73bc39b5e6201b!2sPiedra%20del%20Pe%C3%B1ol!5e0!3m2!1ses!2sco!4v1733354083387!5m2!1ses!2sco",
         flyer: "/img/FlyerGuatape.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Guatapé",
+            description: "Guatapé es un pueblo pintoresco conocido por sus coloridas casas y la majestuosa Piedra del Peñol.",
+            historia: {
+              title: "Historia",
+              content: "Fundado en 1819, Guatapé es famoso por su arquitectura única y por la Piedra del Peñol, un monolito que ofrece vistas espectaculares de la región. La zona ha sido habitada por diversos pueblos indígenas, pero fue colonizada por los españoles en el siglo XIX."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El pueblo es famoso por su arte muralista, que se puede ver en las fachadas de las casas, y la Piedra del Peñol se ha convertido en uno de los principales atractivos turísticos de Colombia."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "La Piedra del Peñol tiene más de 700 escalones y es un reto para los turistas que buscan disfrutar de una vista panorámica de la represa y los alrededores."
+            },
+            images: [
+              "/img/hycGuatape1.jpg",
+              "/img/hycGuatape2.jpg",
+              "/img/hycGuatape3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-medellin-nocturna",
@@ -793,24 +924,41 @@ export const paquetes = [
         img: "/img/medellinNocturna.png",
         descripcion:
           "Descubre la vibrante vida nocturna de Medellín con este tour especial.",
-        bento: ["/img/nocturnaMedellin1.jpg", "/img/nocturnaMedellin2.jpg", "/img/nocturnaMedellin3.jpg", "/img/nocturnaMedellin4.jpg", "/img/nocturnaMedellin5.jpg"],
+        bento: ["/img/nocturnaMedellin1.jpg", "/img/nocturnaMedellin2.jpg"],
         descripciongeneral: [
           "Transporte nocturno",
           "Visita a bares y miradores",
           "Guía local especializado",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Recorre lugares como La 70 y el mirador de Las Palmas.",
           "Incluye degustación de cócteles y snacks.",
-          "Guia local especializado.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
-          
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69980768887!2d-75.66361448980653!3d6.244367697476059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1733354246021!5m2!1ses!2sco",
         flyer: "/img/FlyerMedellinNocturna.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de la Medellín Nocturna",
+            description: "Medellín es conocida por su vibrante vida nocturna, que abarca desde bares y discotecas hasta eventos culturales y musicales.",
+            historia: {
+              title: "Historia",
+              content: "La vida nocturna de Medellín comenzó a tomar forma en la década de 1950, cuando la ciudad empezó a experimentar un auge en el turismo y la música. Hoy, Medellín es un referente internacional en cuanto a vida nocturna se refiere."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "La vida nocturna de Medellín es diversa y dinámica, con una mezcla de tradición y modernidad. Desde las fiestas en La 70 hasta los eventos culturales en zonas como El Poblado y Laureles."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El área de La 70 es famosa por su ambiente festivo y es conocida como el 'Corazón de la Salsa' en Medellín."
+            },
+            images: [
+              "/img/hycMedellinNocturna1.jpg",
+              "/img/hycMedellinNocturna2.jpg",
+              "/img/hycMedellinNocturna3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-medellin-gastronomia",
@@ -818,25 +966,43 @@ export const paquetes = [
         img: "/img/gastronomiaMedellin.png",
         descripcion:
           "Prueba los sabores únicos de la gastronomía paisa en este tour culinario.",
-        bento: ["/img/gastronomiaMedellin1.jpg", "/img/gastronomiaMedellin2.jpg", "/img/gastronomiaMedellinn3.jpg", "/img/gastronomiaMedellinn4.webp", "/img/gastronomiaMedellinn5.webp"],
+        bento: ["/img/gastronomiaMedellin1.jpg", "/img/gastronomiaMedellin2.jpg"],
         descripciongeneral: [
           "Recorrido por restaurantes y mercados",
           "Degustación de platos típicos",
           "Clases de cocina paisa",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Prueba delicias como bandeja paisa, arepas y buñuelos.",
           "Visita a lugares icónicos como el Mercado de la Minorista.",
-          "Aprende a cocinar con expertos locales.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87229.24827378745!2d-75.58583312314819!3d6.195719709694598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46830cc8ad8d63%3A0xaee3685907f6f3dc!2sTour%20Gastron%C3%B3mico!5e0!3m2!1ses!2sco!4v1733354521270!5m2!1ses!2sco",
         flyer: "/img/FlyerGastronomiaMedellin.jpg",
-      },
-    ],
+        contentData: [
+          {
+            titulo: "Historia y Cultura Gastronómica de Medellín",
+            description: "La gastronomía paisa es una de las más representativas de Colombia, y Medellín es su corazón.",
+            historia: {
+              title: "Historia",
+              content: "La comida paisa tiene raíces en la época colonial, y fue influenciada por los pueblos indígenas y los colonizadores españoles. Hoy, la bandeja paisa es uno de los platos más emblemáticos de la región."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Los mercados de Medellín, como el Mercado de la Minorista, son el alma de la ciudad. Aquí se encuentran ingredientes frescos y platos preparados con ingredientes locales que representan la diversidad de la región."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "La gastronomía paisa es conocida por su generosidad y por el sabor de sus platos tradicionales, que son ideales para compartir con familia y amigos."
+            },
+            images: [
+              "/img/hycGastronomiaMedellin1.jpg",
+              "/img/hycGastronomiaMedellin2.jpg",
+              "/img/hycGastronomiaMedellin3.jpg"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     nombre: "Cali",
@@ -847,23 +1013,41 @@ export const paquetes = [
         img: "/img/tourSalsa.png",
         descripcion:
           "Descubre la historia y pasión de la salsa caleña con este recorrido único por los lugares más emblemáticos de la ciudad.",
-        bento: ["/img/salsa5.jpg", "/img/salsa2.jpg", "/img/salsa3.png", "/img/salsa4.webp", "/img/salsa1.jpg"],
+        bento: ["/img/salsa1.jpg", "/img/salsa2.jpg"],
         descripciongeneral: [
           "Clases de salsa incluidas",
           "Guía experto en música",
           "Visitas a bares y escuelas de salsa",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Incluye entrada a los principales bares de salsa.",
           "Demostraciones en vivo y participación en clases grupales.",
-          "Conoce la historia y pasión de la salsa caleña.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254900.1322340708!2d-76.69048114875613!3d3.3953931519971596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5e952ae6168!2sCali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1733406880507!5m2!1ses!2sco",
         flyer: "/img/FlyerSalsaCali.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de la Salsa Caleña",
+            description: "La salsa caleña es mucho más que un estilo de música; es una tradición que ha pasado de generación en generación, y ha hecho de Cali la capital mundial de la salsa. Este género musical tiene sus raíces en la fusión de ritmos caribeños con las influencias afrocolombianas y latinas que se encuentran en el corazón de la cultura caleña.",
+            historia: {
+              title: "Historia",
+              content: "La salsa llegó a Cali en los años 70, cuando los ritmos tropicales y caribeños se mezclaron con las influencias del jazz y la música popular de Colombia. En Cali, la salsa se transformó en una expresión de la identidad local, con un estilo propio que se distingue por su rapidez, energía y acentuada cadencia. Los caleños hicieron de la salsa su forma de vida, llevando este género a todo el mundo a través de concursos y festivales internacionales."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "La salsa no solo es música en Cali; es un lenguaje cultural que se vive en cada esquina de la ciudad. Desde los barrios más humildes hasta los lugares más exclusivos, la salsa es una manifestación de la alegría, la creatividad y la resistencia cultural. Los bares y discotecas de salsa, como 'La Topa Tolondra' y 'Zaperoco', son los templos de esta cultura, donde caleños y turistas se entregan a la danza como una forma de liberación."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Cali es conocida como la 'Sucursal del Cielo' y no solo por su clima cálido. La ciudad ha sido el escenario de algunos de los eventos más importantes de salsa, como el Festival Mundial de Salsa, que reúne a los mejores bailarines y músicos del mundo. Además, las famosas escaleras de salsa de la ciudad, donde locales y turistas se dan cita para bailar al aire libre, son uno de los símbolos más representativos de la ciudad."
+            },
+            images: [
+              "/img/hycSalsa1.jpg",
+              "/img/hycSalsa2.jpg",
+              "/img/hycSalsa3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-cristo-rey-miradores",
@@ -871,23 +1055,41 @@ export const paquetes = [
         img: "/img/cristoRey.png",
         descripcion:
           "Un recorrido por los mejores miradores de Cali, incluyendo la icónica estatua del Cristo Rey.",
-        bento: ["/img/cristoo1.jpg", "/img/cristo2.jpg", "/img/cristo3.jpg", "/img/cristo4.webp", "/img/cristo5.jpg"],
+        bento: ["/img/cristo1.jpg", "/img/cristo2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Guía turístico local",
           "Visitas a miradores panorámicos",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Incluye paradas en el Cristo Rey, Sebastián de Belalcázar y mirador de San Antonio.",
           "Ideal para disfrutar de vistas impresionantes de Cali.",
-          "Visita a miradores panorámicos.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.64596986239!2d-76.56736552603746!3d3.4360296513242843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a500540babf1%3A0xb09e9197f74835bf!2sMonumento%20a%20Cristo%20Rey!5e0!3m2!1ses!2sco!4v1733407183669!5m2!1ses!2sco",
         flyer: "/img/FlyerCristoRey.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de los Miradores de Cali",
+            description: "Los miradores de Cali, en especial el Cristo Rey, son mucho más que simples puntos panorámicos. Son lugares cargados de significado espiritual e histórico que permiten a los visitantes contemplar la vasta extensión del Valle del Cauca, mientras aprecian el desarrollo urbano y la belleza natural de la región.",
+            historia: {
+              title: "Historia",
+              content: "Los miradores de Cali tienen un profundo valor histórico para la ciudad. El Cristo Rey, inaugurado en 1953, es un símbolo de la fe y esperanza de los caleños. Sebastián de Belalcázar, el fundador de la ciudad, también tiene un monumento que ofrece una vista única de la capital del Valle. Estos miradores han sido testigos del crecimiento de Cali a lo largo de los años y son símbolos de su desarrollo y prosperidad."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Cada mirador es un punto de encuentro cultural. El Cristo Rey se ha convertido en un lugar de peregrinación para los devotos, mientras que el mirador de San Antonio es un lugar popular para los turistas que buscan una vista impresionante de la ciudad. Además, la zona cuenta con una rica tradición de música, arte y gastronomía local, lo que convierte el recorrido en una experiencia cultural completa."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Cristo Rey de Cali, que mide 26 metros de altura, es uno de los monumentos religiosos más grandes de Colombia. Su vista desde la cima es tan impresionante que es uno de los puntos más visitados de la ciudad. En la zona de Sebastián de Belalcázar, además de la vista panorámica, los turistas pueden disfrutar de diversas actividades culturales y gastronómicas."
+            },
+            images: [
+              "/img/hycCristoRey1.jpg",
+              "/img/hycCristoRey2.jpg",
+              "/img/hycCristoRey3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-farallones-aves",
@@ -895,23 +1097,41 @@ export const paquetes = [
         img: "/img/farallonesAves.png",
         descripcion:
           "Un día en contacto con la naturaleza explorando la biodiversidad de los Farallones de Cali.",
-        bento: ["/img/aves1.jpg", "/img/aves2.jpg", "/img/aves3.jpg", "/img/aves4.jpeg", "/img/aves5.jpg"],
+        bento: ["/img/aves1.jpg", "/img/aves2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Guía experto en aves",
           "Entrada al parque incluida",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Observación de aves endémicas y migratorias en su hábitat natural.",
           "Incluye refrigerio y material informativo.",
-          "Estrada exclusiva para el recorrido.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15931.376340001723!2d-76.56893004275429!3d3.388228195403442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a3e10e48a73d%3A0x691e6c127d2ae0e2!2sLas%20Farallones%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1733408918746!5m2!1ses!2sco",
         flyer: "/img/FlyerFarallonesAves.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de los Farallones de Cali",
+            description: "Los Farallones de Cali son una maravilla natural que ofrecen un sinfín de oportunidades para la observación de aves y el ecoturismo. Además de ser un espacio de protección para la fauna, el parque tiene un gran valor cultural y espiritual para los habitantes de Cali.",
+            historia: {
+              title: "Historia",
+              content: "Los Farallones de Cali son un sistema montañoso que ha sido habitado por varias comunidades indígenas y es considerado un sitio sagrado. Su importancia como parque natural y zona de avistamiento de aves comenzó a ser reconocida a finales del siglo XX, cuando se establecieron esfuerzos para su conservación y protección."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Este parque natural es un lugar de encuentro con la cultura local. Los habitantes cercanos, principalmente de las comunidades indígenas, mantienen una conexión profunda con la naturaleza. El ecoturismo ha permitido que las personas de fuera también aprecien la riqueza cultural y ecológica de la zona."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El parque alberga una gran diversidad de especies de aves, incluyendo algunas que solo se encuentran en esta región. Es uno de los mejores lugares para el avistamiento de aves en Colombia, con más de 400 especies identificadas."
+            },
+            images: [
+              "/img/hycFarallones1.jpg",
+              "/img/hycFarallones2.jpg",
+              "/img/hycFarallones3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-gastronomia-cali",
@@ -919,23 +1139,41 @@ export const paquetes = [
         img: "/img/gastronomiaCali.png",
         descripcion:
           "Un recorrido por los sabores más auténticos de la gastronomía valluna.",
-        bento: ["/img/gastronomiaCali1.jpg", "/img/gastronomiaCali2.jpg", "/img/gastronomiaCali3.jpg", "/img/gastronomiaCali4.jpg", "/img/gastronomiaCali5.jpg"],
+        bento: ["/img/gastronomiaCali1.jpg", "/img/gastronomiaCali2.jpg"],
         descripciongeneral: [
           "Degustación de platos típicos",
           "Recorrido por restaurantes locales",
           "Clases de cocina valluna",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Prueba delicias como el sancocho de gallina, empanadas vallunas y aborrajados.",
           "Visita al tradicional barrio San Antonio y su oferta culinaria.",
-          "Aprende a cocinar con expertos locales.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254900.1322340708!2d-76.69048114875613!3d3.3953931519971627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5e952ae6168!2sCali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1733409063234!5m2!1ses!2sco",
         flyer: "/img/FlyerGastronomiaCali.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura Gastronómica de Cali",
+            description: "La gastronomía de Cali refleja la diversidad y riqueza cultural del Valle del Cauca. Con influencias de la comida indígena, africana y española, los sabores de la región son únicos y ofrecen una experiencia culinaria inolvidable.",
+            historia: {
+              title: "Historia",
+              content: "La gastronomía caleña tiene sus raíces en la época precolombina, cuando los pueblos indígenas del Valle del Cauca cultivaban maíz, yuca y frijoles. Con la llegada de los colonizadores españoles y los esclavos africanos, la comida de la región evolucionó, dando lugar a la creación de platos típicos como el sancocho y las empanadas vallunas."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "En Cali, la comida no es solo un acto de alimentación, sino también un acto cultural. La comida se comparte en familia, en las fiestas y en los bares, y está profundamente ligada a las tradiciones de la ciudad. Además, la cocina local ha sido influenciada por la cultura afrocolombiana, con la incorporación de ingredientes autóctonos como el plátano y el arroz."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El sancocho valluno, uno de los platos más representativos de Cali, se prepara en grandes cantidades durante las festividades locales, como la Feria de Cali. Las empanadas vallunas, hechas con carne de res o pollo y una deliciosa masa frita, son otro plato imperdible de la gastronomía caleña."
+            },
+            images: [
+              "/img/hycGastronomiaCali1.jpg",
+              "/img/hycGastronomiaCali2.jpg",
+              "/img/hycGastronomiaCali3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-san-cipriano",
@@ -943,23 +1181,41 @@ export const paquetes = [
         img: "/img/sanCipriano.png",
         descripcion:
           "Una experiencia única en San Cipriano, con ríos cristalinos y naturaleza exuberante.",
-        bento: ["/img/sanCipriano1.jpg", "/img/sanCipriano2.jpg", "/img/sanCipriano3.jpg", "/img/sanCipriano4.jpg", "/img/sanCipriano5.jpg"],
+        bento: ["/img/sanCipriano1.jpg", "/img/sanCipriano2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Actividades acuáticas incluidas",
           "Guía turístico local",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Paseo en 'brujitas' (vehículos locales) por los rieles de la zona.",
           "Incluye tubing en el río y almuerzo típico.",
-          "Guia turístico local.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4074157.46250472!2d-78.17963128862654!3d4.2842885954073395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSan%20Cipriano%3A%20Naturaleza%20y%20R%C3%ADo!5e0!3m2!1ses!2sco!4v1733410552989!5m2!1ses!2sco",
         flyer: "/img/FlyerSanCipriano.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de San Cipriano",
+            description: "San Cipriano es un rincón lleno de vida natural y cultura local. La historia de este lugar está ligada a sus ríos, su selva tropical y su gente, que ha sabido mantener una relación armónica con la naturaleza.",
+            historia: {
+              title: "Historia",
+              content: "San Cipriano es un pequeño pueblo en el corazón de la región del Pacífico colombiano, famoso por su biodiversidad y sus hermosos paisajes. Durante años, los habitantes han mantenido un estilo de vida basado en la relación respetuosa con la naturaleza. Su aislamiento geográfico y la falta de infraestructura vial hicieron que se construyera un sistema de transporte único en la zona: las 'brujitas', vehículos que recorren los rieles del ferrocarril."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "La cultura de San Cipriano está profundamente ligada al río y la selva. Sus habitantes, conocidos por su amabilidad, mantienen tradiciones que se remontan a generaciones de pescadores, agricultores y artesanos. Las 'brujitas' son un símbolo de su ingenio y resistencia, y se utilizan no solo para el transporte local, sino también como una atracción turística que atrae a miles de visitantes cada año."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El tubing en el río de San Cipriano es una de las actividades más populares. Durante este recorrido, los turistas navegan por las aguas cristalinas del río en neumáticos, disfrutando de una experiencia refrescante en un entorno natural impresionante."
+            },
+            images: [
+              "/img/hycSanCipriano1.jpg",
+              "/img/hycSanCipriano2.jpg",
+              "/img/hycSanCipriano3.jpg"
+            ]
+          }
+        ]
       },
       {
         id: "paquete-vino-valle-cauca",
@@ -967,26 +1223,44 @@ export const paquetes = [
         img: "/img/rutaVino.png",
         descripcion:
           "Un recorrido único por viñedos locales, con degustación de vinos y paisajes impresionantes.",
-        bento: ["/img/vino1.jpg", "/img/vino2.jpg", "/img/vino3.jpg", "/img/vino4.jpg", "/img/vino5.jpg"],
+        bento: ["/img/vino1.jpg", "/img/vino2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Visita a viñedos locales",
           "Degustación de vinos y quesos",
-          "Camara profesional para capturar momentos inolvidables",
-          "Cancelacion Gratuita",
         ],
         descripciondetalles: [
           "Incluye recorrido guiado por los viñedos y explicaciones del proceso de vinificación.",
           "Oportunidad de comprar productos locales exclusivos.",
-          "Incluye degustación de vinos y quesos.",
-          "Camara profesional para capturar momentos inolvidables.",
-          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254900.14038943365!2d-76.82104948551476!3d3.3953622546216704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5e952ae6168!2sCali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1733412821415!5m2!1ses!2sco",
         flyer: "/img/FlyerRutaVino.jpg",
-      },
-    ],
-  },
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Vino en el Valle del Cauca",
+            description: "El Valle del Cauca se está consolidando como una región vinícola emergente, con viñedos que ofrecen una experiencia única de degustación, aprendizaje y conexión con la tierra.",
+            historia: {
+              title: "Historia",
+              content: "El Valle del Cauca, conocido por su excelente clima y su geografía privilegiada, comenzó a producir vino a pequeña escala en las últimas décadas. Hoy, se ha convertido en una región prometedora para el cultivo de uvas y la producción de vinos de alta calidad."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El Valle del Cauca es conocido por su diversidad cultural y su amplia oferta gastronómica. Los vinos de la región son una extensión de esta cultura, reflejando las tradiciones locales y los productos autóctonos que caracterizan la identidad del lugar."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "La región vinícola del Valle del Cauca tiene la capacidad de producir vinos de excelente calidad gracias a su clima cálido y sus suelos fértiles. Además, el Valle se ha convertido en un destino turístico emergente para los amantes del vino."
+            },
+            images: [
+              "/img/hycRutaVino1.jpg",
+              "/img/hycRutaVino2.jpg",
+              "/img/hycRutaVino3.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },  
   {
     nombre: "Santa Marta",
     paquetes: [
@@ -994,119 +1268,224 @@ export const paquetes = [
         id: "paquete-tayrona",
         nombre: "Tayrona: Playa y Naturaleza",
         img: "/img/ptayrona.png",
-        descripcion:
-          "Explora las paradisíacas playas del Parque Nacional Tayrona y sumérgete en su exuberante naturaleza.",
+        descripcion: "Explora las paradisíacas playas del Parque Nacional Tayrona y sumérgete en su exuberante naturaleza, donde podrás disfrutar de paisajes impresionantes, fauna local y un ambiente único.",
         bento: ["/img/ptayrona1.jpg", "/img/ptayrona2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Entrada al Parque Tayrona",
-          "Guía especializado en biodiversidad",
+          "Guía especializado en biodiversidad"
         ],
         descripciondetalles: [
           "Caminata guiada hacia las playas más famosas como Cabo San Juan.",
-          "Incluye refrigerio y tiempo libre para nadar y explorar.",
+          "Incluye refrigerio y tiempo libre para nadar y explorar."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d250406.9733184275!2d-74.22900832211596!3d11.290129112530865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTayrona%3A%20Playa%20y%20Naturaleza%20santa%20marta!5e0!3m2!1ses!2sco!4v1733414992970!5m2!1ses!2sco",
         flyer: "/img/FlyerpTayrona.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Tayrona",
+            description: "El Parque Nacional Tayrona es uno de los tesoros naturales más importantes de Colombia, con una rica biodiversidad y una historia ancestral ligada a los pueblos indígenas que habitaron la región.",
+            historia: {
+              title: "Historia",
+              content: "El parque fue habitado por los antiguos tayronas, una cultura indígena que dejó importantes vestigios en la región. Su preservación como parque nacional se dio en 1969, buscando proteger sus recursos naturales y culturales."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "La cultura tayrona ha dejado huella en la región, especialmente a través de las ruinas de sus poblados en el parque. Además, la conexión de la región con la naturaleza sigue siendo un legado importante para las comunidades indígenas de la zona."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Parque Tayrona es uno de los principales destinos ecoturísticos de Colombia, conocido por su biodiversidad y sus playas deslumbrantes, como Cabo San Juan, una de las más famosas."
+            },
+            images: ["/img/hycTayrona1.jpg", "/img/hycTayrona2.jpg", "/img/hycTayrona3.jpg"]
+          }
+        ]
       },
       {
         id: "paquete-ciudad-perdida",
         nombre: "Ciudad Perdida: Aventura Indígena",
         img: "/img/ciudadPerdida.png",
-        descripcion:
-          "Una expedición de varios días hacia la misteriosa Ciudad Perdida, un legado de la cultura Tayrona.",
+        descripcion: "Una expedición única hacia la Ciudad Perdida, el misterioso sitio arqueológico de la antigua civilización Tayrona, rodeado de selva y montañas.",
         bento: ["/img/ciudadPerdida1.jpg", "/img/ciudadPerdida2.jpg"],
         descripciongeneral: [
           "Expedición de 4 días",
           "Guías indígenas locales",
-          "Incluye alimentación y transporte",
+          "Incluye alimentación y transporte"
         ],
         descripciondetalles: [
           "Caminata por senderos selváticos hasta la histórica Ciudad Perdida.",
-          "Oportunidad de interactuar con comunidades indígenas locales.",
+          "Oportunidad de interactuar con comunidades indígenas locales."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4044076.6723497906!2d-77.34661738814532!3d8.173145476421958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%22Ciudad%20Perdida!5e0!3m2!1ses!2sco!4v1733415956525!5m2!1ses!2sco",
         flyer: "/img/FlyerCiudadPerdida.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de la Ciudad Perdida",
+            description: "La Ciudad Perdida es un antiguo asentamiento de la civilización Tayrona, escondido en lo profundo de la Sierra Nevada de Santa Marta. Su descubrimiento en el siglo XX reveló la riqueza histórica de esta cultura indígena.",
+            historia: {
+              title: "Historia",
+              content: "La Ciudad Perdida fue fundada entre el siglo VIII y IX por los tayronas, pero fue abandonada siglos después. Solo en los años 70 fue redescubierta por exploradores, y hoy se considera uno de los sitios arqueológicos más importantes de Colombia."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El legado de la civilización tayrona es evidente en las ruinas de la Ciudad Perdida, que incluyen plazas, terrazas y caminos de piedra. Hoy, la expedición a este sitio ofrece la oportunidad de aprender sobre las tradiciones ancestrales y la cultura indígena."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "La Ciudad Perdida, también conocida como 'Teyuna', se encuentra a más de 1,200 metros sobre el nivel del mar y se accede solo a través de una caminata de varios días, lo que la hace aún más misteriosa y fascinante."
+            },
+            images: ["/img/hycCiudadPerdida1.jpg", "/img/hycCiudadPerdida2.jpg", "/img/hycCiudadPerdida3.jpg"]
+          }
+        ]
       },
       {
         id: "paquete-rodadero-acuario",
         nombre: "Rodadero y Acuario Marino",
         img: "/img/rodaderoAcuario.png",
-        descripcion:
-          "Un día perfecto en el Rodadero y visita al Acuario y Museo del Mar para conocer la vida marina de la región.",
+        descripcion: "Una experiencia única en el Rodadero, uno de los destinos más turísticos de Santa Marta, con un paseo en lancha hacia el Acuario y Museo del Mar.",
         bento: ["/img/rodadero1.jpg", "/img/rodadero2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Entrada al Acuario Marino",
-          "Tiempo libre en el Rodadero",
+          "Tiempo libre en el Rodadero"
         ],
         descripciondetalles: [
           "Incluye paseo en lancha hacia el acuario.",
-          "Demostraciones educativas sobre fauna marina y playas cercanas.",
+          "Demostraciones educativas sobre fauna marina y playas cercanas."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15654.814239023597!2d-74.24223550141465!3d11.20955492346643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f5a8a12f197%3A0x6916282e7135b834!2sAcuario%20Mundo%20Marino!5e0!3m2!1ses!2sco!4v1733416649038!5m2!1ses!2sco",
         flyer: "/img/FlyerRodadero.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Rodadero",
+            description: "El Rodadero es uno de los principales destinos turísticos de Santa Marta, famoso por sus playas y el ambiente animado que ofrece a los turistas.",
+            historia: {
+              title: "Historia",
+              content: "El Rodadero ha sido un lugar icónico desde los años 60, cuando comenzó a ser reconocido como un destino turístico en Colombia. Hoy, es conocido por su playa, sus bares y restaurantes, y por ser un centro turístico en crecimiento."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El Rodadero es un lugar vibrante, lleno de cultura costeña y de actividades para disfrutar del sol y el mar. El Acuario y Museo del Mar es uno de los lugares más visitados de la región, donde se pueden aprender sobre la fauna marina."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El Rodadero es famoso por sus fiestas, conciertos y eventos, siendo el lugar ideal para disfrutar tanto del mar como de la cultura costeña en sus diversos restaurantes y bares."
+            },
+            images: ["/img/hycRodadero1.jpg", "/img/hycRodadero2.jpg", "/img/hycRodadero3.jpg"]
+          }
+        ]
       },
       {
         id: "paquete-minca",
         nombre: "Minca: Cascadas y Café",
         img: "/img/pminca.png",
-        descripcion:
-          "Disfruta de la tranquilidad de Minca con un recorrido por cascadas y fincas cafeteras.",
+        descripcion: "Disfruta de la tranquilidad de Minca con un recorrido por cascadas y fincas cafeteras, un destino lleno de naturaleza y cultura local.",
         bento: ["/img/pminca1.jpg", "/img/pminca2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Visita a cascadas y finca cafetera",
-          "Almuerzo típico incluido",
+          "Almuerzo típico incluido"
         ],
         descripciondetalles: [
           "Recorrido guiado por cascadas como Pozo Azul.",
-          "Degustación de café local y explicación del proceso de producción.",
+          "Degustación de café local y explicación del proceso de producción."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7829.208804932143!2d-74.12182680850569!3d11.142812006116323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f129819389d3%3A0x9f9e3a171b198b5!2sMinca%2C%20Santa%20Marta%2C%20Magdalena!5e0!3m2!1ses!2sco!4v1733416970420!5m2!1ses!2sco",
         flyer: "/img/FlyerpMinca.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Minca",
+            description: "Minca, en las estribaciones de la Sierra Nevada, es conocida por sus hermosos paisajes, cascadas y plantaciones de café.",
+            historia: {
+              title: "Historia",
+              content: "Minca fue fundada en 1850 como un pequeño asentamiento en la Sierra Nevada. Hoy en día, es una de las zonas más visitadas de Santa Marta, principalmente por su ambiente tranquilo, su clima fresco y sus paisajes de montaña."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Minca es famosa por sus fincas cafeteras, donde los visitantes pueden aprender sobre la producción del café, desde la siembra hasta la cosecha, y disfrutar de las tradiciones locales."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Minca es famosa por sus aguas cristalinas, que alimentan varias cascadas en la zona, como la Pozo Azul, donde los turistas pueden disfrutar de un refrescante baño en medio de la naturaleza."
+            },
+            images: ["/img/hycMinca1.jpg", "/img/hycMinca2.jpg", "/img/hycMinca3.jpg"]
+          }
+        ]
       },
       {
         id: "paquete-bahia-concha",
         nombre: "Bahía Concha: Relájate en el Paraíso",
         img: "/img/bahiaConcha.png",
-        descripcion:
-          "Una experiencia de relajación total en las aguas cristalinas de Bahía Concha.",
+        descripcion: "Una experiencia de relajación total en las aguas cristalinas de Bahía Concha, un verdadero paraíso tropical.",
         bento: ["/img/bahiaConcha1.jpg", "/img/bahiaConcha2.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Almuerzo típico incluido",
-          "Guía turístico local",
+          "Guía turístico local"
         ],
         descripciondetalles: [
           "Tiempo libre para disfrutar de la playa y actividades como snorkeling.",
-          "Opción de paseo en bote por la bahía.",
+          "Opción de paseo en bote por la bahía."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31300.37235843068!2d-74.16900179054264!3d11.294706288771845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zQmFow61hIENvbmNoYTogUmVsw6FqYXRlIGVuIGVsIFBhcmHDrXNv!5e0!3m2!1ses!2sco!4v1733417303700!5m2!1ses!2sco",
         flyer: "/img/FlyerBahiaConcha.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Bahía Concha",
+            description: "Bahía Concha es un paraíso escondido en la costa caribeña, conocido por su belleza natural y su tranquilidad.",
+            historia: {
+              title: "Historia",
+              content: "La bahía ha sido durante siglos un lugar de refugio para pescadores locales y un destino turístico emergente, conocido por sus aguas cristalinas y su ambiente relajado."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "Bahía Concha es uno de los destinos más tranquilos de Santa Marta, donde los turistas pueden disfrutar de la cultura costera, el mar y la gastronomía local."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "El área alrededor de Bahía Concha es un refugio para diversas especies marinas y avifauna, lo que la convierte en un excelente destino para el ecoturismo y el snorkeling."
+            },
+            images: ["/img/hycBahiaConcha1.jpg", "/img/hycBahiaConcha2.jpg", "/img/hycBahiaConcha3.jpg"]
+          }
+        ]
       },
       {
         id: "paquete-taganga",
         nombre: "Taganga y Buceo",
         img: "/img/taganga.png",
-        descripcion:
-          "Explora la pintoresca bahía de Taganga con actividades de buceo y snorkeling para disfrutar de su vida marina.",
+        descripcion: "Explora la pintoresca bahía de Taganga con actividades de buceo y snorkeling para disfrutar de su vida marina.",
         bento: ["/img/taganga1.jpg", "/img/taganga2.jpg"],
         descripciongeneral: [
           "Curso básico de buceo",
           "Equipos incluidos",
-          "Transporte ida y vuelta",
+          "Transporte ida y vuelta"
         ],
         descripciondetalles: [
           "Incluye instrucción por profesionales certificados.",
-          "Oportunidad de explorar arrecifes y fauna marina de la región.",
+          "Oportunidad de explorar arrecifes y fauna marina de la región."
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31304.669947828846!2d-74.22267354058073!3d11.255249841127005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTaganga%20y%20Buceo!5e0!3m2!1ses!2sco!4v1733417430700!5m2!1ses!2sco",
         flyer: "/img/FlyerTaganga.jpg",
-      },
-    ],
-  }
-  
-  
-  
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Taganga",
+            description: "Taganga es un pequeño pueblo de pescadores en la costa caribeña, famoso por sus aguas cristalinas y su vibrante vida marina.",
+            historia: {
+              title: "Historia",
+              content: "Taganga ha sido un refugio para pescadores durante siglos, y en los últimos años se ha transformado en un destino turístico conocido por su belleza natural y su ambiente relajado."
+            },
+            cultura: {
+              title: "Cultura",
+              content: "El pueblo de Taganga mantiene vivas las tradiciones de la pesca artesanal, y su gente es conocida por su amabilidad y hospitalidad. El buceo es una de las principales actividades de la región, ofreciendo a los turistas una experiencia única."
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content: "Taganga es uno de los destinos más importantes en el Caribe colombiano para los amantes del buceo, conocido por sus arrecifes de coral y su biodiversidad marina."
+            },
+            images: ["/img/hycTaganga1.jpg", "/img/hycTaganga2.jpg", "/img/hycTaganga3.jpg"]
+          }
+        ]
+      }
+    ]
+  }  
 ];
