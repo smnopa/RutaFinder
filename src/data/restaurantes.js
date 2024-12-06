@@ -1312,118 +1312,304 @@ export const restaurantes = [
     nombre: "Santa Marta",
     restaurantes: [
       {
-        id: "restaurante-santa-marta-1",
-        nombre: "Restaurante Donde Chucho",
-        img: "/img/dondeChucho.jpg",
-        descripcion: "Famoso por su frescura en mariscos y platos típicos de la región caribeña.",
-        bento: ["/img/dondeChucho1.jpg", "/img/dondeChucho2.jpg"],
+        id: "restaurante-santa-marta-7",
+        nombre: "Restaurante Eli's Santa Marta",
+        img: "/img/Eli's.jpg",
+        descripcion: "Este oasis gastronómico en la ciudad de Santa Marta, la carta abundante es suficiente para colmar el apetito de cualquier comensal, especialmente las carnes, que son tiernas y sabrosas, del mismo modo se puede cenar, desayunar y tomar cócteles.",
+        bento: ["/img/Elis1.jpg", "/img/Elis2.jpg", "/img/Elis3.jpg","/img/Elis4.jpg","/img/Elis5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Especialidad en mariscos",
           "Ambiente acogedor",
           "Cerca de la playa",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos recomendados como cazuela de mariscos y pargo rojo.",
           "Ideal para familias y grupos.",
           "Servicio rápido y atento.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d62617.9612776824!2d-74.26107394605803!3d11.215535468220688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante%20donde%20chucho%20santa%20marta!5e0!3m2!1ses!2sco!4v1733256894188!5m2!1ses!2sco",
         flyer: "/img/flyerDondeChucho.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Restaurante Donde Chucho",
+            description:
+              "El Restaurante Donde Chucho en Santa Marta es uno de los lugares gastronómicos más emblemáticos de la ciudad. Fundado hace varias décadas, comenzó como un pequeño establecimiento familiar enfocado principalmente en mariscos y cocina costeña.",
+            historia: {
+              title: "Historia",
+              content:
+                " Su fundador, conocido cariñosamente como Chucho, tenía una pasión por los productos frescos del mar, lo que llevó a su restaurante a ganarse una sólida reputación entre locales y turistas. Con el tiempo, el restaurante creció en popularidad y se expandió a otros puntos de la ciudad, manteniendo su compromiso con la calidad y los sabores auténticos del Caribe colombiano.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La esencia cultural de Donde Chucho está profundamente enraizada en las tradiciones culinarias de la costa caribeña de Colombia. El restaurante ofrece una experiencia que refleja la riqueza cultural de Santa Marta, combinando sabores de mariscos frescos con ingredientes locales y técnicas tradicionales de la cocina costeña. Los platos más populares incluyen ceviches, arroces de mariscos y pescados a la parrilla, todos preparados con un toque local que destaca los sabores frescos y vibrantes del Caribe.Además, el ambiente del restaurante captura la relajada y cálida atmósfera de la región, con un estilo informal que refleja la vida costera de Santa Marta. Es un lugar donde tanto lugareños como turistas pueden disfrutar de una comida auténtica y conectarse con la cultura gastronómica de la zona.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El ceviche de Donde Chucho es considerado uno de los mejores de la región, y se dice que la receta es un secreto familiar bien guardado. Aunque el restaurante original está en Santa Marta, el éxito de Donde Chucho ha llevado a la apertura de otros locales en diferentes ciudades de Colombia. Debido a su fama y calidad, el restaurante ha sido visitado por diversas celebridades nacionales e internacionales, lo que ha incrementado su popularidad entre los turistas. Uno de los principios del restaurante es utilizar solo pescados y mariscos frescos capturados en el día, lo que asegura la máxima calidad en cada plato.",
+            },
+            images: [
+              "/img/hycLaComitivaa1.jpg",
+              "/img/hycLaComitivaa2.jpg",
+              "/img/hycLaComitivaa3.jpg",
+            ],
+          },
+        ],
+      },
+      {
+        id: "restaurante-santa-marta-1",
+        nombre: "Restaurante Donde Chucho",
+        img: "/img/dondeChucho.jpg",
+        descripcion: "Famoso por su frescura en mariscos y platos típicos de la región caribeña.",
+        bento: ["/img/dondeChucho1.jpg", "/img/dondeChucho2.jpg", "/img/dondeChucho3.jpg","/img/dondeChucho4.jpg","/img/dondeChucho5.jpg",],
+        descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
+          "Especialidad en mariscos",
+          "Ambiente acogedor",
+          "Cerca de la playa",
+        ],
+        descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
+          "Platos recomendados como cazuela de mariscos y pargo rojo.",
+          "Ideal para familias y grupos.",
+          "Servicio rápido y atento.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d62617.9612776824!2d-74.26107394605803!3d11.215535468220688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante%20donde%20chucho%20santa%20marta!5e0!3m2!1ses!2sco!4v1733256894188!5m2!1ses!2sco",
+        flyer: "/img/flyerDondeChucho.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Restaurante Donde Chucho",
+            description:
+              "El Restaurante Donde Chucho en Santa Marta es uno de los lugares gastronómicos más emblemáticos de la ciudad. Fundado hace varias décadas, comenzó como un pequeño establecimiento familiar enfocado principalmente en mariscos y cocina costeña.",
+            historia: {
+              title: "Historia",
+              content:
+                " Su fundador, conocido cariñosamente como Chucho, tenía una pasión por los productos frescos del mar, lo que llevó a su restaurante a ganarse una sólida reputación entre locales y turistas. Con el tiempo, el restaurante creció en popularidad y se expandió a otros puntos de la ciudad, manteniendo su compromiso con la calidad y los sabores auténticos del Caribe colombiano.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La esencia cultural de Donde Chucho está profundamente enraizada en las tradiciones culinarias de la costa caribeña de Colombia. El restaurante ofrece una experiencia que refleja la riqueza cultural de Santa Marta, combinando sabores de mariscos frescos con ingredientes locales y técnicas tradicionales de la cocina costeña. Los platos más populares incluyen ceviches, arroces de mariscos y pescados a la parrilla, todos preparados con un toque local que destaca los sabores frescos y vibrantes del Caribe.Además, el ambiente del restaurante captura la relajada y cálida atmósfera de la región, con un estilo informal que refleja la vida costera de Santa Marta. Es un lugar donde tanto lugareños como turistas pueden disfrutar de una comida auténtica y conectarse con la cultura gastronómica de la zona.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El ceviche de Donde Chucho es considerado uno de los mejores de la región, y se dice que la receta es un secreto familiar bien guardado. Aunque el restaurante original está en Santa Marta, el éxito de Donde Chucho ha llevado a la apertura de otros locales en diferentes ciudades de Colombia. Debido a su fama y calidad, el restaurante ha sido visitado por diversas celebridades nacionales e internacionales, lo que ha incrementado su popularidad entre los turistas. Uno de los principios del restaurante es utilizar solo pescados y mariscos frescos capturados en el día, lo que asegura la máxima calidad en cada plato.",
+            },
+            images: [
+              "/img/hycLaComitivaa1.jpg",
+              "/img/hycLaComitivaa2.jpg",
+              "/img/hycLaComitivaa3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "restaurante-santa-marta-2",
         nombre: "Ouzo Restaurante",
         img: "/img/ouzo.jpg",
         descripcion: "Cocina mediterránea con un toque caribeño en el centro histórico.",
-        bento: ["/img/ouzo1.jpg", "/img/ouzo2.jpg"],
+        bento: ["/img/ouzo1.jpg", "/img/ouzo2.jpg", "/img/ouzo3.jpg","/img/ouzo4.jpg","/img/ouzo5.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Pizza al horno de leña",
           "Platos mediterráneos",
           "Ambiente romántico",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Popular por sus pastas y pizzas artesanales.",
           "Opciones para vegetarianos y veganos.",
           "Ubicado en una hermosa casa colonial.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2619710964923!2d-74.21547802495138!3d11.24212908893633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57c97403da7%3A0xfd69446a80368d98!2sOuzo%20Santa%20Marta!5e0!3m2!1ses!2sco!4v1733257125946!5m2!1ses!2sco",
         flyer: "/img/flyerOuzo.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Ouzo Restaurante",
+            description:
+              "Ouzo Restaurante en Santa Marta fue fundado por un chef amante de la cocina mediterránea y de la riqueza culinaria de la costa caribeña colombiana. Desde su apertura, se ha destacado por ofrecer una experiencia gastronómica que fusiona sabores europeos, en especial de Italia y Grecia, con ingredientes frescos del Caribe colombiano.",
+            historia: {
+              title: "Historia",
+              content:
+                "El restaurante ha ganado una gran popularidad entre locales y turistas por su enfoque en la calidad y el uso de productos frescos, en particular mariscos y vegetales de la región.El restaurante se ha convertido en un referente en la escena gastronómica de Santa Marta, conocido por sus pizzas al horno de leña, pastas hechas en casa y platos que integran los sabores del Mediterráneo con el toque caribeño.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Ouzo es un reflejo de la mezcla cultural que define a Santa Marta, una ciudad histórica en la costa norte de Colombia, donde convergen influencias europeas, indígenas y africanas. El restaurante destaca por su ambiente moderno y relajado, pero con una clara inclinación hacia el estilo mediterráneo, tanto en su decoración como en su propuesta gastronómica.El menú de Ouzo combina elementos tradicionales de la dieta mediterránea, como el uso de aceite de oliva, hierbas frescas y mariscos, con productos locales como pescados y mariscos frescos, frutas tropicales y condimentos autóctonos. Este enfoque refleja la diversidad cultural de Santa Marta, ciudad que ha sido un puerto histórico para el comercio y la interacción cultural.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El nombre Ouzo proviene de un licor griego popular, lo que ya da una pista sobre la inspiración mediterránea del restaurante, aunque su cocina también incorpora sabores italianos y locales.  Una de las especialidades de Ouzo es su pizza cocida en horno de leña, lo que le da un sabor único y auténtico que lo diferencia de otras pizzerías en la zona. l restaurante está situado en el corazón del centro histórico de Santa Marta, lo que lo convierte en una opción popular tanto para turistas como para residentes que buscan disfrutar de una comida de alta calidad en un entorno culturalmente rico. Ouzo es reconocido por su capacidad para combinar recetas tradicionales mediterráneas con ingredientes locales frescos, como el pescado capturado diariamente en la costa caribeña.",
+            },
+            images: [
+              "/img/hycOuso1.jpg",
+              "/img/hycOuso2.jpg",
+              "/img/hycOuso3.webp",
+            ],
+          },
+        ],
       },
       {
         id: "restaurante-santa-marta-3",
         nombre: "Lulo Café Bar",
         img: "/img/luloCafeBar.jpg",
         descripcion: "Famoso por sus jugos naturales y arepas gourmet con ingredientes frescos.",
-        bento: ["/img/lulo1.jpg", "/img/lulo2.jpg"],
+        bento: ["/img/lulo1.jpg", "/img/lulo2.jpg", "/img/lulo3.jpg","/img/lulo4.jpg","/img/lulo5.jpeg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Café local y jugos frescos",
           "Comida saludable",
           "Decoración rústica y moderna",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Arepas con combinaciones innovadoras como pollo con mango.",
           "Ambiente relajado en el centro histórico.",
           "Ideal para desayunos y brunch.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.24133582602!2d-74.21540652495129!3d11.243648988934968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57cad7defdb%3A0x9302de0e1c1576b8!2sLulo%20Caf%C3%A9%20Bar!5e0!3m2!1ses!2sco!4v1733257217682!5m2!1ses!2sco",
         flyer: "/img/flyerLulo.jpg",
-      },
-      {
-        id: "restaurante-santa-marta-4",
-        nombre: "Radio Burger",
-        img: "/img/radioBurger.jpg",
-        descripcion: "Hamburguesas artesanales con ingredientes frescos y combinaciones únicas.",
-        bento: ["/img/radioBurger1.jpg", "/img/radioBurger2.jpg"],
-        descripciongeneral: [
-          "Especialidad en hamburguesas",
-          "Cervezas artesanales",
-          "Ambiente juvenil",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Lulo Café Bar en Santa Marta",
+            description:
+              "Lulo Café Bar es uno de los lugares más icónicos y vibrantes de Santa Marta, conocido por su ambiente relajado y tropical. Fundado en el corazón del centro histórico.",
+            historia: {
+              title: "Historia",
+              content:
+                "Lulo se inspiró en la esencia caribeña, ofreciendo una experiencia culinaria y cultural que resalta lo mejor de los productos locales. A lo largo de los años, se ha consolidado como un espacio donde tanto locales como turistas pueden disfrutar de sabores frescos y auténticos, combinados con un entorno bohemio y acogedor.El café bar se centra en la cocina saludable y fresca, con un enfoque en ingredientes de alta calidad que representan la riqueza agrícola de la región. Desde su creación, Lulo ha mantenido un compromiso con la sostenibilidad, promoviendo el consumo responsable y apoyando a los agricultores locales.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "Lulo Café Bar es un reflejo del espíritu relajado y festivo del Caribe colombiano. Su nombre Lulo hace referencia a una fruta tropical muy popular en la región, lo que ya da una pista del enfoque fresco y natural de su menú. La cultura del lugar está profundamente arraigada en la gastronomía local, con platos que combinan ingredientes frescos, como frutas tropicales, con un toque moderno.El ambiente de Lulo Café Bar es ecléctico, con una mezcla de decoraciones coloridas, arte local y música en vivo que realzan la experiencia sensorial. El bar se ha convertido en un lugar de encuentro para los amantes de la comida saludable y aquellos que buscan disfrutar de bebidas refrescantes en un entorno relajado pero vibrante.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El lulo, la fruta que da nombre al café, es un ingrediente clave en varias de las bebidas y platos del menú, especialmente en sus famosos jugos y cócteles tropicales. Lulo se enorgullece de utilizar ingredientes frescos de la región, apoyando a los agricultores locales y promoviendo el consumo responsable de productos. El menú del café bar combina sabores caribeños tradicionales con un toque moderno, ofreciendo opciones saludables como ensaladas frescas, bowls y jugos naturales, junto con una selección de cócteles creativos.  Además de la comida, Lulo se destaca por su ambiente bohemio y artístico, con paredes adornadas por obras de arte local, lo que lo convierte en un lugar popular para los turistas que buscan una experiencia cultural única en Santa Marta.",
+            },
+            images: [
+              "/img/hycLulo1.webp",
+              "/img/hycLulo2.webp",
+              "/img/hycLulo3.jpg",
+            ],
+          },
         ],
-        descripciondetalles: [
-          "Variedad de hamburguesas y opciones vegetarianas.",
-          "Decoración temática retro.",
-          "Ideal para compartir con amigos.",
-        ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.257557533392!2d-74.21555022495131!3d11.24245418893611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57da1822ee7%3A0x7ec78405ad11c45!2sRadio%20Burger!5e0!3m2!1ses!2sco!4v1733257353544!5m2!1ses!2sco",
-        flyer: "/img/flyerRadioBurger.jpg",
       },
       {
         id: "restaurante-santa-marta-5",
         nombre: "La Canoa",
         img: "/img/laCanoa.jpg",
         descripcion: "Cocina de autor con ingredientes locales y técnicas modernas.",
-        bento: ["/img/laCanoa1.jpg", "/img/laCanoa2.jpg"],
+        bento: ["/img/laCanoa1.jpg", "/img/laCanoa2.jpg", "/img/laCanoa3.jpg", "/img/laCanoa4.jpg", "/img/laCanoa5.jpg"],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Cocina de autor",
           "Ambiente elegante",
           "Vista al mar",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos como filete de róbalo con salsa de coco y ensalada de quinua.",
           "Carta de vinos seleccionada.",
           "Atención personalizada.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2280522553297!2d-74.21325902495124!3d11.244627288934025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57ca76e8b35%3A0x9e83d01cf8edf20!2sLa%20Canoa!5e0!3m2!1ses!2sco!4v1733257809061!5m2!1ses!2sco",
         flyer: "/img/flyerLaCanoa.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Restaurante La Canao Santa Marta",
+            description:
+              "Restaurante La Canoa es un referente gastronómico en Santa Marta, situado en la emblemática Bahía de Santa Marta.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado hace más de una década, este restaurante ha ganado popularidad por ofrecer una experiencia culinaria que mezcla la cocina tradicional caribeña con toques contemporáneos. Su historia se entrelaza con la transformación de la ciudad en un destino turístico clave, ya que ha sido testigo del crecimiento del turismo en la región y del auge de la gastronomía local.El nombre La Canoa hace alusión a las canoas tradicionales utilizadas por los indígenas de la región para pescar en las costas del Caribe colombiano, resaltando la conexión del restaurante con las raíces locales y su compromiso con la frescura de los productos del mar.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Canoa refleja la cultura costeña en su esencia, con una atmósfera relajada que invita a disfrutar del entorno natural de la bahía mientras se degustan platos llenos de sabor y tradición. Su propuesta gastronómica se basa en ingredientes frescos de la región, como mariscos, pescados y frutas tropicales, que son combinados con técnicas culinarias modernas.El restaurante es también un espacio de encuentro cultural, donde tanto turistas como locales disfrutan de música en vivo, principalmente géneros autóctonos como la cumbia, el vallenato y la champeta, que crean una experiencia inmersiva en la vida y costumbres del Caribe colombiano.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "La decoración del restaurante tiene un marcado estilo náutico, con elementos que evocan la vida marina, como redes de pesca, canoas decorativas y detalles en madera que recuerdan las embarcaciones tradicionales.  La Canoa está ubicada cerca de la Bahía de Santa Marta, ofreciendo impresionantes vistas al mar que hacen que la experiencia gastronómica sea aún más placentera. Todos los mariscos y pescados que se sirven en el restaurante son capturados localmente, apoyando a los pescadores de la región y garantizando que los comensales disfruten de productos frescos. Aunque el enfoque principal está en los mariscos, La Canoa también ofrece opciones para aquellos que prefieren carnes o platos vegetarianos, adaptándose a diversos gustos sin perder la esencia de la cocina caribeña.",
+            },
+            images: [
+              "/img/hycCanoa1.webp",
+              "/img/hycCanoa2.jpg",
+              "/img/hycCanoa3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "restaurante-santa-marta-6",
-        nombre: "Restaurante Casa Verde",
-        img: "/img/casaVerde.jpg",
+        nombre: "Restaurante Hotel Casa Verde",
+        img: "/img/casaVerde.png",
         descripcion: "Un espacio acogedor que ofrece cocina fusión con ingredientes locales.",
-        bento: ["/img/casaVerde1.jpg", "/img/casaVerde2.jpg"],
+        bento: ["/img/casaVerde5.jpg", "/img/casaVerde2.png", "/img/casaVerde3.png","/img/casaVerde4.jpg","/img/casaVerde1.jpg",],
         descripciongeneral: [
+          "Reservar ahora y pagar luego",
+          "Comidas y chef personalizado(opcional)",
           "Ambiente relajado",
           "Opciones vegetarianas",
           "Ubicado en una casa colonial",
         ],
         descripciondetalles: [
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Café Quindío Gourmet",
           "Platos con ingredientes frescos del día.",
           "Ideal para cenas tranquilas y eventos privados.",
           "Decoración con arte local.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.0474688673476!2d-74.2109877!3d11.2426496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f57b43f931fd%3A0xb178a1cb6ef2409b!2sHotel%20Casa%20Verde!5e0!3m2!1ses!2sco!4v1701594843725!5m2!1ses!2sco",
         flyer: "/img/flyerCasaVerde.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Restaurante Casa Verde",
+            description:
+              "Restaurante Casa Verde es un restaurante boutique que se encuentra en una casa colonial renovada en el corazón del centro histórico de Santa Marta.",
+            historia: {
+              title: "Historia",
+              content:
+                "Inaugurado hace varios años, Casa Verde forma parte de un esfuerzo por revitalizar el patrimonio arquitectónico de la ciudad y ofrecer a los turistas y locales una experiencia gastronómica única. La estructura en la que se encuentra fue originalmente una vivienda familiar, y a través de su restauración ha mantenido el encanto tradicional de las construcciones coloniales, con patios internos y balcones de madera.El restaurante es conocido por su ambiente acogedor y su compromiso con la sostenibilidad, utilizando ingredientes locales y apoyando a productores de la región. Se ha convertido en un espacio muy valorado por aquellos que buscan una experiencia culinaria con un toque de autenticidad.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La cultura de Casa Verde se basa en la combinación de lo tradicional con lo contemporáneo. El restaurante refleja la diversidad cultural del Caribe colombiano no solo a través de su arquitectura, sino también en su oferta gastronómica, que incluye platos inspirados en recetas locales, pero con un enfoque más moderno. Su menú destaca por incorporar ingredientes frescos de la región, como pescados, mariscos, frutas tropicales y hierbas aromáticas típicas del Magdalena.El ambiente del restaurante promueve una conexión con la naturaleza, gracias a sus espacios abiertos y jardines internos que permiten disfrutar de la brisa caribeña, lo que convierte a Casa Verde en un refugio ideal dentro de la bulliciosa ciudad.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                " El restaurante está ubicado en una casa colonial que ha sido restaurada, manteniendo muchos de sus elementos arquitectónicos originales, como techos altos y detalles en madera. Muchos de los ingredientes utilizados en los platos del menú provienen de mercados y proveedores locales, destacando el compromiso del restaurante con la sostenibilidad y el apoyo a la economía local. Uno de los encantos principales de Casa Verde es su exuberante jardín interno, que ofrece a los comensales una experiencia al aire libre en un entorno relajante y natural. Además de su oferta de pescados y mariscos, Casa Verde también es conocido por su variedad de opciones vegetarianas, algo que lo distingue en la escena gastronómica de Santa Marta.",
+            },
+            images: [
+              "/img/hycCasaVerde1.jpg",
+              "/img/hycCasaVerde2.jpg",
+              "/img/hycCasaVerde3.jpg",
+            ],
+          },
+        ],
       },
     ]
   },  
