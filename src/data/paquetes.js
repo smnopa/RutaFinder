@@ -29,28 +29,28 @@ export const paquetes = [
           "Camara profesional para capturar momentos inolvidables.",
           "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41803.030194370876!2d-75.5792051!3d10.396455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef63b875d3a788b%3A0x7d2d5a9479c1da69!2sCartagena%20ATV%20-%20Tours!5e0!3m2!1ses!2sco!4v1701596001247!5m2!1ses!2sco",
         flyer: "/img/FlyerCuatrimoto.webp",
         contentData: [
           {
-            titulo: "Historia y Cultura del Museo del Oro",
-            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            titulo: "Historia y Cultura del Tour en Cuatrimoto Cartagena",
+            description: "El Tour en Cuatrimoto por Cartagena es una actividad moderna que se ha popularizado en los últimos años",
             historia: {
               title: "Historia",
-              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+              content: "Ofreciendo a los turistas una experiencia diferente a la clásica visita histórica de la ciudad. Nació como una opción de turismo de aventura, permitiendo a los visitantes descubrir zonas rurales y naturales poco conocidas alrededor de Cartagena, mientras disfrutan de la adrenalina de manejar cuatrimotos."
             },
             cultura: {
               title: "Cultura",
-              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+              content: "Este tour resalta la vida rural y costera de Cartagena, conectando a los turistas con el entorno natural y con comunidades locales, brindando una perspectiva más auténtica de la vida fuera de las áreas turísticas tradicionales. A través del recorrido, se puede apreciar la biodiversidad de la región, así como las prácticas culturales de las zonas agrícolas cercanas."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+              content: "Durante el tour, los participantes no solo tienen la oportunidad de explorar playas y senderos, sino también de conocer cultivos de productos locales, como la yuca y el plátano, y descubrir pueblos pequeños que mantienen costumbres ancestrales. El recorrido en cuatrimoto también incluye tramos por zonas montañosas con vistas impresionantes del mar Caribe. Este tour es ideal para los amantes de la aventura que desean ver una cara diferente de Cartagena, más allá de sus murallas coloniales. Además, los guías locales suelen compartir historias y anécdotas sobre las áreas visitadas, haciendo la experiencia más inmersiva y educativa."
             },
             images: [
-              "/img/hycMuseoOro1.jpg",
-              "/img/hycMuseoOro2.jpg",
-              "/img/hycMuseoOro3.jpg"
+              "/img/hycTour41.jpg",
+              "/img/hycTour42.jpg",
+              "/img/hycTour43.webp"
             ]
           }
         ]
@@ -72,34 +72,38 @@ export const paquetes = [
           "Clases de cocina con ingredientes locales",
           "Vista panorámica del mar Caribe",
           "Instructores expertos",
+          "Camara profesional para capturar momentos inolvidables",
+          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Aprende a preparar platos típicos con un chef local.",
           "Disfruta de una comida preparada por ti mismo mientras contemplas las vistas.",
           "Incluye un recorrido por los mercados locales para seleccionar los ingredientes.",
+          "Camara profesional para capturar momentos inolvidables.",
+          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41803.030194370876!2d-75.5792052!3d10.3964537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f24b0e2daeb%3A0x34531be456f6089c!2sCartagena%20Cooking%20School!5e0!3m2!1ses!2sco!4v1701596321907!5m2!1ses!2sco",
         flyer: "/img/FlayerclaseCocina.webp",
         contentData: [
           {
-            titulo: "Historia y Cultura del Museo del Oro",
-            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            titulo: "Historia y Cultura de la Clase de Cocina con Vista",
+            description: "La gastronomía de Cartagena tiene sus raíces en la época colonial, cuando los españoles trajeron ingredientes y técnicas culinarias que se mezclaron con las tradiciones indígenas y africanas. ",
             historia: {
               title: "Historia",
-              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+              content: "Durante siglos, los esclavos africanos trajeron nuevas formas de preparar alimentos, usando ingredientes locales como el plátano, el ñame y el coco, que se incorporaron a los platos típicos. Cartagena, al ser un puerto importante, permitió la llegada de diferentes influencias culturales, haciendo que su cocina se convirtiera en un reflejo de esa fusión."
             },
             cultura: {
               title: "Cultura",
-              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+              content: "La cocina cartagenera es una parte esencial de la identidad cultural de la ciudad. Las recetas tradicionales, transmitidas de generación en generación, mantienen viva la historia de la ciudad a través de los sabores. Los platos como el arroz con coco, el pescado frito y las empanadas de yuca son solo algunas de las especialidades que se enseñan en clases de cocina como esta. Además, la vista panorámica de la ciudad amurallada o de las playas cercanas, hace que esta experiencia no solo sea culinaria, sino también visual y cultural."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+              content: "Cartagena es conocida por su “cocina de fusión”, que mezcla ingredientes del Caribe con técnicas culinarias de África y Europa.El arroz con coco se ha popularizado no solo como un plato típico, sino como un símbolo de la gastronomía costeña.Las clases de cocina en Cartagena a menudo incluyen una visita a mercados locales, como el Mercado de Bazurto, para seleccionar ingredientes frescos y aprender sobre la historia detrás de cada producto."
             },
             images: [
-              "/img/hycMuseoOro1.jpg",
-              "/img/hycMuseoOro2.jpg",
-              "/img/hycMuseoOro3.jpg"
+              "/img/hycCocinaS1.jpg",
+              "/img/hycCocinaS2.webp",
+              "/img/hycCocinaS3.jpg"
             ]
           }
         ]
@@ -122,34 +126,38 @@ export const paquetes = [
           "Tour guiado por las islas del Rosario",
           "Almuerzo típico incluido",
           "Entradas a museos y monumentos históricos",
+          "Camara profesional para capturar momentos inolvidables",
+          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Visita las hermosas islas del Rosario y explora su biodiversidad.",
           "Disfruta de un almuerzo con vista al mar y la cultura local.",
           "Incluye acceso a museos y monumentos de la región.",
+          "Camara profesional para capturar momentos inolvidables.",
+          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41904.14211654112!2d-75.7234146!3d10.3964109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f3b10e9e2fb%3A0x7c9daeb90d8b0416!2sTour%20de%205%20paradas%20por%20las%20islas%20del%20Rosario!5e0!3m2!1ses!2sco!4v1701596524651!5m2!1ses!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41904.14211654112!2d-75.7234146!3d10.3964109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f304521b6c1%3A0x9df98c23d93924ad!2sExcursion%205%20islas%20del%20rosario!5e0!3m2!1ses!2sco!4v1701596524651!5m2!1ses!2sco",
         flyer: "/img/FlayertourIslas.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura del Museo del Oro",
-            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            titulo: "Historia y Cultura del Tour de 5 paradas por las islas del Rosario",
+            description: "Las Islas del Rosario forman parte de un archipiélago en el Mar Caribe, a unos 100 km de la ciudad de Cartagena.",
             historia: {
               title: "Historia",
-              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+              content: "Estas islas han sido habitadas durante siglos por comunidades indígenas y, posteriormente, por colonos españoles que utilizaron las aguas circundantes como áreas de pesca y comercio. En 1988, el archipiélago fue declarado Parque Nacional Natural Corales del Rosario, con el objetivo de proteger los ecosistemas marinos, incluyendo los arrecifes de coral que son de los más importantes en la región.El área ha sido históricamente importante por su biodiversidad marina y su conexión con la historia naval de Cartagena, debido a la proximidad con el puerto y las rutas comerciales del Caribe. Además, las islas fueron un refugio para piratas y comerciantes ilegales que usaban la geografía para esconderse y protegerse."
             },
             cultura: {
               title: "Cultura",
-              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+              content: "La vida en las Islas del Rosario está muy ligada a la pesca y el turismo. Las comunidades locales han conservado tradiciones como la pesca artesanal y el uso de canoas hechas a mano. Hoy en día, muchas familias viven del ecoturismo, ofreciendo recorridos en bote y experiencias auténticas que conectan a los visitantes con la cultura local.El tour por las Islas del Rosario destaca la convivencia armónica entre la naturaleza y las comunidades locales. Cada parada del tour ofrece la oportunidad de aprender sobre la vida insular, la importancia de los arrecifes de coral y los esfuerzos para preservar este entorno único."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+              content: "Las Islas del Rosario están formadas por 27 islas en total, pero el tour generalmente incluye paradas en las más populares, como Isla Grande, Isla del Pirata, y Playa Blanca.Isla del Pirata es famosa por su nombre que rememora las leyendas de piratas que supuestamente usaban la isla como escondite.En Isla Grande, hay un acuario natural, el Oceanario, que es una parada frecuente del tour. Aquí, los visitantes pueden aprender sobre la fauna marina local, como los delfines y tortugas.Las aguas cristalinas y los arrecifes de coral en esta área son ideales para practicar snorkeling y buceo, donde se pueden observar hasta 170 especies de peces.Algunas de las islas cuentan con hoteles ecológicos, que buscan promover un turismo responsable sin afectar el delicado equilibrio de los ecosistemas marinos."
             },
             images: [
-              "/img/hycMuseoOro1.jpg",
-              "/img/hycMuseoOro2.jpg",
-              "/img/hycMuseoOro3.jpg"
+              "/img/hycIslas1.jpg",
+              "/img/hycIslas2.jpg",
+              "/img/hycIslas3.jpg"
             ]
           }
         ]
@@ -171,34 +179,38 @@ export const paquetes = [
           "Recorrido cultural por Palenque",
           "Transporte ida y vuelta",
           "Almuerzo incluido",
+          "Camara profesional para capturar momentos inolvidables",
+          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Conoce la historia de Palenque, un sitio de gran valor cultural.",
           "Disfruta de un almuerzo tradicional mientras exploras la región.",
           "Accede a playas exclusivas para un descanso relajante.",
+          "Camara profesional para capturar momentos inolvidables.",
+          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41904.14211654112!2d-75.8412838!3d10.4134072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f8b177adbe9%3A0x2759e4b499adc54b!2sAfro%20tour%20palenque%20s.a.s.!5e0!3m2!1ses!2sco!4v1701596558902!5m2!1ses!2sco",
         flyer: "/img/FlayertourPalenque.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura del Museo del Oro",
-            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            titulo: "Historia y Cultura del Tour De Palenque",
+            description: "San Basilio de Palenque es un lugar histórico y culturalmente significativo, ya que fue el primer pueblo libre de América, fundado por esclavos africanos que escaparon del yugo colonial español en el siglo XVII.",
             historia: {
               title: "Historia",
-              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+              content: "Liderados por el valiente Benkos Biohó, estos cimarrones lograron huir hacia las zonas montañosas cercanas a Cartagena, donde establecieron un palenque, o comunidad fortificada, para protegerse y vivir en libertad. En 1713, los españoles reconocieron oficialmente la libertad de los habitantes de San Basilio, convirtiéndolo en un símbolo de la lucha por la emancipación de los esclavos.El Tour de Palenque sigue este camino hacia la libertad, contando la historia de resistencia, lucha y supervivencia de los africanos esclavizados y cómo lograron construir una comunidad autónoma, preservando su cultura y tradiciones."
             },
             cultura: {
               title: "Cultura",
-              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+              content: "San Basilio de Palenque es un bastión de la cultura afrocolombiana. Aquí, los descendientes de los primeros cimarrones han mantenido sus costumbres, idioma, y prácticas ancestrales. El idioma palenquero, una mezcla única de español y lenguas bantú, sigue hablándose entre los habitantes, siendo uno de los pocos idiomas criollos de origen africano que sobreviven en América.El pueblo es también un centro cultural para la música y la danza afrocolombianas. Ritmos como la champeta y el lumbalú (una danza funeraria de origen africano) son esenciales en las festividades del Palenque. Además, las mujeres palenqueras, reconocidas por sus trajes coloridos y su habilidad para vender frutas en la cabeza, son íconos de la cultura local y nacional.El tour ofrece a los visitantes la oportunidad de aprender sobre estas tradiciones, visitar la Casa de la Cultura y escuchar historias transmitidas oralmente sobre la historia del Palenque y sus héroes."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+              content: "En 2005, la UNESCO declaró a San Basilio de Palenque como Patrimonio Cultural Inmaterial de la Humanidad por la preservación de sus tradiciones y su historia única.Benkos Biohó, el líder cimarrón que fundó Palenque, fue capturado y ejecutado por los españoles en 1621, pero su legado sigue vivo en la resistencia cultural del pueblo.El idioma palenquero es la única lengua criolla en América Latina que tiene una fuerte influencia africana, y su preservación es un símbolo de la resistencia cultural.Durante el tour, es común participar en demostraciones de medicina tradicional que ha sido transmitida de generación en generación, usando hierbas locales y conocimientos ancestrales africanos.La gastronomía palenquera incluye platos únicos como el mote de queso y la arepa e' huevo, que combinan técnicas africanas con ingredientes locales."
             },
             images: [
-              "/img/hycMuseoOro1.jpg",
-              "/img/hycMuseoOro2.jpg",
-              "/img/hycMuseoOro3.jpg"
+              "/img/hycPalenque1.webp",
+              "/img/hycPalenque2.jpg",
+              "/img/hycPalenque3.jpg"
             ]
           }
         ]
@@ -220,34 +232,38 @@ export const paquetes = [
           "Crucero por la bahía de Cartagena",
           "Bebidas y entretenimiento a bordo",
           "Vista panorámica del atardecer",
+          "Camara profesional para capturar momentos inolvidables",
+          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Navega por la bahía mientras disfrutas de un cóctel.",
           "Explora la ciudad desde el mar y disfruta de música en vivo.",
           "Captura la puesta del sol mientras navegas hacia las islas cercanas.",
+          "Camara profesional para capturar momentos inolvidables.",
+          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41902.30763908626!2d-75.553356!3d10.4197663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f195aee70df%3A0xc2cb44f5c1c01174!2sPaseos%20por%20la%20Bahia!5e0!3m2!1ses!2sco!4v1701596815394!5m2!1ses!2sco",
         flyer: "/img/Flayercrucero.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura del Museo del Oro",
-            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            titulo: "Historia y Cultura del Crucero a la puesta del Sol",
+            description: "Cartagena, fundada en 1533, ha sido testigo de siglos de historia marítima. Su ubicación estratégica en la costa caribeña la convirtió en un puerto clave durante la época colonial, donde los barcos españoles transportaban oro y mercancías hacia Europa",
             historia: {
               title: "Historia",
-              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+              content: "La Bahía de Cartagena ha sido escenario de grandes batallas navales, ataques de piratas y rutas comerciales. Con sus antiguas murallas y fortalezas, que protegían la ciudad de estos ataques, Cartagena mantiene un fuerte lazo con el mar, que es el centro de su identidad histórica.Los cruceros al atardecer permiten a los visitantes experimentar una parte de esa historia, navegando por las mismas aguas que alguna vez vieron navegar los galeones españoles y piratas del Caribe."
             },
             cultura: {
               title: "Cultura",
-              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+              content: "El mar es parte esencial de la vida cotidiana en Cartagena. Los cartageneros están profundamente conectados con el Caribe, no solo a nivel económico, sino también cultural. Las puestas de sol en Cartagena tienen un significado especial, ya que se celebran con música, comida, y alegría, reflejando el espíritu caribeño. Los cruceros al atardecer son una oportunidad para disfrutar de la música tradicional, como la champeta o vallenato, que acompañan el ambiente relajado y festivo a bordo.Además, estos cruceros permiten a los viajeros admirar la arquitectura colonial desde el mar, destacando lugares icónicos como el Castillo de San Felipe de Barajas y la Torre del Reloj, mientras aprenden sobre la historia y cultura de Cartagena a través de guías locales."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+              content: "Las puestas de sol en Cartagena son famosas por su espectacularidad, con cielos que varían entre tonos anaranjados, rosados y violetas, creando paisajes impresionantes.Cartagena ha sido conocida como la “joya del Caribe” no solo por su historia colonial, sino también por sus vistas al mar y su vibrante vida marítima.Durante el crucero, es común disfrutar de un cóctel típico como la limonada de coco o un mojito, que son bebidas refrescantes populares en el Caribe colombiano.El Crucero a la puesta del sol incluye muchas veces música en vivo, con artistas locales que interpretan géneros tradicionales colombianos, lo que convierte la experiencia en una auténtica fiesta en el mar.Algunas rutas de cruceros ofrecen la oportunidad de ver el Fuerte de San Fernando de Bocachica, una de las fortalezas que defendía la entrada a la bahía de los ataques piratas en los siglos pasados."
             },
             images: [
-              "/img/hycMuseoOro1.jpg",
-              "/img/hycMuseoOro2.jpg",
-              "/img/hycMuseoOro3.jpg"
+              "/img/hycCrucero1.jpg",
+              "/img/hycCrucero2.jpg",
+              "/img/hycCrucero3.jpg"
             ]
           }
         ]
@@ -270,34 +286,38 @@ export const paquetes = [
           "Recorrido privado a pie por Cartagena",
           "Visita a la ciudad amurallada y Getsemaní",
           "Guía local especializado",
+          "Camara profesional para capturar momentos inolvidables",
+          "Visita al cerro de Monserrate",
         ],
         descripciondetalles: [
           "Explora los colores y sabores de Cartagena en un recorrido único.",
           "Visita los sitios históricos de la ciudad y el vibrante barrio de Getsemaní.",
           "Disfruta de una experiencia culinaria en restaurantes locales.",
+          "Camara profesional para capturar momentos inolvidables.",
+          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
-        mapa: "https://www.google.com/maps/embed?pb=...",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41902.30763908626!2d-75.5527914!3d10.4231546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9fee26f431%3A0xf93765b28b2476e2!2sCiudad%20Amurallada%20Cartagena!5e0!3m2!1ses!2sco!4v1701596915394!5m2!1ses!2sco",
         flyer: "/img/FlyertourPrivado.png",
         contentData: [
           {
-            titulo: "Historia y Cultura del Museo del Oro",
-            description: "Explora el Museo del Oro, un espacio único que preserva las historias y el legado de las civilizaciones precolombinas.",
+            titulo: "Historia y Cultura de La Ciudad amurallada+Getsemaní",
+            description: "La Ciudad Amurallada de Cartagena es uno de los sitios más emblemáticos de la historia colonial en América Latina. Su construcción comenzó en el siglo XVI bajo el mandato del rey Felipe II de España, con el objetivo de proteger la ciudad de los constantes ataques de piratas, corsarios, y potencias europeas.",
             historia: {
               title: "Historia",
-              content: "El Museo del Oro fue fundado en 1939 con el objetivo de conservar y proteger las valiosas piezas de orfebrería precolombina. Actualmente cuenta con más de 34,000 objetos de oro y otros materiales, que narran la historia de las civilizaciones indígenas que habitaron Colombia durante siglos."
+              content: "Las murallas y fortificaciones, como el Castillo de San Felipe de Barajas, fueron diseñadas por ingenieros militares españoles y son una obra maestra de la arquitectura defensiva de la época.Por otro lado, Getsemaní, una de las zonas más antiguas y auténticas de Cartagena, fue durante siglos el hogar de los artesanos, esclavos libertos y comerciantes. Este barrio jugó un papel crucial en la lucha por la independencia de Colombia en el siglo XIX, convirtiéndose en un símbolo de la resistencia popular. Hoy, Getsemaní es un lugar lleno de vida, arte y cultura, que ha mantenido su espíritu rebelde y vibrante."
             },
             cultura: {
               title: "Cultura",
-              content: "El museo no solo es un lugar de conservación, sino también un espacio educativo y cultural. A través de exposiciones permanentes y temporales, los visitantes pueden aprender sobre las tradiciones y cosmovisiones indígenas que aún resuenan en la identidad colombiana actual."
+              content: "La Ciudad Amurallada refleja el esplendor de la arquitectura colonial, con sus calles empedradas, plazas icónicas como la Plaza de los Coches, y edificios coloniales que conservan su encanto original. Esta zona es un reflejo de la cultura cartagenera, donde se mezclan la herencia africana, indígena y europea.En Getsemaní, la cultura popular es la protagonista. En sus calles se pueden ver coloridos murales que cuentan historias de la vida cotidiana y el pasado revolucionario del barrio. La Plaza de la Trinidad es el corazón del barrio, donde locales y turistas se reúnen cada noche para disfrutar de espectáculos callejeros, música en vivo y comida típica. Getsemaní es también un punto de encuentro para artistas y bohemios, con una rica oferta de bares, galerías y espacios culturales."
             },
             mitos: {
               title: "Datos Curiosos",
-              content: "El Museo del Oro es considerado uno de los más importantes de su tipo en el mundo. Recibe más de 500,000 visitantes anualmente y ha sido reconocido internacionalmente por su contribución a la preservación del patrimonio cultural."
+              content: "La Ciudad Amurallada de Cartagena fue declarada Patrimonio de la Humanidad por la UNESCO en 1984, reconociendo su valor histórico y cultural.Las Murallas de Cartagena cubren aproximadamente 11 km, y en su construcción participaron miles de esclavos africanos traídos al Caribe.Getsemaní fue un barrio clave durante el proceso de independencia de Colombia, ya que muchos de sus habitantes apoyaron activamente las revueltas populares contra el dominio español.En las calles de Getsemaní se pueden ver coloridos paraguas colgantes, una de las atracciones visuales más fotografiadas por los visitantes.Durante la caminata, es común que los guías locales cuenten leyendas de piratas y héroes locales, como la historia del cura Nicolás de Barí, quien escondió a los revolucionarios en su iglesia durante los levantamientos independentistas.La Plaza de Santo Domingo, en la Ciudad Amurallada, alberga una famosa escultura de la artista colombiana Fernando Botero, conocida como La Gorda Gertrudis, un símbolo de la vitalidad y sensualidad del lugar."
             },
             images: [
-              "/img/hycMuseoOro1.jpg",
-              "/img/hycMuseoOro2.jpg",
-              "/img/hycMuseoOro3.jpg"
+              "/img/hycMuralla1.jpg",
+              "/img/hycMuralla2.jpg",
+              "/img/hycMuralla3.jpg"
             ]
           }
         ]
