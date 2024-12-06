@@ -974,7 +974,7 @@ export const restaurantes = [
       {
         id: "restaurante-medellin-6",
         nombre: "Alambique",
-        img: "/img/alambique.jpg",
+        img: "/img/alambiqueescondido.jpg",
         descripcion: "Un restaurante escondido en El Poblado que ofrece cocina creativa y un ambiente bohemio.",
         bento: ["/img/alambique1.jpg", "/img/alambique2.jpg", "/img/alambique3.jpg","/img/alambique4.jpg","/img/alambique5.jpg",],
         descripciongeneral: [
