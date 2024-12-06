@@ -370,9 +370,9 @@ export const paquetes = [
               content: "A lo largo de los años, Bogotá ha sido sede de eventos internacionales como el Festival de Jazz y la Feria del Libro, que atraen a miles de turistas cada año, en especial por su vida nocturna y la calidez de sus habitantes."
             },
             images: [
-              "/img/hycBogotaNocturna1.jpg",
-              "/img/hycBogotaNocturna2.jpg",
-              "/img/hycBogotaNocturna3.jpg"
+              "/img/BogotaNocturna1.jpg",
+              "/img/BogotaNocturna2.jpg",
+              "/img/BogotaNocturna3.jpg"
             ]
           }
         ]
