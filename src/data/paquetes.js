@@ -1358,7 +1358,7 @@ export const paquetes = [
         nombre: "Tayrona: Playa y Naturaleza",
         img: "/img/ptayrona.png",
         descripcion: "Explora las paradisíacas playas del Parque Nacional Tayrona y sumérgete en su exuberante naturaleza, donde podrás disfrutar de paisajes impresionantes, fauna local y un ambiente único.",
-        bento: ["/img/ptayrona1.jpg", "/img/ptayrona2.jpg"],
+        bento: ["/img/ptayrona1.jpg", "/img/ptayrona2.jpg", "/img/ptayrona3.jpg", "/img/ptayrona4.jpg", "/img/ptayrona5.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Entrada al Parque Tayrona",
@@ -1401,7 +1401,7 @@ export const paquetes = [
         nombre: "Ciudad Perdida: Aventura Indígena",
         img: "/img/ciudadPerdida.png",
         descripcion: "Una expedición única hacia la Ciudad Perdida, el misterioso sitio arqueológico de la antigua civilización Tayrona, rodeado de selva y montañas.",
-        bento: ["/img/ciudadPerdida1.jpg", "/img/ciudadPerdida2.jpg"],
+        bento: ["/img/ciudadPerdida1.jpg", "/img/ciudadPerdida2.jpg", "/img/ciudadPerdida3.jpg", "/img/ciudadPerdida4.webp", "/img/ciudadPerdida5.jpg"],
         descripciongeneral: [
           "Expedición de 4 días",
           "Guías indígenas locales",
@@ -1443,7 +1443,7 @@ export const paquetes = [
         nombre: "Rodadero y Acuario Marino",
         img: "/img/rodaderoAcuario.png",
         descripcion: "Una experiencia única en el Rodadero, uno de los destinos más turísticos de Santa Marta, con un paseo en lancha hacia el Acuario y Museo del Mar.",
-        bento: ["/img/rodadero1.jpg", "/img/rodadero2.jpg"],
+        bento: ["/img/rodadero1.jpg", "/img/rodadero2.jpg", "/img/rodadero3.jpg", "/img/rodadero4.jpg", "/img/rodadero5.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Entrada al Acuario Marino",
@@ -1476,7 +1476,7 @@ export const paquetes = [
               title: "Datos Curiosos",
               content: "El Rodadero es famoso por sus fiestas, conciertos y eventos, siendo el lugar ideal para disfrutar tanto del mar como de la cultura costeña en sus diversos restaurantes y bares."
             },
-            images: ["/img/hycRodadero1.jpg", "/img/hycRodadero2.jpg", "/img/hycRodadero3.jpg"]
+            images: ["/img/hycRodadero1.jpg", "/img/hycRodadero2.jpg", "/img/hycRodadero3.webp"]
           }
         ]
       },
@@ -1485,7 +1485,7 @@ export const paquetes = [
         nombre: "Minca: Cascadas y Café",
         img: "/img/pminca.png",
         descripcion: "Disfruta de la tranquilidad de Minca con un recorrido por cascadas y fincas cafeteras, un destino lleno de naturaleza y cultura local.",
-        bento: ["/img/pminca1.jpg", "/img/pminca2.jpg"],
+        bento: ["/img/pminca1.jpg", "/img/pminca2.jpg", "/img/pminca3.jpg", "/img/pminca4.jpeg", "/img/pminca5.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Visita a cascadas y finca cafetera",
@@ -1518,7 +1518,7 @@ export const paquetes = [
               title: "Datos Curiosos",
               content: "Minca es famosa por sus aguas cristalinas, que alimentan varias cascadas en la zona, como la Pozo Azul, donde los turistas pueden disfrutar de un refrescante baño en medio de la naturaleza."
             },
-            images: ["/img/hycMinca1.jpg", "/img/hycMinca2.jpg", "/img/hycMinca3.jpg"]
+            images: ["/img/hycMincaa1.jpg", "/img/hycMincaa2.jpg", "/img/hycMincaa3.jpg"]
           }
         ]
       },
@@ -1527,7 +1527,7 @@ export const paquetes = [
         nombre: "Bahía Concha: Relájate en el Paraíso",
         img: "/img/bahiaConcha.png",
         descripcion: "Una experiencia de relajación total en las aguas cristalinas de Bahía Concha, un verdadero paraíso tropical.",
-        bento: ["/img/bahiaConcha1.jpg", "/img/bahiaConcha2.jpg"],
+        bento: ["/img/bahiaConcha3.jpg", "/img/bahiaConcha2.jpg", "/img/bahiaConcha1.jpg", "/img/bahiaConcha4.jpg", "/img/bahiaConcha5.jpg"],
         descripciongeneral: [
           "Transporte ida y vuelta",
           "Almuerzo típico incluido",
@@ -1560,7 +1560,7 @@ export const paquetes = [
               title: "Datos Curiosos",
               content: "El área alrededor de Bahía Concha es un refugio para diversas especies marinas y avifauna, lo que la convierte en un excelente destino para el ecoturismo y el snorkeling."
             },
-            images: ["/img/hycBahiaConcha1.jpg", "/img/hycBahiaConcha2.jpg", "/img/hycBahiaConcha3.jpg"]
+            images: ["/img/hycBahiaConcha1.jpg", "/img/hycBahiaConcha2.jpg", "/img/hycBahiaConcha3.jpeg"]
           }
         ]
       },
@@ -1569,7 +1569,7 @@ export const paquetes = [
         nombre: "Taganga y Buceo",
         img: "/img/taganga.png",
         descripcion: "Explora la pintoresca bahía de Taganga con actividades de buceo y snorkeling para disfrutar de su vida marina.",
-        bento: ["/img/taganga1.jpg", "/img/taganga2.jpg"],
+        bento: ["/img/taganga1.jpg", "/img/taganga2.jpg", "/img/taganga3.jpg", "/img/taganga4.webp", "/img/taganga5.jpg"],
         descripciongeneral: [
           "Curso básico de buceo",
           "Equipos incluidos",
