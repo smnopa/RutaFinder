@@ -621,65 +621,6 @@ export const restaurantes = [
         flyer: "/img/flyerTaurus.jpg",
       },
       {
-        id: "Restaurante-Taurus-Steak-House",
-        nombre: "Taurus - Steak House, Coffee & Bar",
-        img: "/img/restauranteTaurus.jpg",
-        descripcion:
-          "Conoce nuestro excelente lugar y ambiente, nuestra comida y las mejores carnes de Filandia visitanos!!",
-        bento: [
-          "/img/restauranteTaurus1.jpg",
-          "/img/restauranteTaurus2.jpg",
-          "/img/restauranteTaurus3.jpg",
-          "/img/restauranteTaurus4.jpg",
-          "/img/restauranteTaurus5.jpg",
-        ],
-        descripciongeneral: [
-          "Cancelación gratuita",
-          "Reservar ahora y pagar después",
-          "Comidas y chef personalizado(opcional)",
-          "Wi-Fi gratis",
-          "Servicio de recogida opcional",
-        ],
-        descripciondetalles: [
-          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
-          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
-          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante El Taurus en el Quindio",
-          "Red Wi-Fi para todo el hotel.",
-          "Incluye el servicio de recogida. El tiempo máximo de espera es de 5 minutos.",
-        ],
-        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.017392914518!2d-75.6599986!3d4.6755028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3889854d9b523d%3A0xd938cee0f5339ee4!2sTaurus%20Steak%20House%20Bar%20%26%20Coffee!5e0!3m2!1ses!2sco!4v1701623526114!5m2!1ses!2sco",
-        contentData: [
-          {
-            titulo:
-              "Historia y Cultura del Restaurante Taurus - Steak House, Coffee & Bar en Salento",
-            description:
-              "Taurus Steak House Bar & Coffee, ubicado en Filandia, Quindío, es un referente en la gastronomía local, especializado en carnes maduradas y parrilladas.",
-            historia: {
-              title: "Historia",
-              content:
-                "A lo largo de los años, ha mantenido una filosofía de brindar experiencias gastronómicas memorables, fusionando técnicas culinarias modernas con el sabor tradicional del Quindío.",
-            },
-            cultura: {
-              title: "Cultura",
-              content:
-                "El restaurante se destaca por integrar elementos de la cultura cafetera, no solo en su ambiente rústico y acogedor, sino también en su menú, donde se combina la tradición de las carnes con productos típicos de la región como el café. Es un lugar que promueve la identidad del Eje Cafetero, con un enfoque en la calidad y la autenticidad de los ingredientes.",
-            },
-            mitos: {
-              title: "Datos Curiosos",
-              content:
-                "Utiliza la técnica 'Dry Aged' para madurar las carnes, lo que intensifica su sabor y mejora su textura, además el restaurante ofrece una selección de cafés de origen local, representando lo mejor del Quindío en cada taza. Su combinación única de bar, parrilla y café gourmet lo convierte en un espacio multifacético que atrae tanto a locales como a turistas.​",
-            },
-            images: [
-              "/img/hycRestauranteTaurus1.jpg",
-              "/img/hycRestauranteTaurus2.jpg",
-              "/img/hycRestauranteTaurus3.jpg",
-              ,
-            ],
-          },
-        ],
-        flyer: "/img/flyerTaurus.jpg",
-      },
-      {
         id: "Restaurante-Helena-Adentro",
         nombre: "Restaurante Helena Adentro",
         img: "/img/restauranteHelena.jpg",
