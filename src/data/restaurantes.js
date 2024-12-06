@@ -19,38 +19,42 @@ export const restaurantes = [
           "Cancelación gratuita",
           "Vista al mar",
           "Menú especializado en mariscos",
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
         ],
         descripciondetalles: [
           "Ambiente acogedor frente al mar.",
           "Platos frescos preparados al momento.",
           "Ideal para cenas románticas.",
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante sacando lo mejor del mar",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.475774632341!2d-75.5536753!3d10.4067958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fa2ed234661%3A0x230d86588a59506!2s7%20CIELOS!5e0!3m2!1ses-419!2sco!4v1701600588305!5m2!1ses-419!2sco",
         flyer: "/img/flyercielosRooftop.png",
         contentData: [
           {
-            titulo: "Historia y Cultura de Andrés Carne de Res",
+            titulo: "Historia y Cultura de 7 Cielos Rooftop",
             description:
-              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+              "7 Cielos Rooftop es un restaurante relativamente nuevo en el panorama gastronómico de Cartagena. Inaugurado en abril de 2023, rápidamente se ha posicionado como uno de los lugares más populares de la ciudad para disfrutar de una cena con vistas espectaculares.",
             historia: {
               title: "Historia",
               content:
-                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+                "Su concepto nace de la creciente demanda por experiencias gastronómicas únicas y sofisticadas, combinadas con la belleza natural de Cartagena. La idea detrás de 7 Cielos es ofrecer a los visitantes un espacio donde puedan disfrutar de la alta cocina, la música y las vistas panorámicas de la ciudad, todo en un ambiente elegante y moderno.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+                "El ambiente en 7 Cielos Rooftop es una fusión de sofisticación y relajación. La decoración moderna, con elementos naturales y toques de color, crea un espacio acogedor y elegante. La música ambiental, cuidadosamente seleccionada, complementa la experiencia gastronómica. La cultura culinaria del restaurante se basa en la fusión de sabores locales e internacionales, utilizando ingredientes frescos y de alta calidad. Los cocineros de 7 Cielos se inspiran en la rica tradición gastronómica de Colombia y la región Caribe, creando platos innovadores y llenos de sabor. Además, el restaurante promueve la sostenibilidad y el uso de productos locales, contribuyendo así al desarrollo de la comunidad.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+                "El nombre: El nombre 7 Cielos hace referencia a la sensación de estar en el cielo mientras se disfruta de las vistas panorámicas desde la azotea.La ubicación: El restaurante está ubicado en el corazón de Cartagena, lo que lo convierte en un punto de encuentro para turistas y locales.La carta: La carta de 7 Cielos cambia regularmente para ofrecer a los clientes nuevas y emocionantes opciones gastronómicas.Los cócteles: La coctelería de 7 Cielos es una verdadera obra de arte, con una amplia variedad de cócteles artesanales elaborados con ingredientes locales.Los eventos: El restaurante organiza regularmente eventos especiales, como cenas temáticas, noches de música en vivo y celebraciones de fechas especiales.",
             },
             images: [
-              "/img/hycCarnes1.jpg",
-              "/img/hycCarnes2.jpg",
-              "/img/hycCarnes3.jpg",
+              "/img/hyc7Cielos1.jpg",
+              "/img/hyc7Cielos2.jpg",
+              "/img/hyc7Cielos3.jpg",
             ],
           },
         ],
@@ -72,37 +76,43 @@ export const restaurantes = [
           "Vista panorámica",
           "Cócteles exclusivos",
           "Música en vivo",
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
         ],
         descripciondetalles: [
           "Ambiente relajado para disfrutar de la brisa marina.",
           "Amplia variedad de tapas y platos internacionales.",
+          "Música en vivo durante la cena.",
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante sacando lo mejor del mar",
+
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2245442590744!2d-75.5509063!3d10.4280066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9f844461b9%3A0x152e11dee6c628a3!2sRestaurante%20Cand%C3%A9!5e0!3m2!1ses-419!2sco!4v1701600837234!5m2!1ses-419!2sco",
         flyer: "/img/flyerCandé.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura de Andrés Carne de Res",
+            titulo: "Historia y Cultura del Restaurante Candé",
             description:
-              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+              "Candé es mucho más que un restaurante; es una verdadera institución gastronómica en Cartagena. ",
             historia: {
               title: "Historia",
               content:
-                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+                "Con más de 11 años de historia, este establecimiento se ha consolidado como uno de los referentes de la cocina tradicional cartagenera. Ubicado en una hermosa casona colonial en el corazón del Centro Histórico, Candé ha sabido preservar la esencia de la cocina de la región, adaptándola a los paladares más exigentes. Su nombre, inspirado en las raíces africanas de Cartagena, evoca la diversidad cultural y el sabor auténtico de la ciudad.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+                "Candé es una inmersión completa en la cultura cartagenera. Desde su arquitectura colonial hasta su música en vivo y sus espectáculos, todo en este restaurante está diseñado para transportarte a la Cartagena de antaño. La decoración, llena de detalles y elementos típicos, crea un ambiente cálido y acogedor. La comida, por supuesto, es la protagonista. Candé ofrece un menú variado y auténtico, con platos tradicionales como el mote de queso, el higadete, los mariscos frescos y las carnes silvestres. Además, el restaurante cuenta con una extensa carta de vinos y licores, que le ha valido reconocimientos internacionales como el premio Una Copa a la Excelencia de Wine Spectator.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+                "Cocina 100% cartagenera: Candé se enorgullece de utilizar ingredientes locales y de temporada para preparar sus platos.Música en vivo: El restaurante ofrece espectáculos de música en vivo con frecuencia, creando un ambiente festivo y animado.Reconocimientos: Candé ha sido galardonado con numerosos premios, entre ellos el de Mejor restaurante a manteles a nivel nacional otorgado por la Revista La Barra.Casona colonial: El restaurante está ubicado en una casona colonial que ha sido cuidadosamente restaurada para preservar su encanto original.Experiencia completa: Candé ofrece una experiencia gastronómica completa, que incluye no solo la comida, sino también el ambiente, la música y el servicio.",
             },
             images: [
-              "/img/hycCarnes1.jpg",
-              "/img/hycCarnes2.jpg",
-              "/img/hycCarnes3.jpg",
+              "/img/hycCande1.jpg",
+              "/img/hycCande2.jpg",
+              "/img/hycCande3.jpg",
             ],
           },
         ],
@@ -124,37 +134,42 @@ export const restaurantes = [
           "Decoración colonial",
           "Música en vivo",
           "Cocina cubana y caribeña",
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
         ],
         descripciondetalles: [
           "Ambiente elegante y tradicional.",
           "Servicio de primera calidad.",
+          "Cocteles y platos irresistibles.",
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante sacando lo mejor del mar",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.227243800678!2d-75.5532849!3d10.4234973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625fa7aaaaaaf%3A0xc857499c02a35c0b!2sLa+Vitrola+Restaurante!5e0!3m2!1ses-419!2sco!4v1701187004305!5m2!1ses-419!2sco",
         flyer: "/img/flyerLaVitrola.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura de Andrés Carne de Res",
+            titulo: "Historia y Cultura del Restaurante La Vitrola",
             description:
-              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+              "La Vitrola es uno de los restaurantes más emblemáticos de Cartagena, con una historia que se remonta a más de 30 años. ",
             historia: {
               title: "Historia",
               content:
-                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+                "Ubicado en el corazón del Corralito de Piedra, este establecimiento ha sido testigo de la evolución de la gastronomía cartagenera y se ha convertido en un referente para los amantes de la comida caribeña. Su nombre, inspirado en el antiguo tocadiscos, evoca la nostalgia y la tradición musical de la región.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+                "La Vitrola ofrece una experiencia gastronómica única, donde la tradición se fusiona con la modernidad. El ambiente es cálido y acogedor, con una decoración inspirada en la época dorada de la música cubana. Las paredes están adornadas con fotografías antiguas, instrumentos musicales y objetos decorativos que transportan a los comensales a otra época. La música en vivo, con ritmos cubanos y caribeños, acompaña las veladas y crea un ambiente festivo. La cocina, por su parte, es una celebración de los sabores de Cuba, con platos clásicos como el ropa vieja, el congrí y los mojitos.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+                "Más que un restaurante: La Vitrola es un lugar donde se vive una experiencia completa, que va más allá de la comida. Es un espacio para disfrutar de la música, la cultura y la compañía.Comida cubana: Aunque está ubicado en Cartagena, La Vitrola se ha especializado en la cocina cubana, ofreciendo una auténtica experiencia culinaria de la isla.Coctelería: La carta de cócteles es amplia y variada, con clásicos como el mojito y el daiquirí, así como creaciones propias del barman.Música en vivo: Los fines de semana, La Vitrola ofrece presentaciones de música en vivo con grupos locales y nacionales.Un lugar para celebrar: El restaurante es un lugar popular para celebrar cumpleaños, aniversarios y otras ocasiones especiales.",
             },
             images: [
-              "/img/hycCarnes1.jpg",
-              "/img/hycCarnes2.jpg",
-              "/img/hycCarnes3.jpg",
+              "/img/hycVitrola1.jpg",
+              "/img/hycVitrola2.jpg",
+              "/img/hycVitrola3.webp",
             ],
           },
         ],
@@ -175,37 +190,42 @@ export const restaurantes = [
           "Especialidad en ceviches",
           "Ambiente moderno",
           "Reservas recomendadas",
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
         ],
         descripciondetalles: [
           "Fusión de sabores peruanos y caribeños.",
           "Carta de vinos cuidadosamente seleccionada.",
+          "Decoración elegante y sofisticada.",
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante sacando lo mejor del mar",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.619507208438!2d-75.5516315!3d10.4213448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f756a55e149%3A0xf05942460d8aa082!2sRestaurante+Marea!5e0!3m2!1ses-419!2sco!4v1701361531357!5m2!1ses-419!2sco",
         flyer: "/img/flyerMarea.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura de Andrés Carne de Res",
+            titulo: "Historia y Cultura del Restaurante Marea",
             description:
-              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+              "Marea es un restaurante relativamente joven en el panorama gastronómico de Cartagena, pero que ha logrado consolidarse rápidamente como una opción destacada para los amantes del mar y los sabores caribeños. ",
             historia: {
               title: "Historia",
               content:
-                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+                "Ubicado en el Centro de Convenciones Cartagena de Indias, Marea ofrece una propuesta culinaria fresca y contemporánea, inspirada en los ricos ingredientes del mar Caribe. Su nombre, Marea, evoca la constante renovación y movimiento de las olas, y refleja la esencia de su cocina, siempre en busca de nuevas sensaciones y sabores.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+                "Marea es mucho más que un restaurante; es una experiencia sensorial. Su ubicación privilegiada, con vistas a la bahía, permite disfrutar de un ambiente relajado y sofisticado. La decoración moderna, con toques de azul y blanco que evocan el mar, crea un espacio luminoso y acogedor. La carta, diseñada por reconocidos chefs, presenta una propuesta gastronómica que fusiona la tradición culinaria caribeña con técnicas de cocina moderna. Los ingredientes frescos y de alta calidad son los protagonistas, y cada plato es una verdadera celebración de los sabores del mar.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+                "Vista al mar: Marea ofrece una de las mejores vistas de la bahía de Cartagena, convirtiéndolo en un lugar ideal para disfrutar de una cena romántica o una celebración especial.Cocina de autor: Los chefs de Marea crean platos originales y creativos, utilizando ingredientes locales y de temporada.Barra de cócteles: El restaurante cuenta con una amplia barra de cócteles, donde se pueden degustar creaciones originales inspiradas en los sabores del mar.Eventos especiales: Marea organiza regularmente eventos especiales, como cenas maridaje y noches temáticas.Compromiso con el producto local: El restaurante trabaja con pescadores locales para garantizar la frescura y calidad de sus productos.",
             },
             images: [
-              "/img/hycCarnes1.jpg",
-              "/img/hycCarnes2.jpg",
-              "/img/hycCarnes3.jpg",
+              "/img/hycMarea1.jpg",
+              "/img/hycMarea2.jpg",
+              "/img/hycMarea3.jpg",
             ],
           },
         ],
@@ -226,37 +246,42 @@ export const restaurantes = [
           "Menú degustación disponible",
           "Decoración moderna",
           "Postres exclusivos",
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
         ],
         descripciondetalles: [
           "Platos elaborados con ingredientes locales.",
           "Presentación innovadora de cada plato.",
+          "Decoración elegante y sofisticada.",
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante sacando lo mejor del mar",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4928534786446!2d-75.552845!3d10.424021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9f8e76ad33%3A0xd8cdbc800d5bceaa!2s%C3%89poca+Caf%C3%A9+Bar!5e0!3m2!1ses-419!2sco!4v1701362034912!5m2!1ses-419!2sco",
-        flyer: "/img/flyerEpoca.jpg",
+        flyer: "/img/flyerEpocaa.webp",
         contentData: [
           {
-            titulo: "Historia y Cultura de Andrés Carne de Res",
+            titulo: "Historia y Cultura del restaurante Época Café Bar",
             description:
-              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+              "Época Café Bar es mucho más que un simple café; es un espacio donde se fusionan la tradición cafetera colombiana con la modernidad y la sofisticación.",
             historia: {
               title: "Historia",
               content:
-                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+                "Inspirado en los cafés tradicionales europeos, pero con un toque local, Época se ha convertido en un punto de encuentro para amantes del café, viajeros y locales que buscan disfrutar de un buen café en un ambiente acogedor y lleno de estilo.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+                "El ambiente en Época Café Bar es una mezcla de lo clásico y lo contemporáneo. La decoración, con muebles de madera, elementos de cobre y una iluminación cálida, crea un espacio acogedor y elegante. Las paredes están adornadas con obras de arte local, lo que le da al lugar un toque artístico y bohemio. La música, una cuidadosa selección de jazz y música suave, acompaña la experiencia y crea un ambiente relajado y sofisticado.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+                "Café de especialidad: Época Café se destaca por ofrecer una amplia variedad de cafés de especialidad, provenientes de diferentes regiones de Colombia y el mundo.Tostado artesanal: El café es tostado de manera artesanal en el propio establecimiento, lo que garantiza un sabor fresco y auténtico.Coctelería: Además de su oferta de café, Época Café cuenta con una carta de cocteles clásicos y creativos, elaborados con ingredientes de alta calidad.Comida: El menú ofrece una variedad de opciones, desde desayunos y almuerzos ligeros hasta postres y snacks.Espacio de trabajo: Época Café es un lugar ideal para trabajar o estudiar, gracias a su conexión a internet de alta velocidad y a su ambiente tranquilo.",
             },
             images: [
-              "/img/hycCarnes1.jpg",
-              "/img/hycCarnes2.jpg",
-              "/img/hycCarnes3.jpg",
+              "/img/hycEpoca1.jpg",
+              "/img/hycEpoca2.jpg",
+              "/img/hycEpoca3.jpg",
             ],
           },
         ],
@@ -277,37 +302,42 @@ export const restaurantes = [
           "Cocina tradicional cartagenera",
           "Espectáculos culturales",
           "Ambiente colonial",
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
         ],
         descripciondetalles: [
           "Experiencia gastronómica que destaca la cultura local.",
           "Espectáculos en vivo durante la cena.",
+          "Decoración colonial con toques modernos.",
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante sacando lo mejor del mar",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.446476490918!2d-75.5511558!3d10.420603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f7507294865%3A0x694a4e8fbd080dc0!2sEl+Arsenal%3A+The+Rum+Box!5e0!3m2!1ses-419!2sco!4v1701362210732!5m2!1ses-419!2sco",
         flyer: "/img/flyerArsenal.jpg",
         contentData: [
           {
-            titulo: "Historia y Cultura de Andrés Carne de Res",
+            titulo: "Historia y Cultura del Restaurante The Rum Box",
             description:
-              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+              "El Arsenal: The Rum Box es una joya para los amantes del ron en Cartagena. ",
             historia: {
               title: "Historia",
               content:
-                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+                "Este establecimiento, con una propuesta única en la ciudad, se ha convertido en un referente para quienes buscan una experiencia auténtica y sofisticada alrededor del ron. Su nombre evoca la época dorada de la producción de ron en Colombia, y su interior, diseñado como un antiguo arsenal, transporta a los visitantes a otro tiempo.",
             },
             cultura: {
               title: "Cultura",
               content:
-                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+                "El Arsenal ofrece un ambiente acogedor y sofisticado, perfecto para disfrutar de una copa de ron y conversar con amigos. La decoración, con barriles de ron, botellas antiguas y elementos náuticos, crea una atmósfera auténtica y llena de historia. La música, una cuidadosa selección de sonidos caribeños y jazz, acompaña la experiencia y crea un ambiente relajado y elegante.",
             },
             mitos: {
               title: "Datos Curiosos",
               content:
-                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+                "La mayor colección de rones colombianos: El Arsenal cuenta con una de las colecciones de rones colombianos más grandes del mundo, con una amplia variedad de marcas y añadas.Catas de ron: El establecimiento ofrece catas de ron guiadas por expertos, donde los visitantes pueden aprender sobre la historia y la producción del ron colombiano.Maridajes: Además de ron, El Arsenal ofrece una selección de cócteles clásicos y creaciones propias, así como una carta de tapas y platos ligeros para acompañar las bebidas.Eventos especiales: El Arsenal organiza regularmente eventos especiales, como noches temáticas, presentaciones de nuevas marcas de ron y catas exclusivas.Experiencia personalizada: El personal de El Arsenal está altamente capacitado y siempre dispuesto a brindar recomendaciones personalizadas a los clientes.",
             },
             images: [
-              "/img/hycCarnes1.jpg",
-              "/img/hycCarnes2.jpg",
-              "/img/hycCarnes3.jpg",
+              "/img/hycArsenal1.jpg",
+              "/img/hycArsenal2.jpg",
+              "/img/hycArsenal3.jpg",
             ],
           },
         ],
