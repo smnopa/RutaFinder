@@ -674,7 +674,7 @@ export const paquetes = [
           "Planes flexibles: reserva transporte privado de inmediato, sin que se te haga el cargo.",
           "Traslado al Parque del Café y tiquetes para todas las atracciones con disponibilidada para personas con discapacidad",
           "Traslado al Valle de Cocora y caminata",
-          "Traslado a Termales Santa Rosa y ingreso a sus termales y piscinas",
+          "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.1066079264926!2d-75.7738652!3d4.5409094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e385f3a3bc3c35d%3A0xa91b90ca5f875e4d!2sParque%20del%20caf%C3%A9!5e0!3m2!1ses!2sco!4v1701263871655!5m2!1ses!2sco",
         contentData: [
@@ -732,7 +732,7 @@ export const paquetes = [
             "Planes flexibles: reserva transporte privado de inmediato, sin que se te haga el cargo.",
             "Traslado al Parque Panaca y tiquetes para todas las atracciones",
             "Tiquete para ingresar + almuerzo en el Parque Panaca",
-            "Tienes la opción de ingresar privado y conocer a los animales",
+            "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
           ],
           mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.1066079264926!2d-75.8237113!3d4.6074785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38677971507c4d%3A0xad8d1f986e4d2c6f!2sPanaca%20Quindio!5e0!3m2!1ses!2sco!4v1701264871450!5m2!1ses!2sco",
           contentData: [
@@ -790,7 +790,7 @@ export const paquetes = [
               "Planes flexibles: reserva transporte privado de inmediato, sin que se te haga el cargo.",
               "Traslado al Parque de los Arrieros y tiquetes para todas las atracciones",
               "Tiquete para ingresar + almuerzo en el Parque de los Arrieros",
-              "Te hospedarás en las cabañas VIP del parque",
+              "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
             ],
             mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.1066079264926!2d-75.7834639!3d4.5800499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e385e20fe40e2ad%3A0x1575ba32f42caa96!2sParque%20Tem%C3%A1tico%20y%20Cultural%20Los%20ARRIEROS!5e0!3m2!1ses!2sco!4v1701264871450!5m2!1ses!2sco",
             contentData: [
@@ -848,7 +848,7 @@ export const paquetes = [
                 "Planes flexibles: reserva transporte privado de inmediato, sin que se te haga el cargo.",
                 "Recorre y explora el pueblo",
                 "Captura tus mejores momentos con acceso a 30 fotos",
-                "Te hospedarás en las cabañas VIP de Filandia",
+                "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
               ],
               mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2288.0566091848455!2d-75.6572544!3d4.6750029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e388940a87b9ae1%3A0xbcc3b6f25fac5dcd!2sFilandia!5e0!3m2!1ses!2sco!4v1701265065092!5m2!1ses!2sco",
               contentData: [
@@ -906,7 +906,7 @@ export const paquetes = [
                   "Recorre y explora la finca(duración 4 a 5 horas)",
                   "Los expertos en la manipulacion del Cacao y chocolate te enseñarán todo el proceso",
                   "Captura tus mejores momentos con acceso a 30 fotos",
-                  "Te hospedarás en la finca",
+                  "Incluye el servicio de recogida en tu hotel en la zona de El Poblado. El tiempo máximo de espera en el hotel es de 5 minutos.",
                 ],
                 mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.476130089452!2d-75.7137625!3d4.5512864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5f6f797a031%3A0x24c64e83c6715acc!2sFinca%20Evelyza!5e0!3m2!1ses!2sco!4v1701265154824!5m2!1ses!2sco",
                 contentData: [
