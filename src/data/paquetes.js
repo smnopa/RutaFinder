@@ -57,7 +57,7 @@ export const paquetes = [
       {
         id: "paquete3",
         nombre:
-          "Tour de 5 paradas por las islas del Rosario con almuerzo y entradas",
+          "Tour de 5 paradas por las islas del Rosario con entradas",
         img: "/img/tourIslas.jpg",
         descripcion:
           "Recorre las islas del Rosario con un tour guiado que incluye un almuerzo delicioso y visitas a monumentos históricos.",
@@ -136,7 +136,7 @@ export const paquetes = [
       {
         id: "paquete6",
         nombre:
-          "Tour privado a pie en Cartagena (Ciudad amurallada y Getsemaní)",
+          "Tour privado a pie(Ciudad amurallada y Getsemaní)",
         img: "/img/tourPrivado.jpg",
         descripcion:
           "Conoce a pie los secretos de la ciudad amurallada y el vibrante barrio de Getsemaní en un tour privado guiado por expertos locales.",
