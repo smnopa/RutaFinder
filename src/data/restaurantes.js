@@ -27,6 +27,33 @@ export const restaurantes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.475774632341!2d-75.5536753!3d10.4067958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fa2ed234661%3A0x230d86588a59506!2s7%20CIELOS!5e0!3m2!1ses-419!2sco!4v1701600588305!5m2!1ses-419!2sco",
         flyer: "/img/flyercielosRooftop.png",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Andrés Carne de Res",
+            description:
+              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+            },
+            images: [
+              "/img/hycCarnes1.jpg",
+              "/img/hycCarnes2.jpg",
+              "/img/hycCarnes3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "restaurante-cartagena-2",
@@ -52,6 +79,33 @@ export const restaurantes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2245442590744!2d-75.5509063!3d10.4280066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9f844461b9%3A0x152e11dee6c628a3!2sRestaurante%20Cand%C3%A9!5e0!3m2!1ses-419!2sco!4v1701600837234!5m2!1ses-419!2sco",
         flyer: "/img/flyerCandé.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Andrés Carne de Res",
+            description:
+              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+            },
+            images: [
+              "/img/hycCarnes1.jpg",
+              "/img/hycCarnes2.jpg",
+              "/img/hycCarnes3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "Buena Vida Marisqueria y Rooftop",
@@ -77,6 +131,33 @@ export const restaurantes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.227243800678!2d-75.5532849!3d10.4234973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625fa7aaaaaaf%3A0xc857499c02a35c0b!2sLa+Vitrola+Restaurante!5e0!3m2!1ses-419!2sco!4v1701187004305!5m2!1ses-419!2sco",
         flyer: "/img/flyerLaVitrola.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Andrés Carne de Res",
+            description:
+              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+            },
+            images: [
+              "/img/hycCarnes1.jpg",
+              "/img/hycCarnes2.jpg",
+              "/img/hycCarnes3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "restaurante-cartagena-4",
@@ -101,6 +182,33 @@ export const restaurantes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.619507208438!2d-75.5516315!3d10.4213448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f756a55e149%3A0xf05942460d8aa082!2sRestaurante+Marea!5e0!3m2!1ses-419!2sco!4v1701361531357!5m2!1ses-419!2sco",
         flyer: "/img/flyerMarea.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Andrés Carne de Res",
+            description:
+              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+            },
+            images: [
+              "/img/hycCarnes1.jpg",
+              "/img/hycCarnes2.jpg",
+              "/img/hycCarnes3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "restaurante-cartagena-5",
@@ -125,6 +233,33 @@ export const restaurantes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4928534786446!2d-75.552845!3d10.424021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9f8e76ad33%3A0xd8cdbc800d5bceaa!2s%C3%89poca+Caf%C3%A9+Bar!5e0!3m2!1ses-419!2sco!4v1701362034912!5m2!1ses-419!2sco",
         flyer: "/img/flyerEpoca.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Andrés Carne de Res",
+            description:
+              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+            },
+            images: [
+              "/img/hycCarnes1.jpg",
+              "/img/hycCarnes2.jpg",
+              "/img/hycCarnes3.jpg",
+            ],
+          },
+        ],
       },
       {
         id: "restaurante-cartagena-6",
@@ -149,6 +284,33 @@ export const restaurantes = [
         ],
         mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.446476490918!2d-75.5511558!3d10.420603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f7507294865%3A0x694a4e8fbd080dc0!2sEl+Arsenal%3A+The+Rum+Box!5e0!3m2!1ses-419!2sco!4v1701362210732!5m2!1ses-419!2sco",
         flyer: "/img/flyerArsenal.jpg",
+        contentData: [
+          {
+            titulo: "Historia y Cultura de Andrés Carne de Res",
+            description:
+              "Andrés Carne de Res es un lugar que combina gastronomía, música y tradición, reflejando el espíritu colombiano en cada detalle.",
+            historia: {
+              title: "Historia",
+              content:
+                "Fundado en 1982 en Chía, este restaurante nació con la visión de ser un espacio donde los comensales pudieran disfrutar de una experiencia gastronómica única. Con el tiempo, Andrés Carne de Res se ha convertido en un ícono de la cultura colombiana, reconocido por su ambiente festivo y su menú diverso que incluye platos típicos colombianos con un toque contemporáneo.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "El restaurante celebra la cultura colombiana a través de su decoración extravagante, espectáculos en vivo y un enfoque en resaltar la identidad nacional. Es común encontrar música tradicional, baile y arte en cada rincón, lo que lo convierte en un lugar emblemático para locales y turistas.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "El restaurante ha sido visitado por celebridades y figuras internacionales, consolidándose como un referente de la hospitalidad colombiana. Su lema, 'aquí todo es posible', refleja su compromiso con ofrecer una experiencia única.",
+            },
+            images: [
+              "/img/hycCarnes1.jpg",
+              "/img/hycCarnes2.jpg",
+              "/img/hycCarnes3.jpg",
+            ],
+          },
+        ],
       },
     ],
   },
