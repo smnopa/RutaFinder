@@ -869,7 +869,7 @@ export const paquetes = [
             },
             images: [
               "/img/hycComuna131.jpg",
-              "/img/hycComuna132.jpg",
+              "/img/hycComuna132.jpeg",
               "/img/hycComuna133.jpg"
             ]
           }
@@ -915,7 +915,7 @@ export const paquetes = [
             images: [
               "/img/hycCafe1.jpg",
               "/img/hycCafe2.jpg",
-              "/img/hycCafe3.jpg"
+              "/img/hycCafe3.webp"
             ]
           }
         ]
@@ -962,7 +962,7 @@ export const paquetes = [
             images: [
               "/img/hycGuatape1.jpg",
               "/img/hycGuatape2.jpg",
-              "/img/hycGuatape3.jpg"
+              "/img/hycGuatape3.webp"
             ]
           }
         ]
@@ -1107,8 +1107,8 @@ export const paquetes = [
             },
             images: [
               "/img/hycSalsa1.jpg",
-              "/img/hycSalsa2.jpg",
-              "/img/hycSalsa3.jpg"
+              "/img/hycSalsa2.webp",
+              "/img/hycSalsa3.png"
             ]
           }
         ]
@@ -1153,7 +1153,7 @@ export const paquetes = [
               content: "El Cristo Rey de Cali, que mide 26 metros de altura, es uno de los monumentos religiosos más grandes de Colombia. Su vista desde la cima es tan impresionante que es uno de los puntos más visitados de la ciudad. En la zona de Sebastián de Belalcázar, además de la vista panorámica, los turistas pueden disfrutar de diversas actividades culturales y gastronómicas."
             },
             images: [
-              "/img/hycCristoRey1.jpg",
+              "/img/hycCristoRey1.webp",
               "/img/hycCristoRey2.jpg",
               "/img/hycCristoRey3.jpg"
             ]
@@ -1249,7 +1249,7 @@ export const paquetes = [
             images: [
               "/img/hycGastronomiaCali1.jpg",
               "/img/hycGastronomiaCali2.jpg",
-              "/img/hycGastronomiaCali3.jpg"
+              "/img/hycGastronomiaCali3.webp"
             ]
           }
         ]
@@ -1341,7 +1341,7 @@ export const paquetes = [
               content: "La región vinícola del Valle del Cauca tiene la capacidad de producir vinos de excelente calidad gracias a su clima cálido y sus suelos fértiles. Además, el Valle se ha convertido en un destino turístico emergente para los amantes del vino."
             },
             images: [
-              "/img/hycRutaVino1.jpg",
+              "/img/hycRutaVino1.webp",
               "/img/hycRutaVino2.jpg",
               "/img/hycRutaVino3.jpg"
             ]
