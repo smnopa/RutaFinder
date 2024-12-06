@@ -928,6 +928,64 @@ export const restaurantes = [
         ],
         flyer: "/img/flyerPatio.jpg",
       },
+      {
+        id: "Restaurante-Fogata-1963",
+        nombre: "Restaurante La Fogata 1963",
+        img: "/img/restaurantefogata.jpg",
+        descripcion:
+          "El restaurante busca explotar las comidas típicas de la región cafetera, aqui puedes estar como en La Fogata 1963",
+        bento: [
+          "/img/restaurantefogata1.jpg",
+          "/img/restaurantefogata2.jpg",
+          "/img/restaurantefogata3.jpg",
+          "/img/restaurantefogata4.jpg",
+          "/img/restaurantefogata5.jpg",
+        ],
+        descripciongeneral: [
+          "Cancelación gratuita",
+          "Reservar ahora y pagar después",
+          "Comidas y chef personalizado(opcional)",
+          "Wi-Fi gratis",
+          "Servicio de recogida opcional",
+        ],
+        descripciondetalles: [
+          "Cancela con hasta 24 horas de antelación y recibe un reembolso completo.",
+          "Planes flexibles: reserva tu plaza de inmediato, sin que se te haga el cargo.",
+          "Te atenderá un chef exclusivo de clase A, y podrás probar las mejores comidas típicas del restaurante Patio de mi casa Quindio",
+          "Red Wi-Fi para todo el hotel.",
+          "Incluye el servicio de recogida. El tiempo máximo de espera es de 5 minutos.",
+        ],
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394.8425525646627!2d-75.6602635!3d4.5536296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5a4abfdc61d%3A0xacf83dedee3f18fd!2sLa%20Fogata!5e0!3m2!1ses!2sco!4v1701603081842!5m2!1ses!2sco",
+        contentData: [
+          {
+            titulo: "Historia y Cultura del Restaurante La Fogata 1963",
+            description:
+              "Fundado en 1963, La Fogata es un restaurante con una rica historia y tradición. Desde sus inicios, se ha consolidado como un referente de la gastronomía quindiana, ofreciendo a sus clientes una experiencia culinaria única y auténtica. Su nombre, La Fogata",
+            historia: {
+              title: "Historia",
+              content:
+                "Evoca la calidez y el sabor de los platos preparados a fuego lento, utilizando ingredientes frescos y locales.A lo largo de sus más de 60 años de historia, La Fogata se ha convertido en un punto de encuentro para generaciones de armenios, quienes han celebrado momentos especiales y han creado recuerdos inolvidables en este lugar. Su ubicación céntrica y su ambiente acogedor lo han convertido en un lugar favorito para locales y turistas por igual.",
+            },
+            cultura: {
+              title: "Cultura",
+              content:
+                "La Fogata ofrece un ambiente cálido y familiar, donde los comensales pueden disfrutar de una experiencia gastronómica auténtica y relajada. La decoración, con elementos tradicionales y una iluminación tenue, crea un espacio acogedor y elegante. La música, una cuidadosa selección de sonidos colombianos, acompaña la experiencia y crea un ambiente festivo.",
+            },
+            mitos: {
+              title: "Datos Curiosos",
+              content:
+                "Más de 60 años de historia: La Fogata es uno de los restaurantes más antiguos de Armenia y uno de los más reconocidos de la región.Cocina tradicional: La carta de La Fogata se basa en la cocina tradicional quindiana, con platos como la trucha a la plancha, el sancocho de gallina y las carnes a la parrilla.Ingredientes locales: El restaurante utiliza ingredientes frescos y de alta calidad, provenientes de productores locales.Amplia carta de vinos: La Fogata cuenta con una extensa carta de vinos, nacionales e internacionales, que maridan a la perfección con sus platos.Espacios múltiples: Además del restaurante principal, La Fogata cuenta con otros espacios como un café y una terraza, lo que lo convierte en un lugar versátil para diferentes ocasiones.​",
+            },
+            images: [
+              "/img/hycFogata1.jpg",
+              "/img/hycFogata2.jpg",
+              "/img/hycFogata3.jpg",
+              ,
+            ],
+          },
+        ],
+        flyer: "/img/flyerFogata.jpg",
+      },
     ],
   },
   {
